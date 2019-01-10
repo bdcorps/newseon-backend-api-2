@@ -1,0 +1,15 @@
+{
+  "playlists": [
+    {
+      "id": "4afag6h1zlt5fe1urgu0aa",
+      "url": "http://rss.cnn.com/rss/cnn_business.rss",
+      "category": "business"
+    },
+    {
+      "id": "frfjgxgn1a6ldnev6bfbp",
+      "url": "http://rss.cnn.com/rss/cnn_tech.rss",
+      "category": "tech"
+    }
+  ],
+  "timestamp": 1546664536264
+}
