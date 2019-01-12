@@ -10,6 +10,7 @@ let bodyParser = require("body-parser");
 var crypto = require("crypto");
 var path = require("path");
 var cors = require("cors");
+var cron = require("node-cron");
 
 var parseString = require("xml2js").parseString;
 var http = require("http");
@@ -432,46 +433,49 @@ connection.once("open", function() {
         articles = [];
 
         for (var k = 0; k < json.length; k++) {
+          if (json[k].title[0].toString() != "") {
+            //create articles object
+            var source = { id: "cnn", name: "CNN" };
+            var publishedAt = json[k].pubDate;
+            var url = json[k].link[0].toString();
 
-          if (json[k].title[0].toString()!=""){
-          //create articles object
-          var source = { id: "cnn", name: "CNN" };
-          var publishedAt = json[k].pubDate;
-          var url = json[k].link[0].toString();
+            var urlToImage =
+              "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80";
 
-          var urlToImage =
-            "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80";
+            if (
+              json[k]["media:group"] != null &&
+              json[k]["media:group"].length > 0
+            ) {
+              urlToImage =
+                json[k]["media:group"][0]["media:content"][0]["$"]["url"];
+            }
+            var title = json[k].title[0].toString() + ".";
+            var description = "";
+            if (json[k].description != null && json[k].description.length > 0) {
+              description = json[k].description[0].toString();
+            }
 
-          if (
-            json[k]["media:group"] != null &&
-            json[k]["media:group"].length > 0
-          ) {
-            urlToImage =
-              json[k]["media:group"][0]["media:content"][0]["$"]["url"];
+            //only remove starting from div if it exists
+            if (description.includes("<div")) {
+              description = description.substring(
+                0,
+                description.indexOf("<div")
+              );
+            }
+
+            var author = "CNN";
+
+            var article = {
+              source: source,
+              author: author,
+              title: title,
+              description: description,
+              url: url,
+              urlToImage: urlToImage,
+              publishedAt: publishedAt
+            };
+            articles.push(article);
           }
-          var title = json[k].title[0].toString() + ".";
-          var description = "";
-          if (json[k].description != null && json[k].description.length > 0) {
-            description = json[k].description[0].toString();
-          }
-
-          //only remove starting from div if it exists
-          if (description.includes("<div")) {
-            description = description.substring(0, description.indexOf("<div"));
-          }
-
-          var author = "CNN";
-
-          var article = {
-            source: source,
-            author: author,
-            title: title,
-            description: description,
-            url: url,
-            urlToImage: urlToImage,
-            publishedAt: publishedAt
-          };
-          articles.push(article);}
         }
 
         writeToFile({ articles: articles }, "articlesData");
@@ -660,6 +664,56 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     });
   });
 }
+
+cron.schedule(
+  "0 8 * * *",
+  () => {
+    console.log("Reloading content on " + Date.now());
+
+    
+    console.log("Resetting.");
+    var reloadContentAsync= async (
+    ) => {
+    request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
+      error,
+      response,
+      body
+    ) {
+      console.log("error:", error);
+      console.log("statusCode:", response && response.statusCode); 
+      console.log("body:", body);
+    });
+    await snooze(5000);
+    console.log("Generating.");
+    request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
+      error,
+      response,
+      body
+    ) {
+      console.log("error:", error); 
+      console.log("statusCode:", response && response.statusCode); 
+      console.log("body:", body); 
+    });
+
+    await snooze(5000);
+    console.log("Creating Tracks.");
+    request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
+      error,
+      response,
+      body
+    ) {
+      console.log("error:", error); 
+      console.log("statusCode:", response && response.statusCode);
+      console.log("body:", body);
+    });}
+
+    reloadContentAsync();
+  },
+  {
+    scheduled: true,
+    timezone: "America/New_York"
+  }
+);
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
