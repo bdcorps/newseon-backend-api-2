@@ -223,7 +223,6 @@ connection.once("open", function() {
       });
     }
 
-    
     dataToWriteToFile = { playlists: [] };
 
     res.send("Generated");
@@ -277,7 +276,7 @@ connection.once("open", function() {
         url: playlistsData.url,
         category: playlistsData.category
       });
-      writeToFile(dataToWriteToFile);
+      writeToFile(dataToWriteToFile, "playlistsData");
 
       //playlistsAPI.push(playlistsData);
 
@@ -303,20 +302,56 @@ connection.once("open", function() {
     return playlistIDs;
   }
 
-  function writeToFile(data) {
+  function resetDB() {
+    Article.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+      }
+    });
+    Playlist.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+      }
+    });
+
+    Category.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+      }
+    });
+
+    //delete tracks tracks files and chunks
+    var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
+    var CHUNKS_COLL = "tracks.chunks";
+    var FILES_COLL = "tracks.files";
+
+    bucket.drop(function(error) {
+      var chunksQuery = db.collection(CHUNKS_COLL).find({});
+      chunksQuery.toArray(function(error, docs) {
+        if (error != null && docs.length > 0) {
+          var filesQuery = db.collection(FILES_COLL).find({});
+          filesQuery.toArray(function(error, docs) {});
+        }
+      });
+    });
+  }
+
+  function writeToFile(data, fileName) {
     var dataToWrite = data;
     var d = new Date();
     var n = d.getTime();
 
     dataToWrite.timestamp = n;
     fs.writeFileSync(
-      __dirname + "/public/playlistsData",
-      JSON.stringify(data, null,2),"utf8", (err) => {  
+      __dirname + "/public/" + fileName,
+      prettyPrintJSON(data),
+      "utf8",
+      err => {
         if (err) throw err;
-    
-        console.log('playlistsData file saved');
-    });
 
+        console.log(fileName + " file saved");
+      }
+    );
   }
   function readFromFile(path) {
     var text = fs.readFileSync(path, "utf8");
@@ -329,6 +364,11 @@ connection.once("open", function() {
 
   app.get("/", (req, res) => {
     res.send("API Version 0.2.1");
+  });
+
+  app.get("/resetv2", (req, res) => {
+    resetDB();
+    res.send("Reset DB");
   });
 
   /**
@@ -380,7 +420,7 @@ connection.once("open", function() {
 
     //Calls the newsapi.org for articles based on the contentURLList.js
 
-console.log(JSON.stringify(playlists));
+    console.log(prettyPrintJSON(playlists));
 
     for (let i = 0; i < playlists.length; i++) {
       xmlToJson(playlists[i].url, function(err, data) {
@@ -389,9 +429,11 @@ console.log(JSON.stringify(playlists));
         }
 
         json = data.rss.channel[0].item;
-        articles= [];
+        articles = [];
 
         for (var k = 0; k < json.length; k++) {
+
+          if (json[k].title[0].toString()!=""){
           //create articles object
           var source = { id: "cnn", name: "CNN" };
           var publishedAt = json[k].pubDate;
@@ -407,15 +449,16 @@ console.log(JSON.stringify(playlists));
             urlToImage =
               json[k]["media:group"][0]["media:content"][0]["$"]["url"];
           }
-          var title = json[k].title.toString()+".";
-          var desc = "";
-          if (json[k].description != null && json[k].description.length>0) {
-            desc=json[k].description[0].toString();
+          var title = json[k].title[0].toString() + ".";
+          var description = "";
+          if (json[k].description != null && json[k].description.length > 0) {
+            description = json[k].description[0].toString();
           }
-          
+
           //only remove starting from div if it exists
-          if (desc.includes("<div")) {
-          var description = desc.substring(0, desc.indexOf("<div"))+".";}
+          if (description.includes("<div")) {
+            description = description.substring(0, description.indexOf("<div"));
+          }
 
           var author = "CNN";
 
@@ -428,10 +471,10 @@ console.log(JSON.stringify(playlists));
             urlToImage: urlToImage,
             publishedAt: publishedAt
           };
-          articles.push(article);
-          console.dir(article.toString());
+          articles.push(article);}
         }
 
+        writeToFile({ articles: articles }, "articlesData");
 
         //send articles to audio
 
@@ -445,9 +488,7 @@ console.log(JSON.stringify(playlists));
             .update(articles[j].title)
             .digest("hex");
 
-          console.log("its " + JSON.stringify(playlists[i]));
-
-         initAudioTracks(
+          initAudioTracks(
             req,
             res,
             articles[j],
@@ -458,8 +499,6 @@ console.log(JSON.stringify(playlists));
           );
 
           articleIDs.push(hash);
-console.log(j);
-          // articleIDs.push());
         }
       });
     }
@@ -514,7 +553,7 @@ function generateAudioTrack(
 
   const audioRequest = {
     input: {
-      text: article.title + article.description
+      text: article.title + " " + article.description
     },
     // Select the language and SSML Voice Gender (optional)
     voice: { languageCode: "en-US", ssmlGender: "NEUTRAL" },
@@ -599,6 +638,9 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     //save to mongodb
     var articleToSave = new Article(articleObject);
 
+    console.log("Will write to mlab: ");
+    console.log(prettyPrintJSON(articleObject));
+
     articleToSave.save(function(error) {
       if (error) {
         console.error(error);
@@ -620,6 +662,10 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
 }
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
+
+function prettyPrintJSON(obj) {
+  return JSON.stringify(obj, null, 2);
+}
 
 app.listen(port, function() {
   console.log("Server running on port: %d", port);

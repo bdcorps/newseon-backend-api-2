@@ -1,0 +1,136 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "The gadgets of the future know everything wrong with you right now.",
+      "description": "After three hours wandering through endless aisles of gadgets at CES, the world's largest consumer technology conference, the products start to blend together. Was this automated cat litter cleaner the same one we saw 20 minutes ago? How many internet-connected locks can the world possibly need? ",
+      "url": "https://www.cnn.com/2019/01/11/tech/ces-2019-gadgets-anxiety/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190110212137-real-take-away-from-ces-super-169.jpg",
+      "publishedAt": [
+        "Fri, 11 Jan 2019 23:27:10 GMT"
+      ]
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Get ready for even more Netflix competitors this year.",
+      "description": "For cord cutters and streaming lovers, 2019 will mean two things: A raft of new streaming services will hit the scene, and users will see major changes to viewing libraries.",
+      "url": "https://www.cnn.com/2019/01/11/media/tv-streaming-2019-netflix-disney-apple/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190110125417-20190110-changes-to-streaming-2019-gfx-super-169.jpg",
+      "publishedAt": [
+        "Fri, 11 Jan 2019 19:26:53 GMT"
+      ]
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "GE stock could be worth just $5, analyst warns.",
+      "description": "",
+      "url": "https://cnn.it/2Ceg2zv",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181213142348-01-ge-stock-upgrade-jpmorgan-super-169.jpg"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Cyberhacks can cost businesses millions. And insurers may refuse to pay up.",
+      "description": "Cyberattacks are a nightmare for chief executives. To make matters worse, their insurers may refuse to pay up for damage the hackers do to their business. ",
+      "url": "https://www.cnn.com/2019/01/11/business/cyber-attacks-insurance/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181220103413-hacker-stock-super-169.jpg",
+      "publishedAt": [
+        "Fri, 11 Jan 2019 17:52:53 GMT"
+      ]
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "A 5G world is coming. Tech companies at CES show they're ready.",
+      "description": "More companies are sharing ambitious plans about how we'll live in a 5G world.",
+      "url": "https://www.cnn.com/2019/01/11/tech/5g-ces-2019/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190107220552-samsung-logo-super-169.jpg",
+      "publishedAt": [
+        "Fri, 11 Jan 2019 16:34:28 GMT"
+      ]
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Costco's house brand sells more than Campbell Soup, Kellogg, and Hershey combined.",
+      "description": "Costco's house brand, Kirkland Signature, is even bigger than you might think. ",
+      "url": "https://www.cnn.com/2019/01/10/business/costco-kirkland-signature-brand/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190104104358-03-costco-kirkland-signature-file-super-169.jpg",
+      "publishedAt": [
+        "Thu, 10 Jan 2019 14:39:45 GMT"
+      ]
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "What moved the markets today.",
+      "description": "",
+      "url": "https://cnn.it/2Frgm0R",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181219203853-02-stock-traders-1219-super-169.jpg"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Apple reportedly plans 3 new iPhones this year.",
+      "description": "",
+      "url": "https://cnn.it/2VK0AUy",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181022171517-01-iphone-xr-review-super-169.jpg"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Volkswagen sold a record number of cars last year.",
+      "description": "Volkswagen sold a record 10.8 million cars in 2018. Only 100,000 were electrified. ",
+      "url": "https://www.cnn.com/2019/01/11/business/volkswagen-electric-cars/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190111115728-01-volkswagen-electric-file-super-169.jpg",
+      "publishedAt": [
+        "Fri, 11 Jan 2019 15:58:53 GMT"
+      ]
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Lionsgate, a struggling motion picture studio, lays off 25 staffers.",
+      "description": "Lionsgate, the entertainment studio which has struggled in recent years, laid off approximately 25 employees on Friday, people familiar with the matter told CNN.",
+      "url": "https://www.cnn.com/2019/01/11/media/lionsgate-layoffs/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190111134143-01-hunger-games-billboard-file-super-169.jpg",
+      "publishedAt": [
+        "Fri, 11 Jan 2019 19:56:56 GMT"
+      ]
+    }
+  ],
+  "timestamp": 1547257211595
+}
