@@ -11,6 +11,7 @@ var crypto = require("crypto");
 var path = require("path");
 var cors = require("cors");
 var cron = require("node-cron");
+var pjson = require('./package.json');
 
 var parseString = require("xml2js").parseString;
 var http = require("http");
@@ -364,7 +365,7 @@ connection.once("open", function() {
   }
 
   app.get("/", (req, res) => {
-    res.send("API Version 0.2.1");
+    res.send("API Version "+ pjson.version);
   });
 
   app.get("/resetv2", (req, res) => {
