@@ -11,7 +11,7 @@ var crypto = require("crypto");
 var path = require("path");
 var cors = require("cors");
 var cron = require("node-cron");
-var pjson = require('./package.json');
+var pjson = require("./package.json");
 
 var parseString = require("xml2js").parseString;
 var http = require("http");
@@ -241,9 +241,9 @@ connection.once("open", function() {
 
       title = "Daily News";
       if (query.category == "business") {
-        var playlistURL = "http://rss.cnn.com/rss/cnn_business.rss";
+        var playlistURL = query.source;
       } else if (query.category == "tech") {
-        var playlistURL = "http://rss.cnn.com/rss/cnn_tech.rss";
+        var playlistURL = query.source;
       }
 
       urls.push(playlistURL);
@@ -365,7 +365,7 @@ connection.once("open", function() {
   }
 
   app.get("/", (req, res) => {
-    res.send("API Version "+ pjson.version);
+    res.send("API Version " + pjson.version);
   });
 
   app.get("/resetv2", (req, res) => {
@@ -373,6 +373,10 @@ connection.once("open", function() {
     res.send("Reset DB");
   });
 
+  app.get("/tracksv2", (req, res) => {
+    generateAudioTracks(req, res);
+    res.send("Tracks written");
+  });
   /**
    * GET /tracks/:trackID
    */
@@ -411,7 +415,7 @@ connection.once("open", function() {
    * POST /tracks
    */
 
-  app.get("/tracksv2", (req, res) => {
+  app.get("/writesv2", (req, res) => {
     //read playlistsData file
 
     var data = readFromFile(__dirname + "/public/playlistsData");
@@ -431,10 +435,10 @@ connection.once("open", function() {
         }
 
         json = data.rss.channel[0].item;
-        articles = [];
 
-        for (var k = 0; k < json.length; k++) {
-          if (json[k].title[0].toString() != "") {
+        // To control the quantity, used 5 instead of json.length
+        for (var k = 0; (k < json.length && k<=4); k++) {
+          if (json[k].title[0].toString() != "" || json[k].description[0].toString() != "") {
             //create articles object
             var source = { id: "cnn", name: "CNN" };
             var publishedAt = json[k].pubDate;
@@ -473,38 +477,15 @@ connection.once("open", function() {
               description: description,
               url: url,
               urlToImage: urlToImage,
-              publishedAt: publishedAt
+              publishedAt: publishedAt,
+              playlist: { id: playlists[i].id, category: playlists[i].category }
             };
             articles.push(article);
           }
         }
 
         writeToFile({ articles: articles }, "articlesData");
-
         //send articles to audio
-
-        articleIDs = [];
-        // Create a hash based on the contents of the article title
-        // This is so we don't write duplicate content to the db
-        var hash = "";
-        for (var j = 0; j < articles.length; j++) {
-          hash = crypto
-            .createHash("md5")
-            .update(articles[j].title)
-            .digest("hex");
-
-          initAudioTracks(
-            req,
-            res,
-            articles[j],
-            hash,
-            playlists[i].id,
-            j,
-            playlists[i].category
-          );
-
-          articleIDs.push(hash);
-        }
       });
     }
 
@@ -512,6 +493,36 @@ connection.once("open", function() {
       message: "File uploaded successfully."
     });
   });
+
+  function generateAudioTracks(req, res) {
+    var articles = readFromFile(__dirname + "/public/articlesData");
+    articles = articles.articles;
+
+    console.log("about to write" + JSON.stringify(articles));
+
+    articleIDs = [];
+    // Create a hash based on the contents of the article title
+    // This is so we don't write duplicate content to the db
+    var hash = "";
+    for (var j = 0; j < articles.length; j++) {
+      hash = crypto
+        .createHash("md5")
+        .update(articles[j].title)
+        .digest("hex");
+
+      initAudioTracks(
+        req,
+        res,
+        articles[j],
+        hash,
+        articles[j].playlist.id,
+        j,
+        articles[j].playlist.category
+      );
+
+      articleIDs.push(hash);
+    }
+  }
 });
 
 const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -588,7 +599,7 @@ function generateAudioTrack(
         }
 
         //When done saving file
-
+        //need req res context to save the tracks
         upload.single("track")(req, res, err => {
           if (err) {
             console.log("error: " + err);
@@ -602,6 +613,8 @@ function generateAudioTrack(
 
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, category) {
+console.log("upload track id is: " + playlistID);
+
   var readableTrackStream = fs.createReadStream(__dirname + "/uploads/" + hash);
 
   let bucket = new mongodb.GridFSBucket(db, {
@@ -671,42 +684,41 @@ cron.schedule(
   () => {
     console.log("Reloading content on " + Date.now());
 
-    
     console.log("Resetting.");
-    var reloadContentAsync= async (
-    ) => {
-    request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
-      error,
-      response,
-      body
-    ) {
-      console.log("error:", error);
-      console.log("statusCode:", response && response.statusCode); 
-      console.log("body:", body);
-    });
-    await snooze(5000);
-    console.log("Generating.");
-    request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
-      error,
-      response,
-      body
-    ) {
-      console.log("error:", error); 
-      console.log("statusCode:", response && response.statusCode); 
-      console.log("body:", body); 
-    });
+    var reloadContentAsync = async () => {
+      request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
+        error,
+        response,
+        body
+      ) {
+        console.log("error:", error);
+        console.log("statusCode:", response && response.statusCode);
+        console.log("body:", body);
+      });
+      await snooze(5000);
+      console.log("Generating.");
+      request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
+        error,
+        response,
+        body
+      ) {
+        console.log("error:", error);
+        console.log("statusCode:", response && response.statusCode);
+        console.log("body:", body);
+      });
 
-    await snooze(5000);
-    console.log("Creating Tracks.");
-    request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
-      error,
-      response,
-      body
-    ) {
-      console.log("error:", error); 
-      console.log("statusCode:", response && response.statusCode);
-      console.log("body:", body);
-    });}
+      await snooze(5000);
+      console.log("Creating Tracks.");
+      request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
+        error,
+        response,
+        body
+      ) {
+        console.log("error:", error);
+        console.log("statusCode:", response && response.statusCode);
+        console.log("body:", body);
+      });
+    };
 
     reloadContentAsync();
   },

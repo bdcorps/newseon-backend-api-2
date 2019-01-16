@@ -10,7 +10,8 @@ var ArticleSchema = new Schema({
     media: String,
     audioTrackID: String,
     publishedOn: Date,
-    url: String
+    url: String,
+    playlist: Schema.Types.Mixed
 });
 
 var PlaylistSchema = new Schema({

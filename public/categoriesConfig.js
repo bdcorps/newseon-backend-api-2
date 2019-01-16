@@ -6,17 +6,36 @@ var categoriesJSON = {
       playlists: [
         {
           type: "topHeadlines",
+          title: "CNN Business",
           query: {
-            category: "business"
+            category: "business",
+            source: "http://rss.cnn.com/rss/cnn_business.rss"
+          }
+        },
+        {
+          type: "topHeadlines",
+          title: "Latest from Bloomberg",
+          query: {
+            category: "business",
+            source: "http://feeds.reuters.com/reuters/businessNews"
           }
         },
         {
           type: "topHeadlines",
           query: {
-            category: "tech"
+            title: "CNN Tech",
+            category: "tech",
+            source: "http://rss.cnn.com/rss/cnn_tech.rss"
+          }
+        },
+        {
+          type: "topHeadlines",
+          query: {
+            title: "Latest from TechCrunch",
+            category: "tech",
+            source: "http://feeds.feedburner.com/TechCrunch"
           }
         }
-        
       ]
     }
   ]

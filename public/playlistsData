@@ -1,15 +1,25 @@
 {
   "playlists": [
     {
-      "id": "2egym07i1m9zxk842l908",
+      "id": "ag7pmm48p5s2t9sk4gwh",
       "url": "http://rss.cnn.com/rss/cnn_business.rss",
       "category": "business"
     },
     {
-      "id": "fddxn3ux26z3qqnbc2o8",
+      "id": "5k0y68ugp52e9vh8rk6lxv",
+      "url": "http://feeds.reuters.com/reuters/businessNews",
+      "category": "business"
+    },
+    {
+      "id": "wxt85ylblnzk8kgy58wg",
       "url": "http://rss.cnn.com/rss/cnn_tech.rss",
+      "category": "tech"
+    },
+    {
+      "id": "nnf4pz77yunl5ifrlhksi",
+      "url": "http://feeds.feedburner.com/TechCrunch",
       "category": "tech"
     }
   ],
-  "timestamp": 1547257205949
+  "timestamp": 1547655792341
 }

@@ -6,13 +6,17 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "The gadgets of the future know everything wrong with you right now.",
-      "description": "After three hours wandering through endless aisles of gadgets at CES, the world's largest consumer technology conference, the products start to blend together. Was this automated cat litter cleaner the same one we saw 20 minutes ago? How many internet-connected locks can the world possibly need? ",
-      "url": "https://www.cnn.com/2019/01/11/tech/ces-2019-gadgets-anxiety/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190110212137-real-take-away-from-ces-super-169.jpg",
+      "title": "Companies are waking up to the dangers posed by climate change and extreme weather.",
+      "description": "Companies and investors are waking up to the dangers posed by climate change and extreme weather.",
+      "url": "https://www.cnn.com/2019/01/16/business/climate-change-global-risk-wef-davos/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190109153006-02-woolsey-fire-2018-file-super-169.jpg",
       "publishedAt": [
-        "Fri, 11 Jan 2019 23:27:10 GMT"
-      ]
+        "Wed, 16 Jan 2019 14:36:47 GMT"
+      ],
+      "playlist": {
+        "id": "ag7pmm48p5s2t9sk4gwh",
+        "category": "business"
+      }
     },
     {
       "source": {
@@ -20,24 +24,14 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Get ready for even more Netflix competitors this year.",
-      "description": "For cord cutters and streaming lovers, 2019 will mean two things: A raft of new streaming services will hit the scene, and users will see major changes to viewing libraries.",
-      "url": "https://www.cnn.com/2019/01/11/media/tv-streaming-2019-netflix-disney-apple/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190110125417-20190110-changes-to-streaming-2019-gfx-super-169.jpg",
-      "publishedAt": [
-        "Fri, 11 Jan 2019 19:26:53 GMT"
-      ]
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "GE stock could be worth just $5, analyst warns.",
+      "title": "UK businesses blast Brexit 'rollercoaster ride'.",
       "description": "",
-      "url": "https://cnn.it/2Ceg2zv",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181213142348-01-ge-stock-upgrade-jpmorgan-super-169.jpg"
+      "url": "https://cnn.it/2QT3BOO",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115210945-theresa-may-super-169.jpg",
+      "playlist": {
+        "id": "ag7pmm48p5s2t9sk4gwh",
+        "category": "business"
+      }
     },
     {
       "source": {
@@ -45,52 +39,14 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Cyberhacks can cost businesses millions. And insurers may refuse to pay up.",
-      "description": "Cyberattacks are a nightmare for chief executives. To make matters worse, their insurers may refuse to pay up for damage the hackers do to their business. ",
-      "url": "https://www.cnn.com/2019/01/11/business/cyber-attacks-insurance/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181220103413-hacker-stock-super-169.jpg",
-      "publishedAt": [
-        "Fri, 11 Jan 2019 17:52:53 GMT"
-      ]
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "A 5G world is coming. Tech companies at CES show they're ready.",
-      "description": "More companies are sharing ambitious plans about how we'll live in a 5G world.",
-      "url": "https://www.cnn.com/2019/01/11/tech/5g-ces-2019/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190107220552-samsung-logo-super-169.jpg",
-      "publishedAt": [
-        "Fri, 11 Jan 2019 16:34:28 GMT"
-      ]
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Costco's house brand sells more than Campbell Soup, Kellogg, and Hershey combined.",
-      "description": "Costco's house brand, Kirkland Signature, is even bigger than you might think. ",
-      "url": "https://www.cnn.com/2019/01/10/business/costco-kirkland-signature-brand/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190104104358-03-costco-kirkland-signature-file-super-169.jpg",
-      "publishedAt": [
-        "Thu, 10 Jan 2019 14:39:45 GMT"
-      ]
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "What moved the markets today.",
+      "title": "Bank of America reports record profits.",
       "description": "",
-      "url": "https://cnn.it/2Frgm0R",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181219203853-02-stock-traders-1219-super-169.jpg"
+      "url": "https://cnn.it/2RwP5kT",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180716094432-bank-of-america-super-169.jpg",
+      "playlist": {
+        "id": "ag7pmm48p5s2t9sk4gwh",
+        "category": "business"
+      }
     },
     {
       "source": {
@@ -98,24 +54,17 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Apple reportedly plans 3 new iPhones this year.",
-      "description": "",
-      "url": "https://cnn.it/2VK0AUy",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181022171517-01-iphone-xr-review-super-169.jpg"
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Volkswagen sold a record number of cars last year.",
-      "description": "Volkswagen sold a record 10.8 million cars in 2018. Only 100,000 were electrified. ",
-      "url": "https://www.cnn.com/2019/01/11/business/volkswagen-electric-cars/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190111115728-01-volkswagen-electric-file-super-169.jpg",
+      "title": "The market is still a good bet in 2019.",
+      "description": "Market ups and downs are going to continue in 2019.  But investors who have the stomach for volatility could still do well. ",
+      "url": "https://www.cnn.com/2019/01/15/investing/jeffrey-mills-pnc-markets-now-preview/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181128122848-20181128-markets-now-8-super-169.jpg",
       "publishedAt": [
-        "Fri, 11 Jan 2019 15:58:53 GMT"
-      ]
+        "Tue, 15 Jan 2019 22:39:12 GMT"
+      ],
+      "playlist": {
+        "id": "ag7pmm48p5s2t9sk4gwh",
+        "category": "business"
+      }
     },
     {
       "source": {
@@ -123,14 +72,273 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Lionsgate, a struggling motion picture studio, lays off 25 staffers.",
-      "description": "Lionsgate, the entertainment studio which has struggled in recent years, laid off approximately 25 employees on Friday, people familiar with the matter told CNN.",
-      "url": "https://www.cnn.com/2019/01/11/media/lionsgate-layoffs/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190111134143-01-hunger-games-billboard-file-super-169.jpg",
+      "title": "Why Etihad might bail out India's Jet Airways .",
+      "description": "Etihad Airways might be about to double down on a risky investment in India. ",
+      "url": "https://www.cnn.com/2019/01/16/business/etihad-jet-airways/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116081826-01-jet-airways-file-super-169.jpg",
       "publishedAt": [
-        "Fri, 11 Jan 2019 19:56:56 GMT"
-      ]
+        "Wed, 16 Jan 2019 15:18:36 GMT"
+      ],
+      "playlist": {
+        "id": "ag7pmm48p5s2t9sk4gwh",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Infor lands $1.5 billion investment ahead of possible IPO.",
+      "description": "Infor, a NYC-based enterprise software company, announced a massive $1.5 billion investment today that could be the precursor to an IPO down the road. One analyst is estimating that the valuation could be at least $60 billion. The investment is being led by Koch Industries&#8217; investment arm, Koch Equity Development, and Golden Gate Capital. Today&#8217;s [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/-1NFwdZW3Cw/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 15:56:32 +0000"
+      ],
+      "playlist": {
+        "id": "nnf4pz77yunl5ifrlhksi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "China accounted for nearly half of app downloads in 2018, 40% of consumer spend.",
+      "description": "Global app downloads topped 194 billion in 2018, up 35 percent from 2016, according to App Annie&#8217;s annual &#8220;State of Mobile 2019&#8221; report released today. Consumer spending across app stores was up 75 percent to reach $101 billion. The report, which analyzes trends across iOS, Android and the third-party Android stores in China combined, follows [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/IotsLzbnztw/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 15:41:50 +0000"
+      ],
+      "playlist": {
+        "id": "nnf4pz77yunl5ifrlhksi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "EVs and online marketplaces thrive despite slump in Chinese car sales.",
+      "description": "China&#8217;s massive auto market hit the brakes last year as trade tensions and a softening economy dampened consumer confidence, but one segment soared on account of increasing internet penetration &#8212; used car sales. New passenger car sales fell to 23.7 million last year, representing a 4.1 year-over-year drop according to a new report by China&#8217;s Association of [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/hRCVVU7zRZQ/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 15:04:45 +0000"
+      ],
+      "playlist": {
+        "id": "nnf4pz77yunl5ifrlhksi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "HyperScience, the machine learning startup tackling data entry, raises $30 million Series B.",
+      "description": "HyperScience, the machine learning company that turns human readable data into machine readable data, has today announced the close of a $30 million Series B funding round led by Stripes Group, with participation from existing investors FirstMark Capital and Felicis Ventures, as well as new investors Battery Ventures, Global Founders Fund, TD Ameritrade and QBE. [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/q5AEX3rbjlA/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 15:00:18 +0000"
+      ],
+      "playlist": {
+        "id": "nnf4pz77yunl5ifrlhksi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Techstars will build and launch startups with new venture studio.",
+      "description": "Techstars is announcing Techstars Studio, its latest attempt to bring corporations closer to the startup ecosystem. ",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/YPlS12Mypkw/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 15:00:15 +0000"
+      ],
+      "playlist": {
+        "id": "nnf4pz77yunl5ifrlhksi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Snap exodus continues: CFO out after less than a year.",
+      "description": "Snap is losing another high-profile executive. Chief Financial Officer Tim Stone told Snap on Tuesday that he was leaving the company, just eight months after moving to Snap from Amazon.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/3Uh8wPTwWMg/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115175056-snap-inc-logo-super-169.jpg",
+      "playlist": {
+        "id": "wxt85ylblnzk8kgy58wg",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Huawei founder Ren Zhengfei is an Apple fan and wants to live forever.",
+      "description": "A rare discussion with foreign media is shedding new light on the tech tycoon.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/rIOrm7FU22w/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116084407-01-ren-zhengfei-huawei-super-169.jpg",
+      "playlist": {
+        "id": "wxt85ylblnzk8kgy58wg",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Huawei's founder praises Trump and denies claims his company spies for China.",
+      "description": "Huawei's reclusive founder has denied allegations that his telecoms company spies for the Chinese government.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/ApRawuD0VBs/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115121559-01-ren-zhengfei-file-restricted-super-169.jpg",
+      "playlist": {
+        "id": "wxt85ylblnzk8kgy58wg",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "How Alexa knows the difference between a breaking window and a wine glass.",
+      "description": "For Amazon, getting Alexa's new security-guard feature to work meant literally breaking a lot of windows.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/BaWUgsLRUz0/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190114141947-20190114-alexa-broken-glass-gfx-super-169.jpg",
+      "playlist": {
+        "id": "wxt85ylblnzk8kgy58wg",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Alibaba's 'City Brain' is slashing congestion in its hometown.",
+      "description": "Alibaba is using artificial intelligence to coordinate more than 1,000 road signals around Hangzhou with the aim of preventing or easing gridlock.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/PVVkBiOezCw/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181218160851-hangzhou-ai-city-brain-restricted-super-169.jpg",
+      "playlist": {
+        "id": "wxt85ylblnzk8kgy58wg",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Goldman Sachs CEO apologizes for ex-banker's role in 1MDB scandal.",
+      "description": "Goldman Sachs  Chief Executive Officer David Solomon on Wednesday apologized to the Malaysian people for former banker Tim Leissner's role in the sovereign wealth fund 1MDB scandal, but said the bank had conducted due diligence before every transaction.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/mw8IUpWRvkI/goldman-sachs-ceo-apologizes-for-ex-bankers-role-in-1mdb-scandal-idUSKCN1PA22X",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 11:08:44 -0500"
+      ],
+      "playlist": {
+        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Citi says female employees earn 29 percent less than men.",
+      "description": "Citigroup's  female employees earn 29 percent less than their male counterparts, the Wall Street bank revealed on Wednesday, while announcing targets for appointing more women and minorities to senior roles.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/sBqbzmqvDt0/citi-says-female-employees-earn-29-percent-less-than-men-idUSKCN1PA28B",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 11:04:35 -0500"
+      ],
+      "playlist": {
+        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Nordstrom's full-price comparable sales for holiday season disappoints.",
+      "description": "(This Jan. 15 story corrects to fix Nordstrom's full-year adjusted profit forecast)",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/gUmoKp5vfxI/nordstroms-full-price-comparable-sales-for-holiday-season-disappoints-idUSKCN1P930S",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 11:02:04 -0500"
+      ],
+      "playlist": {
+        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "U.S. automakers push for deal on fuel efficiency rules.",
+      "description": "Executives at the major U.S. automakers are pressing the Trump administration and California to agree on standards for fuel efficiency and carbon emissions through 2025, as risks increase that a deadline for setting national standards will pass without a deal.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/JOBIFm54mXg/u-s-automakers-push-for-deal-on-fuel-efficiency-rules-idUSKCN1PA1GO",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 10:58:44 -0500"
+      ],
+      "playlist": {
+        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "BofA's loan growth drives better-than-expected profit.",
+      "description": "Bank of America Corp’s  quarterly profit topped analyst estimates on Wednesday as a growing loan book helped it ride out year-end market turbulence, sending the lender's shares up more then 5 percent.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/fsYqch0j-NM/bofas-loan-growth-drives-better-than-expected-profit-idUSKCN1PA1FI",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 10:37:00 -0500"
+      ],
+      "playlist": {
+        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "category": "business"
+      }
     }
   ],
-  "timestamp": 1547257211595
+  "timestamp": 1547655797109
 }
