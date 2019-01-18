@@ -679,10 +679,8 @@ console.log("upload track id is: " + playlistID);
   });
 }
 
-// cron.schedule(
-//   "0 8 * * *",
-  cron.schedule(
-    "1 * * * * *",
+cron.schedule(
+  "0 8 * * *",
   () => {
     console.log("Reloading content on " + Date.now());
 

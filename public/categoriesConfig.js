@@ -22,6 +22,7 @@ var categoriesJSON = {
         },
         {
           type: "topHeadlines",
+          title: "Latest from CNN Tech",
           query: {
             title: "CNN Tech",
             category: "tech",
@@ -30,6 +31,7 @@ var categoriesJSON = {
         },
         {
           type: "topHeadlines",
+          title: "TechCrunch Updates",
           query: {
             title: "Latest from TechCrunch",
             category: "tech",
