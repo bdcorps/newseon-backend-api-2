@@ -6,99 +6,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Companies are waking up to the dangers posed by climate change and extreme weather.",
-      "description": "Companies and investors are waking up to the dangers posed by climate change and extreme weather.",
-      "url": "https://www.cnn.com/2019/01/16/business/climate-change-global-risk-wef-davos/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190109153006-02-woolsey-fire-2018-file-super-169.jpg",
-      "publishedAt": [
-        "Wed, 16 Jan 2019 14:36:47 GMT"
-      ],
-      "playlist": {
-        "id": "ag7pmm48p5s2t9sk4gwh",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "UK businesses blast Brexit 'rollercoaster ride'.",
-      "description": "",
-      "url": "https://cnn.it/2QT3BOO",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115210945-theresa-may-super-169.jpg",
-      "playlist": {
-        "id": "ag7pmm48p5s2t9sk4gwh",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Bank of America reports record profits.",
-      "description": "",
-      "url": "https://cnn.it/2RwP5kT",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180716094432-bank-of-america-super-169.jpg",
-      "playlist": {
-        "id": "ag7pmm48p5s2t9sk4gwh",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "The market is still a good bet in 2019.",
-      "description": "Market ups and downs are going to continue in 2019.  But investors who have the stomach for volatility could still do well. ",
-      "url": "https://www.cnn.com/2019/01/15/investing/jeffrey-mills-pnc-markets-now-preview/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181128122848-20181128-markets-now-8-super-169.jpg",
-      "publishedAt": [
-        "Tue, 15 Jan 2019 22:39:12 GMT"
-      ],
-      "playlist": {
-        "id": "ag7pmm48p5s2t9sk4gwh",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Why Etihad might bail out India's Jet Airways .",
-      "description": "Etihad Airways might be about to double down on a risky investment in India. ",
-      "url": "https://www.cnn.com/2019/01/16/business/etihad-jet-airways/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116081826-01-jet-airways-file-super-169.jpg",
-      "publishedAt": [
-        "Wed, 16 Jan 2019 15:18:36 GMT"
-      ],
-      "playlist": {
-        "id": "ag7pmm48p5s2t9sk4gwh",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Infor lands $1.5 billion investment ahead of possible IPO.",
-      "description": "Infor, a NYC-based enterprise software company, announced a massive $1.5 billion investment today that could be the precursor to an IPO down the road. One analyst is estimating that the valuation could be at least $60 billion. The investment is being led by Koch Industries&#8217; investment arm, Koch Equity Development, and Golden Gate Capital. Today&#8217;s [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/-1NFwdZW3Cw/",
+      "title": "Innovaccer nabs $11 million from Microsoft’s VC arm to give doctors a better window into patient heatlh.",
+      "description": "Cracking the silos of digital health records promises to bring better care to patients by better informing doctors, according to Abhinav Shashank, the chief executive officer of San Francisco-based startup Innovaccer . Shashank&#8217;s company is just wrapping up a $35 million round of financing with a new $11 million commitment from Microsoft&#8217;s investment arm M12 [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/TN8PYx7xQw4/",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 15:56:32 +0000"
+        "Thu, 17 Jan 2019 11:30:03 +0000"
       ],
       "playlist": {
-        "id": "nnf4pz77yunl5ifrlhksi",
+        "id": "qpglay4107lt34zzwvi29",
         "category": "tech"
       }
     },
@@ -108,15 +24,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "China accounted for nearly half of app downloads in 2018, 40% of consumer spend.",
-      "description": "Global app downloads topped 194 billion in 2018, up 35 percent from 2016, according to App Annie&#8217;s annual &#8220;State of Mobile 2019&#8221; report released today. Consumer spending across app stores was up 75 percent to reach $101 billion. The report, which analyzes trends across iOS, Android and the third-party Android stores in China combined, follows [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/IotsLzbnztw/",
+      "title": "Facebook finds and kills another 512 Kremlin-linked fake accounts.",
+      "description": "Two years on from the U.S. presidential election, Facebook continues to have a major problem with Russian disinformation being megaphoned via its social tools. In a blog post today the company reveals another tranche of Kremlin-linked fake activity &#8212; saying it&#8217;s removed a total of 471 Facebook pages and accounts, as well as 41 Instagram accounts, which [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/Ds0UElLSxPQ/",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 15:41:50 +0000"
+        "Thu, 17 Jan 2019 10:54:23 +0000"
       ],
       "playlist": {
-        "id": "nnf4pz77yunl5ifrlhksi",
+        "id": "qpglay4107lt34zzwvi29",
         "category": "tech"
       }
     },
@@ -126,15 +42,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "EVs and online marketplaces thrive despite slump in Chinese car sales.",
-      "description": "China&#8217;s massive auto market hit the brakes last year as trade tensions and a softening economy dampened consumer confidence, but one segment soared on account of increasing internet penetration &#8212; used car sales. New passenger car sales fell to 23.7 million last year, representing a 4.1 year-over-year drop according to a new report by China&#8217;s Association of [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/hRCVVU7zRZQ/",
+      "title": "New policy puts revenue squeeze on China’s payments giants.",
+      "description": "The era that saw China&#8217;s mobile payments providers making handsome interest returns on client money has officially ended. Starting this week, non-bank payments companies must place 100 percent of their customer deposit funds under centralized, interest-free accounts as Beijing moves to rein in financial risks. In the past, third-party payments firms were allowed to hold [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/vhhoUcjddGg/",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 15:04:45 +0000"
+        "Thu, 17 Jan 2019 10:30:36 +0000"
       ],
       "playlist": {
-        "id": "nnf4pz77yunl5ifrlhksi",
+        "id": "qpglay4107lt34zzwvi29",
         "category": "tech"
       }
     },
@@ -144,15 +60,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "HyperScience, the machine learning startup tackling data entry, raises $30 million Series B.",
-      "description": "HyperScience, the machine learning company that turns human readable data into machine readable data, has today announced the close of a $30 million Series B funding round led by Stripes Group, with participation from existing investors FirstMark Capital and Felicis Ventures, as well as new investors Battery Ventures, Global Founders Fund, TD Ameritrade and QBE. [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/q5AEX3rbjlA/",
+      "title": "A popular WordPress plugin leaked access tokens capable of hijacking Twitter accounts.",
+      "description": "A popular WordPress plugin, installed on thousands of websites to help users share content on social media sites, left linked Twitter accounts exposed to compromise. The plugin, Social Network Tabs, was storing so-called account access tokens in the source code of the WordPress website. Anyone who viewed the source code could see the linked Twitter [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/LR44OlbFhu8/",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 15:00:18 +0000"
+        "Thu, 17 Jan 2019 09:48:26 +0000"
       ],
       "playlist": {
-        "id": "nnf4pz77yunl5ifrlhksi",
+        "id": "qpglay4107lt34zzwvi29",
         "category": "tech"
       }
     },
@@ -162,15 +78,75 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Techstars will build and launch startups with new venture studio.",
-      "description": "Techstars is announcing Techstars Studio, its latest attempt to bring corporations closer to the startup ecosystem. ",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/YPlS12Mypkw/",
+      "title": "Coinbase acquihires San Francisco startup Blockspring.",
+      "description": "Coinbase is continuing its push to suck up talent after the $8 billion-valued crypto business snapped up Blockspring, a San Francisco-based startup that enables developers to collect and process data from APIs. The undisclosed deal was announced by Blockspring on its blog, and confirmed to TechCrunch by a Coinbase representative. Coinbase declined to comment further. [&#8230;]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/Px9X18xK2cg/",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 15:00:15 +0000"
+        "Thu, 17 Jan 2019 09:28:20 +0000"
       ],
       "playlist": {
-        "id": "nnf4pz77yunl5ifrlhksi",
+        "id": "qpglay4107lt34zzwvi29",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Facebook takes down anti-NATO pages linked to Russian news agency Sputnik.",
+      "description": "Facebook removed hundreds of pages on Thursday it said posed as independent news sites in eastern Europe and elsewhere but were actually run by employees at Russian state-owned news agency Sputnik.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/drsxZDSmGUI/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190117110559-01-sputnik-newsroom-moscow-super-169.jpg",
+      "playlist": {
+        "id": "3wibcydeujhsoeqq0hwvi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Microsoft is investing $500 million to tackle Seattle housing crisis.",
+      "description": "Microsoft, which is headquartered in the Seattle region, said it will partner with nonprofit groups to address \"the affordable housing crisis.\" The money will go toward building new homes and preserving existing housing.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/WAYOv29z78k/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190117011116-microsoft-hq-super-169.jpg",
+      "playlist": {
+        "id": "3wibcydeujhsoeqq0hwvi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "SpaceX ditches plans to develop Mars spaceship at Los Angeles port.",
+      "description": "SpaceX has abandoned plans to open up shop at the Port of Los Angeles.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/a9H3LMf1qlM/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116220636-spacex-port-la-super-169.jpg",
+      "playlist": {
+        "id": "3wibcydeujhsoeqq0hwvi",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Cleaning New York's filthy harbor with one billion oysters.",
+      "description": "The New York Harbor for years has been polluted and depleted of marine life. But one nonprofit is working to clean the murky water and revive its long-lost ecosystem — one oyster at a time.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/4b-m_xBThEg/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115162624-mission-ahead-oysters-1-super-169.jpg",
+      "playlist": {
+        "id": "3wibcydeujhsoeqq0hwvi",
         "category": "tech"
       }
     },
@@ -185,7 +161,7 @@
       "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/3Uh8wPTwWMg/index.html",
       "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115175056-snap-inc-logo-super-169.jpg",
       "playlist": {
-        "id": "wxt85ylblnzk8kgy58wg",
+        "id": "3wibcydeujhsoeqq0hwvi",
         "category": "tech"
       }
     },
@@ -195,75 +171,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Huawei founder Ren Zhengfei is an Apple fan and wants to live forever.",
-      "description": "A rare discussion with foreign media is shedding new light on the tech tycoon.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/rIOrm7FU22w/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116084407-01-ren-zhengfei-huawei-super-169.jpg",
-      "playlist": {
-        "id": "wxt85ylblnzk8kgy58wg",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Huawei's founder praises Trump and denies claims his company spies for China.",
-      "description": "Huawei's reclusive founder has denied allegations that his telecoms company spies for the Chinese government.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/ApRawuD0VBs/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115121559-01-ren-zhengfei-file-restricted-super-169.jpg",
-      "playlist": {
-        "id": "wxt85ylblnzk8kgy58wg",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "How Alexa knows the difference between a breaking window and a wine glass.",
-      "description": "For Amazon, getting Alexa's new security-guard feature to work meant literally breaking a lot of windows.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/BaWUgsLRUz0/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190114141947-20190114-alexa-broken-glass-gfx-super-169.jpg",
-      "playlist": {
-        "id": "wxt85ylblnzk8kgy58wg",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Alibaba's 'City Brain' is slashing congestion in its hometown.",
-      "description": "Alibaba is using artificial intelligence to coordinate more than 1,000 road signals around Hangzhou with the aim of preventing or easing gridlock.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/PVVkBiOezCw/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181218160851-hangzhou-ai-city-brain-restricted-super-169.jpg",
-      "playlist": {
-        "id": "wxt85ylblnzk8kgy58wg",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Goldman Sachs CEO apologizes for ex-banker's role in 1MDB scandal.",
-      "description": "Goldman Sachs  Chief Executive Officer David Solomon on Wednesday apologized to the Malaysian people for former banker Tim Leissner's role in the sovereign wealth fund 1MDB scandal, but said the bank had conducted due diligence before every transaction.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/mw8IUpWRvkI/goldman-sachs-ceo-apologizes-for-ex-bankers-role-in-1mdb-scandal-idUSKCN1PA22X",
+      "title": "Morgan Stanley quarterly profit more than doubles.",
+      "description": "Morgan Stanley's  fourth-quarter profit more than doubled from a year earlier when it recorded a $1 billion tax charge due to changes in the U.S. tax law.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/Im_UmpOQWrM/morgan-stanley-quarterly-profit-more-than-doubles-idUSKCN1PB1ER",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 11:08:44 -0500"
+        "Thu, 17 Jan 2019 07:30:21 -0500"
       ],
       "playlist": {
-        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "id": "n1dg5m1gidi6xvcl6ov7js",
         "category": "business"
       }
     },
@@ -273,15 +189,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Citi says female employees earn 29 percent less than men.",
-      "description": "Citigroup's  female employees earn 29 percent less than their male counterparts, the Wall Street bank revealed on Wednesday, while announcing targets for appointing more women and minorities to senior roles.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/sBqbzmqvDt0/citi-says-female-employees-earn-29-percent-less-than-men-idUSKCN1PA28B",
+      "title": "In Argentina crisis, firms do everything to cut costs - except fire workers.",
+      "description": "Like many Argentine businessmen, Marco Meloni is doing everything he can to avoid laying off staff at his textile factory despite a slump in sales, more than 70 percent interest rates and soaring utility bills.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/UgyGr6jts4I/in-argentina-crisis-firms-do-everything-to-cut-costs-except-fire-workers-idUSKCN1PB1BP",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 11:04:35 -0500"
+        "Thu, 17 Jan 2019 07:28:55 -0500"
       ],
       "playlist": {
-        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "id": "n1dg5m1gidi6xvcl6ov7js",
         "category": "business"
       }
     },
@@ -291,15 +207,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Nordstrom's full-price comparable sales for holiday season disappoints.",
-      "description": "(This Jan. 15 story corrects to fix Nordstrom's full-year adjusted profit forecast)",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/gUmoKp5vfxI/nordstroms-full-price-comparable-sales-for-holiday-season-disappoints-idUSKCN1P930S",
+      "title": "Exclusive: British Lotus cars to be 'Made in China' at new Geely plant: documents.",
+      "description": "The Chinese owner of Lotus plans to start producing the British sports car brand in China for the first time with the opening of a new 9 billion yuan ($1.3 billion) factory in Wuhan city, company job advertisements and government documents showed.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/7KWtIdxCpfM/exclusive-british-lotus-cars-to-be-made-in-china-at-new-geely-plant-documents-idUSKCN1PB08Q",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 11:02:04 -0500"
+        "Thu, 17 Jan 2019 07:26:55 -0500"
       ],
       "playlist": {
-        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "id": "n1dg5m1gidi6xvcl6ov7js",
         "category": "business"
       }
     },
@@ -309,15 +225,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "U.S. automakers push for deal on fuel efficiency rules.",
-      "description": "Executives at the major U.S. automakers are pressing the Trump administration and California to agree on standards for fuel efficiency and carbon emissions through 2025, as risks increase that a deadline for setting national standards will pass without a deal.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/JOBIFm54mXg/u-s-automakers-push-for-deal-on-fuel-efficiency-rules-idUSKCN1PA1GO",
+      "title": "PG&E shareholder BlueMountain says bankruptcy unnecessary.",
+      "description": "PG&E Corp  shareholder BlueMountain Capital Management LLC on Thursday \"challenged\" the U.S. utility's decision to file for bankruptcy, saying it was unnecessary.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/tn-CRbIRKpU/pge-shareholder-bluemountain-says-bankruptcy-unnecessary-idUSKCN1PB1DT",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 10:58:44 -0500"
+        "Thu, 17 Jan 2019 07:24:09 -0500"
       ],
       "playlist": {
-        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "id": "n1dg5m1gidi6xvcl6ov7js",
         "category": "business"
       }
     },
@@ -327,18 +243,105 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "BofA's loan growth drives better-than-expected profit.",
-      "description": "Bank of America Corp’s  quarterly profit topped analyst estimates on Wednesday as a growing loan book helped it ride out year-end market turbulence, sending the lender's shares up more then 5 percent.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/fsYqch0j-NM/bofas-loan-growth-drives-better-than-expected-profit-idUSKCN1PA1FI",
+      "title": "Stocks turn red, pound finds some peace.",
+      "description": "Concern over China's economic outlook and possible U.S. tariffs on European cars dragged stocks lower on Thursday, while an anti-climactic end to the latest chapter in the Brexit saga offered sterling a moment's peace.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/fH4HuFjiqPg/stocks-turn-red-pound-finds-some-peace-idUSKCN1PA34W",
       "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
       "publishedAt": [
-        "Wed, 16 Jan 2019 10:37:00 -0500"
+        "Thu, 17 Jan 2019 07:21:19 -0500"
       ],
       "playlist": {
-        "id": "5k0y68ugp52e9vh8rk6lxv",
+        "id": "n1dg5m1gidi6xvcl6ov7js",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "US targets Huawei; Shutdown consequences; Bank warning.",
+      "description": "Here's what you need to know about the markets before you start your business day.",
+      "url": "https://www.cnn.com/2019/01/17/investing/premarket-stocks-trading/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181218095340-02-huawei-1712-super-169.jpg",
+      "publishedAt": [
+        "Thu, 17 Jan 2019 10:56:34 GMT"
+      ],
+      "playlist": {
+        "id": "94994c0eff5is1wf7ij7oj",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "The shutdown is coming at the worst time for the economy.",
+      "description": "None of the 21 government shutdowns since 1976 made a real dent in the economy — purchases were simply delayed until the government re-opened and federal workers regained their lost wages.",
+      "url": "https://www.cnn.com/2019/01/16/economy/shutdown-long-term-economic-impact/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115090756-01-shutdown-impact-011418-super-169.jpg",
+      "publishedAt": [
+        "Thu, 17 Jan 2019 08:42:57 GMT"
+      ],
+      "playlist": {
+        "id": "94994c0eff5is1wf7ij7oj",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "What's moving markets today.",
+      "description": "",
+      "url": "https://cnn.it/2TT0sQY",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181207140951-02-nyse-1207-super-169.jpg",
+      "playlist": {
+        "id": "94994c0eff5is1wf7ij7oj",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Vanguard's John Bogle — father of the index fund — dies at 89.",
+      "description": "John Bogle, who created the first index fund in 1975 and founded The Vanguard Group, died Wednesday at the age of 89.",
+      "url": "https://www.cnn.com/2019/01/16/investing/john-bogle-obituary/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116174437-02-john-bogle-restricted-super-169.jpg",
+      "publishedAt": [
+        "Thu, 17 Jan 2019 00:24:23 GMT"
+      ],
+      "playlist": {
+        "id": "94994c0eff5is1wf7ij7oj",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "America first? Small US stocks are hurting from the trade war.",
+      "description": "Smaller US-based companies that do most of their business in America were supposed to hold up better than the giants of the Dow and S&P 500 at a time when there are concerns about a shaky global economy and US trade tension with China. ",
+      "url": "https://www.cnn.com/2019/01/16/investing/small-caps-russell-2000-stocks/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116124724-01-steel-factory-file-super-169.jpg",
+      "publishedAt": [
+        "Wed, 16 Jan 2019 18:02:35 GMT"
+      ],
+      "playlist": {
+        "id": "94994c0eff5is1wf7ij7oj",
         "category": "business"
       }
     }
   ],
-  "timestamp": 1547655797109
+  "timestamp": 1547728834925
 }

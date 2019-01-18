@@ -239,7 +239,7 @@ connection.once("open", function() {
       var curPlaylist = playlistQuery[i];
       var query = curPlaylist.query;
 
-      title = "Daily News";
+      title = curPlaylist.title;
       if (query.category == "business") {
         var playlistURL = query.source;
       } else if (query.category == "tech") {
@@ -679,8 +679,10 @@ console.log("upload track id is: " + playlistID);
   });
 }
 
-cron.schedule(
-  "0 8 * * *",
+// cron.schedule(
+//   "0 8 * * *",
+  cron.schedule(
+    "1 * * * * *",
   () => {
     console.log("Reloading content on " + Date.now());
 
@@ -698,6 +700,18 @@ cron.schedule(
       await snooze(5000);
       console.log("Generating.");
       request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
+        error,
+        response,
+        body
+      ) {
+        console.log("error:", error);
+        console.log("statusCode:", response && response.statusCode);
+        console.log("body:", body);
+      });
+
+      await snooze(5000);
+      console.log("Writing.");
+      request("http://newseon-backend-api-2.herokuapp.com/writesv2", function(
         error,
         response,
         body
