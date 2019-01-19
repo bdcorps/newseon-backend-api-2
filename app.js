@@ -728,7 +728,7 @@ var reloadContentAsync = async () => {
 
 
 var reloadContentCron = cron.schedule(
-  "02 18 * * * *",
+  "03 18 * * * *",
   () => {
     console.log("Reloading content on " + Date.now());  
     reloadContentAsync();
