@@ -679,59 +679,58 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
   });
 }
 
-cron.schedule(
-  "36 17 * * *",
+var reloadContentAsync = async () => {
+  request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
+    error,
+    response,
+    body
+  ) {
+    console.log("error:", error);
+    console.log("statusCode:", response && response.statusCode);
+    console.log("body:", body);
+  });
+  await snooze(5000);
+  console.log("Generating.");
+  request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
+    error,
+    response,
+    body
+  ) {
+    console.log("error:", error);
+    console.log("statusCode:", response && response.statusCode);
+    console.log("body:", body);
+  });
+
+  await snooze(5000);
+  console.log("Writing.");
+  request("http://newseon-backend-api-2.herokuapp.com/writesv2", function(
+    error,
+    response,
+    body
+  ) {
+    console.log("error:", error);
+    console.log("statusCode:", response && response.statusCode);
+    console.log("body:", body);
+  });
+
+  await snooze(5000);
+  console.log("Creating Tracks.");
+  request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
+    error,
+    response,
+    body
+  ) {
+    console.log("error:", error);
+    console.log("statusCode:", response && response.statusCode);
+    console.log("body:", body);
+  });
+};
+
+
+var reloadContentCron = cron.schedule(
+  "02 18 * * * *",
   () => {
-    console.log("Reloading content on " + Date.now());
-
-    console.log("Resetting.");
-    var reloadContentAsync = async () => {
-      request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
-        error,
-        response,
-        body
-      ) {
-        console.log("error:", error);
-        console.log("statusCode:", response && response.statusCode);
-        console.log("body:", body);
-      });
-      await snooze(5000);
-      console.log("Generating.");
-      request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
-        error,
-        response,
-        body
-      ) {
-        console.log("error:", error);
-        console.log("statusCode:", response && response.statusCode);
-        console.log("body:", body);
-      });
-
-      await snooze(5000);
-      console.log("Writing.");
-      request("http://newseon-backend-api-2.herokuapp.com/writesv2", function(
-        error,
-        response,
-        body
-      ) {
-        console.log("error:", error);
-        console.log("statusCode:", response && response.statusCode);
-        console.log("body:", body);
-      });
-
-      await snooze(5000);
-      console.log("Creating Tracks.");
-      request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
-        error,
-        response,
-        body
-      ) {
-        console.log("error:", error);
-        console.log("statusCode:", response && response.statusCode);
-        console.log("body:", body);
-      });
-    };
-
+    console.log("Reloading content on " + Date.now());  
     reloadContentAsync();
   },
   {
@@ -739,6 +738,8 @@ cron.schedule(
     timezone: "America/New_York"
   }
 );
+
+// reloadContentCron.start();
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
