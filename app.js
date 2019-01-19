@@ -426,7 +426,7 @@ connection.once("open", function() {
 
     //Calls the newsapi.org for articles based on the contentURLList.js
 
-    console.log(prettyPrintJSON(playlists));
+    //console.log(prettyPrintJSON(playlists));
 
     for (let i = 0; i < playlists.length; i++) {
       xmlToJson(playlists[i].url, function(err, data) {
@@ -498,7 +498,7 @@ connection.once("open", function() {
     var articles = readFromFile(__dirname + "/public/articlesData");
     articles = articles.articles;
 
-    console.log("about to write" + JSON.stringify(articles));
+    //console.log("about to write" + JSON.stringify(articles));
 
     articleIDs = [];
     // Create a hash based on the contents of the article title
@@ -613,7 +613,7 @@ function generateAudioTrack(
 
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, category) {
-console.log("upload track id is: " + playlistID);
+//console.log("upload track id is: " + playlistID);
 
   var readableTrackStream = fs.createReadStream(__dirname + "/uploads/" + hash);
 
@@ -657,7 +657,7 @@ console.log("upload track id is: " + playlistID);
     var articleToSave = new Article(articleObject);
 
     console.log("Will write to mlab: ");
-    console.log(prettyPrintJSON(articleObject));
+    //console.log(prettyPrintJSON(articleObject));
 
     articleToSave.save(function(error) {
       if (error) {
@@ -680,7 +680,7 @@ console.log("upload track id is: " + playlistID);
 }
 
 cron.schedule(
-  "30 17 * * *",
+  "36 17 * * *",
   () => {
     console.log("Reloading content on " + Date.now());
 
