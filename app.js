@@ -680,7 +680,7 @@ console.log("upload track id is: " + playlistID);
 }
 
 cron.schedule(
-  "0 8 * * *",
+  "30 17 * * *",
   () => {
     console.log("Reloading content on " + Date.now());
 
