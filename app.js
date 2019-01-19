@@ -437,8 +437,11 @@ connection.once("open", function() {
         json = data.rss.channel[0].item;
 
         // To control the quantity, used 5 instead of json.length
-        for (var k = 0; (k < json.length && k<=4); k++) {
-          if (json[k].title[0].toString() != "" || json[k].description[0].toString() != "") {
+        for (var k = 0; k < json.length && k <= 4; k++) {
+          if (
+            json[k].title[0].toString() != "" ||
+            json[k].description[0].toString() != ""
+          ) {
             //create articles object
             var source = { id: "cnn", name: "CNN" };
             var publishedAt = json[k].pubDate;
@@ -467,6 +470,8 @@ connection.once("open", function() {
                 description.indexOf("<div")
               );
             }
+            
+            description = cleanText(description);
 
             var author = "CNN";
 
@@ -611,9 +616,15 @@ function generateAudioTrack(
   });
 }
 
+function cleanText(inputText) {
+  var cleanedText = inputText;
+  cleanedText = cleanedText.replace(/&#.*;/g, '')
+  return cleanedText;
+}
+
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, category) {
-//console.log("upload track id is: " + playlistID);
+  //console.log("upload track id is: " + playlistID);
 
   var readableTrackStream = fs.createReadStream(__dirname + "/uploads/" + hash);
 
@@ -726,11 +737,10 @@ var reloadContentAsync = async () => {
   });
 };
 
-
 var reloadContentCron = cron.schedule(
-  "15 18 * * *",
+  "0 0 * * *",
   () => {
-    console.log("Reloading content on " + Date.now());  
+    console.log("Reloading content on " + Date.now());
     reloadContentAsync();
   },
   {
