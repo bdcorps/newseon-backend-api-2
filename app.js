@@ -456,7 +456,7 @@ connection.once("open", function() {
             var urlToImage =
               "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80";
 
-            if (json[k].category.length>0){
+            if (json[k].category!=null && json[k].category.length>0){
               unsplash.searchPhotos(json[k].category[0].toString(), null, 1, 1, function(error, photos, link) {
                 
                 if (!error && photos.length>0){
