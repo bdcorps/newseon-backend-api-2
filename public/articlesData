@@ -6,180 +6,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Innovaccer nabs $11 million from Microsoft’s VC arm to give doctors a better window into patient heatlh.",
-      "description": "Cracking the silos of digital health records promises to bring better care to patients by better informing doctors, according to Abhinav Shashank, the chief executive officer of San Francisco-based startup Innovaccer . Shashank&#8217;s company is just wrapping up a $35 million round of financing with a new $11 million commitment from Microsoft&#8217;s investment arm M12 [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/TN8PYx7xQw4/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "title": "The tax cut investment 'boom' is already over. Some say it never really started.",
+      "description": "Proponents of the 2017 tax law predicted it would set off a wave of spending by American businesses. ",
+      "url": "https://www.cnn.com/2019/01/23/business/investment-boom-tax-cuts-economy/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190123092951-20190123-made-in-usa-file-super-169.jpg",
       "publishedAt": [
-        "Thu, 17 Jan 2019 11:30:03 +0000"
+        "Wed, 23 Jan 2019 12:39:14 GMT"
       ],
       "playlist": {
-        "id": "qpglay4107lt34zzwvi29",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Facebook finds and kills another 512 Kremlin-linked fake accounts.",
-      "description": "Two years on from the U.S. presidential election, Facebook continues to have a major problem with Russian disinformation being megaphoned via its social tools. In a blog post today the company reveals another tranche of Kremlin-linked fake activity &#8212; saying it&#8217;s removed a total of 471 Facebook pages and accounts, as well as 41 Instagram accounts, which [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/Ds0UElLSxPQ/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 10:54:23 +0000"
-      ],
-      "playlist": {
-        "id": "qpglay4107lt34zzwvi29",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "New policy puts revenue squeeze on China’s payments giants.",
-      "description": "The era that saw China&#8217;s mobile payments providers making handsome interest returns on client money has officially ended. Starting this week, non-bank payments companies must place 100 percent of their customer deposit funds under centralized, interest-free accounts as Beijing moves to rein in financial risks. In the past, third-party payments firms were allowed to hold [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/vhhoUcjddGg/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 10:30:36 +0000"
-      ],
-      "playlist": {
-        "id": "qpglay4107lt34zzwvi29",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "A popular WordPress plugin leaked access tokens capable of hijacking Twitter accounts.",
-      "description": "A popular WordPress plugin, installed on thousands of websites to help users share content on social media sites, left linked Twitter accounts exposed to compromise. The plugin, Social Network Tabs, was storing so-called account access tokens in the source code of the WordPress website. Anyone who viewed the source code could see the linked Twitter [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/LR44OlbFhu8/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 09:48:26 +0000"
-      ],
-      "playlist": {
-        "id": "qpglay4107lt34zzwvi29",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Coinbase acquihires San Francisco startup Blockspring.",
-      "description": "Coinbase is continuing its push to suck up talent after the $8 billion-valued crypto business snapped up Blockspring, a San Francisco-based startup that enables developers to collect and process data from APIs. The undisclosed deal was announced by Blockspring on its blog, and confirmed to TechCrunch by a Coinbase representative. Coinbase declined to comment further. [&#8230;]",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/Px9X18xK2cg/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 09:28:20 +0000"
-      ],
-      "playlist": {
-        "id": "qpglay4107lt34zzwvi29",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Facebook takes down anti-NATO pages linked to Russian news agency Sputnik.",
-      "description": "Facebook removed hundreds of pages on Thursday it said posed as independent news sites in eastern Europe and elsewhere but were actually run by employees at Russian state-owned news agency Sputnik.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/drsxZDSmGUI/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190117110559-01-sputnik-newsroom-moscow-super-169.jpg",
-      "playlist": {
-        "id": "3wibcydeujhsoeqq0hwvi",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Microsoft is investing $500 million to tackle Seattle housing crisis.",
-      "description": "Microsoft, which is headquartered in the Seattle region, said it will partner with nonprofit groups to address \"the affordable housing crisis.\" The money will go toward building new homes and preserving existing housing.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/WAYOv29z78k/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190117011116-microsoft-hq-super-169.jpg",
-      "playlist": {
-        "id": "3wibcydeujhsoeqq0hwvi",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "SpaceX ditches plans to develop Mars spaceship at Los Angeles port.",
-      "description": "SpaceX has abandoned plans to open up shop at the Port of Los Angeles.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/a9H3LMf1qlM/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116220636-spacex-port-la-super-169.jpg",
-      "playlist": {
-        "id": "3wibcydeujhsoeqq0hwvi",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Cleaning New York's filthy harbor with one billion oysters.",
-      "description": "The New York Harbor for years has been polluted and depleted of marine life. But one nonprofit is working to clean the murky water and revive its long-lost ecosystem — one oyster at a time.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/4b-m_xBThEg/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115162624-mission-ahead-oysters-1-super-169.jpg",
-      "playlist": {
-        "id": "3wibcydeujhsoeqq0hwvi",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Snap exodus continues: CFO out after less than a year.",
-      "description": "Snap is losing another high-profile executive. Chief Financial Officer Tim Stone told Snap on Tuesday that he was leaving the company, just eight months after moving to Snap from Amazon.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/3Uh8wPTwWMg/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115175056-snap-inc-logo-super-169.jpg",
-      "playlist": {
-        "id": "3wibcydeujhsoeqq0hwvi",
-        "category": "tech"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Morgan Stanley quarterly profit more than doubles.",
-      "description": "Morgan Stanley's  fourth-quarter profit more than doubled from a year earlier when it recorded a $1 billion tax charge due to changes in the U.S. tax law.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/Im_UmpOQWrM/morgan-stanley-quarterly-profit-more-than-doubles-idUSKCN1PB1ER",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 07:30:21 -0500"
-      ],
-      "playlist": {
-        "id": "n1dg5m1gidi6xvcl6ov7js",
+        "id": "1q819ero2e6isy1spgx19h",
         "category": "business"
       }
     },
@@ -189,15 +24,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "In Argentina crisis, firms do everything to cut costs - except fire workers.",
-      "description": "Like many Argentine businessmen, Marco Meloni is doing everything he can to avoid laying off staff at his textile factory despite a slump in sales, more than 70 percent interest rates and soaring utility bills.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/UgyGr6jts4I/in-argentina-crisis-firms-do-everything-to-cut-costs-except-fire-workers-idUSKCN1PB1BP",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "title": "Ahead of tech earnings week, warning signs are everywhere.",
+      "description": "1. Tech earnings: Wall Street investors will turn their attention toward Silicon Valley this week. Four of the five most valuable technology companies in the world — Apple, Amazon, Microsoft and Facebook — are all set to report earnings. ",
+      "url": "https://www.cnn.com/2019/01/27/investing/stocks-week-ahead-apple-amazon-tech-earnings/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125162201-nasdaq-apple-tech-stocks-super-169.jpg",
       "publishedAt": [
-        "Thu, 17 Jan 2019 07:28:55 -0500"
+        "Sun, 27 Jan 2019 13:37:03 GMT"
       ],
       "playlist": {
-        "id": "n1dg5m1gidi6xvcl6ov7js",
+        "id": "1q819ero2e6isy1spgx19h",
         "category": "business"
       }
     },
@@ -207,102 +42,12 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Exclusive: British Lotus cars to be 'Made in China' at new Geely plant: documents.",
-      "description": "The Chinese owner of Lotus plans to start producing the British sports car brand in China for the first time with the opening of a new 9 billion yuan ($1.3 billion) factory in Wuhan city, company job advertisements and government documents showed.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/7KWtIdxCpfM/exclusive-british-lotus-cars-to-be-made-in-china-at-new-geely-plant-documents-idUSKCN1PB08Q",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 07:26:55 -0500"
-      ],
-      "playlist": {
-        "id": "n1dg5m1gidi6xvcl6ov7js",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "PG&E shareholder BlueMountain says bankruptcy unnecessary.",
-      "description": "PG&E Corp  shareholder BlueMountain Capital Management LLC on Thursday \"challenged\" the U.S. utility's decision to file for bankruptcy, saying it was unnecessary.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/tn-CRbIRKpU/pge-shareholder-bluemountain-says-bankruptcy-unnecessary-idUSKCN1PB1DT",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 07:24:09 -0500"
-      ],
-      "playlist": {
-        "id": "n1dg5m1gidi6xvcl6ov7js",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "Stocks turn red, pound finds some peace.",
-      "description": "Concern over China's economic outlook and possible U.S. tariffs on European cars dragged stocks lower on Thursday, while an anti-climactic end to the latest chapter in the Brexit saga offered sterling a moment's peace.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/fH4HuFjiqPg/stocks-turn-red-pound-finds-some-peace-idUSKCN1PA34W",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 07:21:19 -0500"
-      ],
-      "playlist": {
-        "id": "n1dg5m1gidi6xvcl6ov7js",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "US targets Huawei; Shutdown consequences; Bank warning.",
-      "description": "Here's what you need to know about the markets before you start your business day.",
-      "url": "https://www.cnn.com/2019/01/17/investing/premarket-stocks-trading/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181218095340-02-huawei-1712-super-169.jpg",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 10:56:34 GMT"
-      ],
-      "playlist": {
-        "id": "94994c0eff5is1wf7ij7oj",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "The shutdown is coming at the worst time for the economy.",
-      "description": "None of the 21 government shutdowns since 1976 made a real dent in the economy — purchases were simply delayed until the government re-opened and federal workers regained their lost wages.",
-      "url": "https://www.cnn.com/2019/01/16/economy/shutdown-long-term-economic-impact/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190115090756-01-shutdown-impact-011418-super-169.jpg",
-      "publishedAt": [
-        "Thu, 17 Jan 2019 08:42:57 GMT"
-      ],
-      "playlist": {
-        "id": "94994c0eff5is1wf7ij7oj",
-        "category": "business"
-      }
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "CNN",
-      "title": "What's moving markets today.",
+      "title": "How to solve the world's plastics problem: Bring back the milk man.",
       "description": "",
-      "url": "https://cnn.it/2TT0sQY",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181207140951-02-nyse-1207-super-169.jpg",
+      "url": "https://cnn.it/2AYDzok",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190123150736-20190123-loop-reusable-packaging-gfx-super-169.jpg",
       "playlist": {
-        "id": "94994c0eff5is1wf7ij7oj",
+        "id": "1q819ero2e6isy1spgx19h",
         "category": "business"
       }
     },
@@ -312,15 +57,15 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "Vanguard's John Bogle — father of the index fund — dies at 89.",
-      "description": "John Bogle, who created the first index fund in 1975 and founded The Vanguard Group, died Wednesday at the age of 89.",
-      "url": "https://www.cnn.com/2019/01/16/investing/john-bogle-obituary/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116174437-02-john-bogle-restricted-super-169.jpg",
+      "title": "Pentagon probes whether Amazon improperly hired defense department employee.",
+      "description": "The Pentagon is looking into whether Amazon improperly hired a former Defense Department worker who was involved with a $10 billion government contract for which the tech company is competing. ",
+      "url": "https://www.cnn.com/2019/01/25/tech/amazon-pentagon-contract/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125143733-pentagon-file-restricted-super-169.jpg",
       "publishedAt": [
-        "Thu, 17 Jan 2019 00:24:23 GMT"
+        "Fri, 25 Jan 2019 18:37:14 GMT"
       ],
       "playlist": {
-        "id": "94994c0eff5is1wf7ij7oj",
+        "id": "1q819ero2e6isy1spgx19h",
         "category": "business"
       }
     },
@@ -330,18 +75,273 @@
         "name": "CNN"
       },
       "author": "CNN",
-      "title": "America first? Small US stocks are hurting from the trade war.",
-      "description": "Smaller US-based companies that do most of their business in America were supposed to hold up better than the giants of the Dow and S&P 500 at a time when there are concerns about a shaky global economy and US trade tension with China. ",
-      "url": "https://www.cnn.com/2019/01/16/investing/small-caps-russell-2000-stocks/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190116124724-01-steel-factory-file-super-169.jpg",
+      "title": "Right-wing media split over Trump's shutdown decision: Did he cave or was it a master stroke?.",
+      "description": "Some of President Trump's typical media boosters are savagely criticizing his decision to surrender after a five-week-long partial shutdown of the government.",
+      "url": "https://www.cnn.com/2019/01/26/media/shutdown-trump-conservative-media/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190126093654-trump-rose-garden-super-169.jpg",
       "publishedAt": [
-        "Wed, 16 Jan 2019 18:02:35 GMT"
+        "Sun, 27 Jan 2019 01:37:29 GMT"
       ],
       "playlist": {
-        "id": "94994c0eff5is1wf7ij7oj",
+        "id": "1q819ero2e6isy1spgx19h",
         "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "What Facebook integrating its messaging apps could mean for users.",
+      "description": "Facebook could merge the infrastructure of its messaging platforms WhatsApp, Instagram and Messenger.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/Wiasikd5JJk/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125160206-facebook-laptop-and-phone-super-169.jpg",
+      "playlist": {
+        "id": "f0pyf5xxdaphcmrbu1m95q",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "YouTube says it will crack down on recommending conspiracy videos.",
+      "description": "YouTube is making changes to its recommendation algorithm, which serves up new videos for users to watch, in an effort to crack down on the spread of conspiracy theories on its platform.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/0JiCs8BaQ68/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180419172038-youtube-ads-extreme-content-super-169.jpg",
+      "playlist": {
+        "id": "f0pyf5xxdaphcmrbu1m95q",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Pentagon probes whether Amazon improperly hired defense department employee.",
+      "description": "The Pentagon is looking into whether Amazon improperly hired a former Defense Department worker who was involved with a $10 billion government contract for which the tech company is competing.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/mu4XYuJEnzc/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125143733-pentagon-file-restricted-super-169.jpg",
+      "playlist": {
+        "id": "f0pyf5xxdaphcmrbu1m95q",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Instacart CEO reaffirms IPO is 'definitely' on the horizon.",
+      "description": "Instacart, the popular on-demand grocery delivery startup, is still eyeing an IPO despite the December announcement its partnership with Whole Foods Market is ending.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/_NydLtpORu0/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181221160358-instacart-grocery-delivery-04-super-169.jpg",
+      "playlist": {
+        "id": "f0pyf5xxdaphcmrbu1m95q",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Vodafone suspends use of Huawei equipment in its core networks.",
+      "description": "Vodafone is pausing the installation of Huawei equipment in its core telecoms networks in Europe.",
+      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/knpg3jSGLX0/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125100159-vodafone-file-restricted-super-169.jpg",
+      "playlist": {
+        "id": "f0pyf5xxdaphcmrbu1m95q",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Tesco may cut thousands of fresh food counter jobs: report.",
+      "description": "Tesco , Britain's biggest supermarket chain, may cut thousands of jobs by closing in-store meat, fish and delicatessen counters and by replacing staff canteens with vending machines, the Mail on Sunday newspaper reported, citing industry sources.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/eBOmfFX61CE/tesco-may-cut-thousands-of-fresh-food-counter-jobs-report-idUSKCN1PL0L7",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sun, 27 Jan 2019 11:40:51 -0500"
+      ],
+      "playlist": {
+        "id": "htghqrjh6ika4why2gbw0t",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "France warns against 'exorbitant' payoff for ex-Renault boss Ghosn.",
+      "description": "France's finance minister said on Sunday a severance package for former Renault chief Carlos Ghosn, forced to resign in a financial scandal, should not be \"exorbitant\" and that the French state would follow the matter closely.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/3_uftdyswWY/france-warns-against-exorbitant-payoff-for-ex-renault-boss-ghosn-idUSKCN1PL0GZ",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sun, 27 Jan 2019 09:22:17 -0500"
+      ],
+      "playlist": {
+        "id": "htghqrjh6ika4why2gbw0t",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Three years later, India's bankruptcy reform languishes in courts.",
+      "description": "When India introduced new bankruptcy resolution rules in 2016, government officials and investors said they expected debt-burdened state-owned banks to clear up some of their bad loans and create a dynamic market in restructured debt.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/S6ZCvIoL_YU/three-years-later-indias-bankruptcy-reform-languishes-in-courts-idUSKCN1PL04M",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sun, 27 Jan 2019 01:08:19 -0500"
+      ],
+      "playlist": {
+        "id": "htghqrjh6ika4why2gbw0t",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Zuckerberg to integrate WhatsApp, Instagram and Facebook Messenger: NYT.",
+      "description": "Facebook Inc Chief Executive Mark Zuckerberg is planning to unify the underlying messaging infrastructure of the WhatsApp, Instagram and Facebook Messenger services and incorporate end-to-end encryption into these apps, the New York Times reported on Friday.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/sFFGpuTs05o/zuckerberg-to-integrate-whatsapp-instagram-and-facebook-messenger-nyt-idUSKCN1PJ1O0",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sat, 26 Jan 2019 15:06:16 -0500"
+      ],
+      "playlist": {
+        "id": "htghqrjh6ika4why2gbw0t",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Malaysia probing audit firms' conduct in 1MDB scandal.",
+      "description": "Malaysia's securities regulator said on Saturday it was looking into the conduct of auditors of 1Malaysia Development Bhd (1MDB), a state fund that was wound up after losing billions of dollars in a scandal that erupted under the country's previous government.",
+      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/X3O0Zr8RsBs/malaysia-probing-audit-firms-conduct-in-1mdb-scandal-idUSKCN1PK079",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sat, 26 Jan 2019 02:59:02 -0500"
+      ],
+      "playlist": {
+        "id": "htghqrjh6ika4why2gbw0t",
+        "category": "business"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "The new Two Minutes Hate.",
+      "description": "You see it first on Facebook or Twitter. Something contemptible: an image, or a video, or a tweet. One accompanied by a furious, snarky caption, highlighting just how awful and unacceptable it is, a dunk fueled by rage. The outrage rises within you. How can it not? You]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/rs_8Xr4rSxw/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sun, 27 Jan 2019 14:00:16 +0000"
+      ],
+      "playlist": {
+        "id": "rs3xhopacwsnztr5hu4oj",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Without proof, is Huawei still a national security threat?.",
+      "description": "It]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/bEYmD4S5Tn4/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sat, 26 Jan 2019 23:54:55 +0000"
+      ],
+      "playlist": {
+        "id": "rs3xhopacwsnztr5hu4oj",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "What (we think) we know about the Samsung Galaxy S10.",
+      "description": "The Galaxy S10 will be revealed at an event in San Francisco on February 20. This much we know for sure. Samsung sent out invites for the event sporting a giant number a few weeks back. It’s clear the company’s looking to get out ahead of what should be a fairly action-packed Mobile World Congress []",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/EPIrBH4tFwA/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sat, 26 Jan 2019 22:53:41 +0000"
+      ],
+      "playlist": {
+        "id": "rs3xhopacwsnztr5hu4oj",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "Original Content podcast: Fyre Festival docs shine light on a social media-fueled disaster.",
+      "description": "Netflix and Hulu have each released their own documentaries about the infamous Fyre Festival, and the hard-working hosts of the Original Content podcast have watched both of them. We]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/gynWpQ7SFpg/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sat, 26 Jan 2019 21:30:04 +0000"
+      ],
+      "playlist": {
+        "id": "rs3xhopacwsnztr5hu4oj",
+        "category": "tech"
+      }
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "CNN",
+      "title": "How have tariffs impacted robotics?.",
+      "description": "In July, Tim Cook met Donald Trump in the Oval Office to deliver a simple message. ]",
+      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/P-jpJlEZiK4/",
+      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
+      "publishedAt": [
+        "Sat, 26 Jan 2019 20:54:09 +0000"
+      ],
+      "playlist": {
+        "id": "rs3xhopacwsnztr5hu4oj",
+        "category": "tech"
       }
     }
   ],
-  "timestamp": 1547728834925
+  "timestamp": 1548607617551
 }

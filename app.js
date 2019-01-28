@@ -15,6 +15,8 @@ var pjson = require("./package.json");
 
 var parseString = require("xml2js").parseString;
 var http = require("http");
+var unsplash = require('unsplash-api');
+
 require("dotenv").config();
 
 var contentURLLists = require("./public/contentURLList");
@@ -41,6 +43,10 @@ var currentPlaylistURLsToDownload = [];
 
 //put the key in .env
 var API_KEY = process.env.API_KEY;
+var UNSPLASH_ACCESS_ID = process.env.UNSPLASH_ACCESS_ID;
+
+unsplash.init(UNSPLASH_ACCESS_ID);
+
 var dataToWriteToFile = { playlists: [] };
 
 //var statusReport = {};
@@ -450,6 +456,15 @@ connection.once("open", function() {
             var urlToImage =
               "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80";
 
+            if (json[k].category.length>0){
+              unsplash.searchPhotos(json[k].category[0].toString(), null, 1, 1, function(error, photos, link) {
+                
+                if (!error && photos.length>0){
+                  urlToImage = photos[0].urls.regular;
+                }
+             });
+            }
+
             if (
               json[k]["media:group"] != null &&
               json[k]["media:group"].length > 0
@@ -618,7 +633,7 @@ function generateAudioTrack(
 
 function cleanText(inputText) {
   var cleanedText = inputText;
-  cleanedText = cleanedText.replace(/&#.*;/g, '')
+  cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, '')
   return cleanedText;
 }
 
