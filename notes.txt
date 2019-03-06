@@ -8,3 +8,4 @@
     + run GET on /categories/:categoryID, /playlists/:playlistID and /articles/:articleID.
 
 //branch: v2
+Implements custom RSS feed collection and generation using categoriesConfig.js. Decided to switch back to newsapi implemention (master) for the sake of quality.
