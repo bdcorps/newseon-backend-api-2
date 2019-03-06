@@ -5,37 +5,21 @@ var categoriesJSON = {
       title: "Top Headlines",
       playlists: [
         {
-          type: "topHeadlines",
-          title: "CNN Business",
+          type: "everything",
+          title: "IGN",
           query: {
-            category: "business",
-            source: "http://rss.cnn.com/rss/cnn_business.rss"
+            sources: "ign",
+            langugage: "en",
+            pageSize: 10
           }
         },
         {
-          type: "topHeadlines",
-          title: "Latest from Bloomberg",
+          type: "everything",
+          title: "The Verge",
           query: {
-            category: "business",
-            source: "http://feeds.reuters.com/reuters/businessNews"
-          }
-        },
-        {
-          type: "topHeadlines",
-          title: "Latest from CNN Tech",
-          query: {
-            title: "CNN Tech",
-            category: "tech",
-            source: "http://rss.cnn.com/rss/cnn_tech.rss"
-          }
-        },
-        {
-          type: "topHeadlines",
-          title: "TechCrunch Updates",
-          query: {
-            title: "Latest from TechCrunch",
-            category: "tech",
-            source: "http://feeds.feedburner.com/TechCrunch"
+            sources: "the-verge",
+            langugage: "en",
+            pageSize: 10
           }
         }
       ]

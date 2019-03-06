@@ -64,7 +64,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(cors());
 
 // Add headers
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   // Website you wish to allow to connect
   res.setHeader("Access-Control-Allow-Origin", "*");
 
@@ -89,7 +89,7 @@ app.use(function(req, res, next) {
 });
 
 const HTTP_SERVER_ERROR = 500;
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   if (res.headersSent) {
     return next(err);
   }
@@ -138,11 +138,11 @@ const client = new textToSpeech.TextToSpeechClient({
   credentials: credentials
 });
 
-connection.once("open", function() {
+connection.once("open", function () {
   //  statusReport.articledb = {"status" :  "connected"}
 
   app.get("/categories", (req, res) => {
-    Category.find({}, function(err, doc) {
+    Category.find({}, function (err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -151,23 +151,23 @@ connection.once("open", function() {
   });
 
   function xmlToJson(url, callback) {
-    var req = http.get(url, function(res) {
+    var req = http.get(url, function (res) {
       var xml = "";
 
-      res.on("data", function(chunk) {
+      res.on("data", function (chunk) {
         xml += chunk;
       });
 
-      res.on("error", function(e) {
+      res.on("error", function (e) {
         callback(e, null);
       });
 
-      res.on("timeout", function(e) {
+      res.on("timeout", function (e) {
         callback(e, null);
       });
 
-      res.on("end", function() {
-        parseString(xml, function(err, result) {
+      res.on("end", function () {
+        parseString(xml, function (err, result) {
           callback(null, result);
         });
       });
@@ -175,7 +175,7 @@ connection.once("open", function() {
   }
 
   app.get("/categories/:categoryID", (req, res) => {
-    Category.find({ id: req.params.categoryID }, function(err, doc) {
+    Category.find({ id: req.params.categoryID }, function (err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -184,7 +184,7 @@ connection.once("open", function() {
   });
 
   app.get("/playlists/:playlistID", (req, res) => {
-    Playlist.find({ id: req.params.playlistID }, function(err, doc) {
+    Playlist.find({ id: req.params.playlistID }, function (err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -193,7 +193,7 @@ connection.once("open", function() {
   });
 
   app.get("/articles/:articleID", (req, res) => {
-    Article.find({ uid: req.params.articleID }, function(err, doc) {
+    Article.find({ uid: req.params.articleID }, function (err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -224,7 +224,7 @@ connection.once("open", function() {
         playlists: categoriesData.playlists
       });
 
-      categoryToSave.save(function(error) {
+      categoryToSave.save(function (error) {
         if (error) {
           console.error(error);
         }
@@ -245,14 +245,20 @@ connection.once("open", function() {
       var curPlaylist = playlistQuery[i];
       var query = curPlaylist.query;
 
-      title = curPlaylist.title;
-      if (query.category == "business") {
-        var playlistURL = query.source;
-      } else if (query.category == "tech") {
-        var playlistURL = query.source;
+      if (curPlaylist.type == "everything") {
+        title = "Daily News";
+        let urlParameters = Object.entries(query)
+          .map(e => e.join("="))
+          .join("&");
+        var playlistURL =
+          "https://newsapi.org/v2/everything?" +
+          urlParameters +
+          "&apiKey=" +
+          API_KEY;
+
+        urls.push(playlistURL);
       }
 
-      urls.push(playlistURL);
       var random =
         Math.random()
           .toString(36)
@@ -264,12 +270,13 @@ connection.once("open", function() {
       var playlistsData = {};
       playlistsData.id = random;
       if (query.category != null) {
-        playlistsData.title = title + " about " + captilizeWord(query.category);
         playlistsData.category = query.category;
       } else if (query.q != null) {
-        playlistsData.title = title + " about " + captilizeWord(query.q);
+        //playlistsData.title = title + " about " + captilizeWord(query.q);
         playlistsData.category = query.q;
       }
+      playlistsData.title = captilizeWord(curPlaylist.title);
+      //console.log(" > "+ captilizeWord(query.title));
       playlistsData.url = playlistURL;
       playlistsData.media = playlistImagesSources.getPlaylistSplashMedia();
       playlistsData.articles = [];
@@ -300,7 +307,7 @@ connection.once("open", function() {
         articles: playlistsData.articles
       });
 
-      playlistToSave.save(function(error) {
+      playlistToSave.save(function (error) {
         if (error) {
           console.error(error);
         }
@@ -311,18 +318,18 @@ connection.once("open", function() {
   }
 
   function resetDB() {
-    Article.remove({}, function(err) {
+    Article.remove({}, function (err) {
       if (err) {
         console.log("error");
       }
     });
-    Playlist.remove({}, function(err) {
+    Playlist.remove({}, function (err) {
       if (err) {
         console.log("error");
       }
     });
 
-    Category.remove({}, function(err) {
+    Category.remove({}, function (err) {
       if (err) {
         console.log("error");
       }
@@ -333,12 +340,12 @@ connection.once("open", function() {
     var CHUNKS_COLL = "tracks.chunks";
     var FILES_COLL = "tracks.files";
 
-    bucket.drop(function(error) {
+    bucket.drop(function (error) {
       var chunksQuery = db.collection(CHUNKS_COLL).find({});
-      chunksQuery.toArray(function(error, docs) {
+      chunksQuery.toArray(function (error, docs) {
         if (error != null && docs.length > 0) {
           var filesQuery = db.collection(FILES_COLL).find({});
-          filesQuery.toArray(function(error, docs) {});
+          filesQuery.toArray(function (error, docs) { });
         }
       });
     });
@@ -427,91 +434,42 @@ connection.once("open", function() {
     var data = readFromFile(__dirname + "/public/playlistsData");
     var playlists = data.playlists;
 
-    var articleIDs = [];
-    var articles = [];
+    var articleCollection = [];
 
     //Calls the newsapi.org for articles based on the contentURLList.js
 
     //console.log(prettyPrintJSON(playlists));
 
+
+    writeToFile("", "articlesData");
+
     for (let i = 0; i < playlists.length; i++) {
-      xmlToJson(playlists[i].url, function(err, data) {
-        if (err) {
-          return console.err(err);
-        }
 
-        json = data.rss.channel[0].item;
+      request(playlists[i].url, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+          var articles = JSON.parse(body).articles;
 
-        // To control the quantity, used 5 instead of json.length
-        for (var k = 0; k < json.length && k <= 4; k++) {
-          if (
-            json[k].title[0].toString() != "" ||
-            json[k].description[0].toString() != ""
-          ) {
-            //create articles object
-            var source = { id: "cnn", name: "CNN" };
-            var publishedAt = json[k].pubDate;
-            var url = json[k].link[0].toString();
+          for (var j = 0; j < articles.length; j++) {
 
-            var urlToImage =
-              "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80";
+            articles[j].title = cleanedTitle(articles[j].title);
 
-            if (json[k].category!=null && json[k].category.length>0){
-              unsplash.searchPhotos(json[k].category[0].toString(), null, 1, 1, function(error, photos, link) {
-                
-                if (!error && photos.length>0){
-                  urlToImage = photos[0].urls.regular;
-                }
-             });
-            }
+            articles[j].playlist = { id: playlists[i].id };
 
-            if (
-              json[k]["media:group"] != null &&
-              json[k]["media:group"].length > 0
-            ) {
-              urlToImage =
-                json[k]["media:group"][0]["media:content"][0]["$"]["url"];
-            }
-            var title = json[k].title[0].toString() + ".";
-            var description = "";
-            if (json[k].description != null && json[k].description.length > 0) {
-              description = json[k].description[0].toString();
-            }
-
-            //only remove starting from div if it exists
-            if (description.includes("<div")) {
-              description = description.substring(
-                0,
-                description.indexOf("<div")
-              );
-            }
-            
-            description = cleanText(description);
-
-            var author = "CNN";
-
-            var article = {
-              source: source,
-              author: author,
-              title: title,
-              description: description,
-              url: url,
-              urlToImage: urlToImage,
-              publishedAt: publishedAt,
-              playlist: { id: playlists[i].id, category: playlists[i].category }
-            };
-            articles.push(article);
+            articleCollection.push(articles[j]);
+            writeToFile({ articles: articleCollection }, "articlesData");
           }
-        }
 
-        writeToFile({ articles: articles }, "articlesData");
-        //send articles to audio
+
+        }
       });
     }
+
+
 
     return res.status(201).json({
       message: "File uploaded successfully."
     });
+
   });
 
   function generateAudioTracks(req, res) {
@@ -637,6 +595,17 @@ function cleanText(inputText) {
   return cleanedText;
 }
 
+function cleanedTitle(inputText) {
+  var cleanedText = inputText;
+  
+  if (cleanedText[cleanedText.length - 1] == "?") {
+
+  } else if (cleanedText[cleanedText.length - 1] != ".") {
+    cleanedText += ".";
+  }
+  return cleanedText;
+}
+
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, category) {
   //console.log("upload track id is: " + playlistID);
@@ -685,16 +654,16 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     console.log("Will write to mlab: ");
     //console.log(prettyPrintJSON(articleObject));
 
-    articleToSave.save(function(error) {
+    articleToSave.save(function (error) {
       if (error) {
         console.error(error);
       }
 
       //save articleIDs to playlistdb docs
-      Playlist.findOne({ id: playlistID }, function(err, doc) {
+      Playlist.findOne({ id: playlistID }, function (err, doc) {
         if (doc != null) {
           doc.articles.push(articleObject);
-          doc.save(function(err) {
+          doc.save(function (err) {
             if (err) {
               console.error("ERROR! Playlist ID is " + id + " " + err);
             }
@@ -706,7 +675,7 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
 }
 
 var reloadContentAsync = async () => {
-  request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
+  request("http://newseon-backend-api-2.herokuapp.com/resetv2", function (
     error,
     response,
     body
@@ -717,7 +686,7 @@ var reloadContentAsync = async () => {
   });
   await snooze(5000);
   console.log("Generating.");
-  request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
+  request("http://newseon-backend-api-2.herokuapp.com/generatev2", function (
     error,
     response,
     body
@@ -729,7 +698,7 @@ var reloadContentAsync = async () => {
 
   await snooze(5000);
   console.log("Writing.");
-  request("http://newseon-backend-api-2.herokuapp.com/writesv2", function(
+  request("http://newseon-backend-api-2.herokuapp.com/writesv2", function (
     error,
     response,
     body
@@ -741,7 +710,7 @@ var reloadContentAsync = async () => {
 
   await snooze(5000);
   console.log("Creating Tracks.");
-  request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
+  request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function (
     error,
     response,
     body
@@ -772,6 +741,6 @@ function prettyPrintJSON(obj) {
   return JSON.stringify(obj, null, 2);
 }
 
-app.listen(port, function() {
+app.listen(port, function () {
   console.log("Server running on port: %d", port);
 });

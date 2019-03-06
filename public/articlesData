@@ -2,349 +2,324 @@
   "articles": [
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Warning signs are everywhere as Apple, Facebook and others prepare to report earnings.",
-      "description": "1. Tech earnings: Wall Street investors will turn their attention toward Silicon Valley this week. Four of the five most valuable technology companies in the world — Apple, Amazon, Microsoft and Facebook — are all set to report earnings. ",
-      "url": "https://www.cnn.com/2019/01/27/investing/stocks-week-ahead-apple-amazon-tech-earnings/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125162201-nasdaq-apple-tech-stocks-super-169.jpg",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 13:37:03 GMT"
-      ],
+      "author": "Jon Ryan",
+      "title": "Devil May Cry's Story in 7 Minutes.",
+      "description": "Need a recap before jumping into DMC 5?",
+      "url": "https://ca.ign.com/articles/2019/03/06/devil-may-cry-story-synopsis",
+      "urlToImage": "https://assets1.ignimgs.com/2019/03/06/dmc-5minutes-blogroll-1551838208118_1280w.jpg",
+      "publishedAt": "2019-03-06T02:30:42Z",
+      "content": "Wait, she's *not* dead? \r\nBy Jon RyanDevil May Cry is a series renowned for its stylish action, but beyond all of the gunslinging, sword slashing and royal guarding, there is, in fact, a story. So, if youre just jumping into DMC for the first time with Devil … [+5953 chars]",
       "playlist": {
-        "id": "hp2jtv85txm56nocns2r4h",
-        "category": "business"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Corporate America's earnings outlook darkens as slowdown fears rise.",
-      "description": "Wall Street has swiftly marked down its hopes for corporate profits because of decelerating economic growth, nagging trade tensions and turbulent oil prices.",
-      "url": "https://www.cnn.com/2019/01/24/investing/earnings-outlook-stocks/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190123144810-01-black-and-decker-file-super-169.jpg",
-      "publishedAt": [
-        "Thu, 24 Jan 2019 17:22:31 GMT"
-      ],
+      "author": "Jesse Schedeen",
+      "title": "What Did You Think of Tonight's Flash?",
+      "description": "Let us know what you thought of this week's episode, as two mighty villains duked it out in Central City.",
+      "url": "https://ca.ign.com/articles/2019/03/06/the-flash-season-5-episode-15-king-shark-vs-gorilla-grodd-review",
+      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/fla515c-0001-1551824915648_1280w.jpg",
+      "publishedAt": "2019-03-06T02:00:03Z",
+      "content": null,
       "playlist": {
-        "id": "hp2jtv85txm56nocns2r4h",
-        "category": "business"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Facebook plans to integrate Messenger, WhatsApp and Instagram. Here's what that means for you.",
-      "description": "Facebook plans to integrate its messaging platforms, WhatsApp, Instagram and Messenger, according to a report from the New York Times. ",
-      "url": "https://www.cnn.com/2019/01/25/tech/facebook-integrating-whatsapp-instagram-messenger/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125160206-facebook-laptop-and-phone-super-169.jpg",
-      "publishedAt": [
-        "Fri, 25 Jan 2019 23:01:55 GMT"
-      ],
+      "author": "Seth G. Macy",
+      "title": "Turok: Dinosaur Hunter on Switch's Official Description Is Straight From the 1990s.",
+      "description": "Are you ready for &quot;the mother of all guns, the Atomic Fusion Cannon?&quot;",
+      "url": "https://ca.ign.com/articles/2019/03/05/turok-dinosaur-hunter-is-coming-to-nintendo-switch-with-its-1990s-bullet-points-completely-intact",
+      "urlToImage": "https://assets2.ignimgs.com/2015/06/03/turokpng-4d4012_1280w.png",
+      "publishedAt": "2019-03-05T23:59:42Z",
+      "content": "The PC version requires a 3D accelerator card. \r\nBy Seth G. MacyIf you're a true 90s kid, you remember hours of fun navigating the steamy jungle world of Turok: The Dinosaur Hunter on Nintendo 64. The game is coming to Nintendo Switch, so you can take the fun… [+2182 chars]",
       "playlist": {
-        "id": "hp2jtv85txm56nocns2r4h",
-        "category": "business"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Alexandria Ocasio-Cortez calls Big Tech giants' dominance 'unsustainable' .",
-      "description": "Democratic Rep. Alexandria Ocasio-Cortez has quickly become one of Washington's most prolific social media users, but this weekend the New York freshman said Silicon Valley companies had too much power and that \"the current monopoly trend is societally and economically unsustainable.\"",
-      "url": "https://www.cnn.com/2019/01/27/tech/ocasio-cortez-facebook-unsustainable/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190107160627-alexandria-ocasio-cortez-trump-racist-orig-llr-00000628-super-169.jpg",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 22:23:29 GMT"
-      ],
+      "author": "Colin Stevens",
+      "title": "Christopher Nolan’s Next Film Described as Inception Meets Hitchcock.",
+      "description": "Christopher Nolan’s upcoming film will reportedly be a romantic thriller, and has been described as “North by Northwest in tone meets Inception.”",
+      "url": "https://ca.ign.com/articles/2019/03/05/christopher-nolans-next-film-described-as-inception-meets-hitchcock",
+      "urlToImage": "https://assets2.ignimgs.com/2013/08/06/christopher-nolan-batsignal-1280jpg-88229d_1280w.jpg",
+      "publishedAt": "2019-03-05T23:28:05Z",
+      "content": "A romantic thriller would be a first for Nolan. \r\nBy Colin StevensChristopher Nolans upcoming film will reportedly be a romantic thriller, similar to Alfred Hitchcocks North by Northwest in tone.\r\nReported by Production Weekly, the unnamed film was described … [+1539 chars]",
       "playlist": {
-        "id": "hp2jtv85txm56nocns2r4h",
-        "category": "business"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Former Starbucks CEO: 'I am seriously thinking of running for President'.",
-      "description": "Former Starbucks CEO Howard Schultz said on Sunday he is seriously considering running for president as a \"centrist independent\" in 2020. ",
-      "url": "https://www.cnn.com/2019/01/27/politics/howard-schultz-starbucks-2020-president/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180511112424-starbucks-howard-schultz-super-169.jpg",
-      "publishedAt": [
-        "Mon, 28 Jan 2019 02:17:21 GMT"
-      ],
+      "author": "Jesse Schedeen",
+      "title": "Jared Leto's Spider-Man Movie Morbius Explained.",
+      "description": "Here's everything you need to know about Jared Leto's Spider-Man spinoff movie, Morbius.",
+      "url": "https://ca.ign.com/articles/2019/03/05/morbius-movie-explained-who-is-jared-letos-spider-man-spin-off-character",
+      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/1280-morbius-1551828978872_1280w.jpg",
+      "publishedAt": "2019-03-05T23:26:57Z",
+      "content": "What exactly is a living vampire anyway? \r\nBy Jesse SchedeenUpdate: Jared Leto has shared the first on-set photo from his Marvel/Sony movie Morbius. Read on for a breakdown of the Spider-Man spin-off character!\r\nMost of the time, vampires are the villains in … [+6825 chars]",
       "playlist": {
-        "id": "hp2jtv85txm56nocns2r4h",
-        "category": "business"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Alexandria Ocasio-Cortez calls Big Tech giants' dominance 'unsustainable'.",
-      "description": "Her comments Saturday are likely to embolden critics -- and dial up the scrutiny -- of social media companies, particularly Facebook.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/l-dOt2g4Nzk/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190107160627-alexandria-ocasio-cortez-trump-racist-orig-llr-00000628-super-169.jpg",
+      "author": "Carol Costa",
+      "title": "Por que o apocalipse é tão atraente?",
+      "description": "Deus me livre, mas quem me dera Com tantos lançamentos de games com a temática, resolvemos divagar sobre a mágica do pós-apocalipse.",
+      "url": "https://br.ign.com/ign-opiniao/71285/feature/por-que-o-apocalipse-e-tao-atraente",
+      "urlToImage": "https://sm.ign.com/ign_br/screenshot/default/metro-exodus-new-hands-on-will-exodus-finally-take-metro-mai_1vwp.jpg",
+      "publishedAt": "2019-03-05T23:00:43Z",
+      "content": "Vamos direto ao ponto: quantas vezes você já jogou um game, ou assistiu a um filme com temática pós-apocalíptica e pensou \"Uau! Que cenário incrível!\"? Eu aposto que ao menos uma vez.\r\nO começo de 2019, inclusive, trouxe o tema à tona novamente, com o lançame… [+4092 chars]",
       "playlist": {
-        "id": "ykpnk60zkr6nb13khd0zh",
-        "category": "tech"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "What Facebook integrating its messaging apps could mean for users.",
-      "description": "Facebook could merge the infrastructure of its messaging platforms WhatsApp, Instagram and Messenger.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/Wiasikd5JJk/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125160206-facebook-laptop-and-phone-super-169.jpg",
+      "author": "Colin Stevens",
+      "title": "Jared Leto Reveals First on-Set Photo of Morbius.",
+      "description": "Actor Jared Leto has shared the first on-set photo from Morbius.",
+      "url": "https://ca.ign.com/articles/2019/03/05/jared-leto-reveals-first-on-set-photo-of-morbius",
+      "urlToImage": "https://assets1.ignimgs.com/2017/11/13/morbius-1510600560613_1280w.jpg",
+      "publishedAt": "2019-03-05T21:57:10Z",
+      "content": "The films production will allegedly last for 12 weeks. \r\nBy Colin StevensActor Jared Leto has shared the first on-set photo from Morbius.\r\nRevealed via Twitter, Leto showed off a photo featuring a clapperboard covering the majority of his face, revealing only… [+727 chars]",
       "playlist": {
-        "id": "ykpnk60zkr6nb13khd0zh",
-        "category": "tech"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "YouTube says it will crack down on recommending conspiracy videos.",
-      "description": "YouTube is making changes to its recommendation algorithm, which serves up new videos for users to watch, in an effort to crack down on the spread of conspiracy theories on its platform.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/0JiCs8BaQ68/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180419172038-youtube-ads-extreme-content-super-169.jpg",
+      "author": "David Griffin",
+      "title": "Captain Marvel's Rotten Tomatoes Score Revealed.",
+      "description": "Here are all 21 Marvel Studios movies and their Rotten Tomato scores.",
+      "url": "https://ca.ign.com/articles/2019/03/05/every-marvel-cinematic-universe-movie-rotten-tomatoes-score-ever",
+      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/captainmarvel-rottentomatoes-blogroll-1551822257038_1280w.jpg",
+      "publishedAt": "2019-03-05T21:45:16Z",
+      "content": "Who's the king (or queen) of Marvel's tomato castle? \r\nBy David GriffinEver since Iron Man hit theaters back in 2008, Marvel Studios has had an impressive 11-year run when it comes to positive reviews from critics, which contributes to a movie's overall aggre… [+1096 chars]",
       "playlist": {
-        "id": "ykpnk60zkr6nb13khd0zh",
-        "category": "tech"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Pentagon probes whether Amazon improperly hired defense department employee.",
-      "description": "The Pentagon is looking into whether Amazon improperly hired a former Defense Department worker who was involved with a $10 billion government contract for which the tech company is competing.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/mu4XYuJEnzc/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190125143733-pentagon-file-restricted-super-169.jpg",
+      "author": "Colin Stevens",
+      "title": "Days Gone's 30-Hour Campaign Will Reportedly Be 20 Percent Cutscene.",
+      "description": "Days Gone’s campaign will reportedly be about 30 hours long with roughly six hours of cutscenes.",
+      "url": "https://ca.ign.com/articles/2019/03/05/days-gones-30-hour-campaign-will-reportedly-be-20-percent-cutscene",
+      "urlToImage": "https://assets1.ignimgs.com/2018/05/21/daysgone-1280-1526943081513_1280w.jpg",
+      "publishedAt": "2019-03-05T21:16:23Z",
+      "content": "Thats a lot of motorcycle. \r\nBy Colin StevensDays Gone, the upcoming action-adventure game from SIE Bend Studio, will include a roughly 30-hour campaign, and 20 percent of it will allegedly be made up of cutscenes.\r\nInitially reported by German outlet GameRea… [+775 chars]",
       "playlist": {
-        "id": "ykpnk60zkr6nb13khd0zh",
-        "category": "tech"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "CNN",
-      "title": "Instacart CEO reaffirms IPO is 'definitely' on the horizon.",
-      "description": "Instacart, the popular on-demand grocery delivery startup, is still eyeing an IPO despite the December announcement its partnership with Whole Foods Market is ending.",
-      "url": "http://rss.cnn.com/~r/rss/cnn_tech/~3/_NydLtpORu0/index.html",
-      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/181221160358-instacart-grocery-delivery-04-super-169.jpg",
+      "author": "Laura Prudom",
+      "title": "Game of Thrones Trailer Breakdown: Every Clue We Spotted.",
+      "description": "We break down the Game of Thrones Season 8 trailer for every clue and easter egg you might've missed.",
+      "url": "https://ca.ign.com/articles/2019/03/05/game-of-thrones-trailer-breakdown-season-8-clues-theories-spoilers",
+      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/game-of-thrones-s8-tyrion-blog-1551819074565_1280w.jpg",
+      "publishedAt": "2019-03-05T21:10:59Z",
+      "content": "This trailer is dark and full of clues. \r\nBy Laura PrudomThis trailer breakdown contains plot details, theories, and potential spoilers for Game of Thrones Season 8, so if you want to go into the final season completely Unsullied, turn back now.\r\nThe full tra… [+1586 chars]",
       "playlist": {
-        "id": "ykpnk60zkr6nb13khd0zh",
-        "category": "tech"
+        "id": "k7ebnf9b6akn215gwvcopm"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "BuzzFeed employees demand it pay out earned PTO to all laid-off U.S. staffers.",
-      "description": "A group of current and former BuzzFeed employees are asking the company to pay out paid time off to all recently laid-off staff. In response, Lenke Taylor, BuzzFeed’s human resources lead, said it wants to meet with staff and is “open to re-evaluating” its decision on PTO. In an open letter to Smith, BuzzFeed’s CEO ",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/F3q7Q5ep7U4/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Mon, 28 Jan 2019 05:09:03 +0000"
-      ],
+      "author": "Angela Chen",
+      "title": "FDA approves ketamine-derived depression drug.",
+      "description": "The US Food and Drug Administration has approved a new depression drug, esketamine, for patients who have not responded to other antidepressants. The treatment, a nasal spray related to the party drug ketamine, will be the first fast-acting depression drug on…",
+      "url": "https://www.theverge.com/2019/3/5/18252572/esketamine-fda-depression-fast-acting-treatment-health-science",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/70rk2ztwJ5Il6kB_dnWVsSglGvI=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/9912335/acastro_170726_1777_0008_v2.jpg",
+      "publishedAt": "2019-03-06T03:24:20Z",
+      "content": "The US Food and Drug Administration has approved a new depression drug, esketamine, for patients who have not responded to other antidepressants. The treatment, a nasal spray related to the party drug ketamine, will be the first fast-acting depression drug on… [+3333 chars]",
       "playlist": {
-        "id": "ya7086dwb7d7vnjp3ileq",
-        "category": "tech"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "Samsung is ditching plastic packaging.",
-      "description": "Samsung Electronics said Sunday it will replace plastic packaging used for its bevy of products from mobile phones and tablets to home appliances and wearables with paper and other environmentally sustainable materials like recycled/bio-based plastics. Samsung will start making the switch in the first half of the year. The company aims to only use paper packaging materials ",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/Bo3ovziQoMM/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 19:57:00 +0000"
-      ],
+      "author": "Sam Byford",
+      "title": "Samsung reportedly planning two more foldable phones.",
+      "description": "Mate X-style foldable and vertical clamshell said to be in the works",
+      "url": "https://www.theverge.com/circuitbreaker/2019/3/5/18252616/samsung-more-foldable-phones-release-planned-report",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/uGQ8XGi6xPqFdjKrvNQCJJhM3ck=/0x131:1820x1084/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15695363/Samsung_Galaxy_Fold_3.0.jpg",
+      "publishedAt": "2019-03-06T03:00:19Z",
+      "content": "Samsung is planning two more foldable phones with significantly different designs to the upcoming Galaxy Fold, according to a report in Bloomberg. While the Galaxy Fold has a tablet-sized inner screen that unfolds like a book, one of the new phones reportedly… [+726 chars]",
       "playlist": {
-        "id": "ya7086dwb7d7vnjp3ileq",
-        "category": "tech"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "BMW, Porsche, Jaguar Land Rover invest in roadside assistance startup Urgently.",
-      "description": "Urgently, the roadside assistance startup that connects car owners who need help with tow truck and other services, has raised $21 million in a Series B round that includes the venture arms of BMW, Porsche and Jaguar Land Rover. BMW has also signed Urgently as a vendor partner for its own roadside assistance platform (known ",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/iHErermQe0o/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 16:57:52 +0000"
-      ],
+      "author": "Sean Hollister",
+      "title": "Uber won’t be charged with fatal self-driving crash, says prosecutor.",
+      "description": "Who is criminally responsible when a self-driving car fatally strikes a pedestrian? Not the company that built and tested the car — at least not when it comes to Uber’s fatal crash in Tempe, Arizona last March, which killed 49-year-old Elaine Herzberg. Uber w…",
+      "url": "https://www.theverge.com/2019/3/5/18252423/uber-wont-be-charged-with-fatal-self-driving-crash-says-prosecutor",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/inO09VOyzH0um-YbGia5Jy7V3Dg=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/7639481/vpavic_081216_1321_0020.0.jpeg",
+      "publishedAt": "2019-03-06T00:55:33Z",
+      "content": "Who is criminally liable when a self-driving car fatally strikes a pedestrian? Not the company that built and tested the car at least not when it comes to Ubers fatal crash in Tempe, Arizona last March, which killed 49-year-old Elaine Herzberg.\r\nUber wont be … [+2364 chars]",
       "playlist": {
-        "id": "ya7086dwb7d7vnjp3ileq",
-        "category": "tech"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "Too few cybersecurity professionals is a gigantic problem for 2019.",
-      "description": "Robert Ackerman Jr. Contributor Robert Ackerman Jr. is the founder and a managing director of AllegisCyber, an early-stage cybersecurity venture firm, and a founder of DataTribe, a cybersecurity startup “studio” in metropolitan Washington, D.C. More posts by this contributor Cyber breaches abound in 2019 The healthcare industry is in a world of cybersecurity hurt As ",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/sCPgBjW9Cx4/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 14:30:45 +0000"
-      ],
+      "author": "Nick Statt",
+      "title": "Some major Android apps are still sending data directly to Facebook.",
+      "description": "Major Android mobile apps from companies including Yelp and Duolingo send data to Facebook immediately after a user logs in, according to a new report from the London-based UK charity and watchdog group Privacy International (PI). This data transfer happens e…",
+      "url": "https://www.theverge.com/2019/3/5/18252397/facebook-android-apps-sending-data-user-privacy-developer-tools-violation",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/C5qe6J_kl4CXIBo0X1gyi7hbwUs=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11742003/acastro_180720_1777_facebook_0001.jpg",
+      "publishedAt": "2019-03-06T00:41:28Z",
+      "content": "Major Android mobile apps from companies including Yelp and Duolingo send data that could be used to personally identify you for ad tracking straight to Facebook immediately upon logging in, according to a new report from the London-based UK charity and watch… [+5479 chars]",
       "playlist": {
-        "id": "ya7086dwb7d7vnjp3ileq",
-        "category": "tech"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "A simple data analysis disproves the argument for building a border wall.",
-      "description": "Ken Miller Contributor Share on Twitter Ken Miller Ken Miller is a Technology Partner at the Omidyar Network. Previously he was an Executive at PayPal and Intuit, and early Board Advisor to Square. More posts by this contributor As hyper-conservative media surged, Republicans trust in news cratered Data shows a downward demographic spiral for Republicans ",
-      "url": "http://feedproxy.google.com/~r/Techcrunch/~3/7tAagu5d70Y/",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 14:30:03 +0000"
-      ],
+      "author": "Mary Beth Griggs",
+      "title": "Michael Bloomberg will fight for a carbon-free future instead of the White House.",
+      "description": "Former New York City mayor Michael Bloomberg today announced that he will not run for president, but instead launch a campaign to rid the United States of fossil fuels as quickly as possible. Explaining his reasoning on his eponymous news network’s opinion pa…",
+      "url": "https://www.theverge.com/2019/3/5/18252265/michael-bloomberg-beyond-carbon-climate-change-white-house-president",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/59GznkRXOEAJr971RqF5yWfSWlM=/0x313:4366x2599/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15638370/1090911042.jpg.jpg",
+      "publishedAt": "2019-03-05T23:01:08Z",
+      "content": "Former New York City mayor Michael Bloomberg today announced that he will not run for president, but instead launch a campaign to rid the United States of fossil fuels as quickly as possible. Explaining his reasoning on his eponymous news networks opinion pag… [+2051 chars]",
       "playlist": {
-        "id": "ya7086dwb7d7vnjp3ileq",
-        "category": "tech"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "Nissan says co-operating with SEC inquiry after report of probe on executive pay.",
-      "description": "Nissan Motor Co said on Monday that it was co-operating with an inquiry by the U.S. Securities and Exchange Commission (SEC) after a report said the regulator was investigating the Japanese automaker's disclosures on executive pay.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/IMpFJFP6LpA/nissan-says-co-operating-with-sec-inquiry-after-report-of-probe-on-executive-pay-idUSKCN1PM09W",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Mon, 28 Jan 2019 00:33:48 -0500"
-      ],
+      "author": "Sean O'Kane",
+      "title": "Former Harley-Davidson engineer starts an all-electric motorcycle company.",
+      "description": "Fuell will build electric two-wheelers, including an e-bike coming later this year. The company’s flagship product will be a futuristic electric motorcycle coming in 2021.",
+      "url": "https://www.theverge.com/2019/3/5/18252333/fuell-flow-electric-motorcycle-harley-bike",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/PfjTz6WH6glWsFqbI9yuL_kjvzo=/0x49:2500x1358/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15645736/fuell_flow_and_fluid_1.jpg",
+      "publishedAt": "2019-03-05T23:00:57Z",
+      "content": "Former Harley-Davidson engineer Erik Buell announced this week that hes founded an EV startup called Fuell that will make all-electric motorcycles and bicycles. Hes teamed up with Frédéric Vasseur, the owner of the company that makes the chassis for Formula E… [+1907 chars]",
       "playlist": {
-        "id": "awds9ldmpgpxkksjwjzo",
-        "category": "business"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "$1.5 trillion U.S. tax cut has no major impact on business capex plans: survey.",
-      "description": "The Trump administration's $1.5 trillion cut tax package appeared to have no major impact on businesses' capital investment or hiring plans, according to a survey released a year after the biggest overhaul of the U.S. tax code in more than 30 years.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/pRjrInrMA8s/1-5-trillion-u-s-tax-cut-has-no-major-impact-on-business-capex-plans-survey-idUSKCN1PM0B0",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Mon, 28 Jan 2019 00:21:41 -0500"
-      ],
+      "author": "Shannon Liao",
+      "title": "ji32k7au4a83 is a surprisingly bad password.",
+      "description": "When you’re creating a new password for an account, it might prompt you to use numbers and letters, and avoid real words. So a password like 420DankMemes might be kind of weak while the password “ji32k7au4a83” might seem stronger. But surprisingly, that parti…",
+      "url": "https://www.theverge.com/tldr/2019/3/5/18252150/bad-password-security-data-breach-taiwan-ji32k7au4a83-have-i-been-pwned",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/RFjm1GricwXoqpMd-HSUh7dvpr0=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/8540151/akrales_161208_1298_A_0060_play.jpg",
+      "publishedAt": "2019-03-05T22:56:33Z",
+      "content": "The password ji32k7au4a83 might look fairly secure thanks to its seemingly random jumble of letters and numbers. But surprisingly, that exact password has appeared in 141 data breaches, as cataloged by the site Have I Been Pwned and spotted by Gizmodo. It lea… [+1899 chars]",
       "playlist": {
-        "id": "awds9ldmpgpxkksjwjzo",
-        "category": "business"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "China's industrial profits shrink again in Dec. on weak prices, demand.",
-      "description": "Earnings at China's industrial firms shrank for a second straight month in December, putting pressure on policymakers to support industries hurt by slowing prices and weak factory activity amid a protracted U.S.-Sino trade war.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/CUI_VAr2540/chinas-industrial-profits-shrink-again-in-dec-on-weak-prices-demand-idUSKCN1PM03D",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Mon, 28 Jan 2019 00:06:36 -0500"
-      ],
+      "author": "Sean Hollister",
+      "title": "RED’s Hydrogen One is arguably a worse deal now that it’s bundled with Aquaman.",
+      "description": "If you happen to be the kind of person who’s willing to spend $1,295 on one of the least inspiring gadgets we’ve ever reviewed, the Red Hydrogen — and yet also the kind of person who hasn’t already bought one and was miraculously waiting until just now — now …",
+      "url": "https://www.theverge.com/tldr/2019/3/5/18252289/red-hydrogen-one-aquaman-bundle",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/PSlRvaYx6XpCmYCT7qfwMhAPGPM=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13335593/akrales_181025_3026_0296.jpg",
+      "publishedAt": "2019-03-05T22:49:44Z",
+      "content": "I think the hilarity in this image may speak for itself: But I will translate anyhow. If you happen to be the kind of person who’s willing to spend $1,295 on one of the least inspiring gadgets we’ve ever reviewed, an utter mess of a phone — and yet also the k… [+339 chars]",
       "playlist": {
-        "id": "awds9ldmpgpxkksjwjzo",
-        "category": "business"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "Saudi Aramco doubles down on South Korea with $1.6 billion bet on Hyundai Oilbank.",
-      "description": "State-owned Saudi Aramco plans to invest up to $1.6 billion for a nearly 20 percent stake in South Korean refiner Hyundai Oilbank, expanding its foothold in one of its biggest Asian buyers of crude oil.",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/FcN-4eUchHk/saudi-aramco-doubles-down-on-south-korea-with-1-6-billion-bet-on-hyundai-oilbank-idUSKCN1PM00F",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 23:15:09 -0500"
-      ],
+      "author": "Sean O'Kane",
+      "title": "EV startup NIO abandons plan to make its own cars.",
+      "description": "NIO is no longer going to build a factory in Shanghai, and instead will continue using Chinese state-owned automaker JAC to make its cars. The EV startup beat its own expectations in 2018, but is off to a slow start in 2019.",
+      "url": "https://www.theverge.com/2019/3/5/18252244/nio-ev-startup-factory-shanghai-cancelled-jac-motors",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/DACGYV5UhLyL7xnoIDyJbm38nXY=/0x292:2040x1360/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13045377/jbareham_180912_2945_0013.jpg",
+      "publishedAt": "2019-03-05T22:18:19Z",
+      "content": "Chinese EV startup NIO no longer plans to make its own cars, the company announced Tuesday. Plans to build a factory in Shanghai where Tesla is currently constructing the third Gigafactory have been scuttled, and NIO will instead continue using its current co… [+3986 chars]",
       "playlist": {
-        "id": "awds9ldmpgpxkksjwjzo",
-        "category": "business"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     },
     {
       "source": {
-        "id": "cnn",
-        "name": "CNN"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "CNN",
-      "title": "New dam disaster puts Vale CEO, deals and dividends under scrutiny.",
-      "description": "When Fabio Schvartsman took the reins of Vale SA in 2017, he suggested a motto for the world's largest iron miner, turning the page on a tailings dam disaster that hit a small Brazilian town two years before: \"Mariana, never again.\"",
-      "url": "http://feeds.reuters.com/~r/reuters/businessNews/~3/8OYIpoavfWM/new-dam-disaster-puts-vale-ceo-deals-and-dividends-under-scrutiny-idUSKCN1PM08A",
-      "urlToImage": "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
-      "publishedAt": [
-        "Sun, 27 Jan 2019 23:12:02 -0500"
-      ],
+      "author": "Rachel Becker",
+      "title": "Former officials urge Trump to stop undermining climate science.",
+      "description": "Nearly 60 former leaders in the military and national security community sent a letter today urging President Trump not to subject the government’s own authoritative climate reports to an apparently partisan review, The Washington Post reports.",
+      "url": "https://www.theverge.com/2019/3/5/18252190/trump-climate-science-panel-national-military-security-threat-letter",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/LDENqyv5nDGZQAU7oUPRYw-uQUo=/0x257:4800x2770/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/8027795/ZC_Night_Oro_Spillway_1_02_20_2017.jpg",
+      "publishedAt": "2019-03-05T21:27:49Z",
+      "content": "Nearly 60 former leaders in the military and national security community sent a letter today urging President Trump not to subject the governments own authoritative climate reports to an apparently partisan review, The Washington Post reports. \r\nThe letter re… [+2904 chars]",
       "playlist": {
-        "id": "awds9ldmpgpxkksjwjzo",
-        "category": "business"
+        "id": "tk6z4fyhk7ndqb6wlvzvt"
       }
     }
   ],
-  "timestamp": 1548654204620
+  "timestamp": 1551849598640
 }
