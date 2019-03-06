@@ -2,6 +2,7 @@
 
 How categoriesConfig.js should look like?
 
+``` javascript
 var categoriesJSON = {
   categories: [
     {
@@ -22,5 +23,6 @@ var categoriesJSON = {
     }
   ]
 };
+  module.exports = categoriesJSON;
 
-module.exports = categoriesJSON;
+```
