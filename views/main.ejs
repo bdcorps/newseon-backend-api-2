@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Dashboard</h1>
+<h2>Newseon Backend 2</h2>
+<input type="checkbox" id="liveserver"> Live Server</input>
+
+<h2>Step 1: Reset DB</h2>
+<p>Completely empties the current DB items. <span style="color:red">Warning: Run at your own risk.</span></p>
+<button type="button" id="resetdb">Reset DB</button>
+<h2>Step 2: Categories</h2>
+<p>View/Edit the sources of articles to be pulled from the API.</p>
+<button type="button" onclick="window.location.href = '/categories';">View/Edit Categories Config</button>
+<button type="button" id="generateURLs">Generate URLs</button>
+<h2>Step 3: Articles</h2>
+<p>View/Edit pulled articles.</p>
+<button type="button" id="generateArticles">Generate Articles</button>
+<button type="button" onclick="window.location.href = '/articles';">View/Edit Articles</button>
+<h2>Step 4: Tracks</h2>
+<p>Spin up audio tracks for the articles and save to DB.</p>
+<button type="button" id="generateTracks">Generate Tracks</button>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin=" anonymous "></script>
+
+<script>
+var url = "";
+$('#liveserver').change(function() {
+    if (this.checked) {
+        url = "https://newseon-backend-api-2.herokuapp.com/";
+    } else {
+        url = "";
+    }
+});
+
+$('#resetdb').click(function (e) {
+    $.get(url +"/resetv2",
+        function (data, status) {
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+        });
+
+});
+
+$('#generateURLs').click(function (e) {
+    $.get(url +"/generatev2",
+        function (data, status) {
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+        });
+
+});
+
+$('#generateArticles').click(function (e) {
+    $.get(url +"/writesv2",
+        function (data, status) {
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+        });
+
+});
+
+$('#generateTracks').click(function (e) {
+    $.get(url +"/tracksv2",
+        function (data, status) {
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+        });
+
+});
+</script>
+
+</body>
+</html>

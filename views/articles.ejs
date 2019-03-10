@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>Dashboard</h1>
+    <h2>Newseon Backend 2</h2>
+    <button id="backToDashboard" type="button" onclick="window.location.href = '/dashboard';">< Back To Dashboard</button><br><br>
+    <input type="checkbox" id="liveserver"> Live Server</input>
+
+    <h2>Step 3: Articles</h2>
+    <p>View/Edit pulled articles.</p>
+
+    <pre name="articles" id="articles" contenteditable="true"></pre>
+
+    <button id="saveArticles" type="button">Save Articles</button><br>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin=" anonymous "></script>
+
+    <script>
+    var url = "";
+    $('#liveserver').change(function() {
+    if (this.checked) {
+        url = "https://newseon-backend-api-2.herokuapp.com/";
+    } else {
+        url = "";
+    }
+});
+
+    var articles = <%- JSON.stringify(articles, null, 4) %>;
+    document.getElementById("articles").innerHTML = JSON.stringify(articles, null, 4);
+
+
+    $('#saveArticles').click(function (e) {
+        var articles = document.getElementById("articles").innerHTML;
+        articles = JSON.parse(articles).articles;
+        $.post(url +"/saveArticles", {
+                "articles": articles
+            },
+            function (data, status) {
+                console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+            });
+
+    });
+    </script>
+</body>
+
+</html>

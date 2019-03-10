@@ -15,14 +15,13 @@ var pjson = require("./package.json");
 
 var parseString = require("xml2js").parseString;
 var http = require("http");
-var unsplash = require('unsplash-api');
+var unsplash = require("unsplash-api");
 
 require("dotenv").config();
 
 var contentURLLists = require("./public/contentURLList");
 var sampleArticle = require("./public/sampleArticle");
 
-var categoriesJSON = require("./public/categoriesConfig");
 var playlistImagesSources = require("./public/playlistImageSources");
 const trackRoute = express.Router();
 const { Readable } = require("stream");
@@ -62,9 +61,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(cors());
+app.engine("html", require("ejs").renderFile);
+app.set("view engine", "html");
 
 // Add headers
-app.use(function (req, res, next) {
+app.use(function(req, res, next) {
   // Website you wish to allow to connect
   res.setHeader("Access-Control-Allow-Origin", "*");
 
@@ -89,7 +90,7 @@ app.use(function (req, res, next) {
 });
 
 const HTTP_SERVER_ERROR = 500;
-app.use(function (err, req, res, next) {
+app.use(function(err, req, res, next) {
   if (res.headersSent) {
     return next(err);
   }
@@ -138,44 +139,91 @@ const client = new textToSpeech.TextToSpeechClient({
   credentials: credentials
 });
 
-connection.once("open", function () {
+connection.once("open", function() {
   //  statusReport.articledb = {"status" :  "connected"}
 
-  app.get("/categories", (req, res) => {
-    Category.find({}, function (err, doc) {
-      if (err) {
-        res.send("error: " + err);
-      }
-      res.send({ category: doc[0] });
-    });
-  });
+  // app.get("/categories", (req, res) => {
+  //   Category.find({}, function(err, doc) {
+  //     if (err) {
+  //       res.send("error: " + err);
+  //     }
+  //     res.send({ category: doc[0] });
+  //   });
+  // });
 
   function xmlToJson(url, callback) {
-    var req = http.get(url, function (res) {
+    var req = http.get(url, function(res) {
       var xml = "";
 
-      res.on("data", function (chunk) {
+      res.on("data", function(chunk) {
         xml += chunk;
       });
 
-      res.on("error", function (e) {
+      res.on("error", function(e) {
         callback(e, null);
       });
 
-      res.on("timeout", function (e) {
+      res.on("timeout", function(e) {
         callback(e, null);
       });
 
-      res.on("end", function () {
-        parseString(xml, function (err, result) {
+      res.on("end", function() {
+        parseString(xml, function(err, result) {
           callback(null, result);
         });
       });
     });
   }
 
-  app.get("/categories/:categoryID", (req, res) => {
-    Category.find({ id: req.params.categoryID }, function (err, doc) {
+  app.get("/dashboard", (req, res) => {
+    res.render("main.ejs");
+  });
+
+  app.get("/articles", (req, res) => {
+    var articles = readFromFile(__dirname + "/public/articlesData");
+    articles = articles;
+
+    res.render("articles.ejs", {
+      articles: articles,
+      status: ""
+    });
+  });
+
+  app.get("/categories", (req, res) => {
+    var categories = readFromFile(__dirname + "/public/categoriesConfig");
+    categories = categories;
+
+    res.render("categories.ejs", {
+      categories: categories,
+      status: ""
+    });
+  });
+
+  app.post("/saveCategories", (req, res) => {
+    
+    var categories = req.body.categories;
+    writeToFile({ categories: categories }, "categoriesConfig");
+
+    var categories = readFromFile(__dirname + "/public/categoriesConfig");
+
+    res.render("categories.ejs", {
+      categories: categories,
+      status: "Categories Saved!"
+    });
+  });
+
+  app.post("/saveArticles", (req, res) => {
+    var articles = req.body.articles;
+    writeToFile({ articles: articles }, "articlesData");
+
+    res.render("articles.ejs", {
+      articles: articles,
+      status: "Articles Saved!"
+    });
+  });
+
+  app.get("/db/categories/:categoryID", (req, res) => {
+    Category.find({ id: req.params.categoryID }, function(err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -183,8 +231,8 @@ connection.once("open", function () {
     });
   });
 
-  app.get("/playlists/:playlistID", (req, res) => {
-    Playlist.find({ id: req.params.playlistID }, function (err, doc) {
+  app.get("/db/playlists/:playlistID", (req, res) => {
+    Playlist.find({ id: req.params.playlistID }, function(err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -192,8 +240,8 @@ connection.once("open", function () {
     });
   });
 
-  app.get("/articles/:articleID", (req, res) => {
-    Article.find({ uid: req.params.articleID }, function (err, doc) {
+  app.get("/db/articles/:articleID", (req, res) => {
+    Article.find({ uid: req.params.articleID }, function(err, doc) {
       if (err) {
         res.send("error: " + err);
       }
@@ -207,9 +255,13 @@ connection.once("open", function () {
    */
   app.get("/generatev2", (req, res) => {
     categoriesAPI = [];
-    for (var i = 0; i < categoriesJSON.categories.length; i++) {
+
+    var categories = readFromFile(__dirname + "/public/categoriesConfig");
+    categories = categories.categories;
+
+    for (var i = 0; i < categories.length; i++) {
       var categoriesData = {};
-      var category = categoriesJSON.categories[i];
+      var category = categories[i];
       categoriesData.id = category.id;
       categoriesData.title = category.title;
       categoriesData.playlists = convertQueryToPlaylistURLs(
@@ -224,7 +276,7 @@ connection.once("open", function () {
         playlists: categoriesData.playlists
       });
 
-      categoryToSave.save(function (error) {
+      categoryToSave.save(function(error) {
         if (error) {
           console.error(error);
         }
@@ -307,7 +359,7 @@ connection.once("open", function () {
         articles: playlistsData.articles
       });
 
-      playlistToSave.save(function (error) {
+      playlistToSave.save(function(error) {
         if (error) {
           console.error(error);
         }
@@ -318,18 +370,18 @@ connection.once("open", function () {
   }
 
   function resetDB() {
-    Article.remove({}, function (err) {
+    Article.remove({}, function(err) {
       if (err) {
         console.log("error");
       }
     });
-    Playlist.remove({}, function (err) {
+    Playlist.remove({}, function(err) {
       if (err) {
         console.log("error");
       }
     });
 
-    Category.remove({}, function (err) {
+    Category.remove({}, function(err) {
       if (err) {
         console.log("error");
       }
@@ -340,12 +392,12 @@ connection.once("open", function () {
     var CHUNKS_COLL = "tracks.chunks";
     var FILES_COLL = "tracks.files";
 
-    bucket.drop(function (error) {
+    bucket.drop(function(error) {
       var chunksQuery = db.collection(CHUNKS_COLL).find({});
-      chunksQuery.toArray(function (error, docs) {
+      chunksQuery.toArray(function(error, docs) {
         if (error != null && docs.length > 0) {
           var filesQuery = db.collection(FILES_COLL).find({});
-          filesQuery.toArray(function (error, docs) { });
+          filesQuery.toArray(function(error, docs) {});
         }
       });
     });
@@ -440,36 +492,31 @@ connection.once("open", function () {
 
     //console.log(prettyPrintJSON(playlists));
 
-
     writeToFile("", "articlesData");
 
     for (let i = 0; i < playlists.length; i++) {
-
-      request(playlists[i].url, function (error, response, body) {
+      request(playlists[i].url, function(error, response, body) {
         if (!error && response.statusCode == 200) {
           var articles = JSON.parse(body).articles;
 
           for (var j = 0; j < articles.length; j++) {
-
             articles[j].title = cleanedTitle(articles[j].title);
+            articles[j].description = cleanedDescription(
+              articles[j].description
+            );
 
             articles[j].playlist = { id: playlists[i].id };
 
             articleCollection.push(articles[j]);
             writeToFile({ articles: articleCollection }, "articlesData");
           }
-
-
         }
       });
     }
 
-
-
     return res.status(201).json({
       message: "File uploaded successfully."
     });
-
   });
 
   function generateAudioTracks(req, res) {
@@ -591,18 +638,23 @@ function generateAudioTrack(
 
 function cleanText(inputText) {
   var cleanedText = inputText;
-  cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, '')
+  cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, "");
   return cleanedText;
 }
 
 function cleanedTitle(inputText) {
   var cleanedText = inputText;
-  
-  if (cleanedText[cleanedText.length - 1] == "?") {
 
+  if (cleanedText[cleanedText.length - 1] == "?") {
   } else if (cleanedText[cleanedText.length - 1] != ".") {
     cleanedText += ".";
   }
+  return cleanedText;
+}
+
+function cleanedDescription(inputText) {
+  var cleanedText = inputText.replace('"', "'");
+
   return cleanedText;
 }
 
@@ -651,19 +703,19 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     //save to mongodb
     var articleToSave = new Article(articleObject);
 
-    console.log("Will write to mlab: ");
+    console.log("Generating track for: #" + uid);
     //console.log(prettyPrintJSON(articleObject));
 
-    articleToSave.save(function (error) {
+    articleToSave.save(function(error) {
       if (error) {
         console.error(error);
       }
 
       //save articleIDs to playlistdb docs
-      Playlist.findOne({ id: playlistID }, function (err, doc) {
+      Playlist.findOne({ id: playlistID }, function(err, doc) {
         if (doc != null) {
           doc.articles.push(articleObject);
-          doc.save(function (err) {
+          doc.save(function(err) {
             if (err) {
               console.error("ERROR! Playlist ID is " + id + " " + err);
             }
@@ -675,7 +727,7 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
 }
 
 var reloadContentAsync = async () => {
-  request("http://newseon-backend-api-2.herokuapp.com/resetv2", function (
+  request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
     error,
     response,
     body
@@ -686,7 +738,7 @@ var reloadContentAsync = async () => {
   });
   await snooze(5000);
   console.log("Generating.");
-  request("http://newseon-backend-api-2.herokuapp.com/generatev2", function (
+  request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
     error,
     response,
     body
@@ -698,7 +750,7 @@ var reloadContentAsync = async () => {
 
   await snooze(5000);
   console.log("Writing.");
-  request("http://newseon-backend-api-2.herokuapp.com/writesv2", function (
+  request("http://newseon-backend-api-2.herokuapp.com/writesv2", function(
     error,
     response,
     body
@@ -710,7 +762,7 @@ var reloadContentAsync = async () => {
 
   await snooze(5000);
   console.log("Creating Tracks.");
-  request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function (
+  request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
     error,
     response,
     body
@@ -741,6 +793,6 @@ function prettyPrintJSON(obj) {
   return JSON.stringify(obj, null, 2);
 }
 
-app.listen(port, function () {
+app.listen(port, function() {
   console.log("Server running on port: %d", port);
 });

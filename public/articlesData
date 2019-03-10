@@ -2,226 +2,18 @@
   "articles": [
     {
       "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Jon Ryan",
-      "title": "Devil May Cry's Story in 7 Minutes.",
-      "description": "Need a recap before jumping into DMC 5?",
-      "url": "https://ca.ign.com/articles/2019/03/06/devil-may-cry-story-synopsis",
-      "urlToImage": "https://assets1.ignimgs.com/2019/03/06/dmc-5minutes-blogroll-1551838208118_1280w.jpg",
-      "publishedAt": "2019-03-06T02:30:42Z",
-      "content": "Wait, she's *not* dead? \r\nBy Jon RyanDevil May Cry is a series renowned for its stylish action, but beyond all of the gunslinging, sword slashing and royal guarding, there is, in fact, a story. So, if youre just jumping into DMC for the first time with Devil … [+5953 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Jesse Schedeen",
-      "title": "What Did You Think of Tonight's Flash?",
-      "description": "Let us know what you thought of this week's episode, as two mighty villains duked it out in Central City.",
-      "url": "https://ca.ign.com/articles/2019/03/06/the-flash-season-5-episode-15-king-shark-vs-gorilla-grodd-review",
-      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/fla515c-0001-1551824915648_1280w.jpg",
-      "publishedAt": "2019-03-06T02:00:03Z",
-      "content": null,
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Seth G. Macy",
-      "title": "Turok: Dinosaur Hunter on Switch's Official Description Is Straight From the 1990s.",
-      "description": "Are you ready for &quot;the mother of all guns, the Atomic Fusion Cannon?&quot;",
-      "url": "https://ca.ign.com/articles/2019/03/05/turok-dinosaur-hunter-is-coming-to-nintendo-switch-with-its-1990s-bullet-points-completely-intact",
-      "urlToImage": "https://assets2.ignimgs.com/2015/06/03/turokpng-4d4012_1280w.png",
-      "publishedAt": "2019-03-05T23:59:42Z",
-      "content": "The PC version requires a 3D accelerator card. \r\nBy Seth G. MacyIf you're a true 90s kid, you remember hours of fun navigating the steamy jungle world of Turok: The Dinosaur Hunter on Nintendo 64. The game is coming to Nintendo Switch, so you can take the fun… [+2182 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Colin Stevens",
-      "title": "Christopher Nolan’s Next Film Described as Inception Meets Hitchcock.",
-      "description": "Christopher Nolan’s upcoming film will reportedly be a romantic thriller, and has been described as “North by Northwest in tone meets Inception.”",
-      "url": "https://ca.ign.com/articles/2019/03/05/christopher-nolans-next-film-described-as-inception-meets-hitchcock",
-      "urlToImage": "https://assets2.ignimgs.com/2013/08/06/christopher-nolan-batsignal-1280jpg-88229d_1280w.jpg",
-      "publishedAt": "2019-03-05T23:28:05Z",
-      "content": "A romantic thriller would be a first for Nolan. \r\nBy Colin StevensChristopher Nolans upcoming film will reportedly be a romantic thriller, similar to Alfred Hitchcocks North by Northwest in tone.\r\nReported by Production Weekly, the unnamed film was described … [+1539 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Jesse Schedeen",
-      "title": "Jared Leto's Spider-Man Movie Morbius Explained.",
-      "description": "Here's everything you need to know about Jared Leto's Spider-Man spinoff movie, Morbius.",
-      "url": "https://ca.ign.com/articles/2019/03/05/morbius-movie-explained-who-is-jared-letos-spider-man-spin-off-character",
-      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/1280-morbius-1551828978872_1280w.jpg",
-      "publishedAt": "2019-03-05T23:26:57Z",
-      "content": "What exactly is a living vampire anyway? \r\nBy Jesse SchedeenUpdate: Jared Leto has shared the first on-set photo from his Marvel/Sony movie Morbius. Read on for a breakdown of the Spider-Man spin-off character!\r\nMost of the time, vampires are the villains in … [+6825 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Carol Costa",
-      "title": "Por que o apocalipse é tão atraente?",
-      "description": "Deus me livre, mas quem me dera Com tantos lançamentos de games com a temática, resolvemos divagar sobre a mágica do pós-apocalipse.",
-      "url": "https://br.ign.com/ign-opiniao/71285/feature/por-que-o-apocalipse-e-tao-atraente",
-      "urlToImage": "https://sm.ign.com/ign_br/screenshot/default/metro-exodus-new-hands-on-will-exodus-finally-take-metro-mai_1vwp.jpg",
-      "publishedAt": "2019-03-05T23:00:43Z",
-      "content": "Vamos direto ao ponto: quantas vezes você já jogou um game, ou assistiu a um filme com temática pós-apocalíptica e pensou \"Uau! Que cenário incrível!\"? Eu aposto que ao menos uma vez.\r\nO começo de 2019, inclusive, trouxe o tema à tona novamente, com o lançame… [+4092 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Colin Stevens",
-      "title": "Jared Leto Reveals First on-Set Photo of Morbius.",
-      "description": "Actor Jared Leto has shared the first on-set photo from Morbius.",
-      "url": "https://ca.ign.com/articles/2019/03/05/jared-leto-reveals-first-on-set-photo-of-morbius",
-      "urlToImage": "https://assets1.ignimgs.com/2017/11/13/morbius-1510600560613_1280w.jpg",
-      "publishedAt": "2019-03-05T21:57:10Z",
-      "content": "The films production will allegedly last for 12 weeks. \r\nBy Colin StevensActor Jared Leto has shared the first on-set photo from Morbius.\r\nRevealed via Twitter, Leto showed off a photo featuring a clapperboard covering the majority of his face, revealing only… [+727 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "David Griffin",
-      "title": "Captain Marvel's Rotten Tomatoes Score Revealed.",
-      "description": "Here are all 21 Marvel Studios movies and their Rotten Tomato scores.",
-      "url": "https://ca.ign.com/articles/2019/03/05/every-marvel-cinematic-universe-movie-rotten-tomatoes-score-ever",
-      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/captainmarvel-rottentomatoes-blogroll-1551822257038_1280w.jpg",
-      "publishedAt": "2019-03-05T21:45:16Z",
-      "content": "Who's the king (or queen) of Marvel's tomato castle? \r\nBy David GriffinEver since Iron Man hit theaters back in 2008, Marvel Studios has had an impressive 11-year run when it comes to positive reviews from critics, which contributes to a movie's overall aggre… [+1096 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Colin Stevens",
-      "title": "Days Gone's 30-Hour Campaign Will Reportedly Be 20 Percent Cutscene.",
-      "description": "Days Gone’s campaign will reportedly be about 30 hours long with roughly six hours of cutscenes.",
-      "url": "https://ca.ign.com/articles/2019/03/05/days-gones-30-hour-campaign-will-reportedly-be-20-percent-cutscene",
-      "urlToImage": "https://assets1.ignimgs.com/2018/05/21/daysgone-1280-1526943081513_1280w.jpg",
-      "publishedAt": "2019-03-05T21:16:23Z",
-      "content": "Thats a lot of motorcycle. \r\nBy Colin StevensDays Gone, the upcoming action-adventure game from SIE Bend Studio, will include a roughly 30-hour campaign, and 20 percent of it will allegedly be made up of cutscenes.\r\nInitially reported by German outlet GameRea… [+775 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "ign",
-        "name": "IGN"
-      },
-      "author": "Laura Prudom",
-      "title": "Game of Thrones Trailer Breakdown: Every Clue We Spotted.",
-      "description": "We break down the Game of Thrones Season 8 trailer for every clue and easter egg you might've missed.",
-      "url": "https://ca.ign.com/articles/2019/03/05/game-of-thrones-trailer-breakdown-season-8-clues-theories-spoilers",
-      "urlToImage": "https://assets1.ignimgs.com/2019/03/05/game-of-thrones-s8-tyrion-blog-1551819074565_1280w.jpg",
-      "publishedAt": "2019-03-05T21:10:59Z",
-      "content": "This trailer is dark and full of clues. \r\nBy Laura PrudomThis trailer breakdown contains plot details, theories, and potential spoilers for Game of Thrones Season 8, so if you want to go into the final season completely Unsullied, turn back now.\r\nThe full tra… [+1586 chars]",
-      "playlist": {
-        "id": "k7ebnf9b6akn215gwvcopm"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Angela Chen",
-      "title": "FDA approves ketamine-derived depression drug.",
-      "description": "The US Food and Drug Administration has approved a new depression drug, esketamine, for patients who have not responded to other antidepressants. The treatment, a nasal spray related to the party drug ketamine, will be the first fast-acting depression drug on…",
-      "url": "https://www.theverge.com/2019/3/5/18252572/esketamine-fda-depression-fast-acting-treatment-health-science",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/70rk2ztwJ5Il6kB_dnWVsSglGvI=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/9912335/acastro_170726_1777_0008_v2.jpg",
-      "publishedAt": "2019-03-06T03:24:20Z",
-      "content": "The US Food and Drug Administration has approved a new depression drug, esketamine, for patients who have not responded to other antidepressants. The treatment, a nasal spray related to the party drug ketamine, will be the first fast-acting depression drug on… [+3333 chars]",
-      "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Sam Byford",
-      "title": "Samsung reportedly planning two more foldable phones.",
-      "description": "Mate X-style foldable and vertical clamshell said to be in the works",
-      "url": "https://www.theverge.com/circuitbreaker/2019/3/5/18252616/samsung-more-foldable-phones-release-planned-report",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/uGQ8XGi6xPqFdjKrvNQCJJhM3ck=/0x131:1820x1084/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15695363/Samsung_Galaxy_Fold_3.0.jpg",
-      "publishedAt": "2019-03-06T03:00:19Z",
-      "content": "Samsung is planning two more foldable phones with significantly different designs to the upcoming Galaxy Fold, according to a report in Bloomberg. While the Galaxy Fold has a tablet-sized inner screen that unfolds like a book, one of the new phones reportedly… [+726 chars]",
-      "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Sean Hollister",
-      "title": "Uber won’t be charged with fatal self-driving crash, says prosecutor.",
-      "description": "Who is criminally responsible when a self-driving car fatally strikes a pedestrian? Not the company that built and tested the car — at least not when it comes to Uber’s fatal crash in Tempe, Arizona last March, which killed 49-year-old Elaine Herzberg. Uber w…",
-      "url": "https://www.theverge.com/2019/3/5/18252423/uber-wont-be-charged-with-fatal-self-driving-crash-says-prosecutor",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/inO09VOyzH0um-YbGia5Jy7V3Dg=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/7639481/vpavic_081216_1321_0020.0.jpeg",
-      "publishedAt": "2019-03-06T00:55:33Z",
-      "content": "Who is criminally liable when a self-driving car fatally strikes a pedestrian? Not the company that built and tested the car at least not when it comes to Ubers fatal crash in Tempe, Arizona last March, which killed 49-year-old Elaine Herzberg.\r\nUber wont be … [+2364 chars]",
-      "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
-      }
-    },
-    {
-      "source": {
         "id": "the-verge",
         "name": "The Verge"
       },
       "author": "Nick Statt",
-      "title": "Some major Android apps are still sending data directly to Facebook.",
-      "description": "Major Android mobile apps from companies including Yelp and Duolingo send data to Facebook immediately after a user logs in, according to a new report from the London-based UK charity and watchdog group Privacy International (PI). This data transfer happens e…",
-      "url": "https://www.theverge.com/2019/3/5/18252397/facebook-android-apps-sending-data-user-privacy-developer-tools-violation",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/C5qe6J_kl4CXIBo0X1gyi7hbwUs=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11742003/acastro_180720_1777_facebook_0001.jpg",
-      "publishedAt": "2019-03-06T00:41:28Z",
-      "content": "Major Android mobile apps from companies including Yelp and Duolingo send data that could be used to personally identify you for ad tracking straight to Facebook immediately upon logging in, according to a new report from the London-based UK charity and watch… [+5479 chars]",
+      "title": "Comma.ai founder George Hotz wants to free humanity from the AI simulation.",
+      "description": "George Hotz, the enigmatic hacker and founder of self-driving startup Comma.ai, says we’re all trapped in an advanced simulation observed by either an omnipotent extraterrestrial or supernatural being, or an artificial intelligence far beyond the realm of hum…",
+      "url": "https://www.theverge.com/2019/3/9/18258030/george-hotz-ai-simulation-jailbreaking-reality-sxsw-2019",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/EkdhpNEabcxQEhuwqkzpR9z6O-w=/0x108:1500x893/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/6599947/mzelenko_230516_1078_0037.0.jpg",
+      "publishedAt": "2019-03-10T00:35:02Z",
+      "content": "What keeps George Hotz, the enigmatic hacker and founder of self-driving startup Comma.ai, up at night is not whether his autonomous car company will be successful or what other entrepreneurial venture he might embark on next. No, instead, Hotz says hes tortu… [+5213 chars]",
       "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
+        "id": "utxn89mk94npynslj5iz"
       }
     },
     {
@@ -229,97 +21,49 @@
         "id": "the-verge",
         "name": "The Verge"
       },
-      "author": "Mary Beth Griggs",
-      "title": "Michael Bloomberg will fight for a carbon-free future instead of the White House.",
-      "description": "Former New York City mayor Michael Bloomberg today announced that he will not run for president, but instead launch a campaign to rid the United States of fossil fuels as quickly as possible. Explaining his reasoning on his eponymous news network’s opinion pa…",
-      "url": "https://www.theverge.com/2019/3/5/18252265/michael-bloomberg-beyond-carbon-climate-change-white-house-president",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/59GznkRXOEAJr971RqF5yWfSWlM=/0x313:4366x2599/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15638370/1090911042.jpg.jpg",
-      "publishedAt": "2019-03-05T23:01:08Z",
-      "content": "Former New York City mayor Michael Bloomberg today announced that he will not run for president, but instead launch a campaign to rid the United States of fossil fuels as quickly as possible. Explaining his reasoning on his eponymous news networks opinion pag… [+2051 chars]",
+      "author": "Nilay Patel",
+      "title": "Elizabeth Warren wants to break up Apple, too.",
+      "description": "Speaking at SXSW, Senator Warren tells The Verge Apple should be broken apart from the App Store",
+      "url": "https://www.theverge.com/2019/3/9/18257965/elizabeth-warren-break-up-apple-monopoly-antitrust",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/I_wO4e9P0b_CKWzVXVOhbbsOZ3E=/0x0:6544x3426/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15950438/1129273625.jpg.jpg",
+      "publishedAt": "2019-03-09T23:19:06Z",
+      "content": "Senator Elizabeth Warren proposed breaking up Amazon, Google, and Facebook yesterday in a post published on Medium. Her plan, which comes as the Democratic presidential primary contest continues to heat up, would classify any company that runs a marketplace a… [+11566 chars]",
       "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
+        "id": "utxn89mk94npynslj5iz"
       }
     },
     {
       "source": {
-        "id": "the-verge",
-        "name": "The Verge"
+        "id": "the-new-york-times",
+        "name": "The New York Times"
       },
-      "author": "Sean O'Kane",
-      "title": "Former Harley-Davidson engineer starts an all-electric motorcycle company.",
-      "description": "Fuell will build electric two-wheelers, including an e-bike coming later this year. The company’s flagship product will be a futuristic electric motorcycle coming in 2021.",
-      "url": "https://www.theverge.com/2019/3/5/18252333/fuell-flow-electric-motorcycle-harley-bike",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/PfjTz6WH6glWsFqbI9yuL_kjvzo=/0x49:2500x1358/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15645736/fuell_flow_and_fluid_1.jpg",
-      "publishedAt": "2019-03-05T23:00:57Z",
-      "content": "Former Harley-Davidson engineer Erik Buell announced this week that hes founded an EV startup called Fuell that will make all-electric motorcycles and bicycles. Hes teamed up with Frédéric Vasseur, the owner of the company that makes the chassis for Formula E… [+1907 chars]",
+      "author": "New York Times",
+      "title": "Sukh and new york.",
+      "description": "The group first made a big push for southern Philippines recruitment in 2016, circulating videos online beckoning militants who could not travel to its self-proclaimed caliphate in Iraq and Syria. Hundreds of fighters poured in from as far away as Chechnya, S…",
+      "url": "https://www.nytimes.com/2019/03/07/world/asia/isis-philippines-jolo.html",
+      "urlToImage": "https://images.indianexpress.com/2019/03/philippines-isis-759.jpg?w=759",
+      "publishedAt": "2019-03-10T03:01:32Z",
+      "content": "Soldiers halt vehicles for inspection at the entrance to the city of Zamboanga, in the southern Philippines, Feb. 14, 2019. In the lawless jungles and seas of the southern Philippines, militants launch deadly attacks under the black flag of the Islamic State.… [+9017 chars]",
       "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
+        "id": "16f6ztlgj45knq6zdbhyl"
       }
     },
     {
       "source": {
-        "id": "the-verge",
-        "name": "The Verge"
+        "id": "the-new-york-times",
+        "name": "The New York Times"
       },
-      "author": "Shannon Liao",
-      "title": "ji32k7au4a83 is a surprisingly bad password.",
-      "description": "When you’re creating a new password for an account, it might prompt you to use numbers and letters, and avoid real words. So a password like 420DankMemes might be kind of weak while the password “ji32k7au4a83” might seem stronger. But surprisingly, that parti…",
-      "url": "https://www.theverge.com/tldr/2019/3/5/18252150/bad-password-security-data-breach-taiwan-ji32k7au4a83-have-i-been-pwned",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/RFjm1GricwXoqpMd-HSUh7dvpr0=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/8540151/akrales_161208_1298_A_0060_play.jpg",
-      "publishedAt": "2019-03-05T22:56:33Z",
-      "content": "The password ji32k7au4a83 might look fairly secure thanks to its seemingly random jumble of letters and numbers. But surprisingly, that exact password has appeared in 141 data breaches, as cataloged by the site Have I Been Pwned and spotted by Gizmodo. It lea… [+1899 chars]",
+      "author": "MIHIR ZAVERI",
+      "title": "29 Passengers Treated at J.F.K. After Flight Hits Severe Turbulence.",
+      "description": "A spokesman for the Port Authority of New York and New Jersey described the injuries as mostly “bumps and bruises.” The flight was from Turkey to New York.",
+      "url": "https://www.nytimes.com/2019/03/09/nyregion/jfk-turkish-airlines-flight-turbulence.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/03/09/briefing/09xp-turbulence/09xp-turbulence-facebookJumbo.jpg",
+      "publishedAt": "2019-03-10T01:43:53Z",
+      "content": "At least 29 passengers were being treated on Saturday night after their flight to Kennedy Airport from Istanbul encountered severe turbulence, the authorities said.\r\nThe passengers had minor injuries and were being treated at Terminal 1 at the airport, said S… [+614 chars]",
       "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Sean Hollister",
-      "title": "RED’s Hydrogen One is arguably a worse deal now that it’s bundled with Aquaman.",
-      "description": "If you happen to be the kind of person who’s willing to spend $1,295 on one of the least inspiring gadgets we’ve ever reviewed, the Red Hydrogen — and yet also the kind of person who hasn’t already bought one and was miraculously waiting until just now — now …",
-      "url": "https://www.theverge.com/tldr/2019/3/5/18252289/red-hydrogen-one-aquaman-bundle",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/PSlRvaYx6XpCmYCT7qfwMhAPGPM=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13335593/akrales_181025_3026_0296.jpg",
-      "publishedAt": "2019-03-05T22:49:44Z",
-      "content": "I think the hilarity in this image may speak for itself: But I will translate anyhow. If you happen to be the kind of person who’s willing to spend $1,295 on one of the least inspiring gadgets we’ve ever reviewed, an utter mess of a phone — and yet also the k… [+339 chars]",
-      "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Sean O'Kane",
-      "title": "EV startup NIO abandons plan to make its own cars.",
-      "description": "NIO is no longer going to build a factory in Shanghai, and instead will continue using Chinese state-owned automaker JAC to make its cars. The EV startup beat its own expectations in 2018, but is off to a slow start in 2019.",
-      "url": "https://www.theverge.com/2019/3/5/18252244/nio-ev-startup-factory-shanghai-cancelled-jac-motors",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/DACGYV5UhLyL7xnoIDyJbm38nXY=/0x292:2040x1360/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13045377/jbareham_180912_2945_0013.jpg",
-      "publishedAt": "2019-03-05T22:18:19Z",
-      "content": "Chinese EV startup NIO no longer plans to make its own cars, the company announced Tuesday. Plans to build a factory in Shanghai where Tesla is currently constructing the third Gigafactory have been scuttled, and NIO will instead continue using its current co… [+3986 chars]",
-      "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Rachel Becker",
-      "title": "Former officials urge Trump to stop undermining climate science.",
-      "description": "Nearly 60 former leaders in the military and national security community sent a letter today urging President Trump not to subject the government’s own authoritative climate reports to an apparently partisan review, The Washington Post reports.",
-      "url": "https://www.theverge.com/2019/3/5/18252190/trump-climate-science-panel-national-military-security-threat-letter",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/LDENqyv5nDGZQAU7oUPRYw-uQUo=/0x257:4800x2770/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/8027795/ZC_Night_Oro_Spillway_1_02_20_2017.jpg",
-      "publishedAt": "2019-03-05T21:27:49Z",
-      "content": "Nearly 60 former leaders in the military and national security community sent a letter today urging President Trump not to subject the governments own authoritative climate reports to an apparently partisan review, The Washington Post reports. \r\nThe letter re… [+2904 chars]",
-      "playlist": {
-        "id": "tk6z4fyhk7ndqb6wlvzvt"
+        "id": "16f6ztlgj45knq6zdbhyl"
       }
     }
   ],
-  "timestamp": 1551849598640
+  "timestamp": 1552190969454
 }

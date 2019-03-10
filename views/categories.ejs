@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Dashboard</h1>
+<h2>Newseon Backend 2</h2>
+
+<button id="backToDashboard" type="button" onclick="window.location.href = '/dashboard';">< Back To Dashboard</button><br><br>
+
+    <input type="checkbox" id="liveserver"> Live Server</input>
+
+<h2>Step 2: Categories</h2>
+<p>View/Edit the sources of articles to be pulled from the API.</p>
+
+<pre name="categories" id="categories" contenteditable="true"></pre>
+
+<button id="saveCategories" type="button">Save Categories</button><br>
+<button id="resetCategories" type="button">Reset to Default</button><br>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin=" anonymous "></script>
+
+<script>
+var url = "";
+
+$('#liveserver').change(function() {
+    if (this.checked) {
+        url = "https://newseon-backend-api-2.herokuapp.com/";
+    } else {
+        url = "";
+    }
+});
+
+var categories = <%- JSON.stringify(categories, null, 4) %>;
+document.getElementById("categories").innerHTML = JSON.stringify(categories, null, 4);
+
+$('#saveCategories').click(function (e) {
+    var categories = document.getElementById("categories").innerHTML;
+    categories = JSON.parse(categories).categories;
+
+    $.post(url +"/saveCategories", {
+            "categories": categories
+        },
+        function (data, status) {
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+        });
+
+});
+
+$('#resetCategories').click(function (e) {
+    var categories = '{"categories":[{"id":"topheadlines","title":"Top Headlines","playlists":[{"type":"everything","title":"Engadget","query":{"sources":"engadget","langugage":"en","pageSize":10}},{"type":"everything","title":"The Verge","query":{"sources":"the-verge","langugage":"en","pageSize":10}}]}]}';
+    categories = JSON.parse(categories).categories;
+    $.post(url +"/saveCategories", {
+            "categories": categories
+        },
+        function (data, status) {
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+            $("body").html(data);
+        });
+
+});
+</script>
+
+</body>
+</html>

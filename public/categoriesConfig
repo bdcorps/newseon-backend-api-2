@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": "topheadlines",
+      "title": "Top Headlines",
+      "playlists": [
+        {
+          "type": "everything",
+          "title": "Sukh 1",
+          "query": {
+            "sources": "the-new-york-times",
+            "langugage": "en",
+            "pageSize": "2"
+          }
+        },
+        {
+          "type": "everything",
+          "title": "The Verge",
+          "query": {
+            "sources": "the-verge",
+            "langugage": "en",
+            "pageSize": "2"
+          }
+        }
+      ]
+    }
+  ],
+  "timestamp": 1552190936599
+}
