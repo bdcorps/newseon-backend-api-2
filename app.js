@@ -703,7 +703,7 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     //save to mongodb
     var articleToSave = new Article(articleObject);
 
-    console.log("Generating track for: #" + uid);
+    console.log("Generating track for: #" + articleObject.uid);
     //console.log(prettyPrintJSON(articleObject));
 
     articleToSave.save(function(error) {
