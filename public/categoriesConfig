@@ -6,7 +6,7 @@
       "playlists": [
         {
           "type": "everything",
-          "title": "Sukh 1",
+          "title": "NY Times",
           "query": {
             "sources": "the-new-york-times",
             "langugage": "en",
@@ -25,5 +25,5 @@
       ]
     }
   ],
-  "timestamp": 1552190936599
+  "timestamp": 1552702785505
 }

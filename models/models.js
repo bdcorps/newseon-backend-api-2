@@ -29,13 +29,20 @@ var CategorySchema = new Schema({
     playlists: [Schema.Types.Mixed]
 });
 
+var ConfigSchema = new Schema({
+    categories: Schema.Types.Mixed,
+    articles: Schema.Types.Mixed,
+});
+
 
 ArticleSchema.statics.findOrCreate = require("find-or-create");
 PlaylistSchema.statics.findOrCreate = require("find-or-create");
 CategorySchema.statics.findOrCreate = require("find-or-create");
+ConfigSchema.statics.findOrCreate = require("find-or-create");
 
 var ArticleModel = mongoose.model('article', ArticleSchema, 'articles');
 var PlaylistModel = mongoose.model('playlist', PlaylistSchema, 'playlists');
 var CategoryModel = mongoose.model('category', CategorySchema, 'categories');
+var ConfigModel = mongoose.model('config', ConfigSchema, 'config');
 
-module.exports = { ArticleModel: ArticleModel, PlaylistModel: PlaylistModel, CategoryModel: CategoryModel };
+module.exports = { ArticleModel: ArticleModel, PlaylistModel: PlaylistModel, CategoryModel: CategoryModel, ConfigModel: ConfigModel };

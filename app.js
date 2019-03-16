@@ -34,6 +34,7 @@ var models = require("./models/models.js");
 var Article = models.ArticleModel;
 var Playlist = models.PlaylistModel;
 var Category = models.CategoryModel;
+var Config = models.ConfigModel;
 
 // Imports the Google Cloud client library
 const textToSpeech = require("@google-cloud/text-to-speech");
@@ -151,6 +152,17 @@ connection.once("open", function() {
   //   });
   // });
 
+  Config.find({ }, function(err, doc) {
+    if (err) {
+      res.send("error: " + err);
+    }
+
+    if (doc != null && doc.length > 0) {
+      writeToFile({ categories: doc[0].categories }, "categoriesConfig");
+      writeToFile({ articles: doc[0].articles }, "articlesData");
+    }
+  });
+
   function xmlToJson(url, callback) {
     var req = http.get(url, function(res) {
       var xml = "";
@@ -199,10 +211,18 @@ connection.once("open", function() {
     });
   });
 
+  var c = 0;
   app.post("/saveCategories", (req, res) => {
-    
+    c++;
     var categories = req.body.categories;
     writeToFile({ categories: categories }, "categoriesConfig");
+    
+    Config.findOneAndUpdate({}, {categories: categories}, {upsert:true}, function(err, doc){
+      if (err) {
+        console.error("ERROR! Config Categories ID is " + " " + err);
+      }
+
+    });
 
     var categories = readFromFile(__dirname + "/public/categoriesConfig");
 
@@ -215,6 +235,13 @@ connection.once("open", function() {
   app.post("/saveArticles", (req, res) => {
     var articles = req.body.articles;
     writeToFile({ articles: articles }, "articlesData");
+
+ Config.findOneAndUpdate({}, {articles: articles}, {upsert:true}, function(err, doc){
+      if (err) {
+        console.error("ERROR! Config articles ID is " + " " + err);
+      }
+      
+    });
 
     res.render("articles.ejs", {
       articles: articles,
@@ -382,6 +409,12 @@ connection.once("open", function() {
     });
 
     Category.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+      }
+    });
+
+    Config.remove({}, function(err) {
       if (err) {
         console.log("error");
       }
@@ -785,7 +818,7 @@ var reloadContentCron = cron.schedule(
   }
 );
 
-reloadContentCron.start();
+//reloadContentCron.start();
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
