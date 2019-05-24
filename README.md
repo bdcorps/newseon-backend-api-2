@@ -1,5 +1,9 @@
 # newseon-backend-api-2
 
+Supports UI /dashboard.
+Complete pipeline to generate and trascribe articles to mlab database.
+Source: newsapi
+
 How categoriesConfig.js should look like?
 
 ``` javascript
