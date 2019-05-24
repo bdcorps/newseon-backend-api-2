@@ -1,13 +1,17 @@
 {
   "playlists": [
     {
-      "id": "16f6ztlgj45knq6zdbhyl",
+      "id": "406yq5hb4mbw230qd88ms",
       "url": "https://newsapi.org/v2/everything?sources=the-new-york-times&langugage=en&pageSize=2&apiKey=93ca611bceee4039b257ada8985541ce"
     },
     {
-      "id": "utxn89mk94npynslj5iz",
+      "id": "7zkd1oe3vuebqyckzgfvb",
       "url": "https://newsapi.org/v2/everything?sources=the-verge&langugage=en&pageSize=2&apiKey=93ca611bceee4039b257ada8985541ce"
+    },
+    {
+      "id": "aw1r3x60vohvzzzetmxj9",
+      "url": "https://newsapi.org/v2/everything?sources=ign&langugage=en&pageSize=2&apiKey=93ca611bceee4039b257ada8985541ce"
     }
   ],
-  "timestamp": 1552190942981
+  "timestamp": 1558724728565
 }

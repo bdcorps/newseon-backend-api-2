@@ -2,50 +2,34 @@
   "articles": [
     {
       "source": {
-        "id": "the-verge",
-        "name": "The Verge"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "Adi Sunny is",
-      "title": "Questions about policing online hate are much bigger than Facebook and YouTube.",
-      "description": "The spread of hate material outside big platforms with centralized moderation policies raises questions about how to balance internet freedom with fighting terrorism.",
-      "url": "https://www.theverge.com/2019/3/15/18267638/new-zealand-christchurch-mass-shooting-online-hate-facebook-youtube",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Fx5kh928VBOWgDQODVln_5RGKKI=/0x412:5760x3428/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15965628/1136036756.jpg.jpg",
-      "publishedAt": "2019-03-15T23:43:56Z",
-      "content": "In the wake of a hate-fueled mass shooting in Christchurch, New Zealand, major web platforms have scrambled to take down a 17-minute video of the attack. Sites like YouTube have applied imperfect technical solutions, trying to draw a line between newsworthy a… [+5263 chars]",
+      "author": "Seth G. Macy",
+      "title": "Here's Where to Get an Officially-Licensed 6-Button Sega Genesis Mini Controller.",
+      "description": "Forget pushing &quot;Start&quot; to toggle between punches and kicks in Street Fighter II: Special Championship Edition, there's an official solution.",
+      "url": "https://ca.ign.com/articles/2019/05/24/where-to-get-a-6-button-sega-genesis-mini-controller",
+      "urlToImage": "https://assets1.ignimgs.com/2019/05/17/sega6-1558106668532_1280w.png",
+      "publishedAt": "2019-05-24T18:19:39Z",
+      "content": null,
       "playlist": {
-        "id": "utxn89mk94npynslj5iz"
+        "id": "aw1r3x60vohvzzzetmxj9"
       }
     },
     {
       "source": {
-        "id": "the-verge",
-        "name": "The Verge"
+        "id": "ign",
+        "name": "IGN"
       },
-      "author": "Shannon Liao",
-      "title": "This week’s Simpsons focuses on League of Legends.",
-      "description": "League of Legends is taking on an unexpected appearance in Sunday’s upcoming episode of The Simpsons. The bizarre crossover will give fans of The Simpsons a look at the world of e-sports and PC gaming, while giving League fans who are lapsed Simpsons viewers …",
-      "url": "https://www.theverge.com/2019/3/15/18267848/simpsons-league-of-legends-episode-this-week",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/nORKTkLp9qiuRKCwYmh1Y8p8ZxA=/0x75:3840x2085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15965361/TheSimpsons_3009_EMySports_Sc_3052_Avid_Color_Corrected.jpg",
-      "publishedAt": "2019-03-15T22:01:49Z",
-      "content": "League of Legends will be one of the focal points in Sundays episode of The Simpsons. The crossover will give fans of the show a look at the world of e-sports and PC gaming, while giving League fans who are lapsed Simpsons viewers a reason to tune in.\r\nWhalen… [+1462 chars]",
+      "author": "Matt Purslow",
+      "title": "Call of Duty: Modern Warfare pode ser o nome do novo game da franquia.",
+      "description": "Infinity Ward retornando para a Terra O site Eurogamer e outros integrantes da indústria indicam que o rumor é verdadeiro.",
+      "url": "https://br.ign.com/call-of-duty-1-mobile/73510/news/call-of-duty-modern-warfare-pode-ser-o-nome-do-novo-game-da-franquia",
+      "urlToImage": "https://sm.ign.com/ign_br/news/c/call-of-du/call-of-duty-2019-is-allegedly-titled-call-of-duty-modern-wa_hpkm.jpg",
+      "publishedAt": "2019-05-24T18:15:39Z",
+      "content": "Os rumores sobre a franquia Call of Duty continuam, com membros da indústria de games indicando que o próximo game da franquia será chamado de Call of Duty: Modern Warfare.\r\nA especulação foi publicada inicialmente no Twitter pelo YouTuber LongSensation, que … [+1230 chars]",
       "playlist": {
-        "id": "utxn89mk94npynslj5iz"
-      }
-    },
-    {
-      "source": {
-        "id": "the-new-york-times",
-        "name": "The New York Times"
-      },
-      "author": "RICK GLADSTONE",
-      "title": "U.S. Navy Vet Held in Iran Gets 10 Years, Lawyer Says.",
-      "description": "The imprisonment of Michael R. White, 46, is another irritant in the increasingly tense relationship between Iran and the United States.",
-      "url": "https://www.nytimes.com/2019/03/15/world/middleeast/iran-us-navy-vet-sentence.html",
-      "urlToImage": "https://static01.nyt.com/images/2019/01/08/world/15iran/08iran1-facebookJumbo.jpg",
-      "publishedAt": "2019-03-16T01:47:38Z",
-      "content": "Mr. Whites mother, Joanne White, has repeatedly said she fears her son is in failing health and may have suffered a cancer recurrence while in Iran.\r\nAt least three other Americans have been imprisoned by Iran Siamak Namazi, Baquer Namazi and Xiyue Wang all a… [+633 chars]",
-      "playlist": {
-        "id": "16f6ztlgj45knq6zdbhyl"
+        "id": "aw1r3x60vohvzzzetmxj9"
       }
     },
     {
@@ -53,17 +37,65 @@
         "id": "the-new-york-times",
         "name": "The New York Times"
       },
-      "author": "EMILY CHAN",
-      "title": "从难民到“模范少数族裔”：一批美国人的上海根.",
-      "description": "在共产党进驻上海的前夜，她的妈妈在移民潮中逃往美国。70年后，谢汉兰执笔写下这段历史。作为第二代移民，她关注亚裔民权运动，呼吁华人了解他们过去是如何被对待的。 COURTESY OF HELEN ZIA 1982年，华裔美国人陈果仁因为看上去像日本人被两名白人汽车工杀害。十年后，谢汉兰继续为受害者家庭发声，并呼吁人们关注更大的种族暴力问题。",
-      "url": "https://cn.nytimes.com/china/20190316/last-boat-out-of-shanghai/",
-      "urlToImage": "https://static01.nyt.com/images/2019/03/15/admin/cc16helen-zia-span/cc16helen-zia-span-articleLarge.jpg",
-      "publishedAt": "2019-03-16T01:30:53Z",
-      "content": "",
+      "author": "Matthew Goldstein",
+      "title": "Two Men Charged in Pelvic Mesh Removal Scheme.",
+      "description": "An indictment in Brooklyn says a physician and a medical consultant were part of a network that enticed women to have surgery to bolster lawsuit settlements.",
+      "url": "https://www.nytimes.com/2019/05/24/business/vaginal-mesh-surgery-arrests.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/05/24/business/24mesh1/24mesh1-facebookJumbo.jpg",
+      "publishedAt": "2019-05-24T18:29:24Z",
+      "content": "Prosecutors opened the investigation last year after a report in The New York Times about a network of consultants, doctors, lawyers and financiers involved in recruiting women with mesh implants to get the removal surgery at medical centers in Florida withou… [+1009 chars]",
       "playlist": {
-        "id": "16f6ztlgj45knq6zdbhyl"
+        "id": "406yq5hb4mbw230qd88ms"
+      }
+    },
+    {
+      "source": {
+        "id": "the-new-york-times",
+        "name": "The New York Times"
+      },
+      "author": "Shael Polakow-Suransky",
+      "title": "Child Care Should Be a Right, Not an Afterthought.",
+      "description": "A child’s first 1,000 days are a time to be seized.",
+      "url": "https://www.nytimes.com/2019/05/24/opinion/child-care-crisis.html",
+      "urlToImage": "https://static01.nyt.com/images/2019/05/23/opinion/23polakow-suransky/23polakow-suransky-facebookJumbo.jpg",
+      "publishedAt": "2019-05-24T18:21:04Z",
+      "content": "In exemplary early-learning environments, children explore a rich range of materials and make choices as part of carefully planned routines. At the water table, a 2-year-old girl smears her arms with purple paint while a 1-year-old boy watches intently from a… [+2584 chars]",
+      "playlist": {
+        "id": "406yq5hb4mbw230qd88ms"
+      }
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Chris Welch",
+      "title": "Amazon still hasn’t fully given up on its mall kiosks.",
+      "description": "After announcing plans to close down all 87 of its mall and shopping center kiosks earlier this year, Amazon has returned with a new approach and is now including third-party products.",
+      "url": "https://www.theverge.com/2019/5/24/18638782/amazon-mall-kiosks-shopping-new-presented-by-stores",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/b6Xa6Le5Vzs_MJhqqziNewNBvkI=/0x153:2040x1221/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13443464/acastro_181114_1777_amazon_hq2_0004.jpg",
+      "publishedAt": "2019-05-24T18:05:21Z",
+      "content": "Amazon cant seem to decide whether it wants its own mini-stores inside shopping malls. After the company decided earlier this year to close the many kiosks it had maintained at malls, a few new ones have sprung up. As Business Insider notes, Amazons revamped … [+1499 chars]",
+      "playlist": {
+        "id": "7zkd1oe3vuebqyckzgfvb"
+      }
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Julia Alexander",
+      "title": "Taika Waititi’s live-action Akira movie gets May 2021 release date.",
+      "description": "Thor: Ragnarok director Taika Waititi’s Akira movie will hit theaters in 2021. Fans of the beloved 1988 anime and manga series are concerned, but Waititi has proven if anyone can do it, it’s him.",
+      "url": "https://www.theverge.com/2019/5/24/18638777/akira-live-action-taika-waititi-thor-ragnarok-warner-bros-release-date",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/KF_MNYf_oVHFXIjqciE8KJ9nUZ0=/0x97:1484x874/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16298212/akira.jpg",
+      "publishedAt": "2019-05-24T17:30:04Z",
+      "content": "Thor: Ragnarokdirector Taika Waititis next big-budget project, a live-action version of the beloved manga series Akira, finally has a release date, The Wrap reports: May 21st, 2021. \r\nWaititis project, which is being distributed by Warner Bros., was first ann… [+2323 chars]",
+      "playlist": {
+        "id": "7zkd1oe3vuebqyckzgfvb"
       }
     }
   ],
-  "timestamp": 1552702785506
+  "timestamp": 1558724733325
 }

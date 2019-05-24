@@ -21,9 +21,18 @@
             "langugage": "en",
             "pageSize": "2"
           }
+        },
+        {
+          "type": "everything",
+          "title": "IGN",
+          "query": {
+            "sources": "ign",
+            "langugage": "en",
+            "pageSize": "2"
+          }
         }
       ]
     }
   ],
-  "timestamp": 1552702785505
+  "timestamp": 1553768776580
 }
