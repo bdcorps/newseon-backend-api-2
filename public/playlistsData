@@ -1,17 +1,13 @@
 {
   "playlists": [
     {
-      "id": "406yq5hb4mbw230qd88ms",
-      "url": "https://newsapi.org/v2/everything?sources=the-new-york-times&langugage=en&pageSize=2&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "557dma1bo3ovxx858z0rh",
+      "url": "https://newsapi.org/v2/everything?sources=engadget&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
     },
     {
-      "id": "7zkd1oe3vuebqyckzgfvb",
-      "url": "https://newsapi.org/v2/everything?sources=the-verge&langugage=en&pageSize=2&apiKey=93ca611bceee4039b257ada8985541ce"
-    },
-    {
-      "id": "aw1r3x60vohvzzzetmxj9",
-      "url": "https://newsapi.org/v2/everything?sources=ign&langugage=en&pageSize=2&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "krihsg6jpdkrsef7rzeat",
+      "url": "https://newsapi.org/v2/everything?sources=the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
     }
   ],
-  "timestamp": 1558724728565
+  "timestamp": 1559005458531
 }

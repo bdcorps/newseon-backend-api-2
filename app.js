@@ -36,14 +36,17 @@ var Playlist = models.PlaylistModel;
 var Category = models.CategoryModel;
 var Config = models.ConfigModel;
 
+//put the key in .env
+var NEWS_API_KEY = process.env.NEWS_API_KEY;
+var GOOGLE_TRANSLATE_KEY = process.env.GOOGLE_TRANSLATE_KEY;
+var UNSPLASH_ACCESS_ID = process.env.UNSPLASH_ACCESS_ID;
+
 // Imports the Google Cloud client library
 const textToSpeech = require("@google-cloud/text-to-speech");
+var googleTranslate = require("google-translate")(GOOGLE_TRANSLATE_KEY);
+// const { Translate } = require("@google-cloud/translate");
 
 var currentPlaylistURLsToDownload = [];
-
-//put the key in .env
-var API_KEY = process.env.API_KEY;
-var UNSPLASH_ACCESS_ID = process.env.UNSPLASH_ACCESS_ID;
 
 unsplash.init(UNSPLASH_ACCESS_ID);
 
@@ -54,6 +57,26 @@ var dataToWriteToFile = { playlists: [] };
 /* 
 This API takes the queries in contentURLList.js and runs it through newsapi.org. The retrieved articles are then sent to Google Text to Speech. The audio is saved as filename, based on the hashed function (title of the article), in order to identify duplicates. The file is then uploaded to tracks db using GridFS and the location stored in the articles db.
 */
+
+// async function detectLanguage(text) {
+//   // Creates a client
+//   const translate = new Translate();
+
+//   /**
+//    * TODO(developer): Uncomment the following line before running the sample.
+//    */
+//   // const text = 'The text for which to detect language, e.g. Hello, world!';
+
+//   // Detects the language. "text" can be a string for detecting the language of
+//   // a single piece of text, or an array of strings for detecting the languages
+//   // of multiple texts.
+//   let [detections] = await translate.detect(text);
+//   detections = Array.isArray(detections) ? detections : [detections];
+//   console.log("Detections:");
+//   detections.forEach(detection => {
+//     console.log(`${detection.input} => ${detection.language}`);
+//   });
+// }
 
 var app = express();
 
@@ -133,7 +156,7 @@ mongoose.Promise = Promise;
 
 //----------------------google text to speech
 
-var credentials = JSON.parse(process.env.GOOGLE_KEY);
+var credentials = JSON.parse(process.env.GOOGLE_TTS_KEY);
 
 // Creates a client
 const client = new textToSpeech.TextToSpeechClient({
@@ -152,7 +175,7 @@ connection.once("open", function() {
   //   });
   // });
 
-  Config.find({ }, function(err, doc) {
+  Config.find({}, function(err, doc) {
     if (err) {
       res.send("error: " + err);
     }
@@ -216,13 +239,17 @@ connection.once("open", function() {
     c++;
     var categories = req.body.categories;
     writeToFile({ categories: categories }, "categoriesConfig");
-    
-    Config.findOneAndUpdate({}, {categories: categories}, {upsert:true}, function(err, doc){
-      if (err) {
-        console.error("ERROR! Config Categories ID is " + " " + err);
-      }
 
-    });
+    Config.findOneAndUpdate(
+      {},
+      { categories: categories },
+      { upsert: true },
+      function(err, doc) {
+        if (err) {
+          console.error("ERROR! Config Categories ID is " + " " + err);
+        }
+      }
+    );
 
     var categories = readFromFile(__dirname + "/public/categoriesConfig");
 
@@ -236,12 +263,16 @@ connection.once("open", function() {
     var articles = req.body.articles;
     writeToFile({ articles: articles }, "articlesData");
 
- Config.findOneAndUpdate({}, {articles: articles}, {upsert:true}, function(err, doc){
-      if (err) {
-        console.error("ERROR! Config articles ID is " + " " + err);
+    Config.findOneAndUpdate(
+      {},
+      { articles: articles },
+      { upsert: true },
+      function(err, doc) {
+        if (err) {
+          console.error("ERROR! Config articles ID is " + " " + err);
+        }
       }
-      
-    });
+    );
 
     res.render("articles.ejs", {
       articles: articles,
@@ -333,7 +364,7 @@ connection.once("open", function() {
           "https://newsapi.org/v2/everything?" +
           urlParameters +
           "&apiKey=" +
-          API_KEY;
+          NEWS_API_KEY;
 
         urls.push(playlistURL);
       }
@@ -527,21 +558,67 @@ connection.once("open", function() {
 
     writeToFile("", "articlesData");
 
+    // detectLanguage(
+    //   "Novidades de The Last of Us 2 e Death Stranding, Gears 5 vai rodar em 4k e 60 fps - Daily Fix"
+    // );
+
     for (let i = 0; i < playlists.length; i++) {
       request(playlists[i].url, function(error, response, body) {
         if (!error && response.statusCode == 200) {
-          var articles = JSON.parse(body).articles;
+          let articles = JSON.parse(body).articles;
 
-          for (var j = 0; j < articles.length; j++) {
-            articles[j].title = cleanedTitle(articles[j].title);
-            articles[j].description = cleanedDescription(
-              articles[j].description
-            );
+          for (let j = 0; j < articles.length; j++) {
+            let options = {
+              method: "POST",
+              url: "https://ws.detectlanguage.com/0.2/detect",
+              qs: { q: articles[j].title },
+              headers: {
+                "Postman-Token": "3c1a5108-ab0d-44bd-bded-9536845f98d3",
+                "cache-control": "no-cache",
+                Authorization: "Bearer 6b5cb08f342c6c38f3a3b49515787359"
+              }
+            };
 
-            articles[j].playlist = { id: playlists[i].id };
+            googleTranslate.detectLanguage(articles[j].title, function(
+              err,
+              detection
+            ) {
+              if (!err && detection.language == "en") {
+                console.log("Is English: " + articles[j].title);
+                articles[j].title = cleanedTitle(articles[j].title);
+                articles[j].description = cleanedDescription(
+                  articles[j].description
+                );
 
-            articleCollection.push(articles[j]);
-            writeToFile({ articles: articleCollection }, "articlesData");
+                articles[j].playlist = { id: playlists[i].id };
+
+                articleCollection.push(articles[j]);
+                writeToFile({ articles: articleCollection }, "articlesData");
+              } else {
+                console.log("Not English: " + articles[j].title);
+              }
+            });
+
+            //make sure the article title is in English
+            // request(options, function(error, response, body) {
+            //   if (!error && response.statusCode == 200) {
+            //     let detectedLanguages = JSON.parse(body).data.detections;
+            //     if (detectedLanguages[0].language == "en") {
+            //       console.log("Is English: " + articles[j].title);
+            //       articles[j].title = cleanedTitle(articles[j].title);
+            //       articles[j].description = cleanedDescription(
+            //         articles[j].description
+            //       );
+
+            //       articles[j].playlist = { id: playlists[i].id };
+
+            //       articleCollection.push(articles[j]);
+            //       writeToFile({ articles: articleCollection }, "articlesData");
+            //     } else {
+            //       console.log("Not English: " + articles[j].title);
+            //     }
+            //   }
+            // });
           }
         }
       });

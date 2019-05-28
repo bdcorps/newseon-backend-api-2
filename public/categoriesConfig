@@ -6,11 +6,11 @@
       "playlists": [
         {
           "type": "everything",
-          "title": "NY Times",
+          "title": "Engadget",
           "query": {
-            "sources": "the-new-york-times",
+            "sources": "engadget",
             "langugage": "en",
-            "pageSize": "2"
+            "pageSize": "10"
           }
         },
         {
@@ -19,20 +19,11 @@
           "query": {
             "sources": "the-verge",
             "langugage": "en",
-            "pageSize": "2"
-          }
-        },
-        {
-          "type": "everything",
-          "title": "IGN",
-          "query": {
-            "sources": "ign",
-            "langugage": "en",
-            "pageSize": "2"
+            "pageSize": "10"
           }
         }
       ]
     }
   ],
-  "timestamp": 1553768776580
+  "timestamp": 1559005453765
 }
