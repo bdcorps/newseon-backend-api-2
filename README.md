@@ -4,6 +4,10 @@ Supports UI /dashboard.
 Complete pipeline to generate and trascribe articles to mlab database.
 Source: newsapi
 
++ Updated endpoints in newseon-mobile-2 to connect to this.
++ Adding new endpoints to allow for collective 
+
+
 How categoriesConfig.js should look like?
 
 ``` javascript
