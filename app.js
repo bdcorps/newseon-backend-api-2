@@ -875,7 +875,7 @@ var reloadContentAsync = async () => {
 };
 
 var reloadContentCron = cron.schedule(
-  "0 0 * * *",
+  "0 8 * * *",
   () => {
     console.log("Reloading content on " + Date.now());
     reloadContentAsync();
@@ -886,7 +886,7 @@ var reloadContentCron = cron.schedule(
   }
 );
 
-//reloadContentCron.start();
+reloadContentCron.start();
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
