@@ -1,13 +1,25 @@
 {
   "playlists": [
     {
-      "id": "557dma1bo3ovxx858z0rh",
-      "url": "https://newsapi.org/v2/everything?sources=engadget&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "ls9m6lnvw4m1uapv8hohxhi",
+      "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
     },
     {
-      "id": "krihsg6jpdkrsef7rzeat",
-      "url": "https://newsapi.org/v2/everything?sources=the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "q4mhgtv63nqjgqg58xxv",
+      "url": "https://newsapi.org/v2/everything?sources=the-next-web&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+    },
+    {
+      "id": "axax1m6qlyjrbya1ij1gf",
+      "url": "https://newsapi.org/v2/everything?sources=wired&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+    },
+    {
+      "id": "5mhzi81nqvyfkdleiigcl6",
+      "url": "https://newsapi.org/v2/everything?sources=polygon&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+    },
+    {
+      "id": "88kuefo4kkg3vrxjegb01p",
+      "url": "https://newsapi.org/v2/everything?sources=crypto-news-news&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
     }
   ],
-  "timestamp": 1559005458531
+  "timestamp": 1565641701616
 }

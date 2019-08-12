@@ -128,6 +128,7 @@ app.use(function(err, req, res, next) {
 let db;
 MongoClient.connect(
   "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp",
+  { useNewUrlParser: true },
   (err, database) => {
     if (err) {
       console.log(
@@ -212,6 +213,10 @@ connection.once("open", function() {
 
   app.get("/dashboard", (req, res) => {
     res.render("main.ejs");
+  });
+
+  app.get("/dashboard2", (req, res) => {
+    res.render("dashboard.ejs");
   });
 
   app.get("/articles", (req, res) => {
@@ -494,7 +499,9 @@ connection.once("open", function() {
   }
 
   app.get("/", (req, res) => {
-    res.send("API Version " + pjson.version);
+    res.render("index.ejs", {
+      version: pjson.version
+    });
   });
 
   app.get("/resetv2", (req, res) => {
@@ -583,13 +590,18 @@ connection.once("open", function() {
               err,
               detection
             ) {
+              if (err) {
+                console.log(
+                  "Problem with Google Translate API. More Details. ",
+                  err
+                );
+              }
               if (!err && detection.language == "en") {
                 console.log("Is English: " + articles[j].title);
                 articles[j].title = cleanedTitle(articles[j].title);
                 articles[j].description = cleanedDescription(
                   articles[j].description
                 );
-
                 articles[j].playlist = { id: playlists[i].id };
 
                 articleCollection.push(articles[j]);
@@ -598,27 +610,6 @@ connection.once("open", function() {
                 console.log("Not English: " + articles[j].title);
               }
             });
-
-            //make sure the article title is in English
-            // request(options, function(error, response, body) {
-            //   if (!error && response.statusCode == 200) {
-            //     let detectedLanguages = JSON.parse(body).data.detections;
-            //     if (detectedLanguages[0].language == "en") {
-            //       console.log("Is English: " + articles[j].title);
-            //       articles[j].title = cleanedTitle(articles[j].title);
-            //       articles[j].description = cleanedDescription(
-            //         articles[j].description
-            //       );
-
-            //       articles[j].playlist = { id: playlists[i].id };
-
-            //       articleCollection.push(articles[j]);
-            //       writeToFile({ articles: articleCollection }, "articlesData");
-            //     } else {
-            //       console.log("Not English: " + articles[j].title);
-            //     }
-            //   }
-            // });
           }
         }
       });
@@ -764,7 +755,7 @@ function cleanedTitle(inputText) {
 
 function cleanedDescription(inputText) {
   var cleanedText = inputText.replace('"', "'");
-
+  cleanedText = cleanedText.replace(/<.>|<\/.>/g, "");
   return cleanedText;
 }
 

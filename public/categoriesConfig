@@ -6,18 +6,45 @@
       "playlists": [
         {
           "type": "everything",
-          "title": "Engadget",
+          "title": "Technology",
           "query": {
-            "sources": "engadget",
+            "sources": "engadget,the-verge",
             "langugage": "en",
             "pageSize": "10"
           }
         },
         {
           "type": "everything",
-          "title": "The Verge",
+          "title": "Startups",
           "query": {
-            "sources": "the-verge",
+            "sources": "the-next-web",
+            "langugage": "en",
+            "pageSize": "10"
+          }
+        },
+        {
+          "type": "everything",
+          "title": "Digital Products",
+          "query": {
+            "sources": "wired",
+            "langugage": "en",
+            "pageSize": "10"
+          }
+        },
+        {
+          "type": "everything",
+          "title": "Gaming",
+          "query": {
+            "sources": "polygon",
+            "langugage": "en",
+            "pageSize": "10"
+          }
+        },
+        {
+          "type": "everything",
+          "title": "Cryptocurrency",
+          "query": {
+            "sources": "crypto-coins-news",
             "langugage": "en",
             "pageSize": "10"
           }
@@ -25,5 +52,5 @@
       ]
     }
   ],
-  "timestamp": 1559005453765
+  "timestamp": 1565647570279
 }
