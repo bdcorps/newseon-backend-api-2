@@ -873,9 +873,9 @@ var reloadContentAsync = async () => {
   });
 };
 
-//Reload at 8 AM
+//Reload at 8:10 AM
 var reloadContentCron = cron.schedule(
-  "00 00 08 * * *",
+  "00 10 08 * * *",
   () => {
     console.log("Reloading content on " + Date.now());
     reloadContentAsync();
