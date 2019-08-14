@@ -128,7 +128,6 @@ app.use(function(err, req, res, next) {
 let db;
 MongoClient.connect(
   "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp",
-  { useNewUrlParser: true },
   (err, database) => {
     if (err) {
       console.log(
@@ -874,17 +873,20 @@ var reloadContentAsync = async () => {
   });
 };
 
+//Reload at 8 AM
 var reloadContentCron = cron.schedule(
-  "0 8 * * *",
+  "00 00 08 * * *",
   () => {
     console.log("Reloading content on " + Date.now());
     reloadContentAsync();
   },
+  undefined,
   {
     scheduled: true,
     timezone: "America/New_York"
   }
 );
+console.log(Date.now());
 
 reloadContentCron.start();
 
