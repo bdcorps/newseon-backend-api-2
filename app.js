@@ -54,7 +54,7 @@ var dataToWriteToFile = { playlists: [] };
 
 //var statusReport = {};
 
-/* 
+/*
 This API takes the queries in contentURLList.js and runs it through newsapi.org. The retrieved articles are then sent to Google Text to Speech. The audio is saved as filename, based on the hashed function (title of the article), in order to identify duplicates. The file is then uploaded to tracks db using GridFS and the location stored in the articles db.
 */
 
@@ -803,7 +803,7 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     //save to mongodb
     var articleToSave = new Article(articleObject);
 
-    console.log("Generating track for: #" + articleObject.uid);
+    console.log("Generating track with category "+ category +" for: #" + articleObject.uid);
     //console.log(prettyPrintJSON(articleObject));
 
     articleToSave.save(function(error) {
