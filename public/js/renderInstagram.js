@@ -14,7 +14,7 @@ $(document).ready(function() {
       allowTaint: true,
       logging: true
     }).then(canvas => {
-      document.body.appendChild(canvas);
+      $("#renderContainer").html(canvas);
     });
   });
 });
