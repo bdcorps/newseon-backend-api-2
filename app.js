@@ -218,6 +218,11 @@ connection.once("open", function() {
     res.render("dashboard.ejs");
   });
 
+  // Render Instagram post
+  app.get("/render", (req, res) => {
+    res.render("renderInstagram.ejs");
+  });
+
   app.get("/articles", (req, res) => {
     var articles = readFromFile(__dirname + "/public/articlesData");
     articles = articles;
@@ -803,7 +808,12 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     //save to mongodb
     var articleToSave = new Article(articleObject);
 
-    console.log("Generating track with category "+ category +" for: #" + articleObject.uid);
+    console.log(
+      "Generating track with category " +
+        category +
+        " for: #" +
+        articleObject.uid
+    );
     //console.log(prettyPrintJSON(articleObject));
 
     articleToSave.save(function(error) {
