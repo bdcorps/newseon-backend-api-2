@@ -5,6 +5,7 @@ const request = require("request");
 const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 var reloadContentAsync = async () => {
+  await snooze(5000);
   request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
     error,
     response,

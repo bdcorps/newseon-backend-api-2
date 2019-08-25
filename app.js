@@ -17,6 +17,15 @@ var parseString = require("xml2js").parseString;
 var http = require("http");
 var unsplash = require("unsplash-api");
 
+const {
+  cleanText,
+  cleanedTitle,
+  cleanedDescription,
+  writeToFile,
+  readFromFile,
+  captilizeWord
+} = require("./utils/helpers");
+
 require("dotenv").config();
 
 var contentURLLists = require("./public/contentURLList");
@@ -128,6 +137,7 @@ app.use(function(err, req, res, next) {
 let db;
 MongoClient.connect(
   "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp",
+  { useUnifiedTopology: true, useNewUrlParser: true },
   (err, database) => {
     if (err) {
       console.log(
@@ -476,31 +486,31 @@ connection.once("open", function() {
     });
   }
 
-  function writeToFile(data, fileName) {
-    var dataToWrite = data;
-    var d = new Date();
-    var n = d.getTime();
+  // function writeToFile(data, fileName) {
+  //   var dataToWrite = data;
+  //   var d = new Date();
+  //   var n = d.getTime();
 
-    dataToWrite.timestamp = n;
-    fs.writeFileSync(
-      __dirname + "/public/" + fileName,
-      prettyPrintJSON(data),
-      "utf8",
-      err => {
-        if (err) throw err;
+  //   dataToWrite.timestamp = n;
+  //   fs.writeFileSync(
+  //     __dirname + "/public/" + fileName,
+  //     prettyPrintJSON(data),
+  //     "utf8",
+  //     err => {
+  //       if (err) throw err;
 
-        console.log(fileName + " file saved");
-      }
-    );
-  }
-  function readFromFile(path) {
-    var text = fs.readFileSync(path, "utf8");
-    return JSON.parse(text);
-  }
+  //       console.log(fileName + " file saved");
+  //     }
+  //   );
+  // }
+  // function readFromFile(path) {
+  //   var text = fs.readFileSync(path, "utf8");
+  //   return JSON.parse(text);
+  // }
 
-  function captilizeWord(lower) {
-    return lower.charAt(0).toUpperCase() + lower.substr(1);
-  }
+  // function captilizeWord(lower) {
+  //   return lower.charAt(0).toUpperCase() + lower.substr(1);
+  // }
 
   app.get("/", (req, res) => {
     res.render("index.ejs", {
@@ -741,27 +751,27 @@ function generateAudioTrack(
   });
 }
 
-function cleanText(inputText) {
-  var cleanedText = inputText;
-  cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, "");
-  return cleanedText;
-}
+// function cleanText(inputText) {
+//   var cleanedText = inputText;
+//   cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, "");
+//   return cleanedText;
+// }
 
-function cleanedTitle(inputText) {
-  var cleanedText = inputText;
+// function cleanedTitle(inputText) {
+//   var cleanedText = inputText;
 
-  if (cleanedText[cleanedText.length - 1] == "?") {
-  } else if (cleanedText[cleanedText.length - 1] != ".") {
-    cleanedText += ".";
-  }
-  return cleanedText;
-}
+//   if (cleanedText[cleanedText.length - 1] == "?") {
+//   } else if (cleanedText[cleanedText.length - 1] != ".") {
+//     cleanedText += ".";
+//   }
+//   return cleanedText;
+// }
 
-function cleanedDescription(inputText) {
-  var cleanedText = inputText.replace('"', "'");
-  cleanedText = cleanedText.replace(/<.>|<\/.>/g, "");
-  return cleanedText;
-}
+// function cleanedDescription(inputText) {
+//   var cleanedText = inputText.replace('"', "'");
+//   cleanedText = cleanedText.replace(/<.>|<\/.>/g, "");
+//   return cleanedText;
+// }
 
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, category) {
