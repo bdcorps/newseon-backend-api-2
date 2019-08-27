@@ -40,7 +40,6 @@ button {
 }
 
 .content {
-    border-radius: 5px;
     overflow: hidden;
     width: 987px;
     height: 1240px;
@@ -64,11 +63,14 @@ button {
 }
 
 .news-img {
-    max-width: 987px;
-    max-height: 781px;
+    /* 987px 781px */
+    max-width: 990px;
+    max-height: 782px;
     overflow: hidden;
 }
 
 .news-img img {
-    width: 987px;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }
