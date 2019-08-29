@@ -71,7 +71,7 @@ button {
 .news-img {
     /* 987px 781px */
     max-width: 990px;
-    max-height: 782px;
+    height: 782px;
     overflow: hidden;
 }
 
