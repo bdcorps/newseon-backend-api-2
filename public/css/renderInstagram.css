@@ -62,10 +62,16 @@ button {
     top: 40px;
 }
 
+.logo-img img {
+    width:100px;
+    height:100px;
+}
+
+
 .news-img {
     /* 987px 781px */
     max-width: 990px;
-    max-height: 782px;
+    height: 782px;
     overflow: hidden;
 }
 
