@@ -20,6 +20,10 @@ function cleanedDescription(inputText) {
   return cleanedText;
 }
 
+function prettyPrintJSON(obj) {
+  return JSON.stringify(obj, null, 2);
+}
+
 function writeToFile(data, fileName) {
   var dataToWrite = data;
   var d = new Date();

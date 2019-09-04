@@ -23,7 +23,8 @@ const {
   cleanedDescription,
   writeToFile,
   readFromFile,
-  captilizeWord
+  captilizeWord,
+  prettyPrintJSON
 } = require("./utils/helpers");
 
 require("dotenv").config();
@@ -911,10 +912,6 @@ console.log(Date.now());
 reloadContentCron.start();
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
-
-function prettyPrintJSON(obj) {
-  return JSON.stringify(obj, null, 2);
-}
 
 app.listen(port, function() {
   console.log("Server running on port: %d", port);
