@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 function cleanText(inputText) {
   var cleanedText = inputText;
   cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, "");
