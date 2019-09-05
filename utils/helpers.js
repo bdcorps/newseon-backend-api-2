@@ -33,7 +33,7 @@ function writeToFile(data, fileName) {
 
   dataToWrite.timestamp = n;
   fs.writeFileSync(
-    __dirname + "/public/" + fileName,
+    __dirname + "../public/" + fileName,
     prettyPrintJSON(data),
     "utf8",
     err => {
