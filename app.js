@@ -139,7 +139,7 @@ let db;
 MongoClient.connect(
   "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp",
   { useUnifiedTopology: true, useNewUrlParser: true },
-  (err, database) => {
+  (err, client) => {
     if (err) {
       console.log(
         "MongoDB Connection Error. Please make sure that MongoDB is running."
@@ -148,7 +148,7 @@ MongoClient.connect(
       //  statusReport.trackdb = {"err" :  JSON.stringify(err)}
       process.exit(1);
     }
-    db = database;
+    db = client.db("newseumapp");
     // statusReport.trackdb = {"status" :  "connected"}
   }
 );
@@ -160,7 +160,8 @@ connection.on("error", console.error.bind(console, "connection error:"));
  * Connect Mongoose to store Article documents
  */
 mongoose.connect(
-  "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp"
+  "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp",
+  { useUnifiedTopology: true, useNewUrlParser: true }
 );
 
 mongoose.Promise = Promise;
@@ -235,7 +236,7 @@ connection.once("open", function() {
   });
 
   app.get("/articles", (req, res) => {
-    var articles = readFromFile(__dirname + "/public/articlesData");
+    var articles = readFromFile("articlesData");
     articles = articles;
 
     res.render("articles.ejs", {
@@ -245,7 +246,7 @@ connection.once("open", function() {
   });
 
   app.get("/categories", (req, res) => {
-    var categories = readFromFile(__dirname + "/public/categoriesConfig");
+    var categories = readFromFile("categoriesConfig");
     categories = categories;
 
     res.render("categories.ejs", {
@@ -271,7 +272,7 @@ connection.once("open", function() {
       }
     );
 
-    var categories = readFromFile(__dirname + "/public/categoriesConfig");
+    var categories = readFromFile("categoriesConfig");
 
     res.render("categories.ejs", {
       categories: categories,
@@ -334,7 +335,7 @@ connection.once("open", function() {
   app.get("/generatev2", (req, res) => {
     categoriesAPI = [];
 
-    var categories = readFromFile(__dirname + "/public/categoriesConfig");
+    var categories = readFromFile("categoriesConfig");
     categories = categories.categories;
 
     for (var i = 0; i < categories.length; i++) {
@@ -569,7 +570,7 @@ connection.once("open", function() {
   app.get("/writesv2", (req, res) => {
     //read playlistsData file
 
-    var data = readFromFile(__dirname + "/public/playlistsData");
+    var data = readFromFile("playlistsData");
     var playlists = data.playlists;
 
     var articleCollection = [];
@@ -636,7 +637,7 @@ connection.once("open", function() {
   });
 
   function generateAudioTracks(req, res) {
-    var articles = readFromFile(__dirname + "/public/articlesData");
+    var articles = readFromFile("articlesData");
     articles = articles.articles;
 
     //console.log("about to write" + JSON.stringify(articles));

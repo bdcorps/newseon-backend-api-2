@@ -1,4 +1,5 @@
 const fs = require("fs");
+var path = require("path");
 
 function cleanText(inputText) {
   var cleanedText = inputText;
@@ -33,7 +34,7 @@ function writeToFile(data, fileName) {
 
   dataToWrite.timestamp = n;
   fs.writeFileSync(
-    __dirname + "../public/" + fileName,
+    path.resolve(__dirname, "../public/", fileName),
     prettyPrintJSON(data),
     "utf8",
     err => {
@@ -43,8 +44,11 @@ function writeToFile(data, fileName) {
     }
   );
 }
-function readFromFile(path) {
-  var text = fs.readFileSync(path, "utf8");
+function readFromFile(fileName) {
+  var text = fs.readFileSync(
+    path.resolve(__dirname, "../public/", fileName),
+    "utf8"
+  );
   return JSON.parse(text);
 }
 
