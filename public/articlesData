@@ -2,214 +2,6 @@
   "articles": [
     {
       "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "Meet the brave devs trying to take Dogecoin beyond the meme.",
-      "description": "Meet the brave devs trying to take Dogecoin beyond the meme",
-      "url": "https://cc.thenextweb.com/post/187513136165/httpsthenextwebcomhardfork20190905meet-the-brav",
-      "urlToImage": "https://66.media.tumblr.com/dbb7464fa75dd863dff3f5dfdb5cc51b/tumblr_pxd8jr82bs1qejjfeo1_1280.png",
-      "publishedAt": "2019-09-05T16:02:14Z",
-      "content": "Meet the brave devs trying to take Dogecoin beyond the meme",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Graeme Mcmillan",
-      "title": "Those Bad 'Rise of Skywalker' Rumors Are False.",
-      "description": "Those Bad 'Rise of Skywalker' Rumors Are False wired.com",
-      "url": "https://www.wired.com/story/cantina-talk-93/",
-      "urlToImage": "",
-      "publishedAt": "2019-09-05T23:26:51Z",
-      "content": "Probability of Accuracy: Unlike the last rumors, this has an air of truth to it, but that may simply be wishful thinking on our part.\r\nThe Real Deal: Here's another rumor about The Rise of Skywalkerand one that, while unrelated to how the major events of the … [+3152 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Tristan Greene",
-      "title": "Canadian university launches online cannabis cultivation courses.",
-      "description": "The University of Guelph in Canada now offers an online cannabis cultivation course as part of its horticulture program. Finally! An education you can actually use. This fall semester the university will officially launch it’s “Cannabis Production” course gea…",
-      "url": "https://thenextweb.com/?p=1240985",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F06%2Fweed-farm-e1567703307611.jpg&signature=d620c7498a8937c03874898a3e0c5ffd",
-      "publishedAt": "2019-09-05T17:23:09Z",
-      "content": "The University of Guelph in Canada now offers an online cannabis cultivation course as part of its horticulture program. Finally! An education you can actually use. \r\nThis fall semester the university will officially launch its Cannabis Production course gear… [+2124 chars]",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Matt Simon",
-      "title": "Retreat? *Pish*. Democrats Dare Not Speak Climate Change's ‘R’ Word.",
-      "description": "Canadians call the abandonment of coasts and floodplains a “strategic retreat.” American politicians call it literally anything else they can.",
-      "url": "https://www.wired.com/story/democrats-climate-change-retreat/",
-      "urlToImage": "https://media.wired.com/photos/5d7158e1b163630009eb37c1/master/w_2560,c_limit/SCIENCE_CLIMATE_1158538374.jpg",
-      "publishedAt": "2019-09-05T20:43:50Z",
-      "content": "Retreat, hell! Major General Oliver Prince Smith once said during the Korean War. We're not retreating, we're just advancing in a different direction.\r\nRetreat is not a concept Americans take lightly, whether in wartime or during CNNs climate town hall Wednes… [+3233 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Matthew Hughes",
-      "title": "The F(x)tec Pro 1 proves there’s room for keyboard slider phones in 2019.",
-      "description": "UK mobile startup F(x)tec today announced the upcoming availability of its inaugural handset, the F(x)tec Pro 1. This handset is a contemporary take on the old Nokia E7 slider phone, aimed at power users, as well as those for whom virtual keyboards aren’t goo…",
-      "url": "https://thenextweb.com/plugged/2019/09/05/the-fxtec-pro-1-proves-theres-room-for-keyboard-slider-phones-in-2019/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FDSC_0055-Cropped.jpg&signature=6272202d6fce9229bf497cba7940c1e1",
-      "publishedAt": "2019-09-05T23:49:15Z",
-      "content": "UK mobile startup F(x)tec today announced the upcoming availability of its inaugural handset, the F(x)tec Pro 1. This handset is a contemporary take on the old Nokia E7 slider phone, aimed at power users, as well as those for whom virtual keyboards arent good… [+6197 chars]",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Klint Finley",
-      "title": "Facebook, Microsoft Back Contest to Better Detect Deepfakes.",
-      "description": "Deepfakes are improving. The contest, which will include deepfakes created by Facebook, is designed to help researchers keep up.",
-      "url": "https://www.wired.com/story/facebook-microsoft-contest-better-detect-deepfakes/",
-      "urlToImage": "https://media.wired.com/photos/5d705aacb8a4ff000808d0e7/master/w_2560,c_limit/Deep-Fake-Facebook-Contest-57519848.jpg",
-      "publishedAt": "2019-09-05T17:00:00Z",
-      "content": "When the makers of the 1994 movie Forrest Gump inserted Tom Hanks into an old film clip to make it appear the actor was shaking hands with Richard Nixon, their handiwork was considered cutting edge. Now it's easier to doctor video. The popular Chinese app Zao… [+2755 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Bill de Blasio",
-      "title": "Why American Workers Need to Be Protected From Automation.",
-      "description": "Opinion: As President, I would issue a robot tax for corporations displacing humans, and create a federal agency to oversee automation.",
-      "url": "https://www.wired.com/story/why-american-workers-need-to-be-protected-from-automation/",
-      "urlToImage": "https://media.wired.com/photos/5d715c1a84717f000971855c/master/w_2560,c_limit/OpEd-Factory-Automation-610703598.jpg",
-      "publishedAt": "2019-09-05T19:16:01Z",
-      "content": "They call it the lights out factory. A manufacturing complex run by the Japanese company FANUC, it spans 22 facilities producing 23,000 computer parts each month for companies like Tesla and Apple. The plant runs close to 24 hours a day, every day of the year… [+3716 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Tristan Greene",
-      "title": "Gears 5 is the latest blockbuster game to welcome the LGBTQ+ gaming community.",
-      "description": "Gears 5 is almost here, it's welcoming to queers, and the fact that it's just one of many AAA gaming titles putting out the “welcome” mat for LGBTQPIA+ gamers means you'd better ...",
-      "url": "https://thenextweb.com/?p=1241025",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Flgbtgears.jpg&signature=0888f27704488343514248333ddb832d",
-      "publishedAt": "2019-09-05T22:58:16Z",
-      "content": "Gears 5 is almost here, its welcoming to queers, and the fact that its just one of many AAA gaming titles featuring in-game inclusivity for LGBTQPIA+ gamers means youd better get used to it.\r\nThe latest entry in the saga for humanitys survival (read my collea… [+1966 chars]",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Nick Statt",
-      "title": "Foxconn’s first announced product for its Wisconsin factory is an airport coffee robot.",
-      "description": "Taiwanese manufacturing giant Foxconn is expanding its controversial Wisconsin presence, with automated coffee robots. The manufacture today announced a partnership with a Texas-based company called Briggo, which makes automated coffee dispensers the size of …",
-      "url": "https://www.theverge.com/2019/9/5/20851978/foxconn-briggo-partnership-wisconsin-airport-coffee-robots-automation",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/4DLLX8Xy99OFlU0dshkLHESJjyE=/0x84:1170x697/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19172012/briggo.jpg",
-      "publishedAt": "2019-09-05T23:51:13Z",
-      "content": "The factory doesnt exist yet\r\nImage: Briggo\r\nTaiwanese manufacturing giant Foxconn is expanding its controversial Wisconsin presence with automated coffee robots. The manufacturer, known best for helping create the worlds most popular electronics devices pred… [+2170 chars]",
-      "playlist": {
-        "id": "6e4szshga86u8k4plxy3ai"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Jessica Conditt",
-      "title": "The next Nintendo Switch accessory is a springy circle.",
-      "description": "The Nintendo Switch is full of surprises. Not only is it a hybrid console for living room and mobile play, but it's received a lineup of add-ons that introduce new ways to engage with games. There are driving wheels and gamepad modifiers for the Joy-...",
-      "url": "https://www.engadget.com/2019/09/05/nintendo-switch-mystery-accessory-fitness-circle/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C867%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C867%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252Fe747b4a0-d02e-11e9-bd7f-4869cf2eb697%26client%3Da1acac3e1b3290917d92%26signature%3D34ab06e0f3dbe063374856603f9375eb6a3432f4&client=amp-blogside-v2&signature=7bf8f8dbac288884fb50762cf215a1f3fecb7665",
-      "publishedAt": "2019-09-05T22:52:00Z",
-      "content": "Nintendo dropped a trailer this afternoon showcasing \"a new experience\" for the Switch, but leaving out any other concrete details. The tool itself is a springy circle roughly the size of a medium pizza, with slots for the Joy-Cons. The video shows folks from… [+330 chars]",
-      "playlist": {
-        "id": "6e4szshga86u8k4plxy3ai"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Graeme McMillan",
-      "title": "Star Wars News: Those Bad 'Rise of Skywalker' Rumors Are False.",
-      "description": "It's not being rewritten. Sorry, haters.",
-      "url": "https://www.wired.com/story/cantina-talk-93",
-      "urlToImage": null,
-      "publishedAt": "2019-09-05T23:22:35Z",
-      "content": null,
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Makena Kelly",
-      "title": "8chan could be back online as soon as next week, lawyer says.",
-      "description": "According to Watkins’s lawyer, Benjamin Barr, 8chan’s owners hope to have the site back online in the next week or so. In his prepared remarks for the committee, Watkins said that 8chan is currently “offline voluntarily” and that it may come back online soon,…",
-      "url": "https://www.theverge.com/2019/9/5/20851949/8chan-jim-watkins-benjamin-barr-congress-deposition-testimony-el-paso-shooting",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/XNDvGfkOgq0J1VrEdActgSDtDM0=/0x87:1236x734/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171965/190806_jim_watkins_8chan.jpg",
-      "publishedAt": "2019-09-05T22:54:06Z",
-      "content": "The site could still be having trouble securing hosting\r\nJim Watkins, YouTube\r\n8chan owner Jim Watkins provided evidence to congressional staffers on Thursday to comply with a subpoena the House Homeland Security Committee issued him after a series of racist … [+3098 chars]",
-      "playlist": {
-        "id": "6e4szshga86u8k4plxy3ai"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Julie Muncy",
-      "title": "'Gears 5': A War Game That Really Deals with War Trauma.",
-      "description": "Like its predecessors, the latest title in the series goes beneath the surface to explore the toll of combat on its characters and their world.",
-      "url": "https://www.wired.com/story/gears-5-war-essay/",
-      "urlToImage": "https://media.wired.com/photos/5d7023ea65761f0009b65272/master/w_1280,c_limit/Culture_Gear5_G5_GC19_Kait_Vista.jpg",
-      "publishedAt": "2019-09-05T16:44:30Z",
-      "content": "One of the most important plot points in Gears 5 (no \"of War\", this timeit's cleaner) involves melting ice. You're isolated in a snowy tundra, a series of frozen ridges and sheets of ice covering what lies below, and you need to go down. So your job becomes t… [+3751 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
         "id": "wired",
         "name": "Wired"
       },
@@ -221,487 +13,8 @@
       "publishedAt": "2019-09-05T23:11:24Z",
       "content": "For the last two weeks, Indias Chandrayaan-2 spacecraft has been lowering its orbit around the moon as it prepares for Indias first attempt at a lunar landing. On Monday, the Chandrayaan-2 orbiter separated from the Vikram lunar lander, which was the last maj… [+3692 chars]",
       "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Joseph Young",
-      "title": "Bitcoin Price Teeters at $10,500 - Where Traders See BTC Going Next.",
-      "description": "The bitcoin price has stabilized around $10,500 following a spectacular 13 percent rally. As BTC continues to hover around this critical level, here's where crypto traders believe the dominant asset is headed next. Earlier this week, technical analyst DonAlt …",
-      "url": "https://www.ccn.com/bitcoin-btc-price-analysis-9-5-2019/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/bitcoin-price-analysis-chart-shutterstock.jpg",
-      "publishedAt": "2019-09-05T17:32:52Z",
-      "content": "The bitcoin price has stabilized around $10,500 following a spectacular 13 percent rally. As BTC continues to hover around this critical level, here's where crypto traders believe the dominant asset is headed next.\r\nEarlier this week, technical analyst DonAlt… [+2828 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Julia Lee",
-      "title": "Your biggest Pokémon Masters questions, answered.",
-      "description": "How to evolve Pokémon, which free-to-play teams to use, and how to power up your Sync Pairs in Pokémon Masters.",
-      "url": "https://www.polygon.com/guides/2019/9/5/20851228/pokemon-masters-guide-faq",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/fB833W3-eioZkwqFE1Jcf5OXMRg=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171487/chrome_2019_09_05_16_03_05.jpg",
-      "publishedAt": "2019-09-05T20:33:36Z",
-      "content": "Pokémon Masters released and though the game seemed pretty simple and straight-forward from the trailers, it actually involves a lot of grinding and min-maxing in order to be the strongest master around.\r\nWeve answered some of the biggest questions regarding … [+4259 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Aaron Weaver",
-      "title": "Is the NSA's 'Quantum-Resistant Crypto' for Nefarious Means?",
-      "description": "The U.S. National Security Agency (NSA) is going from crypto surveillance to crypto creation. According to Bloomberg reporter William Turton, the agency is developing “quantum-resistant crypto.” Anne Neuberger, Director of NSA’s new Cybersecurity Directorate …",
-      "url": "https://www.ccn.com/is-the-nsas-quantum-resistant-crypto-for-nefarious-means/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/nsa-ss.jpg",
-      "publishedAt": "2019-09-05T19:24:53Z",
-      "content": "The U.S. National Security Agency (NSA) is going from crypto surveillance to crypto creation. According to Bloomberg reporter William Turton, the agency is developing quantum-resistant crypto.\r\nAnne Neuberger, Director of NSAs new Cybersecurity Directorate sa… [+2272 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Robbie Gonzalez",
-      "title": "How to Solve a Rubik's Cube, Step by Step.",
-      "description": "Follow the eight steps described in this video, and you too can start solving Rubik's cubes faster ... and faster ... and faster.",
-      "url": "https://www.wired.com/story/how-to-solve-a-rubiks-cube-step-by-step/",
-      "urlToImage": "https://media.wired.com/photos/5d707739277b93000927edd9/master/w_2560,c_limit/Scinc_Rubiks_Still_8.jpg",
-      "publishedAt": "2019-09-05T18:52:13Z",
-      "content": null,
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Alex Baker-Whitcomb",
-      "title": "Facebook's Dating App Arrives, Porsche's EV Impresses, and More News.",
-      "description": "Catch up on the most important news from today in two minutes or less.",
-      "url": "https://www.wired.com/story/facebook-dating-porsche-taycan-electric/",
-      "urlToImage": "https://media.wired.com/photos/5d7179300a42d80009628ce5/master/w_2560,c_limit/TechTwo-DatingCouple-148591115.jpg",
-      "publishedAt": "2019-09-05T22:45:47Z",
-      "content": "Facebook wants to trade in likes for true love, Porsche is charging into the electric future, and Americans may not be as afraid of facial recognition as previously thought. Here's the news you need to know, in two minutes or less.\r\nWant to receive this two-m… [+2071 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Ryan Smith",
-      "title": "Brave Accuses Google of Secretly Leaking Personal Data.",
-      "description": "Google's woes continue, this time from across the pond as rival browser Brave brings a fresh set of personal data privacy allegations against the tech giant. In a statement via their website, Brave Chief Policy & Industry Relations Officer Dr. Johnny Ryan cla…",
-      "url": "https://www.ccn.com/brave-accuses-google-of-secretly-leaking-personal-data/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/brave-browser-ss-2.jpg",
-      "publishedAt": "2019-09-05T20:23:08Z",
-      "content": "Google's woes continue, this time from across the pond as rival browser Brave brings a fresh set of personal data privacy allegations against the tech giant.\r\nIn a statement via their website, Brave Chief Policy &amp; Industry Relations Officer Dr. Johnny Rya… [+3298 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Harsh Chauhan",
-      "title": "Economic Growth Is All on You, Consumer: The Fed.",
-      "description": "Consumer confidence in the U.S. has held steady and spending has increased despite a slew of negative signs that point toward an economic slowdown. Federal Reserve officials admit that consumers are alone in carrying the burden of the economy. ``We’ve seen a …",
-      "url": "https://www.ccn.com/economic-growth-is-all-on-you-consumer-the-fed/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/john-williams-Reuters.jpg",
-      "publishedAt": "2019-09-05T17:24:07Z",
-      "content": "Consumer confidence in the U.S. has held steady and spending has increased despite a slew of negative signs that point toward an economic slowdown. Federal Reserve officials admit that consumers are alone in carrying the burden of the economy.\r\n``Weve seen a … [+3564 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Francois Aure",
-      "title": "Dow Bounces 400 Points But Fed Paradox Haunts Wall Street.",
-      "description": "Another day of risk-on trading launched the Dow Jones higher on Thursday, as the US and China finally have a date to renew trade talks. Market bulls are betting that we have seen the worst of the trade war and are enjoying the resiliency of the US economy. Do…",
-      "url": "https://www.ccn.com/dow-bounces-400-points-but-fed-paradox-haunts-wall-street/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/dow-jones-trader-dark-phone-afp.jpg",
-      "publishedAt": "2019-09-05T19:15:19Z",
-      "content": "Another day of risk-on trading launched the Dow Jones higher on Thursday, as the US and China finally have a date to renew trade talks.\r\nMarket bulls are betting that we have seen the worst of the trade war and are enjoying the resiliency of the US economy.\r\n… [+2785 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Austen Goslin",
-      "title": "Fortnite hotfix removes the Combat Shotgun.",
-      "description": "A mid-week Fortnite hotfix has removed the Combat Shotgun and the Drum Shotgun from the game. Meanwhile, the Automatic Sniper received a buff.",
-      "url": "https://www.polygon.com/fortnite/2019/9/5/20851603/fortnite-hotfix-combat-shotgun",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/PMjgb63gnV7dMgxbUkZcovYnXQA=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171375/Fortnite_08.01.2019___12.15.58.11.png",
-      "publishedAt": "2019-09-05T19:43:51Z",
-      "content": "Fortnites patches are normally limited to one per-week, but Epic is breaking its pattern to make some big changes to the game. In a hotfix released on Thursday afternoon, Epic removed the Combat Shotgun, one of the best guns in the game, and introduced a few … [+2949 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Colin Campbell",
-      "title": "ReadySet Heroes is a cute and cutthroat multiplayer dungeon brawler.",
-      "description": "Sony’s woodland hack-and-slash is coming out on October 1 for PlayStation 4 and Windows PC, as an Epic Store exclusive. We played a preview version of Robot Entertainment’s multiplayer dungeon crawler.",
-      "url": "https://www.polygon.com/2019/9/5/20851325/readyset-heroes-preview-release-date-pc-epic-ps4-trailer",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/QhWlYfqyjHJKjDuUFF3p9CRYZFE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19170837/2.jpg",
-      "publishedAt": "2019-09-05T17:44:34Z",
-      "content": "Robot Entertainment is best known for the Orcs Must Die! series. Now the Texas-based developer is back with a fast-paced multiplayer dungeon crawler called ReadySet Heroes. The game was shown as a playable demo at Gamescom recently, along with a new trailer. … [+2368 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Austen Goslin",
-      "title": "Epic is selling Fortnite DLC in stores again this holiday.",
-      "description": "Sorry, PC and mobile players",
-      "url": "https://www.polygon.com/2019/9/5/20851500/fortnite-console-exclusive-darkfire-bundle-skins-cosmetics",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Y6rvyeMwDLi4ou6ZeXLJvt8gtdI=/0x75:1920x1080/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11607563/NintendoSwitch_Fortnite_E3Screenshot_1.jpg",
-      "publishedAt": "2019-09-05T20:29:53Z",
-      "content": "Epic Games Sorry, PC and mobile players Fortnite Battle Royale may be a downloadable free-to-play game, but that won’t stop its creator from getting their mega-hit on store shelves this holiday season. Developer Epic Games, in a partnership with Warner Brothe… [+1000 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Petrana Radulovic",
-      "title": "Latest Blumhouse movie is a female-fronted remake of slasher flick Black Christmas.",
-      "description": "A remake of 1974 slasher flick Black Christmas brings a timely take. Blumhouse’s first female-directed project stars four women who aren’t going down without a fight. Black Christmas comes out Dec. 13",
-      "url": "https://www.polygon.com/2019/9/5/20851284/black-christmas-trailer-release-date",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/znnMP_xNIHC0enrS7-79gsHwefg=/0x290:3158x1943/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19170859/BCS_Adv1Sheet16_RGB_2.jpg",
-      "publishedAt": "2019-09-05T17:17:42Z",
-      "content": "Blumhouse Productions The first female directed film from Blumhouse also boasts a stellar cast Continue reading…",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "YouTube launches long-overdue Fashion section.",
-      "description": "YouTube launches long-overdue Fashion section",
-      "url": "https://cc.thenextweb.com/post/187515629660/httpsthenextwebcomgoogle20190905youtube-fashion",
-      "urlToImage": "https://66.media.tumblr.com/54c0c6afc7ff351759cbc6c7f48643ee/tumblr_pxdfpy2BJl1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-05T18:37:10Z",
-      "content": "YouTube launches long-overdue Fashion section",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Sean Hollister",
-      "title": "Medium is toying with being the place for all your longreads — even if they’re paywalled.",
-      "description": "Medium has become a popular place for people who don’t run their own websites to post long essays and scathing exposes, in addition to producing some journalism itself, all in an elegant interface that lends itself to longform reading.  But a new experimental…",
-      "url": "https://www.theverge.com/2019/9/5/20851869/save-to-medium-read-it-later-pocket-instapaper-competitor-experimental-feature-jane-wong",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/UhOmb1g98L4yz9OyasjdfMJW5yo=/0x37:1028x575/fit-in/1200x630/cdn.vox-cdn.com/assets/1296078/Medium.jpg",
-      "publishedAt": "2019-09-05T23:28:43Z",
-      "content": "Medium has become a popular place for people who don’t run their own websites to post long essays and scathing exposes, in addition to producing some journalism itself, all in an elegant interface that lends itself to longform reading. But a new experimental … [+1895 chars]",
-      "playlist": {
-        "id": "6e4szshga86u8k4plxy3ai"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Jason Parham",
-      "title": "Depth of Field: Coco Gauff and the Future of Women's Tennis.",
-      "description": "The 15-year-old's match against Naomi Osaka will be remembered as a turning point.",
-      "url": "https://www.wired.com/story/depth-of-field-coco-gauff/",
-      "urlToImage": "https://media.wired.com/photos/5d70253dfb59140008fd0e2c/master/w_2560,c_limit/Culture_Coco-1165235133.jpg",
-      "publishedAt": "2019-09-05T20:02:40Z",
-      "content": "The US Open culminates Sundaywhere Serena Williams again has a chance to seize tennis immortalitybut the tournament's real crowning moment came last weekend, on Day 6, between Naomi Osaka, the No. 1 ranked women's player, and Cori \"Coco\" Gauff, a 15-year-old … [+3277 chars]",
-      "playlist": {
-        "id": "tql8tobi1aizi4v6j0nkx"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Chaim Gartenberg",
-      "title": "Nintendo teases strange new motion control experience for Switch.",
-      "description": "Fresh off its Nintendo Direct announcement yesterday, the gaming company is already teasing a “new experience” for the Switch — some sort of bizarre new motion controller accessory that uses the console’s Joy-Con controllers, promising more details on Septemb…",
-      "url": "https://www.theverge.com/2019/9/5/20851907/nintendo-new-motion-control-experience-switch-fitness-joy-con-controller-tease-september-12",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/68f3H-vu7dNGFR-jjIKJJABuJQc=/0x45:2314x1257/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171923/3.png",
-      "publishedAt": "2019-09-05T22:26:46Z",
-      "content": "More details coming September 12th\r\nFresh off its Nintendo Direct announcements yesterday, the gaming company is already teasing a new experience for the Switch some sort of bizarre new motion controller accessory that uses the consoles Joy-Con controllers, p… [+1373 chars]",
-      "playlist": {
-        "id": "6e4szshga86u8k4plxy3ai"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Napier Lopez",
-      "title": "Focal’s new Chora speakers use recycled carbon fiber at accessible prices.",
-      "description": "Focal Audio might be known for producing some of the best speakers and headphones in the world, but the company hasn’t forgotten those of us that can’t spend $230,000 on a pair of towers. Case in point: Focal today announced the Chora series, a family of book…",
-      "url": "https://thenextweb.com/plugged/2019/09/05/focals-new-chora-speakers-use-recycled-carbon-fiber-at-accessible-prices/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FSnag_9d4fa8e.png&signature=1349a119469983bff3d1789e224ba875",
-      "publishedAt": "2019-09-05T16:01:41Z",
-      "content": "Focal Audio might be known for producing some of the best speakers and headphones in the world, but the company hasnt forgotten those of us that cant spend $230,000 on a pair of towers. Case in point: Focal today announced the Chora series, a family of booksh… [+2117 chars]",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "AJ Dellinger",
-      "title": "NYC sues T-Mobile over 'pervasive' illegal sales tactics.",
-      "description": "New York City is suing T-Mobile for allegedly violating consumer protection laws within the city. The lawsuit stems primarily from Metro by T-Mobile, a low-cost, prepaid wireless program operated by the major mobile carrier. According to the city, T-...",
-      "url": "https://www.engadget.com/2019/09/05/t-mobile-new-york-city-lawsuit-excess-charges-metro/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5243%252C3495%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252F40ed4a80-d01e-11e9-aff2-41c8ebcc9538%26client%3Da1acac3e1b3290917d92%26signature%3Dc9f9f8da33f85aebcacca9d7a1e8f15742a6240b&client=amp-blogside-v2&signature=c2e22a33d7d0df8b53256d04f66fe0ea7a05e410",
-      "publishedAt": "2019-09-05T22:32:00Z",
-      "content": "New York City's Department of Consumer and Worker Protection (DCWP) claims to have documented more than 2,200 violations committed by T-Mobile at 56 Metro stores located across all five boroughs of the city. Those include cases where the carrier allegedly add… [+912 chars]",
-      "playlist": {
-        "id": "6e4szshga86u8k4plxy3ai"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "Focal’s new Chora speakers use recycled carbon fiber at...",
-      "description": "Focal’s new Chora speakers use recycled carbon fiber at accessible prices",
-      "url": "https://cc.thenextweb.com/post/187513136455/httpsthenextwebcomplugged20190905focals-new-cho",
-      "urlToImage": "https://66.media.tumblr.com/249ec8cd4c9ee2cefbbbe2205bc118e6/tumblr_pxd8jsfZqD1qejjfeo1_1280.png",
-      "publishedAt": "2019-09-05T16:02:16Z",
-      "content": "Focal’s new Chora speakers use recycled carbon fiber at accessible prices",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "Canadian university launches online cannabis cultivation courses.",
-      "description": "Canadian university launches online cannabis cultivation courses",
-      "url": "https://cc.thenextweb.com/post/187514546745/httpsthenextwebcomscience20190905canadian-unive",
-      "urlToImage": "https://66.media.tumblr.com/a3e7e6664a4a00974eb018e2aaf12237/tumblr_pxdcgzDB321qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-05T17:26:59Z",
-      "content": "Canadian university launches online cannabis cultivation courses",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Francois Aure",
-      "title": "Elon Musk Ridicules Tesla Rival Porsche's Taycan 'Turbo'.",
-      "description": "Tesla fans have been waiting on tenterhooks for CEO Elon Musk’s response to the new Porsche Taycan Turbo, an EV which is specifically targeted to compete with the flagship Model S. That moment is here, as Musk trolled Porsche on Twitter for using “Turbo” in t…",
-      "url": "https://www.ccn.com/elon-musk-ridicules-tesla-rival-porsches-taycan-turbo/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/musk-porche.jpg",
-      "publishedAt": "2019-09-05T22:35:51Z",
-      "content": "Tesla fans have been waiting on tenterhooks for CEO Elon Musks response to the new Porsche Taycan Turbo, an EV which is specifically targeted to compete with the flagship Model S. That moment is here, as Musk trolled Porsche on Twitter for using Turbo in the … [+2179 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Charlie Hall",
-      "title": "Indie games invade Chicago’s weirdest museum for Bit Bash 2019.",
-      "description": "Take a look at Bit Bash, Chicago’s alternative game festival. This year it was hosted by the Museum of Science and Industry. For a weekend, it was the only place in the world where you could play great indie games and then step directly into a German U-boat a…",
-      "url": "https://www.polygon.com/2019/9/5/20838960/bit-bash-chicago-2019-photo-essay-msi-chicago",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/UgpnnjWRT-bhAUawCg3W5rlbeZw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19168546/VR64_2.jpg",
-      "publishedAt": "2019-09-05T18:00:00Z",
-      "content": "After a brief hiatus, Chicagos tightly-knit volunteer team was back last month with Bit Bash, an annual celebration of the global indie game scene. This year the event was produced with the help of a new sponsor, the Museum of Science and Industry.\r\nAlso know… [+1836 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Samantha Chang",
-      "title": "Tesla Model 3 Rollout Amid Hong Kong Protests Ignites Backlash.",
-      "description": "Tesla proudly touted the release of its Model 3 in Hong Kong. However, the tone-deaf timing of the roll-out stirred backlash. Why? Because Hong Kong has been roiled by protests since June 9. Tesla's official Twitter account breathlessly announced that the 'Mo…",
-      "url": "https://www.ccn.com/tesla-model-3-rollout-amid-hong-kong-protests-ignites-backlash/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/tesla-hk-protests-2.jpg",
-      "publishedAt": "2019-09-05T23:10:06Z",
-      "content": "Tesla proudly touted the release of its Model 3 in Hong Kong. However, the tone-deaf timing of the roll-out stirred backlash. Why? Because Hong Kong has been roiled by protests since June 9.\r\nTesla's official Twitter account breathlessly announced that the \"M… [+4008 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Jeff Ramos",
-      "title": "Creature in the Well is a dungeon crawler smashed into a pinball machine.",
-      "description": "Creature in the Well adds a kinetic twist to the hack and slash genre. Instead of fighting your way through various monsters, each new room you discover is an electrified, pinball-inspired puzzle.",
-      "url": "https://www.polygon.com/reviews/2019/9/5/20851565/creature-in-the-well-review-switch-xbox-one-windows-pc",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/wp2rxlOQJ-mARwK211zEpCacb6E=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171267/Creature_In_The_Well___hero.png",
-      "publishedAt": "2019-09-05T20:00:00Z",
-      "content": "Finding out whats in the next room of a dungeon crawler is always a strong reason to keep going. Who knows whats behind that door? \r\nEach step farther into the depths can mean a new puzzle, an unexpected fight with a monster, or even treasure. Creature in the… [+5322 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Heather Newman",
-      "title": "World of Warcraft Classic review: The players grew up.",
-      "description": "World of Warcraft Classic is the original game run on an updated engine and infrastructure. Players are rushing in, but how long will they stay? And what are we supposed to think about a polite version of World of Warcraft?",
-      "url": "https://www.polygon.com/reviews/2019/9/5/20849704/world-of-warcraft-classic-review",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/dOo9JdMeAK_ewKMIrk4FGGVgMAI=/0x0:5600x2932/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19167946/Onyxia_Key_Art.jpg",
-      "publishedAt": "2019-09-05T17:00:00Z",
-      "content": "World of Warcraft Classic brought 2004 back with a bang last week, as players flooded the servers to play the original, vanilla-flavored World of Warcraft, creating queues of tens of thousands of players and leaving the modern game feeling like a comparative … [+12714 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Adam Scott",
-      "title": "Bitcoin Basher Mobius Warns of Terrifying Blockchain 'Crisis'.",
-      "description": "Mobius Capital Partners LLP founder and emerging markets fund manager Joseph Bernhard Mark Mobius has raised concerns over the security promised by blockchain technology — first made famous by Bitcoin (BTC) — while calling it 'a very high-risk situation.\" Mar…",
-      "url": "https://www.ccn.com/bitcoin-basher-mobius-warns-of-terrifying-blockchain-crisis/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/mark-mobius-bitcoin-btc-pj.jpg",
-      "publishedAt": "2019-09-05T18:25:59Z",
-      "content": "Mobius Capital Partners LLP founder and emerging markets fund manager Joseph Bernhard Mark Mobius has raised concerns over the security promised by blockchain technology first made famous by Bitcoin (BTC) while calling it \"a very high-risk situation.\"\r\nMark M… [+2277 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Sam Bourgi",
-      "title": "Treasury Yields Surge With Stocks After China Hoodwinks Investors.",
-      "description": "U.S. government debt yields rose along with stocks Thursday after China’s Commerce Ministry confirmed that in-person trade talks with Washington would resume in October. Investors clearly took China's bait, setting the stock market up for a potentially disapp…",
-      "url": "https://www.ccn.com/treasury-yields-surge-with-stocks-after-china-hoodwinks-investors/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/xi-jinping-communist-meeting-toast-ap.jpg",
-      "publishedAt": "2019-09-05T20:44:59Z",
-      "content": "U.S. government debt yields rose along with stocks Thursday after Chinas Commerce Ministry confirmed that in-person trade talks with Washington would resume in October.\r\nInvestors clearly took China's bait, setting the stock market up for a potentially disapp… [+2711 chars]",
-      "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Rachel Kaser",
-      "title": "Netflix adds Latest section, now alerts users when new shows drop.",
-      "description": "Netflix today revealed the latest update to its platform, in which it’ll serve alerts when a show you’re interested in is available. This comes on the heels of backlash over a change in show release schedules (which wasn’t actually a change), so it’s fortuito…",
-      "url": "https://thenextweb.com/apps/2019/09/05/netflix-latest-alert-new-shows/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2FNetflix-Airplay.jpg&signature=6cb89da126a9fe316ac2c351851682b2",
-      "publishedAt": "2019-09-05T23:17:22Z",
-      "content": "Netflix today revealed the latest update to its platform, in which itll serve alerts when a show youre interested in is available. This comes on the heels of backlash over a change in show release schedules (which wasnt actually a change), so its fortuitous t… [+2545 chars]",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Rachel Kaser",
-      "title": "YouTube launches long-overdue Fashion section.",
-      "description": "YouTube today launched its Fashion section, a new vertical alongside the likes of Gaming and Movies, crystallizing the importance of its massive beauty community. It’s also a convenient landing portal for some of YouTube‘s most advertiser-friendly content. Ac…",
-      "url": "https://thenextweb.com/google/2019/09/05/youtube-fashion-section/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FYouTube-Fashion.jpg&signature=7eb68a826436ffdd2c006896e54164f0",
-      "publishedAt": "2019-09-05T18:33:36Z",
-      "content": "YouTube today launched its Fashion section, a new vertical alongside the likes of Gaming and Movies, crystallizing the importance of its massive beauty community. Its also a convenient landing portal for some of YouTubes most advertiser-friendly content.\r\nAcc… [+2164 chars]",
-      "playlist": {
-        "id": "ryxe1wa0ri1iw7gshecxd"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Russ Frushtick",
-      "title": "Nearly every great Wii U game has come (or is coming) to Switch.",
-      "description": "Not many gems left! It seems Nintendo has gone ahead and re-released just about every great Wii U game on Switch. Which begs the question? What still isn’t out yet?",
-      "url": "https://www.polygon.com/nintendo/2019/9/5/20851099/wii-u-switch-ports-games-super-mario-3d-world",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/IpN0SMJH4KerwCpeqQSjrpFvJaY=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19170544/WiiU_LoZWWHD_screenshot_05.jpg",
-      "publishedAt": "2019-09-05T17:30:00Z",
-      "content": "It seems the disastrous Wii U had a silver lining, in that it has helped Nintendo buoy the Nintendo Switchs catalog particularly in these early years with ports of games that very few people played the first time around. At present there have been 11 Wii U ga… [+2815 chars]",
-      "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
       }
     },
     {
@@ -717,7 +30,467 @@
       "publishedAt": "2019-09-05T23:09:34Z",
       "content": "Nintendo Is this Nintendo Switch peripheral a spiritual successor to Wii Fit? Nintendo just teased a brand new peripheral for the Switch in a video published to YouTube. And that’s about all we know. Nintendo hasn’t revealed a name, a purpose, or games that m… [+830 chars]",
       "playlist": {
-        "id": "3c164g92n4sjwjr11u748"
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Amrita Khalid",
+      "title": "NYU report lists likely social media disinformation tactics for 2020.",
+      "description": "The 2020 US presidential election will serve as the ultimate test for social media platforms like Facebook and Twitter to prove they can combat fake news. But could they be fighting the last war? A report released by NYU's Stern Center for Business and Human …",
+      "url": "https://www.engadget.com/2019/09/05/nyu-report-lists-likely-social-media-disinformation-tactics-for/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fresize%3D2000%252C2000%252Cshrink%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-02%252F91c75560-3797-11e9-9e7f-b152d0b06449%26client%3Da1acac3e1b3290917d92%26signature%3D427fe7f1188967cd0f8a538ef1b2b6b0cabb0d75&client=amp-blogside-v2&signature=d6a94b567e54c0680902bb6a0453bf358258e51c",
+      "publishedAt": "2019-09-06T00:17:00Z",
+      "content": "The report largely rehashes how fake news has evolved in the aftermath of 2016, to something as likely to spread on Instagram or Whatsapp as on Facebook, or as likely to come from domestic actors as from Russia. \"Disinformation poses a major threat to the U.S… [+2937 chars]",
+      "playlist": {
+        "id": "fw9a0s8vcs9430d8aui2ev",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Francois Aure",
+      "title": "Elon Musk Ridicules Tesla Rival Porsche's Taycan 'Turbo'.",
+      "description": "Tesla fans have been waiting on tenterhooks for CEO Elon Musk’s response to the new Porsche Taycan Turbo, an EV which is specifically targeted to compete with the flagship Model S. That moment is here, as Musk trolled Porsche on Twitter for using “Turbo” in t…",
+      "url": "https://www.ccn.com/elon-musk-ridicules-tesla-rival-porsches-taycan-turbo/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/musk-porche.jpg",
+      "publishedAt": "2019-09-05T22:35:51Z",
+      "content": "Tesla fans have been waiting on tenterhooks for CEO Elon Musks response to the new Porsche Taycan Turbo, an EV which is specifically targeted to compete with the flagship Model S. That moment is here, as Musk trolled Porsche on Twitter for using Turbo in the … [+2179 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Ryan Smith",
+      "title": "Brave Accuses Google of Secretly Leaking Personal Data.",
+      "description": "Google's woes continue, this time from across the pond as rival browser Brave brings a fresh set of personal data privacy allegations against the tech giant. In a statement via their website, Brave Chief Policy & Industry Relations Officer Dr. Johnny Ryan cla…",
+      "url": "https://www.ccn.com/brave-accuses-google-of-secretly-leaking-personal-data/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/brave-browser-ss-2.jpg",
+      "publishedAt": "2019-09-05T20:23:08Z",
+      "content": "Google's woes continue, this time from across the pond as rival browser Brave brings a fresh set of personal data privacy allegations against the tech giant.\r\nIn a statement via their website, Brave Chief Policy &amp; Industry Relations Officer Dr. Johnny Rya… [+3298 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Alex Baker-Whitcomb",
+      "title": "Facebook's Dating App Arrives, Porsche's EV Impresses, and More News.",
+      "description": "Catch up on the most important news from today in two minutes or less.",
+      "url": "https://www.wired.com/story/facebook-dating-porsche-taycan-electric/",
+      "urlToImage": "https://media.wired.com/photos/5d7179300a42d80009628ce5/master/w_2560,c_limit/TechTwo-DatingCouple-148591115.jpg",
+      "publishedAt": "2019-09-05T22:45:47Z",
+      "content": "Facebook wants to trade in likes for true love, Porsche is charging into the electric future, and Americans may not be as afraid of facial recognition as previously thought. Here's the news you need to know, in two minutes or less.\r\nWant to receive this two-m… [+2071 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Jason Parham",
+      "title": "Depth of Field: Coco Gauff and the Future of Women's Tennis.",
+      "description": "The 15-year-old's match against Naomi Osaka will be remembered as a turning point.",
+      "url": "https://www.wired.com/story/depth-of-field-coco-gauff/",
+      "urlToImage": "https://media.wired.com/photos/5d70253dfb59140008fd0e2c/master/w_2560,c_limit/Culture_Coco-1165235133.jpg",
+      "publishedAt": "2019-09-05T20:02:40Z",
+      "content": "The US Open culminates Sundaywhere Serena Williams again has a chance to seize tennis immortalitybut the tournament's real crowning moment came last weekend, on Day 6, between Naomi Osaka, the No. 1 ranked women's player, and Cori \"Coco\" Gauff, a 15-year-old … [+3277 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Julie Muncy",
+      "title": "'Gears 5': A War Game That Really Deals with War Trauma.",
+      "description": "Like its predecessors, the latest title in the series goes beneath the surface to explore the toll of combat on its characters and their world.",
+      "url": "https://www.wired.com/story/gears-5-war-essay/",
+      "urlToImage": "https://media.wired.com/photos/5d7023ea65761f0009b65272/master/w_1280,c_limit/Culture_Gear5_G5_GC19_Kait_Vista.jpg",
+      "publishedAt": "2019-09-05T16:44:30Z",
+      "content": "One of the most important plot points in Gears 5 (no \"of War\", this timeit's cleaner) involves melting ice. You're isolated in a snowy tundra, a series of frozen ridges and sheets of ice covering what lies below, and you need to go down. So your job becomes t… [+3751 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Robbie Gonzalez",
+      "title": "How to Solve a Rubik's Cube, Step by Step.",
+      "description": "Follow the eight steps described in this video, and you too can start solving Rubik's cubes faster ... and faster ... and faster.",
+      "url": "https://www.wired.com/story/how-to-solve-a-rubiks-cube-step-by-step/",
+      "urlToImage": "https://media.wired.com/photos/5d707739277b93000927edd9/master/w_2560,c_limit/Scinc_Rubiks_Still_8.jpg",
+      "publishedAt": "2019-09-05T18:52:13Z",
+      "content": null,
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Graeme McMillan",
+      "title": "Star Wars News: Those Bad 'Rise of Skywalker' Rumors Are False.",
+      "description": "It's not being rewritten. Sorry, haters.",
+      "url": "https://www.wired.com/story/cantina-talk-93",
+      "urlToImage": null,
+      "publishedAt": "2019-09-05T23:22:35Z",
+      "content": null,
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Matt Simon",
+      "title": "Retreat? *Pish*. Democrats Dare Not Speak Climate Change's ‘R’ Word.",
+      "description": "Canadians call the abandonment of coasts and floodplains a “strategic retreat.” American politicians call it literally anything else they can.",
+      "url": "https://www.wired.com/story/democrats-climate-change-retreat/",
+      "urlToImage": "https://media.wired.com/photos/5d7158e1b163630009eb37c1/master/w_2560,c_limit/SCIENCE_CLIMATE_1158538374.jpg",
+      "publishedAt": "2019-09-05T20:43:50Z",
+      "content": "Retreat, hell! Major General Oliver Prince Smith once said during the Korean War. We're not retreating, we're just advancing in a different direction.\r\nRetreat is not a concept Americans take lightly, whether in wartime or during CNNs climate town hall Wednes… [+3233 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Sean Hollister",
+      "title": "Medium is toying with being the place for all your longreads — even if they’re paywalled.",
+      "description": "Medium has become a popular place for people who don’t run their own websites to post long essays and scathing exposes, in addition to producing some journalism itself, all in an elegant interface that lends itself to longform reading.  But a new experimental…",
+      "url": "https://www.theverge.com/2019/9/5/20851869/save-to-medium-read-it-later-pocket-instapaper-competitor-experimental-feature-jane-wong",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/UhOmb1g98L4yz9OyasjdfMJW5yo=/0x37:1028x575/fit-in/1200x630/cdn.vox-cdn.com/assets/1296078/Medium.jpg",
+      "publishedAt": "2019-09-05T23:28:43Z",
+      "content": "Medium has become a popular place for people who don’t run their own websites to post long essays and scathing exposes, in addition to producing some journalism itself, all in an elegant interface that lends itself to longform reading. But a new experimental … [+1895 chars]",
+      "playlist": {
+        "id": "fw9a0s8vcs9430d8aui2ev",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Aaron Weaver",
+      "title": "The NFL Is About to Make a Killing from Sports Betting.",
+      "description": "As the National Football League (NFL) kicks off tonight, the league will rake in riches in a whole new way. Last year, the supreme court struck down a federal law from 1992, which banned sports betting in most states. It’s now fully legal in 13 states with mo…",
+      "url": "https://www.ccn.com/the-nfl-is-about-to-make-a-killing-from-sports-betting/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/NFL-reuters.jpg",
+      "publishedAt": "2019-09-05T23:58:14Z",
+      "content": "As the National Football League (NFL) kicks off tonight, the league will rake in riches in a whole new way. Last year, the supreme court struck down a federal law from 1992, which banned sports betting in most states. Its now fully legal in 13 states with mor… [+3007 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Rachel Kaser",
+      "title": "Netflix adds Latest section, now alerts users when new shows drop.",
+      "description": "Netflix today revealed the latest update to its platform, in which it’ll serve alerts when a show you’re interested in is available. This comes on the heels of backlash over a change in show release schedules (which wasn’t actually a change), so it’s fortuito…",
+      "url": "https://thenextweb.com/apps/2019/09/05/netflix-latest-alert-new-shows/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2FNetflix-Airplay.jpg&signature=6cb89da126a9fe316ac2c351851682b2",
+      "publishedAt": "2019-09-05T23:17:22Z",
+      "content": "Netflix today revealed the latest update to its platform, in which itll serve alerts when a show youre interested in is available. This comes on the heels of backlash over a change in show release schedules (which wasnt actually a change), so its fortuitous t… [+2545 chars]",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Adam Scott",
+      "title": "Bitcoin Basher Mobius Warns of Terrifying Blockchain 'Crisis'.",
+      "description": "Mobius Capital Partners LLP founder and emerging markets fund manager Joseph Bernhard Mark Mobius has raised concerns over the security promised by blockchain technology — first made famous by Bitcoin (BTC) — while calling it 'a very high-risk situation.\" Mar…",
+      "url": "https://www.ccn.com/bitcoin-basher-mobius-warns-of-terrifying-blockchain-crisis/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/mark-mobius-bitcoin-btc-pj.jpg",
+      "publishedAt": "2019-09-05T18:25:59Z",
+      "content": "Mobius Capital Partners LLP founder and emerging markets fund manager Joseph Bernhard Mark Mobius has raised concerns over the security promised by blockchain technology first made famous by Bitcoin (BTC) while calling it \"a very high-risk situation.\"\r\nMark M… [+2277 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Julia Lee",
+      "title": "Your biggest Pokémon Masters questions, answered.",
+      "description": "How to evolve Pokémon, which free-to-play teams to use, and how to power up your Sync Pairs in Pokémon Masters.",
+      "url": "https://www.polygon.com/guides/2019/9/5/20851228/pokemon-masters-guide-faq",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/fB833W3-eioZkwqFE1Jcf5OXMRg=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171487/chrome_2019_09_05_16_03_05.jpg",
+      "publishedAt": "2019-09-05T20:33:36Z",
+      "content": "Pokémon Masters released and though the game seemed pretty simple and straight-forward from the trailers, it actually involves a lot of grinding and min-maxing in order to be the strongest master around.\r\nWeve answered some of the biggest questions regarding … [+4259 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Francois Aure",
+      "title": "Dow Bounces 400 Points But Fed Paradox Haunts Wall Street.",
+      "description": "Another day of risk-on trading launched the Dow Jones higher on Thursday, as the US and China finally have a date to renew trade talks. Market bulls are betting that we have seen the worst of the trade war and are enjoying the resiliency of the US economy. Do…",
+      "url": "https://www.ccn.com/dow-bounces-400-points-but-fed-paradox-haunts-wall-street/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/dow-jones-trader-dark-phone-afp.jpg",
+      "publishedAt": "2019-09-05T19:15:19Z",
+      "content": "Another day of risk-on trading launched the Dow Jones higher on Thursday, as the US and China finally have a date to renew trade talks.\r\nMarket bulls are betting that we have seen the worst of the trade war and are enjoying the resiliency of the US economy.\r\n… [+2785 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Lawrence Meyers",
+      "title": "Lululemon Shatters Earnings Estimates as Men’s Sales Skyrocket.",
+      "description": "Lululemon took a big risk when it decided to get into clothing for men. That risk has resulted in a big reward. In Q2, Lululemon’s net income exploded 35% over the same period last year. This was led by a 35% revenue increase in the men's business. Lululemon …",
+      "url": "https://www.ccn.com/lululemon-shatters-earnings-estimates-as-mens-sales-skyrocket/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/lululemon-ap.jpg",
+      "publishedAt": "2019-09-06T00:40:26Z",
+      "content": "Lululemon took a big risk when it decided to get into clothing for men.\r\nThat risk has resulted in a big reward. In Q2, Lululemons net income exploded 35% over the same period last year. This was led by a 35% revenue increase in the men's business.\r\nLululemon… [+3157 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Colin Campbell",
+      "title": "ReadySet Heroes is a cute and cutthroat multiplayer dungeon brawler.",
+      "description": "Sony’s woodland hack-and-slash is coming out on October 1 for PlayStation 4 and Windows PC, as an Epic Store exclusive. We played a preview version of Robot Entertainment’s multiplayer dungeon crawler.",
+      "url": "https://www.polygon.com/2019/9/5/20851325/readyset-heroes-preview-release-date-pc-epic-ps4-trailer",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/QhWlYfqyjHJKjDuUFF3p9CRYZFE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19170837/2.jpg",
+      "publishedAt": "2019-09-05T17:44:34Z",
+      "content": "Robot Entertainment is best known for the Orcs Must Die! series. Now the Texas-based developer is back with a fast-paced multiplayer dungeon crawler called ReadySet Heroes. The game was shown as a playable demo at Gamescom recently, along with a new trailer. … [+2368 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Aaron Weaver",
+      "title": "Is the NSA's 'Quantum-Resistant Crypto' for Nefarious Means?",
+      "description": "The U.S. National Security Agency (NSA) is going from crypto surveillance to crypto creation. According to Bloomberg reporter William Turton, the agency is developing “quantum-resistant crypto.” Anne Neuberger, Director of NSA’s new Cybersecurity Directorate …",
+      "url": "https://www.ccn.com/is-the-nsas-quantum-resistant-crypto-for-nefarious-means/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/nsa-ss.jpg",
+      "publishedAt": "2019-09-05T19:24:53Z",
+      "content": "The U.S. National Security Agency (NSA) is going from crypto surveillance to crypto creation. According to Bloomberg reporter William Turton, the agency is developing quantum-resistant crypto.\r\nAnne Neuberger, Director of NSAs new Cybersecurity Directorate sa… [+2272 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Bill de Blasio",
+      "title": "Why American Workers Need to Be Protected From Automation.",
+      "description": "Opinion: As President, I would issue a robot tax for corporations displacing humans, and create a federal agency to oversee automation.",
+      "url": "https://www.wired.com/story/why-american-workers-need-to-be-protected-from-automation/",
+      "urlToImage": "https://media.wired.com/photos/5d715c1a84717f000971855c/master/w_2560,c_limit/OpEd-Factory-Automation-610703598.jpg",
+      "publishedAt": "2019-09-05T19:16:01Z",
+      "content": "They call it the lights out factory. A manufacturing complex run by the Japanese company FANUC, it spans 22 facilities producing 23,000 computer parts each month for companies like Tesla and Apple. The plant runs close to 24 hours a day, every day of the year… [+3716 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Rachel Kaser",
+      "title": "YouTube launches long-overdue Fashion section.",
+      "description": "YouTube today launched its Fashion section, a new vertical alongside the likes of Gaming and Movies, crystallizing the importance of its massive beauty community. It’s also a convenient landing portal for some of YouTube‘s most advertiser-friendly content. Ac…",
+      "url": "https://thenextweb.com/google/2019/09/05/youtube-fashion-section/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FYouTube-Fashion.jpg&signature=7eb68a826436ffdd2c006896e54164f0",
+      "publishedAt": "2019-09-05T18:33:36Z",
+      "content": "YouTube today launched its Fashion section, a new vertical alongside the likes of Gaming and Movies, crystallizing the importance of its massive beauty community. Its also a convenient landing portal for some of YouTubes most advertiser-friendly content.\r\nAcc… [+2164 chars]",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Sam Bourgi",
+      "title": "Treasury Yields Surge With Stocks After China Hoodwinks Investors.",
+      "description": "U.S. government debt yields rose along with stocks Thursday after China’s Commerce Ministry confirmed that in-person trade talks with Washington would resume in October. Investors clearly took China's bait, setting the stock market up for a potentially disapp…",
+      "url": "https://www.ccn.com/treasury-yields-surge-with-stocks-after-china-hoodwinks-investors/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/xi-jinping-communist-meeting-toast-ap.jpg",
+      "publishedAt": "2019-09-05T20:44:59Z",
+      "content": "U.S. government debt yields rose along with stocks Thursday after Chinas Commerce Ministry confirmed that in-person trade talks with Washington would resume in October.\r\nInvestors clearly took China's bait, setting the stock market up for a potentially disapp… [+2711 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": null,
+      "title": "Focal’s new Chora speakers use recycled carbon fiber at...",
+      "description": "Focal’s new Chora speakers use recycled carbon fiber at accessible prices",
+      "url": "https://cc.thenextweb.com/post/187513136455/httpsthenextwebcomplugged20190905focals-new-cho",
+      "urlToImage": "https://66.media.tumblr.com/249ec8cd4c9ee2cefbbbe2205bc118e6/tumblr_pxd8jsfZqD1qejjfeo1_1280.png",
+      "publishedAt": "2019-09-05T16:02:16Z",
+      "content": "Focal’s new Chora speakers use recycled carbon fiber at accessible prices",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "Fortnite hotfix removes the Combat Shotgun.",
+      "description": "A mid-week Fortnite hotfix has removed the Combat Shotgun and the Drum Shotgun from the game. Meanwhile, the Automatic Sniper received a buff.",
+      "url": "https://www.polygon.com/fortnite/2019/9/5/20851603/fortnite-hotfix-combat-shotgun",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/PMjgb63gnV7dMgxbUkZcovYnXQA=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171375/Fortnite_08.01.2019___12.15.58.11.png",
+      "publishedAt": "2019-09-05T19:43:51Z",
+      "content": "Fortnites patches are normally limited to one per-week, but Epic is breaking its pattern to make some big changes to the game. In a hotfix released on Thursday afternoon, Epic removed the Combat Shotgun, one of the best guns in the game, and introduced a few … [+2949 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Matthew Hughes",
+      "title": "The F(x)tec Pro 1 proves there’s room for keyboard slider phones in 2019.",
+      "description": "UK mobile startup F(x)tec today announced the upcoming availability of its inaugural handset, the F(x)tec Pro 1. This handset is a contemporary take on the old Nokia E7 slider phone, aimed at power users, as well as those for whom virtual keyboards aren’t goo…",
+      "url": "https://thenextweb.com/plugged/2019/09/05/the-fxtec-pro-1-proves-theres-room-for-keyboard-slider-phones-in-2019/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FDSC_0055-Cropped.jpg&signature=6272202d6fce9229bf497cba7940c1e1",
+      "publishedAt": "2019-09-05T23:49:15Z",
+      "content": "UK mobile startup F(x)tec today announced the upcoming availability of its inaugural handset, the F(x)tec Pro 1. This handset is a contemporary take on the old Nokia E7 slider phone, aimed at power users, as well as those for whom virtual keyboards arent good… [+6197 chars]",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Heather Newman",
+      "title": "World of Warcraft Classic review: The players grew up.",
+      "description": "World of Warcraft Classic is the original game run on an updated engine and infrastructure. Players are rushing in, but how long will they stay? And what are we supposed to think about a polite version of World of Warcraft?",
+      "url": "https://www.polygon.com/reviews/2019/9/5/20849704/world-of-warcraft-classic-review",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/dOo9JdMeAK_ewKMIrk4FGGVgMAI=/0x0:5600x2932/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19167946/Onyxia_Key_Art.jpg",
+      "publishedAt": "2019-09-05T17:00:00Z",
+      "content": "World of Warcraft Classic brought 2004 back with a bang last week, as players flooded the servers to play the original, vanilla-flavored World of Warcraft, creating queues of tens of thousands of players and leaving the modern game feeling like a comparative … [+12714 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Russ Frushtick",
+      "title": "Nearly every great Wii U game has come (or is coming) to Switch.",
+      "description": "Not many gems left! It seems Nintendo has gone ahead and re-released just about every great Wii U game on Switch. Which begs the question? What still isn’t out yet?",
+      "url": "https://www.polygon.com/nintendo/2019/9/5/20851099/wii-u-switch-ports-games-super-mario-3d-world",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/IpN0SMJH4KerwCpeqQSjrpFvJaY=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19170544/WiiU_LoZWWHD_screenshot_05.jpg",
+      "publishedAt": "2019-09-05T17:30:00Z",
+      "content": "It seems the disastrous Wii U had a silver lining, in that it has helped Nintendo buoy the Nintendo Switchs catalog particularly in these early years with ports of games that very few people played the first time around. At present there have been 11 Wii U ga… [+2815 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Samantha Chang",
+      "title": "Tesla Model 3 Rollout Amid Hong Kong Protests Ignites Backlash.",
+      "description": "Tesla proudly touted the release of its Model 3 in Hong Kong. However, the tone-deaf timing of the roll-out stirred backlash. Why? Because Hong Kong has been roiled by protests since June 9. Tesla's official Twitter account breathlessly announced that the 'Mo…",
+      "url": "https://www.ccn.com/tesla-model-3-rollout-amid-hong-kong-protests-ignites-backlash/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/tesla-hk-protests-2.jpg",
+      "publishedAt": "2019-09-05T23:10:06Z",
+      "content": "Tesla proudly touted the release of its Model 3 in Hong Kong. However, the tone-deaf timing of the roll-out stirred backlash. Why? Because Hong Kong has been roiled by protests since June 9.\r\nTesla's official Twitter account breathlessly announced that the \"M… [+4008 chars]",
+      "playlist": {
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
       }
     },
     {
@@ -733,9 +506,248 @@
       "publishedAt": "2019-09-05T18:18:23Z",
       "content": "Over the last few weeks, bitcoin has been struggling to stay above $10,000. The bullish steam that pushed the dominant crypto to $13,880 is fading away. Armchair traders are quick to notice the coins growing weakness.\r\nA pseudonymous trader named Escobar has … [+2590 chars]",
       "playlist": {
-        "id": "1ts2mp24ndaq1q05p6wsi"
+        "id": "jcff9xw75maqs5zycp2g0e",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Nick Statt",
+      "title": "Foxconn’s first announced product for its Wisconsin factory is an airport coffee robot.",
+      "description": "Taiwanese manufacturing giant Foxconn is expanding its controversial Wisconsin presence, with automated coffee robots. The manufacture today announced a partnership with a Texas-based company called Briggo, which makes automated coffee dispensers the size of …",
+      "url": "https://www.theverge.com/2019/9/5/20851978/foxconn-briggo-partnership-wisconsin-airport-coffee-robots-automation",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/4DLLX8Xy99OFlU0dshkLHESJjyE=/0x84:1170x697/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19172012/briggo.jpg",
+      "publishedAt": "2019-09-05T23:51:13Z",
+      "content": "The factory doesnt exist yet\r\nImage: Briggo\r\nTaiwanese manufacturing giant Foxconn is expanding its controversial Wisconsin presence with automated coffee robots. The manufacturer, known best for helping create the worlds most popular electronics devices pred… [+2170 chars]",
+      "playlist": {
+        "id": "fw9a0s8vcs9430d8aui2ev",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Graeme Mcmillan",
+      "title": "Those Bad 'Rise of Skywalker' Rumors Are False.",
+      "description": "Those Bad 'Rise of Skywalker' Rumors Are False wired.com",
+      "url": "https://www.wired.com/story/cantina-talk-93/",
+      "urlToImage": "",
+      "publishedAt": "2019-09-05T23:26:51Z",
+      "content": "Probability of Accuracy: Unlike the last rumors, this has an air of truth to it, but that may simply be wishful thinking on our part.\r\nThe Real Deal: Here's another rumor about The Rise of Skywalkerand one that, while unrelated to how the major events of the … [+3152 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": null,
+      "title": "Meet the brave devs trying to take Dogecoin beyond the meme.",
+      "description": "Meet the brave devs trying to take Dogecoin beyond the meme",
+      "url": "https://cc.thenextweb.com/post/187513136165/httpsthenextwebcomhardfork20190905meet-the-brav",
+      "urlToImage": "https://66.media.tumblr.com/dbb7464fa75dd863dff3f5dfdb5cc51b/tumblr_pxd8jr82bs1qejjfeo1_1280.png",
+      "publishedAt": "2019-09-05T16:02:14Z",
+      "content": "Meet the brave devs trying to take Dogecoin beyond the meme",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Jeff Ramos",
+      "title": "Creature in the Well is a dungeon crawler smashed into a pinball machine.",
+      "description": "Creature in the Well adds a kinetic twist to the hack and slash genre. Instead of fighting your way through various monsters, each new room you discover is an electrified, pinball-inspired puzzle.",
+      "url": "https://www.polygon.com/reviews/2019/9/5/20851565/creature-in-the-well-review-switch-xbox-one-windows-pc",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/wp2rxlOQJ-mARwK211zEpCacb6E=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171267/Creature_In_The_Well___hero.png",
+      "publishedAt": "2019-09-05T20:00:00Z",
+      "content": "Finding out whats in the next room of a dungeon crawler is always a strong reason to keep going. Who knows whats behind that door? \r\nEach step farther into the depths can mean a new puzzle, an unexpected fight with a monster, or even treasure. Creature in the… [+5322 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Tristan Greene",
+      "title": "Gears 5 is the latest blockbuster game to welcome the LGBTQ+ gaming community.",
+      "description": "Gears 5 is almost here, it's welcoming to queers, and the fact that it's just one of many AAA gaming titles putting out the “welcome” mat for LGBTQPIA+ gamers means you'd better ...",
+      "url": "https://thenextweb.com/?p=1241025",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Flgbtgears.jpg&signature=0888f27704488343514248333ddb832d",
+      "publishedAt": "2019-09-05T22:58:16Z",
+      "content": "Gears 5 is almost here, its welcoming to queers, and the fact that its just one of many AAA gaming titles featuring in-game inclusivity for LGBTQPIA+ gamers means youd better get used to it.\r\nThe latest entry in the saga for humanitys survival (read my collea… [+1966 chars]",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": null,
+      "title": "Canadian university launches online cannabis cultivation courses.",
+      "description": "Canadian university launches online cannabis cultivation courses",
+      "url": "https://cc.thenextweb.com/post/187514546745/httpsthenextwebcomscience20190905canadian-unive",
+      "urlToImage": "https://66.media.tumblr.com/a3e7e6664a4a00974eb018e2aaf12237/tumblr_pxdcgzDB321qejjfeo1_1280.jpg",
+      "publishedAt": "2019-09-05T17:26:59Z",
+      "content": "Canadian university launches online cannabis cultivation courses",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "Epic is selling Fortnite DLC in stores again this holiday.",
+      "description": "Sorry, PC and mobile players",
+      "url": "https://www.polygon.com/2019/9/5/20851500/fortnite-console-exclusive-darkfire-bundle-skins-cosmetics",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Y6rvyeMwDLi4ou6ZeXLJvt8gtdI=/0x75:1920x1080/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11607563/NintendoSwitch_Fortnite_E3Screenshot_1.jpg",
+      "publishedAt": "2019-09-05T20:29:53Z",
+      "content": "Epic Games Sorry, PC and mobile players Fortnite Battle Royale may be a downloadable free-to-play game, but that won’t stop its creator from getting their mega-hit on store shelves this holiday season. Developer Epic Games, in a partnership with Warner Brothe… [+1000 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "Samsung reaches peak flagship with a blockchain-branded Galaxy Note 10.",
+      "description": "Samsung is releasing a blockchain-branded variant of the Galaxy Note 10 dubbed the KlaytnPhone, to bring in customers holding out for a cryptocurrency-focused Samsung flagship.",
+      "url": "https://www.theverge.com/2019/9/5/20852040/samsung-peak-flagship-blockchain-branded-galaxy-note-10-cryptocurrency-kakao-klay-klaytnphone",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/vP1_dkqKdg8HWFR8QMAgxY3ZLjU=/0x142:2040x1210/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/18841651/tricker_190730_3577_0073.jpg",
+      "publishedAt": "2019-09-06T00:16:04Z",
+      "content": "The previous ten flagships this year werent enough\r\nPhoto by Thomas Ricker / The Verge\r\nWith four different Galaxy S10s, four Galaxy Note 10s, and the impending launches of two Galaxy Folds, Samsungs flagship lineup for this year has officially reached ten ph… [+1384 chars]",
+      "playlist": {
+        "id": "fw9a0s8vcs9430d8aui2ev",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Klint Finley",
+      "title": "Facebook, Microsoft Back Contest to Better Detect Deepfakes.",
+      "description": "Deepfakes are improving. The contest, which will include deepfakes created by Facebook, is designed to help researchers keep up.",
+      "url": "https://www.wired.com/story/facebook-microsoft-contest-better-detect-deepfakes/",
+      "urlToImage": "https://media.wired.com/photos/5d705aacb8a4ff000808d0e7/master/w_2560,c_limit/Deep-Fake-Facebook-Contest-57519848.jpg",
+      "publishedAt": "2019-09-05T17:00:00Z",
+      "content": "When the makers of the 1994 movie Forrest Gump inserted Tom Hanks into an old film clip to make it appear the actor was shaking hands with Richard Nixon, their handiwork was considered cutting edge. Now it's easier to doctor video. The popular Chinese app Zao… [+2755 chars]",
+      "playlist": {
+        "id": "2ypj54nhisovitfrrs2an",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Tristan Greene",
+      "title": "Canadian university launches online cannabis cultivation courses.",
+      "description": "The University of Guelph in Canada now offers an online cannabis cultivation course as part of its horticulture program. Finally! An education you can actually use. This fall semester the university will officially launch it’s “Cannabis Production” course gea…",
+      "url": "https://thenextweb.com/?p=1240985",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F06%2Fweed-farm-e1567703307611.jpg&signature=d620c7498a8937c03874898a3e0c5ffd",
+      "publishedAt": "2019-09-05T17:23:09Z",
+      "content": "The University of Guelph in Canada now offers an online cannabis cultivation course as part of its horticulture program. Finally! An education you can actually use. \r\nThis fall semester the university will officially launch its Cannabis Production course gear… [+2124 chars]",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Petrana Radulovic",
+      "title": "Latest Blumhouse movie is a female-fronted remake of slasher flick Black Christmas.",
+      "description": "A remake of 1974 slasher flick Black Christmas brings a timely take. Blumhouse’s first female-directed project stars four women who aren’t going down without a fight. Black Christmas comes out Dec. 13",
+      "url": "https://www.polygon.com/2019/9/5/20851284/black-christmas-trailer-release-date",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/znnMP_xNIHC0enrS7-79gsHwefg=/0x290:3158x1943/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19170859/BCS_Adv1Sheet16_RGB_2.jpg",
+      "publishedAt": "2019-09-05T17:17:42Z",
+      "content": "Blumhouse Productions The first female directed film from Blumhouse also boasts a stellar cast Continue reading…",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Charlie Hall",
+      "title": "Indie games invade Chicago’s weirdest museum for Bit Bash 2019.",
+      "description": "Take a look at Bit Bash, Chicago’s alternative game festival. This year it was hosted by the Museum of Science and Industry. For a weekend, it was the only place in the world where you could play great indie games and then step directly into a German U-boat a…",
+      "url": "https://www.polygon.com/2019/9/5/20838960/bit-bash-chicago-2019-photo-essay-msi-chicago",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/UgpnnjWRT-bhAUawCg3W5rlbeZw=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19168546/VR64_2.jpg",
+      "publishedAt": "2019-09-05T18:00:00Z",
+      "content": "After a brief hiatus, Chicagos tightly-knit volunteer team was back last month with Bit Bash, an annual celebration of the global indie game scene. This year the event was produced with the help of a new sponsor, the Museum of Science and Industry.\r\nAlso know… [+1836 chars]",
+      "playlist": {
+        "id": "agfca2bjcyptw109tae36",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Napier Lopez",
+      "title": "Focal’s new Chora speakers use recycled carbon fiber at accessible prices.",
+      "description": "Focal Audio might be known for producing some of the best speakers and headphones in the world, but the company hasn’t forgotten those of us that can’t spend $230,000 on a pair of towers. Case in point: Focal today announced the Chora series, a family of book…",
+      "url": "https://thenextweb.com/plugged/2019/09/05/focals-new-chora-speakers-use-recycled-carbon-fiber-at-accessible-prices/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FSnag_9d4fa8e.png&signature=1349a119469983bff3d1789e224ba875",
+      "publishedAt": "2019-09-05T16:01:41Z",
+      "content": "Focal Audio might be known for producing some of the best speakers and headphones in the world, but the company hasnt forgotten those of us that cant spend $230,000 on a pair of towers. Case in point: Focal today announced the Chora series, a family of booksh… [+2117 chars]",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": null,
+      "title": "YouTube launches long-overdue Fashion section.",
+      "description": "YouTube launches long-overdue Fashion section",
+      "url": "https://cc.thenextweb.com/post/187515629660/httpsthenextwebcomgoogle20190905youtube-fashion",
+      "urlToImage": "https://66.media.tumblr.com/54c0c6afc7ff351759cbc6c7f48643ee/tumblr_pxdfpy2BJl1qejjfeo1_1280.jpg",
+      "publishedAt": "2019-09-05T18:37:10Z",
+      "content": "YouTube launches long-overdue Fashion section",
+      "playlist": {
+        "id": "qdwfbwndprntfdvpq3kt8",
+        "title": "Startups"
       }
     }
   ],
-  "timestamp": 1567728721438
+  "timestamp": 1567733925452
 }

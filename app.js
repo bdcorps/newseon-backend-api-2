@@ -375,19 +375,19 @@ connection.once("open", function() {
     for (var i = 0; i < playlistQuery.length; i++) {
       var curPlaylist = playlistQuery[i];
       var query = curPlaylist.query;
-
+      var playlistURL = "";
       if (curPlaylist.type == "everything") {
         title = "Daily News";
         let urlParameters = Object.entries(query)
           .map(e => e.join("="))
           .join("&");
-        var playlistURL =
+        playlistURL =
           "https://newsapi.org/v2/everything?" +
           urlParameters +
           "&apiKey=" +
           NEWS_API_KEY;
 
-        urls.push(playlistURL);
+        // urls.push(playlistURL);
       }
 
       var random =
@@ -420,7 +420,7 @@ connection.once("open", function() {
       dataToWriteToFile.playlists.push({
         id: playlistsData.id,
         url: playlistsData.url,
-        category: playlistsData.category
+        title: playlistsData.title
       });
       writeToFile(dataToWriteToFile, "playlistsData");
 
@@ -428,7 +428,6 @@ connection.once("open", function() {
 
       //Put playlistsData to playlistdb
 
-      //TODO: need to add actual articles
       var playlistToSave = new Playlist({
         id: playlistsData.id,
         title: playlistsData.title,
@@ -618,7 +617,11 @@ connection.once("open", function() {
                 articles[j].description = cleanedDescription(
                   articles[j].description
                 );
-                articles[j].playlist = { id: playlists[i].id };
+                console.log("title --. ", playlists[i].title);
+                articles[j].playlist = {
+                  id: playlists[i].id,
+                  title: playlists[i].title
+                };
 
                 articleCollection.push(articles[j]);
                 writeToFile({ articles: articleCollection }, "articlesData");
@@ -659,7 +662,7 @@ connection.once("open", function() {
         hash,
         articles[j].playlist.id,
         j,
-        articles[j].playlist.category
+        articles[j].playlist.title
       );
 
       articleIDs.push(hash);
@@ -677,7 +680,7 @@ const initAudioTracks = async (
   hash,
   playlistID,
   articleOrder,
-  category
+  playlistTitle
 ) => {
   await snooze(5000);
   generateAudioTrack(
@@ -687,7 +690,7 @@ const initAudioTracks = async (
     hash,
     playlistID,
     articleOrder,
-    category
+    playlistTitle
   );
 };
 
@@ -704,7 +707,7 @@ function generateAudioTrack(
   hash,
   playlistID,
   articleOrder,
-  category
+  playlistTitle
 ) {
   var cleanedAbstract =
     article.description != null ? article.description : article.title;
@@ -746,7 +749,7 @@ function generateAudioTrack(
           if (err) {
             console.log("error: " + err);
           }
-          uploadTrack(article, hash, playlistID, articleOrder, category);
+          uploadTrack(article, hash, playlistID, articleOrder, playlistTitle);
         });
       }
     );
@@ -776,7 +779,7 @@ function generateAudioTrack(
 // }
 
 // Uploads the audio track of the news article to db
-function uploadTrack(article, hash, playlistID, articleOrder, category) {
+function uploadTrack(article, hash, playlistID, articleOrder, playlistTitle) {
   //console.log("upload track id is: " + playlistID);
 
   var readableTrackStream = fs.createReadStream(__dirname + "/uploads/" + hash);
@@ -808,7 +811,7 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
       media:
         article.urlToImage != null
           ? article.urlToImage
-          : playlistImagesSources.getArticleSplashMedia(category),
+          : playlistImagesSources.getArticleSplashMedia(playlistTitle),
       publishedOn:
         article.publishedAt != null
           ? new Date(article.publishedAt)
@@ -821,12 +824,12 @@ function uploadTrack(article, hash, playlistID, articleOrder, category) {
     var articleToSave = new Article(articleObject);
 
     console.log(
-      "Generating track with category " +
-        category +
-        " for: #" +
-        articleObject.uid
+      "Generating track for playlist with title",
+      playlistTitle,
+      "for article #",
+      articleObject.uid
     );
-    //console.log(prettyPrintJSON(articleObject));
+    console.log(prettyPrintJSON(articleObject));
 
     articleToSave.save(function(error) {
       if (error) {

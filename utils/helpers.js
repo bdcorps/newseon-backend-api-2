@@ -62,5 +62,6 @@ module.exports = {
   cleanedDescription: cleanedDescription,
   writeToFile: writeToFile,
   readFromFile: readFromFile,
-  captilizeWord: captilizeWord
+  captilizeWord: captilizeWord,
+  prettyPrintJSON: prettyPrintJSON
 };

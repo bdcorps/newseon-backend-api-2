@@ -1,25 +1,30 @@
 {
   "playlists": [
     {
-      "id": "6e4szshga86u8k4plxy3ai",
-      "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "fw9a0s8vcs9430d8aui2ev",
+      "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Technology"
     },
     {
-      "id": "ryxe1wa0ri1iw7gshecxd",
-      "url": "https://newsapi.org/v2/everything?sources=the-next-web&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "qdwfbwndprntfdvpq3kt8",
+      "url": "https://newsapi.org/v2/everything?sources=the-next-web&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Startups"
     },
     {
-      "id": "tql8tobi1aizi4v6j0nkx",
-      "url": "https://newsapi.org/v2/everything?sources=wired&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "2ypj54nhisovitfrrs2an",
+      "url": "https://newsapi.org/v2/everything?sources=wired&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Digital Products"
     },
     {
-      "id": "3c164g92n4sjwjr11u748",
-      "url": "https://newsapi.org/v2/everything?sources=polygon&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "agfca2bjcyptw109tae36",
+      "url": "https://newsapi.org/v2/everything?sources=polygon&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Gaming"
     },
     {
-      "id": "1ts2mp24ndaq1q05p6wsi",
-      "url": "https://newsapi.org/v2/everything?sources=crypto-coins-news&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce"
+      "id": "jcff9xw75maqs5zycp2g0e",
+      "url": "https://newsapi.org/v2/everything?sources=crypto-coins-news&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Cryptocurrency"
     }
   ],
-  "timestamp": 1567728717505
+  "timestamp": 1567733922144
 }
