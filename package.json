@@ -33,6 +33,7 @@
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "husky": "^3.0.4",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.1"

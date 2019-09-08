@@ -2,23 +2,39 @@ const fs = require("fs");
 var path = require("path");
 
 function cleanText(inputText) {
-  var cleanedText = inputText;
-  cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, "");
+  var textToBeCleaned = inputText;
+  var cleanedText = stripStrayHTMLCharacterCodes(textToBeCleaned);
+  cleanedText = applyBasicPunctuation(cleanedText);
   return cleanedText;
 }
+/**
+ * Reference for character codes https://dev.w3.org/html5/html-author/charref
+ * @param {*} inputText A string containing stray HTML Character Codes
+ * @returns A string with stray HTML Character Codes removed
+ */
+function stripStrayHTMLCharacterCodes(inputText) {
+  var textToBeStripped = inputText;
+  var strippedText = textToBeStripped.replace(/&#.*;|\[&#.*;\]/g, "");
+  return strippedText;
+}
 
-function cleanedTitle(inputText) {
+// function cleanedTitle(inputText) {
+//   return applyBasicPunctuation(inputText);
+// }
+
+function applyBasicPunctuation(inputText) {
   var cleanedText = inputText;
+  var lastCharacter = cleanedText[cleanedText.length - 1];
 
-  if (cleanedText[cleanedText.length - 1] == "?") {
-  } else if (cleanedText[cleanedText.length - 1] != ".") {
+  if (lastCharacter != "." && lastCharacter != "?") {
     cleanedText += ".";
   }
   return cleanedText;
 }
 
 function cleanedDescription(inputText) {
-  var cleanedText = inputText.replace('"', "'");
+  var cleanedText = inputText;
+  cleanedText = inputText.replace(/"/g, "'");
   cleanedText = cleanedText.replace(/<.>|<\/.>/g, "");
   return cleanedText;
 }
@@ -52,16 +68,17 @@ function readFromFile(fileName) {
   return JSON.parse(text);
 }
 
-function captilizeWord(lower) {
+function captilizeSentence(lower) {
   return lower.charAt(0).toUpperCase() + lower.substr(1);
 }
 
 module.exports = {
   cleanText: cleanText,
-  cleanedTitle: cleanedTitle,
+  stripStrayHTMLCharacterCodes: stripStrayHTMLCharacterCodes,
+  applyBasicPunctuation: applyBasicPunctuation,
   cleanedDescription: cleanedDescription,
   writeToFile: writeToFile,
   readFromFile: readFromFile,
-  captilizeWord: captilizeWord,
+  captilizeSentence: captilizeSentence,
   prettyPrintJSON: prettyPrintJSON
 };

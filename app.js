@@ -19,11 +19,11 @@ var unsplash = require("unsplash-api");
 
 const {
   cleanText,
-  cleanedTitle,
+  // cleanedTitle,
   cleanedDescription,
   writeToFile,
   readFromFile,
-  captilizeWord,
+  captilizeSentence,
   prettyPrintJSON
 } = require("./utils/helpers");
 
@@ -406,7 +406,7 @@ connection.once("open", function() {
         //playlistsData.title = title + " about " + captilizeWord(query.q);
         playlistsData.category = query.q;
       }
-      playlistsData.title = captilizeWord(curPlaylist.title);
+      playlistsData.title = captilizeSentence(curPlaylist.title);
       //console.log(" > "+ captilizeWord(query.title));
       playlistsData.url = playlistURL;
       playlistsData.media = playlistImagesSources.getPlaylistSplashMedia();
@@ -613,7 +613,7 @@ connection.once("open", function() {
               }
               if (!err && detection.language == "en") {
                 console.log("Is English: " + articles[j].title);
-                articles[j].title = cleanedTitle(articles[j].title);
+                articles[j].title = cleanedText(articles[j].title);
                 articles[j].description = cleanedDescription(
                   articles[j].description
                 );
@@ -756,28 +756,6 @@ function generateAudioTrack(
   });
 }
 
-// function cleanText(inputText) {
-//   var cleanedText = inputText;
-//   cleanedText = cleanedText.replace(/&#.{4};|\[&#.{4};\]/g, "");
-//   return cleanedText;
-// }
-
-// function cleanedTitle(inputText) {
-//   var cleanedText = inputText;
-
-//   if (cleanedText[cleanedText.length - 1] == "?") {
-//   } else if (cleanedText[cleanedText.length - 1] != ".") {
-//     cleanedText += ".";
-//   }
-//   return cleanedText;
-// }
-
-// function cleanedDescription(inputText) {
-//   var cleanedText = inputText.replace('"', "'");
-//   cleanedText = cleanedText.replace(/<.>|<\/.>/g, "");
-//   return cleanedText;
-// }
-
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, playlistTitle) {
   //console.log("upload track id is: " + playlistID);
@@ -897,23 +875,6 @@ var reloadContentAsync = async () => {
     console.log("body:", body);
   });
 };
-
-//Reload at 8:10 AM
-var reloadContentCron = cron.schedule(
-  "00 10 08 * * *",
-  () => {
-    console.log("Reloading content on " + Date.now());
-    reloadContentAsync();
-  },
-  undefined,
-  {
-    scheduled: true,
-    timezone: "America/New_York"
-  }
-);
-console.log(Date.now());
-
-reloadContentCron.start();
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
