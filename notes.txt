@@ -10,3 +10,5 @@
 ## Issues
 The value "category" being propagated down the pipline is undefined because of articles[j].playlist = { id: playlists[i].id }; app.js line 604. Causing crash at "Generating Tracks for category" line 806.
 To fix, add category:playlists[i].title. But the category name is misleading, should be playlistTitle. Need to be refactored.
+
+Add https://www.npmjs.com/package/winston-daily-rotate-file at some point

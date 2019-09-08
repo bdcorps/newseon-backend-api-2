@@ -17,6 +17,9 @@ var parseString = require("xml2js").parseString;
 var http = require("http");
 var unsplash = require("unsplash-api");
 
+const logModule = require("./logger");
+const logger = logModule.logger;
+
 const {
   cleanText,
   // cleanedTitle,
@@ -875,9 +878,9 @@ var reloadContentAsync = async () => {
     console.log("body:", body);
   });
 };
-
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
 app.listen(port, function() {
+  logger.info("Hs");
   console.log("Server running on port: %d", port);
 });
