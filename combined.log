@@ -1,0 +1,48 @@
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:19:47.386Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:19:47.834Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:20:40.328Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:20:40.811Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:31:06.445Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:31:06.925Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:32:35.724Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:32:36.083Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:33:13.079Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:33:13.444Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:35:31.095Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:35:31.487Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:35:42.252Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:35:42.706Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:36:02.721Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:36:03.192Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:37:07.885Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:37:08.337Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:37:34.991Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:37:35.466Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:38:00.251Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T01:38:00.719Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:26:45.029Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:26:45.592Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:34:20.158Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:34:20.537Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:39:09.213Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:39:09.631Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:40:07.014Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:40:07.376Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:49:42.262Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:49:42.659Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:55:01.006Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:55:01.377Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:59:16.514Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T02:59:16.893Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T03:00:49.116Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T03:00:49.483Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T03:01:02.525Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T03:01:02.886Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T03:50:28.955Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T03:50:29.345Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T21:35:42.602Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T21:35:42.980Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T21:36:49.951Z"}
+{"message":"Hs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-08T21:36:50.318Z"}

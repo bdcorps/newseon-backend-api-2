@@ -201,30 +201,6 @@ connection.once("open", function() {
     }
   });
 
-  function xmlToJson(url, callback) {
-    var req = http.get(url, function(res) {
-      var xml = "";
-
-      res.on("data", function(chunk) {
-        xml += chunk;
-      });
-
-      res.on("error", function(e) {
-        callback(e, null);
-      });
-
-      res.on("timeout", function(e) {
-        callback(e, null);
-      });
-
-      res.on("end", function() {
-        parseString(xml, function(err, result) {
-          callback(null, result);
-        });
-      });
-    });
-  }
-
   app.get("/dashboard", (req, res) => {
     res.render("main.ejs");
   });
@@ -370,126 +346,6 @@ connection.once("open", function() {
     res.send("Generated");
   });
 
-  function convertQueryToPlaylistURLs(playlistQuery, title) {
-    var playlistIDs = [];
-    var title;
-    var urls = [];
-    var playlistsAPI = [];
-    for (var i = 0; i < playlistQuery.length; i++) {
-      var curPlaylist = playlistQuery[i];
-      var query = curPlaylist.query;
-      var playlistURL = "";
-      if (curPlaylist.type == "everything") {
-        title = "Daily News";
-        let urlParameters = Object.entries(query)
-          .map(e => e.join("="))
-          .join("&");
-        playlistURL =
-          "https://newsapi.org/v2/everything?" +
-          urlParameters +
-          "&apiKey=" +
-          NEWS_API_KEY;
-
-        // urls.push(playlistURL);
-      }
-
-      var random =
-        Math.random()
-          .toString(36)
-          .substring(2, 15) +
-        Math.random()
-          .toString(36)
-          .substring(2, 15);
-
-      var playlistsData = {};
-      playlistsData.id = random;
-      if (query.category != null) {
-        playlistsData.category = query.category;
-      } else if (query.q != null) {
-        //playlistsData.title = title + " about " + captilizeWord(query.q);
-        playlistsData.category = query.q;
-      }
-      playlistsData.title = captilizeSentence(curPlaylist.title);
-      //console.log(" > "+ captilizeWord(query.title));
-      playlistsData.url = playlistURL;
-      playlistsData.media = playlistImagesSources.getPlaylistSplashMedia();
-      playlistsData.articles = [];
-      playlistIDs.push({
-        id: playlistsData.id,
-        title: playlistsData.title,
-        media: playlistsData.media
-      });
-
-      dataToWriteToFile.playlists.push({
-        id: playlistsData.id,
-        url: playlistsData.url,
-        title: playlistsData.title
-      });
-      writeToFile(dataToWriteToFile, "playlistsData");
-
-      //playlistsAPI.push(playlistsData);
-
-      //Put playlistsData to playlistdb
-
-      var playlistToSave = new Playlist({
-        id: playlistsData.id,
-        title: playlistsData.title,
-        url: playlistsData.url,
-        media: playlistsData.media,
-        category: playlistsData.category,
-        articles: playlistsData.articles
-      });
-
-      playlistToSave.save(function(error) {
-        if (error) {
-          console.error(error);
-        }
-      });
-    }
-    //return playlists ids
-    return playlistIDs;
-  }
-
-  function resetDB() {
-    Article.remove({}, function(err) {
-      if (err) {
-        console.log("error");
-      }
-    });
-    Playlist.remove({}, function(err) {
-      if (err) {
-        console.log("error");
-      }
-    });
-
-    Category.remove({}, function(err) {
-      if (err) {
-        console.log("error");
-      }
-    });
-
-    Config.remove({}, function(err) {
-      if (err) {
-        console.log("error");
-      }
-    });
-
-    //delete tracks tracks files and chunks
-    var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
-    var CHUNKS_COLL = "tracks.chunks";
-    var FILES_COLL = "tracks.files";
-
-    bucket.drop(function(error) {
-      var chunksQuery = db.collection(CHUNKS_COLL).find({});
-      chunksQuery.toArray(function(error, docs) {
-        if (error != null && docs.length > 0) {
-          var filesQuery = db.collection(FILES_COLL).find({});
-          filesQuery.toArray(function(error, docs) {});
-        }
-      });
-    });
-  }
-
   // function writeToFile(data, fileName) {
   //   var dataToWrite = data;
   //   var d = new Date();
@@ -616,7 +472,7 @@ connection.once("open", function() {
               }
               if (!err && detection.language == "en") {
                 console.log("Is English: " + articles[j].title);
-                articles[j].title = cleanedText(articles[j].title);
+                articles[j].title = cleanText(articles[j].title);
                 articles[j].description = cleanedDescription(
                   articles[j].description
                 );
@@ -641,36 +497,6 @@ connection.once("open", function() {
       message: "File uploaded successfully."
     });
   });
-
-  function generateAudioTracks(req, res) {
-    var articles = readFromFile("articlesData");
-    articles = articles.articles;
-
-    //console.log("about to write" + JSON.stringify(articles));
-
-    articleIDs = [];
-    // Create a hash based on the contents of the article title
-    // This is so we don't write duplicate content to the db
-    var hash = "";
-    for (var j = 0; j < articles.length; j++) {
-      hash = crypto
-        .createHash("md5")
-        .update(articles[j].title)
-        .digest("hex");
-
-      initAudioTracks(
-        req,
-        res,
-        articles[j],
-        hash,
-        articles[j].playlist.id,
-        j,
-        articles[j].playlist.title
-      );
-
-      articleIDs.push(hash);
-    }
-  }
 });
 
 const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -759,6 +585,128 @@ function generateAudioTrack(
   });
 }
 
+function convertQueryToPlaylistURLs(playlistQuery, title) {
+  console.log("query -->", playlistQuery);
+  var playlistIDs = [];
+  var title;
+  var urls = [];
+  var playlistsAPI = [];
+  for (var i = 0; i < playlistQuery.length; i++) {
+    var curPlaylist = playlistQuery[i];
+    var query = curPlaylist.query;
+    var playlistURL = "";
+    if (curPlaylist.type == "everything") {
+      title = "Daily News";
+      let urlParameters = Object.entries(query)
+        .map(e => e.join("="))
+        .join("&");
+      playlistURL =
+        "https://newsapi.org/v2/everything?" +
+        urlParameters +
+        "&apiKey=" +
+        NEWS_API_KEY;
+
+      // urls.push(playlistURL);
+    }
+
+    var random =
+      Math.random()
+        .toString(36)
+        .substring(2, 15) +
+      Math.random()
+        .toString(36)
+        .substring(2, 15);
+
+    var playlistsData = {};
+    playlistsData.id = random;
+    // if (query.category != null) {
+    //   playlistsData.category = query.category;
+    // } else if (query.q != null) {
+    //   //playlistsData.title = title + " about " + captilizeWord(query.q);
+    //   playlistsData.category = query.q;
+    // }
+    playlistsData.title = captilizeSentence(curPlaylist.title);
+    //console.log(" > "+ captilizeWord(query.title));
+    playlistsData.url = playlistURL;
+    playlistsData.media = playlistImagesSources.getPlaylistSplashMedia();
+    playlistsData.articles = [];
+
+    var playlistItem = {
+      id: playlistsData.id,
+      url: playlistsData.url,
+      title: playlistsData.title,
+      media: playlistsData.media
+    };
+    playlistIDs.push(playlistItem);
+
+    dataToWriteToFile.playlists.push(playlistItem);
+    writeToFile(dataToWriteToFile, "playlistsData");
+
+    //playlistsAPI.push(playlistsData);
+
+    //Put playlistsData to playlistdb
+
+    var playlistToSave = new Playlist({
+      id: playlistsData.id,
+      title: playlistsData.title,
+      url: playlistsData.url,
+      media: playlistsData.media,
+      category: playlistsData.category,
+      articles: playlistsData.articles
+    });
+
+    playlistToSave.save(function(error) {
+      if (error) {
+        console.error(error);
+      }
+    });
+  }
+
+  console.log("resposne -->", playlistIDs);
+  //return playlists ids
+  return playlistIDs;
+}
+
+function resetDB() {
+  Article.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
+  Playlist.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
+
+  Category.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
+
+  Config.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
+
+  //delete tracks tracks files and chunks
+  var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
+  var CHUNKS_COLL = "tracks.chunks";
+  var FILES_COLL = "tracks.files";
+
+  bucket.drop(function(error) {
+    var chunksQuery = db.collection(CHUNKS_COLL).find({});
+    chunksQuery.toArray(function(error, docs) {
+      if (error != null && docs.length > 0) {
+        var filesQuery = db.collection(FILES_COLL).find({});
+        filesQuery.toArray(function(error, docs) {});
+      }
+    });
+  });
+}
+
 // Uploads the audio track of the news article to db
 function uploadTrack(article, hash, playlistID, articleOrder, playlistTitle) {
   //console.log("upload track id is: " + playlistID);
@@ -832,6 +780,60 @@ function uploadTrack(article, hash, playlistID, articleOrder, playlistTitle) {
   });
 }
 
+function generateAudioTracks(req, res) {
+  var articles = readFromFile("articlesData");
+  articles = articles.articles;
+
+  //console.log("about to write" + JSON.stringify(articles));
+
+  articleIDs = [];
+  // Create a hash based on the contents of the article title
+  // This is so we don't write duplicate content to the db
+  var hash = "";
+  for (var j = 0; j < articles.length; j++) {
+    hash = crypto
+      .createHash("md5")
+      .update(articles[j].title)
+      .digest("hex");
+
+    initAudioTracks(
+      req,
+      res,
+      articles[j],
+      hash,
+      articles[j].playlist.id,
+      j,
+      articles[j].playlist.title
+    );
+
+    articleIDs.push(hash);
+  }
+}
+
+function xmlToJson(url, callback) {
+  var req = http.get(url, function(res) {
+    var xml = "";
+
+    res.on("data", function(chunk) {
+      xml += chunk;
+    });
+
+    res.on("error", function(e) {
+      callback(e, null);
+    });
+
+    res.on("timeout", function(e) {
+      callback(e, null);
+    });
+
+    res.on("end", function() {
+      parseString(xml, function(err, result) {
+        callback(null, result);
+      });
+    });
+  });
+}
+
 var reloadContentAsync = async () => {
   request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
     error,
@@ -884,3 +886,7 @@ app.listen(port, function() {
   logger.info("Hs");
   console.log("Server running on port: %d", port);
 });
+
+module.exports = {
+  convertQueryToPlaylistURLs: convertQueryToPlaylistURLs
+};
