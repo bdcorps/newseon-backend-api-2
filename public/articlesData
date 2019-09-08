@@ -2,6 +2,74 @@
   "articles": [
     {
       "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Thomas Bardwell",
+      "title": "sssss0 Tops Sales Charts Again but September Won’t Be as Easy.",
+      "description": "Madden NFL 20 topped the charts for U.S. digital sales of PlayStation 4 games for the month of August, making it the best-selling title for two consecutive months. Madden NFL 20 Carries Over July Success to August Madden NFL’s yearly success comes down to a s…",
+      "url": "https://www.ccn.com/madden-nfl-20-tops-sales-charts-again-but-september-wont-be-as-easy/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/ea-sports-madden-nfl.jpg",
+      "publishedAt": "2019-09-08T00:41:46Z",
+      "content": "Madden NFL 20 topped the charts for U.S. digital sales of PlayStation 4 games for the month of August, making it the best-selling title for two consecutive months.\r\nMadden NFL 20 Carries Over July Success to August\r\nMadden NFL’s yearly success comes down to a… [+1659 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Google Assistant on Pixel 4 may handle calls while you're on hold.",
+      "description": "Google Assistant's ability to handle phone calls may extend beyond booking appointments. A 9to5Google source claims Assistant on the upcoming Pixel 4 will have the option of taking over when you're on hold, bringing you back when another human answe...",
+      "url": "https://www.engadget.com/2019/09/08/google-assistant-pixel-4-handles-on-hold-calls/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C799%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C800%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252Fe87f00f0-d243-11e9-bfbd-ec888aead69a%26client%3Da1acac3e1b3290917d92%26signature%3D7045b1c4ea9dcaec5f9dd4dfdea896612d0818b8&amp;client=amp-blogside-v2&amp;signature=b4489aefac32a5e92b30f192c918c97b014e4149",
+      "publishedAt": "2019-09-08T18:15:00Z",
+      "content": "This might not be available the moment the Pixel 4 is ready, however. The on-hold feature is relatively young, according to the source, and might only appear at an announcement as a teaser of what's in the pipeline. There's also no mention of whether or not t… [+584 chars]",
+      "playlist": {
+        "id": "3reyq7w4fwfx1ulk31gfd",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "",
+      "title": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent.",
+      "description": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent",
+      "url": "https://cc.thenextweb.com/post/187552764475/httpsthenextwebcomplugged20190907cheap-power-vi",
+      "urlToImage": "https://66.media.tumblr.com/46fbd6d027df63957c28df785060d09e/tumblr_pxgnbd1DtN1qejjfeo1_1280.png",
+      "publishedAt": "2019-09-07T12:14:01Z",
+      "content": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Ivan Mehta",
+      "title": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent.",
+      "description": "Have you seen the movie Arrival? It’s a fantastic movie starring Amy Adams where aliens arrive in a floating egg-shaped ship to the earth. How cool would it be if you can get a gadget which looks like that? I got just the right thing for you. Power Vision’s s…",
+      "url": "https://thenextweb.com/plugged/2019/09/07/cheap-power-visions-poweregg-drone-for-just-349-egg-sale-ent/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FPoweregg.png&amp;signature=ea909aa774cc4eaad413558901f3cc26",
+      "publishedAt": "2019-09-07T12:10:54Z",
+      "content": "Have you seen the movie Arrival? Its a fantastic movie starring Amy Adams where aliens arrive in a floating egg-shaped ship to the earth. How cool would it be if you can get a gadget which looks like that?\r\nI got just the right thing for you. Power Visions su… [+1004 chars]",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
         "id": "wired",
         "name": "Wired"
       },
@@ -13,41 +81,7 @@
       "publishedAt": "2019-09-07T14:00:00Z",
       "content": "No. Why is this even a question? You can't just go and alter the predictions of a model because you expected something different. Im talking, of course, about that famously doctored map of Hurricane Dorians projected path. The chart, dated August 29, included… [+2717 chars]",
       "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Geek's Guide to the Galaxy",
-      "title": "Everyone Should Celebrate Their Love for Dungeons & Dragons.",
-      "description": "It took author Matt Bell a while to get there, but now he encourages everyone to do the same.",
-      "url": "https://www.wired.com/2019/09/geeks-guide-live-dnd/",
-      "urlToImage": "https://www.wired.com/wp-content/uploads/2019/09/Culture_DD_TOA_Art1-1200x630.jpg",
-      "publishedAt": "2019-09-07T13:00:00Z",
-      "content": null,
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Alex Davies",
-      "title": "GM's Search for In-Car Tech Lands on Google.",
-      "description": "The automaker and the tech giant say Google's Android software will underpin the infotainment systems in future GM cars.",
-      "url": "https://www.wired.com/story/gms-search-car-tech-lands-google/",
-      "urlToImage": "https://media.wired.com/photos/5d729abb9fef0d0008852438/master/w_2560,c_limit/Transpo_2020-GMC-Sierra-Elevation-041.jpg",
-      "publishedAt": "2019-09-07T23:00:00Z",
-      "content": "In the ongoing war for control of the digital space that is the modern car, Google just conquered a major swath of territory. This week, it and General Motors announced that the tech giants Android operating system will underpin the infotainment systems in GM… [+2619 chars]",
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
+        "id": "yeo07dxvm9n8utvnh4ka3i",
         "title": "Digital Products"
       }
     },
@@ -56,168 +90,32 @@
         "id": "the-next-web",
         "name": "The Next Web"
       },
-      "author": null,
-      "title": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent.",
-      "description": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent",
-      "url": "https://cc.thenextweb.com/post/187552764475/httpsthenextwebcomplugged20190907cheap-power-vi",
-      "urlToImage": "https://66.media.tumblr.com/46fbd6d027df63957c28df785060d09e/tumblr_pxgnbd1DtN1qejjfeo1_1280.png",
-      "publishedAt": "2019-09-07T12:14:01Z",
-      "content": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent",
+      "author": "",
+      "title": "Learn to handle major data analysis work in Excel for under $20.",
+      "description": "Learn to handle major data analysis work in Excel for under $20",
+      "url": "https://cc.thenextweb.com/post/187552652670/httpsthenextwebcomoffers20190907learn-to-handle",
+      "urlToImage": "https://66.media.tumblr.com/2bcbf307c68716e42e67c21a2ecb34d0/tumblr_pxgmvnhRiO1qejjfeo1_1280.jpg",
+      "publishedAt": "2019-09-07T12:04:34Z",
+      "content": "Learn to handle major data analysis work in Excel for under $20",
       "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
+        "id": "vvo7a5m0m8s7yimy4uy1we",
         "title": "Startups"
       }
     },
     {
       "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Shannon Stirone",
-      "title": "Space Photos of the Week: Hurricane Dorian and Other Spirals.",
-      "description": "It's a universal shape, and we find it throughout the cosmos.",
-      "url": "https://www.wired.com/story/space-photos-of-the-week-hurricane-dorian-spacey-spiral-siblings/",
-      "urlToImage": "https://media.wired.com/photos/5d72b245361279000868a885/master/w_2560,c_limit/photo_space_dorian-1.jpg",
-      "publishedAt": "2019-09-07T14:00:00Z",
-      "content": "Spirals are everywhere, from the tiniest fragile snail shells to the vast arcs of the cosmos. They can be beautiful, and violent toojust consider hurricanes (including Hurricane Dorian, of course), Jupiters Great Red Spot, and a big storm on Neptune.\r\nThe eff… [+1955 chars]",
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Emma Grey Ellis",
-      "title": "Concerning Consent, Chappelle, and Canceling Cancel Culture.",
-      "description": "Dave Chappelle hates cancel culture. Some people have canceled him. Should we just cancel cancel culture already?",
-      "url": "https://www.wired.com/story/canceling-cancel-culture/",
-      "urlToImage": "https://media.wired.com/photos/5d7184b4b8a4ff000808d0fc/master/w_2560,c_limit/Culture_CancelCulture_2019_MathieuBittonL1030683_HR_R.jpg",
-      "publishedAt": "2019-09-08T11:00:00Z",
-      "content": "In November 1990, the Womyn of Antioch, a student group at Antioch College, published a list of demands in the campus newspaper, threatening radical physical action if those demands werent met the following week. Enraged by womens stories of on-campus rape, t… [+4027 chars]",
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Ryan Smith",
-      "title": "eToro Senior Analyst Mati Greenspan's 3 Favorite Crypto Picks.",
-      "description": "eToro senior markets analyst Mati Greenspan isn't one to mince words. When responding to a query on entry-level crypto investing, the portfolio manager didn't hesitate to point out the top three cryptocurrency choices that are currently piquing his interest: …",
-      "url": "https://www.ccn.com/etoro-senior-analyst-mati-greenspans-3-favorite-crypto-picks/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/mati.jpg",
-      "publishedAt": "2019-09-08T19:00:20Z",
-      "content": "eToro senior markets analyst Mati Greenspan isn't one to mince words. When responding to a query on entry-level crypto investing, the portfolio manager didn't hesitate to point out the top three cryptocurrency choices that are currently piquing his interest:\r… [+3340 chars]",
+      "author": "Greg Thomson",
+      "title": "How Justin Sun Manufactures Hype for the TRON (TRX) Train.",
+      "description": "A glance at the Twitter followers of Justin Sun would have you believe the TRON (TRX) founder and CEO is the most famous personality in the cryptosphere. Likewise, a quick look at the list of the most utilized decentralized applications (dApps) paints TRON as…",
+      "url": "https://www.ccn.com/justin-sun-tron-trx-hype/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/03/justin-sun-tron-crypto-tesla-youtube.jpg",
+      "publishedAt": "2019-09-08T10:19:41Z",
+      "content": "A glance at the Twitter followers of Justin Sun would have you believe the TRON (TRX) founder and CEO is the most famous personality in the cryptosphere. Likewise, a quick look at the list of the most utilized decentralized applications (dApps) paints TRON as… [+5353 chars]",
       "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Adrienne So",
-      "title": "8 Best Electric Bikes for Every Kind of Ride (2019).",
-      "description": "We've tested ebikes for commuting, mountain biking, gravel, and even a few that can fold up. These are our favorites.",
-      "url": "https://www.wired.com/gallery/best-electric-bikes/",
-      "urlToImage": "https://media.wired.com/photos/5d606f75ee69d100089ae128/master/pass/Gear-Wabash-02-LEAD.jpg",
-      "publishedAt": "2019-09-08T12:00:00Z",
-      "content": "Just like any bike, electric bikes come with a ton of different technical specs that you may or may not care about. More affordable ebikes use hub motor drives, in which the motor is in the hub of the bike's wheel. More expensive mid-drive motors, like Bosch … [+561 chars]",
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Karen Han",
-      "title": "It: Chapter Two’s James Ransone on making a horror movie for the YouTube generation.",
-      "description": "The actor, who plays the grown-up Eddie Kaspbrak talks us through taking over for Jack Dylan Grazer, having a sixth sense about the movie, why horror is such a special genre, and the movie’s craziest cameos.",
-      "url": "https://www.polygon.com/entertainment/2019/9/6/20847337/it-chapter-two-interview-spoilers-james-ransone-eddie",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/prNfI3qhFRdCUu0KEP3Ij_Gu7TU=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19163699/rev_1_IT2_13037r_High_Res_JPEG.jpeg",
-      "publishedAt": "2019-09-06T23:00:00Z",
-      "content": "One of the most thrilling moments in It: Chapter Two is the reveal of the adult versions of the kids we became so fond of in the franchises first installment. Hypochondriac Eddie Kaspbrak, played as a young man by Jack Dylan Grazer, arguably has the most unca… [+14379 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Jon Fingas",
-      "title": "Homeland Security details social media collection from immigrants.",
-      "description": "The Department of Homeland Security has explained how it will demand social media info from asylum from newcomers to the US beyond visa applicants. A notice in the Federal Register makes clear that officials will ask for social network data in seven...",
-      "url": "https://www.engadget.com/2019/09/08/homeland-security-details-social-media-collection-from-immigrant/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3300%252C2200%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252Fabddafc0-d1bc-11e9-ba7c-311c2a456c08%26client%3Da1acac3e1b3290917d92%26signature%3D7a7b3e29e919c4020ab150f103909d3a115b89d0&client=amp-blogside-v2&signature=56530a5a1d3545106c3fd35c08aa5cb8b949848e",
-      "publishedAt": "2019-09-08T12:58:00Z",
-      "content": "The AP said in June that Homeland Security was planning to expand its social media collection, but there haven't been details until now.\r\nThere have been numerous objections to Homeland Security's practices, particularly since the visa requirements took effec… [+429 chars]",
-      "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "Nintendo files weird patent for new Joy-Cons.",
-      "description": "A patent filed in Japan illustrates a Joy-Con with a kind of hinged design, apparently for better ergonomics when holding a Switch in undocked mode. Whether this actually becomes a commercial product is an open question.",
-      "url": "https://www.polygon.com/nintendo-switch/2019/9/8/20855513/nintendo-switch-joy-con-hinged-patent-controllers",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/GWBHeTIyxTUJE_If22G-02KLmXY=/0x122:1125x711/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19178510/fJ1LV8p.jpg",
-      "publishedAt": "2019-09-08T15:55:39Z",
-      "content": "A strange patent application Nintendo filed in Japan has fans guessing at its purpose, even before the necessary speculation of whether itll actually become a peripheral people can buy for the Switch. But there it is, a pair of Joy-Cons with a hinge.\r\nThe hin… [+1893 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Thomas Bardwell",
-      "title": "Madden NFL 20 Tops Sales Charts Again but September Won’t Be as Easy.",
-      "description": "Madden NFL 20 topped the charts for U.S. digital sales of PlayStation 4 games for the month of August, making it the best-selling title for two consecutive months. Madden NFL 20 Carries Over July Success to August Madden NFL’s yearly success comes down to a s…",
-      "url": "https://www.ccn.com/madden-nfl-20-tops-sales-charts-again-but-september-wont-be-as-easy/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/ea-sports-madden-nfl.jpg",
-      "publishedAt": "2019-09-08T00:41:46Z",
-      "content": "Madden NFL 20 topped the charts for U.S. digital sales of PlayStation 4 games for the month of August, making it the best-selling title for two consecutive months.\r\nMadden NFL 20 Carries Over July Success to August\r\nMadden NFL’s yearly success comes down to a… [+1659 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Samantha Chang",
-      "title": "Elon Musk Insists Tesla Solar Is ‘Guaranteed Instant Money Printer’.",
-      "description": "Elon Musk insists that Tesla solar panels and roofs are “unequivocally a guaranteed instant money printer” despite the recent fires they allegedly caused. Musk tweeted that Tesla Solar can save you $300 to $1,000 a year off your utility bills. For the remaind…",
-      "url": "https://www.ccn.com/elon-musk-insists-tesla-solar-is-guaranteed-instant-money-printer/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/musk-tesla-solar-money-maker.jpg",
-      "publishedAt": "2019-09-08T17:05:05Z",
-      "content": "Elon Musk insists that Tesla solar panels and roofs are “unequivocally a guaranteed instant money printer” despite the recent fires they allegedly caused.\r\nMusk tweeted that Tesla Solar can save you $300 to $1,000 a year off your utility bills.\r\nFor the remai… [+3334 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
+        "id": "jo1dgndxcnu2idezr5a7f",
         "title": "Cryptocurrency"
       }
     },
@@ -234,331 +132,8 @@
       "publishedAt": "2019-09-08T14:00:00Z",
       "content": "Filed under:\r\nIterative updates look like the future for top smartwatch \r\nPhoto by Vjeran Pavic / The Verge\r\nApple is widely expected to announce the latest iteration of the Apple Watch on Tuesday, presumably called the Apple Watch Series 5, if the naming con… [+3336 chars]",
       "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
+        "id": "3reyq7w4fwfx1ulk31gfd",
         "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "Death Stranding’s ‘very easy mode’ is for movie fans.",
-      "description": "Director Hideo Kojima confirmed that a super easy difficulty setting is included in Death Stranding specifically for folks who are interested in the story and not gameplay.",
-      "url": "https://www.polygon.com/2019/9/7/20854192/death-stranding-very-easy-mode-kojima-ps4",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/VUewqabno-M3O3drPjAg9T3X6ZI=/0x5:2509x1319/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13139271/death_stranding_tgs_2018.png",
-      "publishedAt": "2019-09-07T14:33:36Z",
-      "content": "Death Strandingwill have a very easy mode, and its specifically for folks who have heard all the fuss about the game, its story, and perhaps the big stars attached to it, but rarely play video games.\r\nDirector Hideo Kojima tweeted news of this yesterday, with… [+1399 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Jon Fingas",
-      "title": "Russia accuses Facebook, Google of violating political ad laws.",
-      "description": "Russia is once again butting heads with internet giants over their political advertising. Communications regulator Roskomnadzor has accused Facebook and Google of allowing political ads during regional elections on September 8th despite being a ban...",
-      "url": "https://www.engadget.com/2019/09/08/russia-facebook-google-political-ads/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4000%252C2666%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1066%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252F991895e0-d251-11e9-bdff-9264583d6373%26client%3Da1acac3e1b3290917d92%26signature%3D13ba7e305da42a3f764152c4af3d5781da4b81af&client=amp-blogside-v2&signature=e0692279dbdeced2908acf87d56ab982378a7df8",
-      "publishedAt": "2019-09-08T19:36:00Z",
-      "content": "Roskomnadzor didn't mince words. It said the ads were \"unacceptable\" and that they could be treated as \"interference in the sovereign affairs\" of the country. There was no mention of punitive action, however.\r\nWe've asked Facebook and Google for comment. Goog… [+437 chars]",
-      "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Jon Fingas",
-      "title": "Wunderlist creator wants to buy the app back from Microsoft.",
-      "description": "Microsoft's acquisition of the Wunderlist team is creating friction years after the fact. The founder of 6 Wunderkinder, Christian Reber, has offered to buy back the task app to prevent Microsoft from shutting it down. There are people who 'still",
-      "url": "https://www.engadget.com/2019/09/08/wunderlist-creator-wants-to-buy-app-from-microsoft/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1200%252C800%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F728e54c0-d25e-11e9-93eb-2d0f11426bfa%26client%3Da1acac3e1b3290917d92%26signature%3D2fcee4e6b75a7efc545218f0b62fbe5329928f92&client=amp-blogside-v2&signature=736cfd5694f3bcf1f9d8b3ec4822d717999f8db4",
-      "publishedAt": "2019-09-08T20:55:00Z",
-      "content": "Reber added that he had \"nothing but gratitude\" for Microsoft, and that he was simply sad Wunderlist didn't go as planned.\r\nIt's a thorny situation for Microsoft. Wunderlist's cloud features still run on Amazon Web Services instead of Azure, The Vergenoted, b… [+956 chars]",
-      "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Andrew Tarantola",
-      "title": "After Math: The NFL goes full geek.",
-      "description": "The NFL is matching brains with brawn for its 100th season. Fans will be able to enjoy faster in-stadium internet, deeper insights into their local teams and virtually trade their favorite players like sentient trading cards (but only in New Jersey)....",
-      "url": "https://www.engadget.com/2019/09/08/after-math-the-nfl-goes-full-geek/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3079%252C2296%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1193%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252Fe08ff710-d0da-11e9-9ffe-026df1e746c9%26client%3Da1acac3e1b3290917d92%26signature%3Dc4b32e00a35d60c76fcce98d99f57a31fa65f692&client=amp-blogside-v2&signature=8150190516a0dffa5c14fbd7a0e065b920e44c04",
-      "publishedAt": "2019-09-08T15:30:00Z",
-      "content": "Nearly half of America's football stadiums are getting next-gen wireless connectivity upgrades ahead of the 2019-2020 season, presumably to give fans something to entertain themselves with while the refs take yet another look at the previous play for the thir… [+1165 chars]",
-      "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Sam Bourgi",
-      "title": "Trump’s Stock Market Blunder Could Cost Him the 2020 Election.",
-      "description": "If re-election is the aim of Donald Trump, then owning the stock market rally of 2017 may be his biggest blunder yet. Historically, presidents of all persuasions have avoided taking credit for Wall Street’s gains because they don’t want to be weighed down by …",
-      "url": "https://www.ccn.com/trump-stock-market-blunder-could-cost-2020-election/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/06/donald-trump-cringe-reuters.jpg",
-      "publishedAt": "2019-09-08T12:00:39Z",
-      "content": "If re-election is the aim of Donald Trump, then owning the stock market rally of 2017 may be his biggest blunder yet.\r\nHistorically, presidents of all persuasions have avoided taking credit for Wall Streets gains because they dont want to be weighed down by i… [+4102 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Harsh Chauhan",
-      "title": "Elon Musk’s Ego Pits Tesla Versus Porsche at the Ring.",
-      "description": "Elon Musk loves a contest. The Tesla CEO has been all worked up over Porsche’s Taycan Turbo, the German automobile manufacturer’s first production electric car. Um @Porsche, this word Turbo does not mean what you think it does — Elon Musk (@elonmusk) Septembe…",
-      "url": "https://www.ccn.com/elon-musks-ego-tesla-vs-porsche/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/Elon-Musk-Tesla-kick-Stock.jpg",
-      "publishedAt": "2019-09-08T09:53:01Z",
-      "content": "Elon Musk loves a contest. The Tesla CEO has been all worked up over Porsches Taycan Turbo, the German automobile manufacturers first production electric car.\r\nUm @Porsche, this word Turbo does not mean what you think it does\r\n— Elon Musk (@elonmusk) Septembe… [+2915 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "How does $100K a year sound? Master database administration for...",
-      "description": "How does $100K a year sound? Master database administration for only $19",
-      "url": "https://cc.thenextweb.com/post/187574517610/httpsthenextwebcomoffers20190908how-does-100k-a",
-      "urlToImage": "https://66.media.tumblr.com/ec2d644fccdb082777f632858da67bf3/tumblr_pxihg2CtKL1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-08T12:02:26Z",
-      "content": "How does $100K a year sound? Master database administration for only $19",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "Learn to handle major data analysis work in Excel for under $20.",
-      "description": "Learn to handle major data analysis work in Excel for under $20",
-      "url": "https://cc.thenextweb.com/post/187552652670/httpsthenextwebcomoffers20190907learn-to-handle",
-      "urlToImage": "https://66.media.tumblr.com/2bcbf307c68716e42e67c21a2ecb34d0/tumblr_pxgmvnhRiO1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-07T12:04:34Z",
-      "content": "Learn to handle major data analysis work in Excel for under $20",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Ivan Mehta",
-      "title": "CHEAP: Power Vision’s PowerEgg drone for just $349? Egg-sale-ent.",
-      "description": "Have you seen the movie Arrival? It’s a fantastic movie starring Amy Adams where aliens arrive in a floating egg-shaped ship to the earth. How cool would it be if you can get a gadget which looks like that? I got just the right thing for you. Power Vision’s s…",
-      "url": "https://thenextweb.com/plugged/2019/09/07/cheap-power-visions-poweregg-drone-for-just-349-egg-sale-ent/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FPoweregg.png&signature=ea909aa774cc4eaad413558901f3cc26",
-      "publishedAt": "2019-09-07T12:10:54Z",
-      "content": "Have you seen the movie Arrival? Its a fantastic movie starring Amy Adams where aliens arrive in a floating egg-shaped ship to the earth. How cool would it be if you can get a gadget which looks like that?\r\nI got just the right thing for you. Power Visions su… [+1004 chars]",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "TNW Deals",
-      "title": "How does $100K a year sound? Master database administration for only $19.",
-      "description": "Python has long been a computing language of choice for hardcore data manipulation -- and in The Complete SQL Database in Python Bundle ($19, over 90 percent off from TNW Deals), you’ll join to wield all the tools used in this constantly expanding field.",
-      "url": "https://thenextweb.com/offers/2019/09/08/how-does-100k-a-year-sound-master-database-administration-for-only-19/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnwDeals?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FzMtgza7.jpg&signature=10a1c2e68d9e2b45c9e436c3fec84b12",
-      "publishedAt": "2019-09-08T12:00:00Z",
-      "content": "TLDR: Get the database knowledge to lock down a lucrative new career, all for under $20.\r\nIts a job that routinely pays a six-figure salary. Its also Glassdoors Best Job in America for the fourth straight year. And as for hungry companies, the market continue… [+1704 chars]",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Matthew Hughes",
-      "title": "The coolest thing I saw at IFA was a headless robot cat from Japan.",
-      "description": "Covering consumer tech is always great fun. From phones to semiconductors, innovation happens at a breakneck pace. Each day, I get to see the world change in a subtle but profound way. But the most intriguing products are seldom those with a mass-market appea…",
-      "url": "https://thenextweb.com/plugged/2019/09/08/the-coolest-thing-i-saw-at-ifa-was-a-headless-robot-cat-from-japan/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FDSC_0159-Cropped.jpg&signature=c8664e52b7d8b3623e12edf934c20307",
-      "publishedAt": "2019-09-08T20:34:44Z",
-      "content": "Covering consumer tech is always great fun. From phones to semiconductors, innovation happens at a breakneck pace. Each day, I get to see the world change in a subtle but profound way. But the most intriguing products are seldom those with a mass-market appea… [+2424 chars]",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Matthew Hughes",
-      "title": "Honor’s latest app helps the visually impaired read documents and roadsigns.",
-      "description": "Ricky West is a popular YouTube influencer from the UK who creates videos about consumer technology. He’s also visually impaired. West suffers from something called septo-optic dysplasia. This is a rare congenital disorder that affects the optic nerve. In his…",
-      "url": "https://thenextweb.com/apps/2019/09/08/honors-latest-app-helps-the-visually-impaired-read-documents-and-roadsigns/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&signature=d329383c5a6c1c44736a487e9c46ee12",
-      "publishedAt": "2019-09-08T12:01:53Z",
-      "content": "Ricky West is a popular YouTube influencer from the UK who creates videos about consumer technology. Hes also visually impaired.\r\nWest suffers from something called septo-optic dysplasia. This is a rare congenital disorder that affects the optic nerve. In his… [+2279 chars]",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Graeme McMillan",
-      "title": "The Boston Straight Pride Parade Tops This Week's Internet News Roundup.",
-      "description": "Also, British Prime Minister Boris Johnson had a very bad week and Walmart took a stand to curb gun violence.",
-      "url": "https://www.wired.com/story/internet-week-236/",
-      "urlToImage": "https://media.wired.com/photos/5d72f370c891950008ce33d0/master/w_2560,c_limit/Culture_InternetWeek_1165229053.jpg",
-      "publishedAt": "2019-09-08T13:00:00Z",
-      "content": "What Really Happened: For months now, the question \"What is actually going on in the UK?\" has been a particularly hard one to answer. Last week, though, the answer was simply, \"Everything went very badly for Prime Minister Boris Johnson.\"\r\nIt all started on T… [+2011 chars]",
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Kiril Nikolaev",
-      "title": "If You Think Bitcoin is Complicated, Try Sending an Email in the 90’s.",
-      "description": "Critics of the No. 1 cryptocurrency always harp about the degree of difficulty in using bitcoin. For instance, user imteaz of Bitcointalk believes that the cryptocurrency is too complicated for the average Joe. The user mentions the need to purchase the digit…",
-      "url": "https://www.ccn.com/if-you-think-bitcoin-is-complicated-try-sending-an-email-in-the-90s/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/bitcoin-aol.jpg",
-      "publishedAt": "2019-09-08T15:32:17Z",
-      "content": "Critics of the No. 1 cryptocurrency always harp about the degree of difficulty in using bitcoin. For instance, user imteaz of Bitcointalk believes that the cryptocurrency is too complicated for the average Joe. The user mentions the need to purchase the digit… [+2695 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Brian Barrett",
-      "title": "An Unprecedented Cyberattack Hit the US Power Grid.",
-      "description": "Exposed Facebook phone numbers, an XKCD breach, and more of the week's top security news.",
-      "url": "https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/",
-      "urlToImage": "https://media.wired.com/photos/5d72e63c36d8b700082138be/master/w_2560,c_limit/security_grid_548993527.jpg",
-      "publishedAt": "2019-09-07T14:00:00Z",
-      "content": "This week saw some aftershocks from recent revelations about a large-scale iOS hacking campaign. Brokers of so-called zero day exploitsthe kind that companies haven't yet patchedhave started charging more for Android hacks than iOS for the first time. And App… [+3491 chars]",
-      "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": null,
-      "title": "Founder2be connects you with business’ best and brightest for...",
-      "description": "Founder2be connects you with business’ best and brightest for under $50",
-      "url": "https://cc.thenextweb.com/post/187552652855/httpsthenextwebcomoffers20190907founder2be-conn",
-      "urlToImage": "https://66.media.tumblr.com/72e43158bb223507fb260e9edac5286a/tumblr_pxgmvooBAC1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-07T12:04:35Z",
-      "content": "Founder2be connects you with business’ best and brightest for under $50",
-      "playlist": {
-        "id": "16knxbaivq9ho0ltsecfdo",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Jon Fingas",
-      "title": "Google Assistant on Pixel 4 may handle calls while you're on hold.",
-      "description": "Google Assistant's ability to handle phone calls may extend beyond booking appointments. A 9to5Google source claims Assistant on the upcoming Pixel 4 will have the option of taking over when you're on hold, bringing you back when another human answe...",
-      "url": "https://www.engadget.com/2019/09/08/google-assistant-pixel-4-handles-on-hold-calls/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C799%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C800%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252Fe87f00f0-d243-11e9-bfbd-ec888aead69a%26client%3Da1acac3e1b3290917d92%26signature%3D7045b1c4ea9dcaec5f9dd4dfdea896612d0818b8&client=amp-blogside-v2&signature=b4489aefac32a5e92b30f192c918c97b014e4149",
-      "publishedAt": "2019-09-08T18:15:00Z",
-      "content": "This might not be available the moment the Pixel 4 is ready, however. The on-hold feature is relatively young, according to the source, and might only appear at an announcement as a teaser of what's in the pipeline. There's also no mention of whether or not t… [+584 chars]",
-      "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Cherlynn Low",
-      "title": "Companies distanced themselves from foldable phone hype at IFA.",
-      "description": "Samsung may finally be ready to launch the Galaxy Fold, but other smartphone makers seem to be collectively experiencing commitment phobia. At IFA 2019, companies like Huawei, LG and TCL cooled their efforts on the foldable flagship race in various d...",
-      "url": "https://www.engadget.com/2019/09/08/samsung-galaxy-fold-huawei-mate-x-tcl-butterfly-hinge-lg-g8x-thinq-ifa-2019-to-fold-or-not-to-fold/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1067%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252Fc7a67ba0-cfce-11e9-a5af-d8878f7f7982%26client%3Da1acac3e1b3290917d92%26signature%3D9c5064f4af41285bbd627c857561c07cc67ee3ee&client=amp-blogside-v2&signature=faf63f19f1173b354d26b4c19e9b3786d8beea84",
-      "publishedAt": "2019-09-08T15:00:00Z",
-      "content": "LG, for example, is staying far away from folding screens, despite having a real rollable OLED TV that people can buy. It announced the LG G8X ThinQ here in Berlin, where it opted to use two separate 6.4-inch panels for its dual-screen flagship. We've seen LG… [+4110 chars]",
-      "playlist": {
-        "id": "9znll31jjydqnnstdpu8k",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "Cube World developer says it’s finally launching — six years after alpha.",
-      "description": "This will be the first update in six years ...",
-      "url": "https://www.polygon.com/pc/2019/9/7/20854453/cube-world-pc-steam-release-dates-alpha",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/sMMPl7BiHCK4pGxld_37KSIXRfc=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19176586/ss_d4801c68763c669562cef2d505e79be506667ee0.1920x1080.jpg",
-      "publishedAt": "2019-09-07T18:08:24Z",
-      "content": "Picroma This will be the first update in six years... Cube World, which began life with a paid alpha in 2013, is finally launching. Developer Picroma announced it will launch on Steam “hopefully around the end of September/October 2019.” For those who can’t r… [+2311 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
       }
     },
     {
@@ -574,8 +149,59 @@
       "publishedAt": "2019-09-07T15:56:03Z",
       "content": "Recycle cans with flair Continue reading…",
       "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
+        "id": "7ppujerp80q6vb4p031sz8",
         "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Shannon Stirone",
+      "title": "Space Photos of the Week: Hurricane Dorian and Other Spirals.",
+      "description": "It's a universal shape, and we find it throughout the cosmos.",
+      "url": "https://www.wired.com/story/space-photos-of-the-week-hurricane-dorian-spacey-spiral-siblings/",
+      "urlToImage": "https://media.wired.com/photos/5d72b245361279000868a885/master/w_2560,c_limit/photo_space_dorian-1.jpg",
+      "publishedAt": "2019-09-07T14:00:00Z",
+      "content": "Spirals are everywhere, from the tiniest fragile snail shells to the vast arcs of the cosmos. They can be beautiful, and violent toojust consider hurricanes (including Hurricane Dorian, of course), Jupiters Great Red Spot, and a big storm on Neptune.\r\nThe eff… [+1955 chars]",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Karen Han",
+      "title": "It: Chapter Two’s James Ransone on making a horror movie for the YouTube generation.",
+      "description": "The actor, who plays the grown-up Eddie Kaspbrak talks us through taking over for Jack Dylan Grazer, having a sixth sense about the movie, why horror is such a special genre, and the movie’s craziest cameos.",
+      "url": "https://www.polygon.com/entertainment/2019/9/6/20847337/it-chapter-two-interview-spoilers-james-ransone-eddie",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/prNfI3qhFRdCUu0KEP3Ij_Gu7TU=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19163699/rev_1_IT2_13037r_High_Res_JPEG.jpeg",
+      "publishedAt": "2019-09-06T23:00:00Z",
+      "content": "One of the most thrilling moments in It: Chapter Two is the reveal of the adult versions of the kids we became so fond of in the franchises first installment. Hypochondriac Eddie Kaspbrak, played as a young man by Jack Dylan Grazer, arguably has the most unca… [+14379 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Brian Barrett",
+      "title": "An Unprecedented Cyberattack Hit the US Power Grid.",
+      "description": "Exposed Facebook phone numbers, an XKCD breach, and more of the week's top security news.",
+      "url": "https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/",
+      "urlToImage": "https://media.wired.com/photos/5d72e63c36d8b700082138be/master/w_2560,c_limit/security_grid_548993527.jpg",
+      "publishedAt": "2019-09-07T14:00:00Z",
+      "content": "This week saw some aftershocks from recent revelations about a large-scale iOS hacking campaign. Brokers of so-called zero day exploitsthe kind that companies haven't yet patchedhave started charging more for Android hacks than iOS for the first time. And App… [+3491 chars]",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
       }
     },
     {
@@ -583,15 +209,15 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Greg Thomson",
-      "title": "How Justin Sun Manufactures Hype for the TRON (TRX) Train.",
-      "description": "A glance at the Twitter followers of Justin Sun would have you believe the TRON (TRX) founder and CEO is the most famous personality in the cryptosphere. Likewise, a quick look at the list of the most utilized decentralized applications (dApps) paints TRON as…",
-      "url": "https://www.ccn.com/justin-sun-tron-trx-hype/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/03/justin-sun-tron-crypto-tesla-youtube.jpg",
-      "publishedAt": "2019-09-08T10:19:41Z",
-      "content": "A glance at the Twitter followers of Justin Sun would have you believe the TRON (TRX) founder and CEO is the most famous personality in the cryptosphere. Likewise, a quick look at the list of the most utilized decentralized applications (dApps) paints TRON as… [+5353 chars]",
+      "author": "Ryan Smith",
+      "title": "eToro Senior Analyst Mati Greenspan's 3 Favorite Crypto Picks.",
+      "description": "eToro senior markets analyst Mati Greenspan isn't one to mince words. When responding to a query on entry-level crypto investing, the portfolio manager didn't hesitate to point out the top three cryptocurrency choices that are currently piquing his interest: …",
+      "url": "https://www.ccn.com/etoro-senior-analyst-mati-greenspans-3-favorite-crypto-picks/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/mati.jpg",
+      "publishedAt": "2019-09-08T19:00:20Z",
+      "content": "eToro senior markets analyst Mati Greenspan isn't one to mince words. When responding to a query on entry-level crypto investing, the portfolio manager didn't hesitate to point out the top three cryptocurrency choices that are currently piquing his interest:\r… [+3340 chars]",
       "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
+        "id": "jo1dgndxcnu2idezr5a7f",
         "title": "Cryptocurrency"
       }
     },
@@ -601,133 +227,14 @@
         "name": "Polygon"
       },
       "author": "Owen S. Good",
-      "title": "Shenmue 3 gets a trial edition, refunds begin in September.",
-      "description": "Shenmue 3 is an Epic Games Store exclusive, and PC gamers who pre-ordered it on Kickstarter expecting a Steam code will have a two-week window to claim their refund. Shenmue 3 will also get a trial edition for PC and PS4 sometime in the middle of September.",
-      "url": "https://www.polygon.com/2019/9/8/20855958/shenmue-3-epic-games-store-exclusive-refunds-demo-trial-edition",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/TVUYn1ho2YCRwAjdG7mwGXZeiag=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/9346491/S3_Ctsn_0831_01.jpg",
-      "publishedAt": "2019-09-08T21:11:34Z",
-      "content": "Ys Net PC gamers have two weeks to claim one Shenmue 3 ’s makers have outlined exactly how they will handle making refunds to crowdfunding donors upset that the game is an Epic Games Store exclusive. It does not sound like it will be a smooth or timely proces… [+1911 chars]",
+      "title": "Death Stranding’s ‘very easy mode’ is for movie fans.",
+      "description": "Director Hideo Kojima confirmed that a super easy difficulty setting is included in Death Stranding specifically for folks who are interested in the story and not gameplay.",
+      "url": "https://www.polygon.com/2019/9/7/20854192/death-stranding-very-easy-mode-kojima-ps4",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/VUewqabno-M3O3drPjAg9T3X6ZI=/0x5:2509x1319/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13139271/death_stranding_tgs_2018.png",
+      "publishedAt": "2019-09-07T14:33:36Z",
+      "content": "Death Strandingwill have a very easy mode, and its specifically for folks who have heard all the fuss about the game, its story, and perhaps the big stars attached to it, but rarely play video games.\r\nDirector Hideo Kojima tweeted news of this yesterday, with… [+1399 chars]",
       "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "Joker takes top honors at Venice Film Festival.",
-      "description": "Joker, directed by Todd Phillips and starring Joaquin Phoenix, won the Golden Lion at the 76th Venice Film Festival. The two most recent winners, Roma and The Shape of Water, went on to win Best Director Oscars, and were both nominated for Best Picture.",
-      "url": "https://www.polygon.com/2019/9/7/20854584/joker-movie-joaquin-phoenix-awards-oscars-release-date",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/47BBtlD51zVKxwXIOEDcc6yDJN0=/0x27:1352x735/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16005214/Screen_Shot_2019_04_03_at_9.15.17_AM.png",
-      "publishedAt": "2019-09-07T20:06:26Z",
-      "content": "Joker won the Golden Lion at the 76th Venice Film Festival, an award that should position the film for Oscar nominations, if not also wins, in significant artistic categories.\r\nThe Venice Film Festival is the worlds longest running, and the Golden Lion is its… [+1249 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Joseph Young",
-      "title": "Bitcoin Price Retraces 6% in Spiralling Weekend Dump.",
-      "description": "The bitcoin price dropped from $10,968 to $10,252 over the weekend within a two-day span by more than six percent against the U.S. dollar. Previously, when the bitcoin price initially made its way to $10,900, a level that has been considered to be a heavy lin…",
-      "url": "https://www.ccn.com/bitcoin-price-weekend-dump/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/Bitcoin-chart-Sstock.jpg",
-      "publishedAt": "2019-09-08T13:07:23Z",
-      "content": "The bitcoin price dropped from $10,968 to $10,252 over the weekend within a two-day span by more than six percent against the U.S. dollar.\r\nBitcoin price dropped by more than six percent since weekly high at over $10,900 (source: coinmarketcap.com)\r\nPreviousl… [+2976 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Lawrence Meyers",
-      "title": "Facebook Dating Will Be A Monster Hit. Here’s Why.",
-      "description": "As someone who has been single in his life more years than not, and living in one of the worst cities ever for dating, I can confidently predict that Facebook’s dating app will be a huge success. Privacy Concerns Are Irrelevant I know, I know. Everyone is all…",
-      "url": "https://www.ccn.com/facebook-dating-will-be-a-monster-hit-heres-why/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/Facebook-dating-NTB-1.jpg",
-      "publishedAt": "2019-09-08T14:16:58Z",
-      "content": "As someone who has been single in his life more years than not, and living in one of the worst cities ever for dating, I can confidently predict that Facebook’s dating app will be a huge success.\r\nPrivacy Concerns Are Irrelevant\r\nI know, I know. Everyone is a… [+3442 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Adam Scott",
-      "title": "Forget Facebook — Here's Who's Really Been Selling Your Data.",
-      "description": "While many people remain at least partially wary of Facebook and other Big Tech giants leaking their data or sharing it with other companies, one government agency has been selling citizens' personal data from right under their noses. The Department of Motor …",
-      "url": "https://www.ccn.com/forget-facebook-heres-whos-really-been-selling-your-data/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/dmv-afp.jpg",
-      "publishedAt": "2019-09-08T21:00:45Z",
-      "content": "While many people remain at least partially wary of Facebook and other Big Tech giants leaking their data or sharing it with other companies, one government agency has been selling citizens' personal data from right under their noses.\r\nThe Department of Motor… [+2211 chars]",
-      "playlist": {
-        "id": "jsz4us996hnfgetw53wsl5",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Emily Heller",
-      "title": "Best Buy’s Labor Day deals, Intel’s Gamer Days sale, and more gaming discounts.",
-      "description": "The best remaining deals from last week’s long weekend on 4K TVs, PS4 and Xbox One games, gaming accessories and more from Best Buy, Amazon, and Walmart.",
-      "url": "https://www.polygon.com/2019/9/7/20840553/best-gaming-deals-best-buy-amazon-labor-day-4k-tv-nintendo-switch-ps4-xbox-one",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/rMTSACmqKiouoJ8pgn1fwhpVswI=/0x108:1500x893/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19139815/control2.jpg",
-      "publishedAt": "2019-09-07T15:00:00Z",
-      "content": "Remedy Entertainment via Polygon Plus deals on Control and Gears 5 This Monday, Sept. 2, was Labor Day and several retailers are celebrating the last long weekend of the summer with big sales. While most of those deals ended come Tuesday, Best Buy still have … [+2358 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Clayton Ashley",
-      "title": "Watch us solve a murder mystery in Cyberpunk Red.",
-      "description": "In this special episode of Overboard we play the new Cyberpunk table top role playing game using the jumpstart kit and an original campaign",
-      "url": "https://www.polygon.com/videos/2019/9/7/20851702/murder-mystery-cyberpunk-red-2077-rpg",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/l8O-kBVaeRA5WGZhr3_mfhOiXbE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171546/cyberpunk_thumb_3_no_text.png",
-      "publishedAt": "2019-09-07T16:00:00Z",
-      "content": "Cyberpunk 2077 doesnt come out until next year, but that doesnt mean you cant play Cyberpunk right now. In fact, the Polygon video team already did! \r\nWell, not the video game, but the tabletop prequel, Cyberpunk Red. The fine folks at R. Talsorian Games, cre… [+1823 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Aron Garst",
-      "title": "Marvel’s Avengers game doesn’t quite make me feel like a superhero.",
-      "description": "In a hands-on with Marvel’s Avengers from Crystal Dynamics, we replay the game’s first level, which shows off all the five Avengers strengths and struggles.",
-      "url": "https://www.polygon.com/2019/9/7/20853526/marvels-avengers-game-hands-on-pax-west",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/QGfJXzkK8H7tgbq6Fb_fnMGu4WQ=/0x75:3840x2085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19175210/Marvel_s_Avengers_Captain_America.jpg",
-      "publishedAt": "2019-09-07T13:00:00Z",
-      "content": "Crystal Dynamics/Square Enix Five heroes try to share the spotlight After swinging between skyscrapers in Insomniac’s Spider-man or beating Gotham’s City’s thugs into a pulp with Rocksteady’s Batman: Arkham Asylum it’s easy to get excited about the potential … [+8067 chars]",
-      "playlist": {
-        "id": "02y13zbp9y2uavefbvljcf",
+        "id": "7ppujerp80q6vb4p031sz8",
         "title": "Gaming"
       }
     },
@@ -744,7 +251,381 @@
       "publishedAt": "2019-09-08T13:00:00Z",
       "content": "If the Swiss are known for any aspect of their transportation system, its that they keep their trains on schedule. The Italians may not be able to boast about timeliness, but theyre unrivaled in their ability to design beautiful vehicles. But starting in Dece… [+2308 chars]",
       "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Homeland Security details social media collection from immigrants.",
+      "description": "The Department of Homeland Security has explained how it will demand social media info from asylum from newcomers to the US beyond visa applicants. A notice in the Federal Register makes clear that officials will ask for social network data in seven...",
+      "url": "https://www.engadget.com/2019/09/08/homeland-security-details-social-media-collection-from-immigrant/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3300%252C2200%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252Fabddafc0-d1bc-11e9-ba7c-311c2a456c08%26client%3Da1acac3e1b3290917d92%26signature%3D7a7b3e29e919c4020ab150f103909d3a115b89d0&amp;client=amp-blogside-v2&amp;signature=56530a5a1d3545106c3fd35c08aa5cb8b949848e",
+      "publishedAt": "2019-09-08T12:58:00Z",
+      "content": "The AP said in June that Homeland Security was planning to expand its social media collection, but there haven't been details until now.\r\nThere have been numerous objections to Homeland Security's practices, particularly since the visa requirements took effec… [+429 chars]",
+      "playlist": {
+        "id": "3reyq7w4fwfx1ulk31gfd",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "",
+      "title": "Founder2be connects you with business’ best and brightest for...",
+      "description": "Founder2be connects you with business’ best and brightest for under $50",
+      "url": "https://cc.thenextweb.com/post/187552652855/httpsthenextwebcomoffers20190907founder2be-conn",
+      "urlToImage": "https://66.media.tumblr.com/72e43158bb223507fb260e9edac5286a/tumblr_pxgmvooBAC1qejjfeo1_1280.jpg",
+      "publishedAt": "2019-09-07T12:04:35Z",
+      "content": "Founder2be connects you with business’ best and brightest for under $50",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Samantha Chang",
+      "title": "Elon Musk Insists Tesla Solar Is ‘Guaranteed Instant Money Printer’.",
+      "description": "Elon Musk insists that Tesla solar panels and roofs are “unequivocally a guaranteed instant money printer” despite the recent fires they allegedly caused. Musk tweeted that Tesla Solar can save you $300 to $1,000 a year off your utility bills. For the remaind…",
+      "url": "https://www.ccn.com/elon-musk-insists-tesla-solar-is-guaranteed-instant-money-printer/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/musk-tesla-solar-money-maker.jpg",
+      "publishedAt": "2019-09-08T17:05:05Z",
+      "content": "Elon Musk insists that Tesla solar panels and roofs are “unequivocally a guaranteed instant money printer” despite the recent fires they allegedly caused.\r\nMusk tweeted that Tesla Solar can save you $300 to $1,000 a year off your utility bills.\r\nFor the remai… [+3334 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Matthew Hughes",
+      "title": "The coolest thing I saw at IFA was a headless robot cat from Japan.",
+      "description": "Covering consumer tech is always great fun. From phones to semiconductors, innovation happens at a breakneck pace. Each day, I get to see the world change in a subtle but profound way. But the most intriguing products are seldom those with a mass-market appea…",
+      "url": "https://thenextweb.com/plugged/2019/09/08/the-coolest-thing-i-saw-at-ifa-was-a-headless-robot-cat-from-japan/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FDSC_0159-Cropped.jpg&amp;signature=c8664e52b7d8b3623e12edf934c20307",
+      "publishedAt": "2019-09-08T20:34:44Z",
+      "content": "Covering consumer tech is always great fun. From phones to semiconductors, innovation happens at a breakneck pace. Each day, I get to see the world change in a subtle but profound way. But the most intriguing products are seldom those with a mass-market appea… [+2424 chars]",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Joker takes top honors at Venice Film Festival.",
+      "description": "Joker, directed by Todd Phillips and starring Joaquin Phoenix, won the Golden Lion at the 76th Venice Film Festival. The two most recent winners, Roma and The Shape of Water, went on to win Best Director Oscars, and were both nominated for Best Picture.",
+      "url": "https://www.polygon.com/2019/9/7/20854584/joker-movie-joaquin-phoenix-awards-oscars-release-date",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/47BBtlD51zVKxwXIOEDcc6yDJN0=/0x27:1352x735/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16005214/Screen_Shot_2019_04_03_at_9.15.17_AM.png",
+      "publishedAt": "2019-09-07T20:06:26Z",
+      "content": "Joker won the Golden Lion at the 76th Venice Film Festival, an award that should position the film for Oscar nominations, if not also wins, in significant artistic categories.\r\nThe Venice Film Festival is the worlds longest running, and the Golden Lion is its… [+1249 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Geek's Guide to the Galaxy",
+      "title": "Everyone Should Celebrate Their Love for Dungeons &amp; Dragons.",
+      "description": "It took author Matt Bell a while to get there, but now he encourages everyone to do the same.",
+      "url": "https://www.wired.com/2019/09/geeks-guide-live-dnd/",
+      "urlToImage": "https://www.wired.com/wp-content/uploads/2019/09/Culture_DD_TOA_Art1-1200x630.jpg",
+      "publishedAt": "2019-09-07T13:00:00Z",
+      "content": "",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Clayton Ashley",
+      "title": "Watch us solve a murder mystery in Cyberpunk Red.",
+      "description": "In this special episode of Overboard we play the new Cyberpunk table top role playing game using the jumpstart kit and an original campaign",
+      "url": "https://www.polygon.com/videos/2019/9/7/20851702/murder-mystery-cyberpunk-red-2077-rpg",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/l8O-kBVaeRA5WGZhr3_mfhOiXbE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19171546/cyberpunk_thumb_3_no_text.png",
+      "publishedAt": "2019-09-07T16:00:00Z",
+      "content": "Cyberpunk 2077 doesnt come out until next year, but that doesnt mean you cant play Cyberpunk right now. In fact, the Polygon video team already did! \r\nWell, not the video game, but the tabletop prequel, Cyberpunk Red. The fine folks at R. Talsorian Games, cre… [+1823 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Andrew Tarantola",
+      "title": "After Math: The NFL goes full geek.",
+      "description": "The NFL is matching brains with brawn for its 100th season. Fans will be able to enjoy faster in-stadium internet, deeper insights into their local teams and virtually trade their favorite players like sentient trading cards (but only in New Jersey)....",
+      "url": "https://www.engadget.com/2019/09/08/after-math-the-nfl-goes-full-geek/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3079%252C2296%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1193%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252Fe08ff710-d0da-11e9-9ffe-026df1e746c9%26client%3Da1acac3e1b3290917d92%26signature%3Dc4b32e00a35d60c76fcce98d99f57a31fa65f692&amp;client=amp-blogside-v2&amp;signature=8150190516a0dffa5c14fbd7a0e065b920e44c04",
+      "publishedAt": "2019-09-08T15:30:00Z",
+      "content": "Nearly half of America's football stadiums are getting next-gen wireless connectivity upgrades ahead of the 2019-2020 season, presumably to give fans something to entertain themselves with while the refs take yet another look at the previous play for the thir… [+1165 chars]",
+      "playlist": {
+        "id": "3reyq7w4fwfx1ulk31gfd",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Harsh Chauhan",
+      "title": "Elon Musk’s Ego Pits Tesla Versus Porsche at the Ring.",
+      "description": "Elon Musk loves a contest. The Tesla CEO has been all worked up over Porsche’s Taycan Turbo, the German automobile manufacturer’s first production electric car. Um @Porsche, this word Turbo does not mean what you think it does — Elon Musk (@elonmusk) Septembe…",
+      "url": "https://www.ccn.com/elon-musks-ego-tesla-vs-porsche/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/Elon-Musk-Tesla-kick-Stock.jpg",
+      "publishedAt": "2019-09-08T09:53:01Z",
+      "content": "Elon Musk loves a contest. The Tesla CEO has been all worked up over Porsches Taycan Turbo, the German automobile manufacturers first production electric car.\r\nUm @Porsche, this word Turbo does not mean what you think it does\r\n— Elon Musk (@elonmusk) Septembe… [+2915 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Adam Scott",
+      "title": "Forget Facebook — Here's Who's Really Been Selling Your Data.",
+      "description": "While many people remain at least partially wary of Facebook and other Big Tech giants leaking their data or sharing it with other companies, one government agency has been selling citizens' personal data from right under their noses. The Department of Motor …",
+      "url": "https://www.ccn.com/forget-facebook-heres-whos-really-been-selling-your-data/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/dmv-afp.jpg",
+      "publishedAt": "2019-09-08T21:00:45Z",
+      "content": "While many people remain at least partially wary of Facebook and other Big Tech giants leaking their data or sharing it with other companies, one government agency has been selling citizens' personal data from right under their noses.\r\nThe Department of Motor… [+2211 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Kiril Nikolaev",
+      "title": "If You Think Bitcoin is Complicated, Try Sending an Email in the 90’s.",
+      "description": "Critics of the No. 1 cryptocurrency always harp about the degree of difficulty in using bitcoin. For instance, user imteaz of Bitcointalk believes that the cryptocurrency is too complicated for the average Joe. The user mentions the need to purchase the digit…",
+      "url": "https://www.ccn.com/if-you-think-bitcoin-is-complicated-try-sending-an-email-in-the-90s/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/bitcoin-aol.jpg",
+      "publishedAt": "2019-09-08T15:32:17Z",
+      "content": "Critics of the No. 1 cryptocurrency always harp about the degree of difficulty in using bitcoin. For instance, user imteaz of Bitcointalk believes that the cryptocurrency is too complicated for the average Joe. The user mentions the need to purchase the digit… [+2695 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Sam Bourgi",
+      "title": "Trump’s Stock Market Blunder Could Cost Him the 2020 Election.",
+      "description": "If re-election is the aim of Donald Trump, then owning the stock market rally of 2017 may be his biggest blunder yet. Historically, presidents of all persuasions have avoided taking credit for Wall Street’s gains because they don’t want to be weighed down by …",
+      "url": "https://www.ccn.com/trump-stock-market-blunder-could-cost-2020-election/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/06/donald-trump-cringe-reuters.jpg",
+      "publishedAt": "2019-09-08T12:00:39Z",
+      "content": "If re-election is the aim of Donald Trump, then owning the stock market rally of 2017 may be his biggest blunder yet.\r\nHistorically, presidents of all persuasions have avoided taking credit for Wall Streets gains because they dont want to be weighed down by i… [+4102 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Emily Heller",
+      "title": "Best Buy’s Labor Day deals, Intel’s Gamer Days sale, and more gaming discounts.",
+      "description": "The best remaining deals from last week’s long weekend on 4K TVs, PS4 and Xbox One games, gaming accessories and more from Best Buy, Amazon, and Walmart.",
+      "url": "https://www.polygon.com/2019/9/7/20840553/best-gaming-deals-best-buy-amazon-labor-day-4k-tv-nintendo-switch-ps4-xbox-one",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/rMTSACmqKiouoJ8pgn1fwhpVswI=/0x108:1500x893/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19139815/control2.jpg",
+      "publishedAt": "2019-09-07T15:00:00Z",
+      "content": "Remedy Entertainment via Polygon Plus deals on Control and Gears 5 This Monday, Sept. 2, was Labor Day and several retailers are celebrating the last long weekend of the summer with big sales. While most of those deals ended come Tuesday, Best Buy still have … [+2358 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Adrienne So",
+      "title": "8 Best Electric Bikes for Every Kind of Ride (2019).",
+      "description": "We've tested ebikes for commuting, mountain biking, gravel, and even a few that can fold up. These are our favorites.",
+      "url": "https://www.wired.com/gallery/best-electric-bikes/",
+      "urlToImage": "https://media.wired.com/photos/5d606f75ee69d100089ae128/master/pass/Gear-Wabash-02-LEAD.jpg",
+      "publishedAt": "2019-09-08T12:00:00Z",
+      "content": "Just like any bike, electric bikes come with a ton of different technical specs that you may or may not care about. More affordable ebikes use hub motor drives, in which the motor is in the hub of the bike's wheel. More expensive mid-drive motors, like Bosch … [+561 chars]",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Russia accuses Facebook, Google of violating political ad laws.",
+      "description": "Russia is once again butting heads with internet giants over their political advertising. Communications regulator Roskomnadzor has accused Facebook and Google of allowing political ads during regional elections on September 8th despite being a ban...",
+      "url": "https://www.engadget.com/2019/09/08/russia-facebook-google-political-ads/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4000%252C2666%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1066%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252F991895e0-d251-11e9-bdff-9264583d6373%26client%3Da1acac3e1b3290917d92%26signature%3D13ba7e305da42a3f764152c4af3d5781da4b81af&amp;client=amp-blogside-v2&amp;signature=e0692279dbdeced2908acf87d56ab982378a7df8",
+      "publishedAt": "2019-09-08T19:36:00Z",
+      "content": "Roskomnadzor didn't mince words. It said the ads were \"unacceptable\" and that they could be treated as \"interference in the sovereign affairs\" of the country. There was no mention of punitive action, however.\r\nWe've asked Facebook and Google for comment. Goog… [+437 chars]",
+      "playlist": {
+        "id": "3reyq7w4fwfx1ulk31gfd",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Wunderlist creator wants to buy the app back from Microsoft.",
+      "description": "Microsoft's acquisition of the Wunderlist team is creating friction years after the fact. The founder of 6 Wunderkinder, Christian Reber, has offered to buy back the task app to prevent Microsoft from shutting it down. There are people who 'still",
+      "url": "https://www.engadget.com/2019/09/08/wunderlist-creator-wants-to-buy-app-from-microsoft/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1200%252C800%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F728e54c0-d25e-11e9-93eb-2d0f11426bfa%26client%3Da1acac3e1b3290917d92%26signature%3D2fcee4e6b75a7efc545218f0b62fbe5329928f92&amp;client=amp-blogside-v2&amp;signature=736cfd5694f3bcf1f9d8b3ec4822d717999f8db4",
+      "publishedAt": "2019-09-08T20:55:00Z",
+      "content": "Reber added that he had \"nothing but gratitude\" for Microsoft, and that he was simply sad Wunderlist didn't go as planned.\r\nIt's a thorny situation for Microsoft. Wunderlist's cloud features still run on Amazon Web Services instead of Azure, The Vergenoted, b… [+956 chars]",
+      "playlist": {
+        "id": "3reyq7w4fwfx1ulk31gfd",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Graeme McMillan",
+      "title": "The Boston Straight Pride Parade Tops This Week's Internet News Roundup.",
+      "description": "Also, British Prime Minister Boris Johnson had a very bad week and Walmart took a stand to curb gun violence.",
+      "url": "https://www.wired.com/story/internet-week-236/",
+      "urlToImage": "https://media.wired.com/photos/5d72f370c891950008ce33d0/master/w_2560,c_limit/Culture_InternetWeek_1165229053.jpg",
+      "publishedAt": "2019-09-08T13:00:00Z",
+      "content": "What Really Happened: For months now, the question \"What is actually going on in the UK?\" has been a particularly hard one to answer. Last week, though, the answer was simply, \"Everything went very badly for Prime Minister Boris Johnson.\"\r\nIt all started on T… [+2011 chars]",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "TNW Deals",
+      "title": "How does $100K a year sound? Master database administration for only $19.",
+      "description": "Python has long been a computing language of choice for hardcore data manipulation -- and in The Complete SQL Database in Python Bundle ($19, over 90 percent off from TNW Deals), you’ll join to wield all the tools used in this constantly expanding field.",
+      "url": "https://thenextweb.com/offers/2019/09/08/how-does-100k-a-year-sound-master-database-administration-for-only-19/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnwDeals?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FzMtgza7.jpg&amp;signature=10a1c2e68d9e2b45c9e436c3fec84b12",
+      "publishedAt": "2019-09-08T12:00:00Z",
+      "content": "TLDR: Get the database knowledge to lock down a lucrative new career, all for under $20.\r\nIts a job that routinely pays a six-figure salary. Its also Glassdoors Best Job in America for the fourth straight year. And as for hungry companies, the market continue… [+1704 chars]",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Joseph Young",
+      "title": "Bitcoin Price Retraces 6% in Spiralling Weekend Dump.",
+      "description": "The bitcoin price dropped from $10,968 to $10,252 over the weekend within a two-day span by more than six percent against the U.S. dollar. Previously, when the bitcoin price initially made its way to $10,900, a level that has been considered to be a heavy lin…",
+      "url": "https://www.ccn.com/bitcoin-price-weekend-dump/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/Bitcoin-chart-Sstock.jpg",
+      "publishedAt": "2019-09-08T13:07:23Z",
+      "content": "The bitcoin price dropped from $10,968 to $10,252 over the weekend within a two-day span by more than six percent against the U.S. dollar.\r\nBitcoin price dropped by more than six percent since weekly high at over $10,900 (source: coinmarketcap.com)\r\nPreviousl… [+2976 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Nintendo files weird patent for new Joy-Cons.",
+      "description": "A patent filed in Japan illustrates a Joy-Con with a kind of hinged design, apparently for better ergonomics when holding a Switch in undocked mode. Whether this actually becomes a commercial product is an open question.",
+      "url": "https://www.polygon.com/nintendo-switch/2019/9/8/20855513/nintendo-switch-joy-con-hinged-patent-controllers",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/GWBHeTIyxTUJE_If22G-02KLmXY=/0x122:1125x711/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19178510/fJ1LV8p.jpg",
+      "publishedAt": "2019-09-08T15:55:39Z",
+      "content": "A strange patent application Nintendo filed in Japan has fans guessing at its purpose, even before the necessary speculation of whether itll actually become a peripheral people can buy for the Switch. But there it is, a pair of Joy-Cons with a hinge.\r\nThe hin… [+1893 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "",
+      "title": "How does $100K a year sound? Master database administration for...",
+      "description": "How does $100K a year sound? Master database administration for only $19",
+      "url": "https://cc.thenextweb.com/post/187574517610/httpsthenextwebcomoffers20190908how-does-100k-a",
+      "urlToImage": "https://66.media.tumblr.com/ec2d644fccdb082777f632858da67bf3/tumblr_pxihg2CtKL1qejjfeo1_1280.jpg",
+      "publishedAt": "2019-09-08T12:02:26Z",
+      "content": "How does $100K a year sound? Master database administration for only $19",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Alex Davies",
+      "title": "GM's Search for In-Car Tech Lands on Google.",
+      "description": "The automaker and the tech giant say Google's Android software will underpin the infotainment systems in future GM cars.",
+      "url": "https://www.wired.com/story/gms-search-car-tech-lands-google/",
+      "urlToImage": "https://media.wired.com/photos/5d729abb9fef0d0008852438/master/w_2560,c_limit/Transpo_2020-GMC-Sierra-Elevation-041.jpg",
+      "publishedAt": "2019-09-07T23:00:00Z",
+      "content": "In the ongoing war for control of the digital space that is the modern car, Google just conquered a major swath of territory. This week, it and General Motors announced that the tech giants Android operating system will underpin the infotainment systems in GM… [+2619 chars]",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
         "title": "Digital Products"
       }
     },
@@ -761,10 +642,129 @@
       "publishedAt": "2019-09-08T12:00:00Z",
       "content": "Now grab a thermodynamics textbook, locate the laws, and see if you can find true statements when you replace the thermodynamic terms with black hole variables. In many cases you can, and the analogy improves.\r\nHawking then discovers Hawking radiation, which … [+3391 chars]",
       "playlist": {
-        "id": "b139dmhdrhpikdpulikgx9",
+        "id": "yeo07dxvm9n8utvnh4ka3i",
         "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Cherlynn Low",
+      "title": "Companies distanced themselves from foldable phone hype at IFA.",
+      "description": "Samsung may finally be ready to launch the Galaxy Fold, but other smartphone makers seem to be collectively experiencing commitment phobia. At IFA 2019, companies like Huawei, LG and TCL cooled their efforts on the foldable flagship race in various d...",
+      "url": "https://www.engadget.com/2019/09/08/samsung-galaxy-fold-huawei-mate-x-tcl-butterfly-hinge-lg-g8x-thinq-ifa-2019-to-fold-or-not-to-fold/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1067%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252Fc7a67ba0-cfce-11e9-a5af-d8878f7f7982%26client%3Da1acac3e1b3290917d92%26signature%3D9c5064f4af41285bbd627c857561c07cc67ee3ee&amp;client=amp-blogside-v2&amp;signature=faf63f19f1173b354d26b4c19e9b3786d8beea84",
+      "publishedAt": "2019-09-08T15:00:00Z",
+      "content": "LG, for example, is staying far away from folding screens, despite having a real rollable OLED TV that people can buy. It announced the LG G8X ThinQ here in Berlin, where it opted to use two separate 6.4-inch panels for its dual-screen flagship. We've seen LG… [+4110 chars]",
+      "playlist": {
+        "id": "3reyq7w4fwfx1ulk31gfd",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Emma Grey Ellis",
+      "title": "Concerning Consent, Chappelle, and Canceling Cancel Culture.",
+      "description": "Dave Chappelle hates cancel culture. Some people have canceled him. Should we just cancel cancel culture already?",
+      "url": "https://www.wired.com/story/canceling-cancel-culture/",
+      "urlToImage": "https://media.wired.com/photos/5d7184b4b8a4ff000808d0fc/master/w_2560,c_limit/Culture_CancelCulture_2019_MathieuBittonL1030683_HR_R.jpg",
+      "publishedAt": "2019-09-08T11:00:00Z",
+      "content": "In November 1990, the Womyn of Antioch, a student group at Antioch College, published a list of demands in the campus newspaper, threatening radical physical action if those demands werent met the following week. Enraged by womens stories of on-campus rape, t… [+4027 chars]",
+      "playlist": {
+        "id": "yeo07dxvm9n8utvnh4ka3i",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Cube World developer says it’s finally launching — six years after alpha.",
+      "description": "This will be the first update in six years ...",
+      "url": "https://www.polygon.com/pc/2019/9/7/20854453/cube-world-pc-steam-release-dates-alpha",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/sMMPl7BiHCK4pGxld_37KSIXRfc=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19176586/ss_d4801c68763c669562cef2d505e79be506667ee0.1920x1080.jpg",
+      "publishedAt": "2019-09-07T18:08:24Z",
+      "content": "Picroma This will be the first update in six years... Cube World, which began life with a paid alpha in 2013, is finally launching. Developer Picroma announced it will launch on Steam “hopefully around the end of September/October 2019.” For those who can’t r… [+2311 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Matthew Hughes",
+      "title": "Honor’s latest app helps the visually impaired read documents and roadsigns.",
+      "description": "Ricky West is a popular YouTube influencer from the UK who creates videos about consumer technology. He’s also visually impaired. West suffers from something called septo-optic dysplasia. This is a rare congenital disorder that affects the optic nerve. In his…",
+      "url": "https://thenextweb.com/apps/2019/09/08/honors-latest-app-helps-the-visually-impaired-read-documents-and-roadsigns/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&amp;fit=1280%2C640&amp;url=https%3A%2F%2Fcdn2.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2017%2F06%2Ftnw-fb.png&amp;signature=d329383c5a6c1c44736a487e9c46ee12",
+      "publishedAt": "2019-09-08T12:01:53Z",
+      "content": "Ricky West is a popular YouTube influencer from the UK who creates videos about consumer technology. Hes also visually impaired.\r\nWest suffers from something called septo-optic dysplasia. This is a rare congenital disorder that affects the optic nerve. In his… [+2279 chars]",
+      "playlist": {
+        "id": "vvo7a5m0m8s7yimy4uy1we",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Lawrence Meyers",
+      "title": "Facebook Dating Will Be A Monster Hit. Here’s Why.",
+      "description": "As someone who has been single in his life more years than not, and living in one of the worst cities ever for dating, I can confidently predict that Facebook’s dating app will be a huge success. Privacy Concerns Are Irrelevant I know, I know. Everyone is all…",
+      "url": "https://www.ccn.com/facebook-dating-will-be-a-monster-hit-heres-why/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/Facebook-dating-NTB-1.jpg",
+      "publishedAt": "2019-09-08T14:16:58Z",
+      "content": "As someone who has been single in his life more years than not, and living in one of the worst cities ever for dating, I can confidently predict that Facebook’s dating app will be a huge success.\r\nPrivacy Concerns Are Irrelevant\r\nI know, I know. Everyone is a… [+3442 chars]",
+      "playlist": {
+        "id": "jo1dgndxcnu2idezr5a7f",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Shenmue 3 gets a trial edition, refunds begin in September.",
+      "description": "Shenmue 3 is an Epic Games Store exclusive, and PC gamers who pre-ordered it on Kickstarter expecting a Steam code will have a two-week window to claim their refund. Shenmue 3 will also get a trial edition for PC and PS4 sometime in the middle of September.",
+      "url": "https://www.polygon.com/2019/9/8/20855958/shenmue-3-epic-games-store-exclusive-refunds-demo-trial-edition",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/TVUYn1ho2YCRwAjdG7mwGXZeiag=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/9346491/S3_Ctsn_0831_01.jpg",
+      "publishedAt": "2019-09-08T21:11:34Z",
+      "content": "Ys Net PC gamers have two weeks to claim one Shenmue 3 ’s makers have outlined exactly how they will handle making refunds to crowdfunding donors upset that the game is an Epic Games Store exclusive. It does not sound like it will be a smooth or timely proces… [+1911 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Aron Garst",
+      "title": "Marvel’s Avengers game doesn’t quite make me feel like a superhero.",
+      "description": "In a hands-on with Marvel’s Avengers from Crystal Dynamics, we replay the game’s first level, which shows off all the five Avengers strengths and struggles.",
+      "url": "https://www.polygon.com/2019/9/7/20853526/marvels-avengers-game-hands-on-pax-west",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/QGfJXzkK8H7tgbq6Fb_fnMGu4WQ=/0x75:3840x2085/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19175210/Marvel_s_Avengers_Captain_America.jpg",
+      "publishedAt": "2019-09-07T13:00:00Z",
+      "content": "Crystal Dynamics/Square Enix Five heroes try to share the spotlight After swinging between skyscrapers in Insomniac’s Spider-man or beating Gotham’s City’s thugs into a pulp with Rocksteady’s Batman: Arkham Asylum it’s easy to get excited about the potential … [+8067 chars]",
+      "playlist": {
+        "id": "7ppujerp80q6vb4p031sz8",
+        "title": "Gaming"
       }
     }
   ],
-  "timestamp": 1567978623448
+  "timestamp": 1567983559865
 }

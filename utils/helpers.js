@@ -1,5 +1,7 @@
 const fs = require("fs");
 var path = require("path");
+var http = require("http");
+var parseString = require("xml2js").parseString;
 
 function cleanText(inputText) {
   var textToBeCleaned = inputText;
@@ -56,7 +58,7 @@ function writeToFile(data, fileName) {
     err => {
       if (err) throw err;
 
-      console.log(fileName + " file saved");
+      console.log(fileName + " File Saved");
     }
   );
 }
@@ -72,6 +74,32 @@ function captilizeSentence(lower) {
   return lower.charAt(0).toUpperCase() + lower.substr(1);
 }
 
+const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+function xmlToJson(url, callback) {
+  var req = http.get(url, function(res) {
+    var xml = "";
+
+    res.on("data", function(chunk) {
+      xml += chunk;
+    });
+
+    res.on("error", function(e) {
+      callback(e, null);
+    });
+
+    res.on("timeout", function(e) {
+      callback(e, null);
+    });
+
+    res.on("end", function() {
+      parseString(xml, function(err, result) {
+        callback(null, result);
+      });
+    });
+  });
+}
+
 module.exports = {
   cleanText: cleanText,
   stripStrayHTMLCharacterCodes: stripStrayHTMLCharacterCodes,
@@ -80,5 +108,7 @@ module.exports = {
   writeToFile: writeToFile,
   readFromFile: readFromFile,
   captilizeSentence: captilizeSentence,
-  prettyPrintJSON: prettyPrintJSON
+  prettyPrintJSON: prettyPrintJSON,
+  xmlToJson: xmlToJson,
+  snooze: snooze
 };

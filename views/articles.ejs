@@ -49,7 +49,7 @@
         var articles = document.getElementById("articles").innerHTML;
         articles = JSON.parse(articles).articles;
         console.log(articles);
-        $.post(url +"/saveArticles", {
+        $.post(url +"/saveLocalArticles", {
                 "articles": articles
             },
             function (data, status) {

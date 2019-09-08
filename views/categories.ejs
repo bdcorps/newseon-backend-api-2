@@ -45,7 +45,7 @@ $('#saveCategories').click(function (e) {
     var categories = document.getElementById("categories").innerHTML;
     categories = JSON.parse(categories).categories;
 
-    $.post(url +"/saveCategories", {
+    $.post(url +"/saveLocalCategories", {
             "categories": categories
         },
         function (data, status) {
@@ -57,7 +57,7 @@ $('#saveCategories').click(function (e) {
 $('#resetCategories').click(function (e) {
     var categories = '{"categories":[{"id":"topheadlines","title":"Top Headlines","playlists":[{"type":"everything","title":"Technology","query":{"sources":"engadget","langugage":"en","pageSize":"10"}},{"type":"everything","title":"Startups","query":{"sources":"the-verge","langugage":"en","pageSize":"10"}},{"type":"everything","title":"Digital Products","query":{"sources":"wired","langugage":"en","pageSize":"10"}},{"type":"everything","title":"Gaming","query":{"sources":"polygon","langugage":"en","pageSize":"10"}},{"type":"everything","title":"Silicon Valley","query":{"sources":"recode","langugage":"en","pageSize":"10"}}]}]}';
     categories = JSON.parse(categories).categories;
-    $.post(url +"/saveCategories", {
+    $.post(url +"/saveLocalCategories", {
             "categories": categories
         },
         function (data, status) {

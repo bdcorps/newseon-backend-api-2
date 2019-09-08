@@ -1,117 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../images/favicon.png">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../../images/favicon.png" />
 
     <title>Emotio App</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
 
-
-
-</head>
-
-<body>
-
+  <body>
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-        <div class="container">
-            <h1 class="display-3">Newseon Backend 2</h1>
-            <p class="description-3" style="font-size: 1.15rem;"></p>
-        </div>
+      <div class="container">
+        <h1 class="display-3">Newseon Backend 2</h1>
+        <p class="description-3" style="font-size: 1.15rem;"></p>
+      </div>
     </div>
 
     <div class="container">
-        <div class="row">
+      <div class="row">
+        <pre name="categories" id="categories" contenteditable="true"></pre>
 
-            <pre name="categories" id="categories" contenteditable="true"></pre>
+        <input id="submitCategories" type="submit" value="Submit" />
 
-            <input id="submitCategories" type="submit" value="Submit">
+        <input
+          id="resetCategories"
+          type="submit"
+          value="Reset Categories Config"
+        />
 
-            <input id="resetCategories" type="submit" value="Reset Categories Config">
+        <pre name="articles" id="articles" contenteditable="true"></pre>
 
-            <pre name="articles" id="articles" contenteditable="true"></pre>
+        <input id="submitArticles" type="submit" value="Submit" />
 
-            <input id="submitArticles" type="submit" value="Submit">
-
-            <%= status %>
-        </div>
+        <%= status %>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js " integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin=" anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js "
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin=" anonymous "
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+      integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"
+    ></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
     <script>
-        var categories = <%- JSON.stringify(categories, null, 4) %>;
+      var categories = <%- JSON.stringify(categories, null, 4) %>;
 
-        document.getElementById("categories").innerHTML = JSON.stringify(categories, null, 4);
-
-
-        $('#submitCategories').click(function (e) {
-            var categories = document.getElementById("categories").innerHTML;
-            console.log("< > " + categories);
-
-            $.post("/saveCategoriesConfig", {
-                    "categories": JSON.parse(categories)
-                },
-                function (data, status) {
-                    console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
-                });
-
-        });
+      document.getElementById("categories").innerHTML = JSON.stringify(categories, null, 4);
 
 
-        var articles = <%- JSON.stringify(articles, null, 4) %>;
-        document.getElementById("articles").innerHTML = JSON.stringify(articles, null, 4);
+      $('#submitCategories').click(function (e) {
+          var categories = document.getElementById("categories").innerHTML;
+          console.log("< > " + categories);
+
+          $.post("/saveCategoriesConfig", {
+                  "categories": JSON.parse(categories)
+              },
+              function (data, status) {
+                  console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+              });
+
+      });
 
 
-        $('#submitArticles').click(function (e) {
-            var articles = document.getElementById("articles").innerHTML;
-            $.post("/saveArticles", {
-                    "articles": JSON.parse(articles)
-                },
-                function (data, status) {
-                    console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
-                });
+      var articles = <%- JSON.stringify(articles, null, 4) %>;
+      document.getElementById("articles").innerHTML = JSON.stringify(articles, null, 4);
 
-        });
 
-        
-        $('#resetCategories').click(function (e) {
-            var categories = '{"categories":[{"id":"topheadlines","title":"Top Headlines","playlists":[{"type":"everything","title":"Engadget","query":{"sources":"engadget","langugage":"en","pageSize":10}},{"type":"everything","title":"The Verge","query":{"sources":"the-verge","langugage":"en","pageSize":10}}]}]}';
-  
-            $.post("/saveCategoriesConfig", {
-                    "categories": JSON.parse(categories)
-                },
-                function (data, status) {
-                    console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
-                });
+      $('#submitArticles').click(function (e) {
+          var articles = document.getElementById("articles").innerHTML;
+          $.post("/saveLocalArticles", {
+                  "articles": JSON.parse(articles)
+              },
+              function (data, status) {
+                  console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+              });
 
-        });
-        
+      });
+
+
+      $('#resetCategories').click(function (e) {
+          var categories = '{"categories":[{"id":"topheadlines","title":"Top Headlines","playlists":[{"type":"everything","title":"Engadget","query":{"sources":"engadget","langugage":"en","pageSize":10}},{"type":"everything","title":"The Verge","query":{"sources":"the-verge","langugage":"en","pageSize":10}}]}]}';
+
+          $.post("/saveCategoriesConfig", {
+                  "categories": JSON.parse(categories)
+              },
+              function (data, status) {
+                  console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+              });
+
+      });
     </script>
-
-
-</body>
-
+  </body>
 </html>

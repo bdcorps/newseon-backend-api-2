@@ -22,12 +22,13 @@ const logger = logModule.logger;
 
 const {
   cleanText,
-  // cleanedTitle,
   cleanedDescription,
   writeToFile,
   readFromFile,
   captilizeSentence,
-  prettyPrintJSON
+  prettyPrintJSON,
+  xmlToJson,
+  snooze
 } = require("./utils/helpers");
 
 require("dotenv").config();
@@ -70,26 +71,6 @@ var dataToWriteToFile = { playlists: [] };
 /*
 This API takes the queries in contentURLList.js and runs it through newsapi.org. The retrieved articles are then sent to Google Text to Speech. The audio is saved as filename, based on the hashed function (title of the article), in order to identify duplicates. The file is then uploaded to tracks db using GridFS and the location stored in the articles db.
 */
-
-// async function detectLanguage(text) {
-//   // Creates a client
-//   const translate = new Translate();
-
-//   /**
-//    * TODO(developer): Uncomment the following line before running the sample.
-//    */
-//   // const text = 'The text for which to detect language, e.g. Hello, world!';
-
-//   // Detects the language. "text" can be a string for detecting the language of
-//   // a single piece of text, or an array of strings for detecting the languages
-//   // of multiple texts.
-//   let [detections] = await translate.detect(text);
-//   detections = Array.isArray(detections) ? detections : [detections];
-//   console.log("Detections:");
-//   detections.forEach(detection => {
-//     console.log(`${detection.input} => ${detection.language}`);
-//   });
-// }
 
 var app = express();
 
@@ -144,15 +125,12 @@ MongoClient.connect(
   { useUnifiedTopology: true, useNewUrlParser: true },
   (err, client) => {
     if (err) {
-      console.log(
+      throw new Error(
         "MongoDB Connection Error. Please make sure that MongoDB is running."
       );
-
-      //  statusReport.trackdb = {"err" :  JSON.stringify(err)}
       process.exit(1);
     }
     db = client.db("newseumapp");
-    // statusReport.trackdb = {"status" :  "connected"}
   }
 );
 
@@ -179,20 +157,11 @@ const client = new textToSpeech.TextToSpeechClient({
 });
 
 connection.once("open", function() {
-  //  statusReport.articledb = {"status" :  "connected"}
-
-  // app.get("/categories", (req, res) => {
-  //   Category.find({}, function(err, doc) {
-  //     if (err) {
-  //       res.send("error: " + err);
-  //     }
-  //     res.send({ category: doc[0] });
-  //   });
-  // });
-
+  /*Write server data - articles and categories to local storage
+   */
   Config.find({}, function(err, doc) {
     if (err) {
-      res.send("error: " + err);
+      throw new Error("Cannot get Config object", err);
     }
 
     if (doc != null && doc.length > 0) {
@@ -201,12 +170,14 @@ connection.once("open", function() {
     }
   });
 
-  app.get("/dashboard", (req, res) => {
-    res.render("main.ejs");
+  app.get("/", (req, res) => {
+    res.render("index.ejs", {
+      version: pjson.version
+    });
   });
 
-  app.get("/dashboard2", (req, res) => {
-    res.render("dashboard.ejs");
+  app.get("/dashboard", (req, res) => {
+    res.render("main.ejs");
   });
 
   // Render Instagram post
@@ -214,9 +185,13 @@ connection.once("open", function() {
     res.render("renderInstagram.ejs");
   });
 
-  app.get("/articles", (req, res) => {
+  app.get("/resetv2", (req, res) => {
+    resetDB();
+    res.send("Reset DB");
+  });
+
+  app.get("/readLocalArticles", (req, res) => {
     var articles = readFromFile("articlesData");
-    articles = articles;
 
     res.render("articles.ejs", {
       articles: articles,
@@ -224,9 +199,32 @@ connection.once("open", function() {
     });
   });
 
-  app.get("/categories", (req, res) => {
+  app.post("/saveLocalArticles", (req, res) => {
+    if (req.body.articles == undefined) {
+      throw new Error("Object articles not found", err);
+    }
+    var articles = req.body.articles;
+    writeToFile({ articles: articles }, "articlesData");
+
+    Config.findOneAndUpdate(
+      {},
+      { articles: articles },
+      { upsert: true },
+      function(err, doc) {
+        if (err) {
+          console.error("ERROR! Config articles ID is " + " " + err);
+        }
+      }
+    );
+
+    res.render("articles.ejs", {
+      articles: articles,
+      status: "Articles Saved!"
+    });
+  });
+
+  app.get("/readLocalCategories", (req, res) => {
     var categories = readFromFile("categoriesConfig");
-    categories = categories;
 
     res.render("categories.ejs", {
       categories: categories,
@@ -234,9 +232,10 @@ connection.once("open", function() {
     });
   });
 
-  var c = 0;
-  app.post("/saveCategories", (req, res) => {
-    c++;
+  app.post("/saveLocalCategories", (req, res) => {
+    if (req.body.categories == undefined) {
+      throw new Error("Object categories not found", err);
+    }
     var categories = req.body.categories;
     writeToFile({ categories: categories }, "categoriesConfig");
 
@@ -259,58 +258,6 @@ connection.once("open", function() {
     });
   });
 
-  app.post("/saveArticles", (req, res) => {
-    var articles = req.body.articles;
-    writeToFile({ articles: articles }, "articlesData");
-
-    Config.findOneAndUpdate(
-      {},
-      { articles: articles },
-      { upsert: true },
-      function(err, doc) {
-        if (err) {
-          console.error("ERROR! Config articles ID is " + " " + err);
-        }
-      }
-    );
-
-    res.render("articles.ejs", {
-      articles: articles,
-      status: "Articles Saved!"
-    });
-  });
-
-  app.get("/db/categories/:categoryID", (req, res) => {
-    Category.find({ id: req.params.categoryID }, function(err, doc) {
-      if (err) {
-        res.send("error: " + err);
-      }
-      res.send(doc[0]);
-    });
-  });
-
-  app.get("/db/playlists/:playlistID", (req, res) => {
-    Playlist.find({ id: req.params.playlistID }, function(err, doc) {
-      if (err) {
-        res.send("error: " + err);
-      }
-      res.send(doc[0]);
-    });
-  });
-
-  app.get("/db/articles/:articleID", (req, res) => {
-    Article.find({ uid: req.params.articleID }, function(err, doc) {
-      if (err) {
-        res.send("error: " + err);
-      }
-      res.send(doc[0]);
-    });
-  });
-
-  /*
-   *
-   *
-   */
   app.get("/generatev2", (req, res) => {
     categoriesAPI = [];
 
@@ -346,88 +293,12 @@ connection.once("open", function() {
     res.send("Generated");
   });
 
-  // function writeToFile(data, fileName) {
-  //   var dataToWrite = data;
-  //   var d = new Date();
-  //   var n = d.getTime();
-
-  //   dataToWrite.timestamp = n;
-  //   fs.writeFileSync(
-  //     __dirname + "/public/" + fileName,
-  //     prettyPrintJSON(data),
-  //     "utf8",
-  //     err => {
-  //       if (err) throw err;
-
-  //       console.log(fileName + " file saved");
-  //     }
-  //   );
-  // }
-  // function readFromFile(path) {
-  //   var text = fs.readFileSync(path, "utf8");
-  //   return JSON.parse(text);
-  // }
-
-  // function captilizeWord(lower) {
-  //   return lower.charAt(0).toUpperCase() + lower.substr(1);
-  // }
-
-  app.get("/", (req, res) => {
-    res.render("index.ejs", {
-      version: pjson.version
-    });
-  });
-
-  app.get("/resetv2", (req, res) => {
-    resetDB();
-    res.send("Reset DB");
-  });
-
   app.get("/tracksv2", (req, res) => {
     generateAudioTracks(req, res);
     res.send("Tracks written");
   });
-  /**
-   * GET /tracks/:trackID
-   */
-  app.get("/tracks/:trackID", (req, res) => {
-    try {
-      var trackID = new ObjectID(req.params.trackID);
-    } catch (err) {
-      return res.status(400).json({
-        message:
-          "Invalid trackID in URL parameter. Must be a single String of 12 bytes or a string of 24 hex characters"
-      });
-    }
-    res.set("content-type", "audio/mp3");
-    res.set("accept-ranges", "bytes");
-
-    let bucket = new mongodb.GridFSBucket(db, {
-      bucketName: "tracks"
-    });
-
-    let downloadStream = bucket.openDownloadStream(trackID);
-
-    downloadStream.on("data", chunk => {
-      res.write(chunk);
-    });
-
-    downloadStream.on("error", () => {
-      res.sendStatus(404);
-    });
-
-    downloadStream.on("end", () => {
-      res.end();
-    });
-  });
-
-  /**
-   * POST /tracks
-   */
 
   app.get("/writesv2", (req, res) => {
-    //read playlistsData file
-
     var data = readFromFile("playlistsData");
     var playlists = data.playlists;
 
@@ -438,10 +309,6 @@ connection.once("open", function() {
     //console.log(prettyPrintJSON(playlists));
 
     writeToFile("", "articlesData");
-
-    // detectLanguage(
-    //   "Novidades de The Last of Us 2 e Death Stranding, Gears 5 vai rodar em 4k e 60 fps - Daily Fix"
-    // );
 
     for (let i = 0; i < playlists.length; i++) {
       request(playlists[i].url, function(error, response, body) {
@@ -497,10 +364,95 @@ connection.once("open", function() {
       message: "File uploaded successfully."
     });
   });
+
+  /**
+   * GET /db/tracks/:trackID
+   */
+  app.get("/db/tracks/:trackID", (req, res) => {
+    try {
+      var trackID = new ObjectID(req.params.trackID);
+    } catch (err) {
+      return res.status(400).json({
+        message:
+          "Invalid trackID in URL parameter. Must be a single String of 12 bytes or a string of 24 hex characters"
+      });
+    }
+    res.set("content-type", "audio/mp3");
+    res.set("accept-ranges", "bytes");
+
+    let bucket = new mongodb.GridFSBucket(db, {
+      bucketName: "tracks"
+    });
+
+    let downloadStream = bucket.openDownloadStream(trackID);
+
+    downloadStream.on("data", chunk => {
+      res.write(chunk);
+    });
+
+    downloadStream.on("error", () => {
+      res.sendStatus(404);
+    });
+
+    downloadStream.on("end", () => {
+      res.end();
+    });
+  });
+  app.get("/db/categories/:categoryID", (req, res) => {
+    Category.find({ id: req.params.categoryID }, function(err, doc) {
+      if (err) {
+        res.send("error: " + err);
+      }
+      res.send(doc[0]);
+    });
+  });
+  app.get("/db/playlists/:playlistID", (req, res) => {
+    Playlist.find({ id: req.params.playlistID }, function(err, doc) {
+      if (err) {
+        res.send("error: " + err);
+      }
+      res.send(doc[0]);
+    });
+  });
+  app.get("/db/articles/:articleID", (req, res) => {
+    Article.find({ uid: req.params.articleID }, function(err, doc) {
+      if (err) {
+        res.send("error: " + err);
+      }
+      res.send(doc[0]);
+    });
+  });
 });
 
-const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
+function generateAudioTracks(req, res) {
+  var articles = readFromFile("articlesData");
+  articles = articles.articles;
 
+  //console.log("about to write" + JSON.stringify(articles));
+
+  articleIDs = [];
+  // Create a hash based on the contents of the article title
+  // This is so we don't write duplicate content to the db
+  var hash = "";
+  for (var j = 0; j < articles.length; j++) {
+    hash = crypto
+      .createHash("md5")
+      .update(articles[j].title)
+      .digest("hex");
+
+    initAudioTracks(
+      req,
+      res,
+      articles[j],
+      hash,
+      articles[j].playlist.id,
+      j,
+      articles[j].playlist.title
+    );
+
+    articleIDs.push(hash);
+  }
+}
 // Slowing down the calls to Google Text to Speech
 const initAudioTracks = async (
   req,
@@ -512,7 +464,7 @@ const initAudioTracks = async (
   playlistTitle
 ) => {
   await snooze(5000);
-  generateAudioTrack(
+  generateSingleAudioTrack(
     req,
     res,
     article,
@@ -529,7 +481,7 @@ const upload = multer({
   limits: { fields: 1, fileSize: 6000000, files: 1, parts: 2 }
 });
 
-function generateAudioTrack(
+function generateSingleAudioTrack(
   req,
   res,
   article,
@@ -578,7 +530,13 @@ function generateAudioTrack(
           if (err) {
             console.log("error: " + err);
           }
-          uploadTrack(article, hash, playlistID, articleOrder, playlistTitle);
+          uploadTrackToDB(
+            article,
+            hash,
+            playlistID,
+            articleOrder,
+            playlistTitle
+          );
         });
       }
     );
@@ -667,48 +625,14 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
   return playlistIDs;
 }
 
-function resetDB() {
-  Article.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-  Playlist.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-
-  Category.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-
-  Config.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-
-  //delete tracks tracks files and chunks
-  var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
-  var CHUNKS_COLL = "tracks.chunks";
-  var FILES_COLL = "tracks.files";
-
-  bucket.drop(function(error) {
-    var chunksQuery = db.collection(CHUNKS_COLL).find({});
-    chunksQuery.toArray(function(error, docs) {
-      if (error != null && docs.length > 0) {
-        var filesQuery = db.collection(FILES_COLL).find({});
-        filesQuery.toArray(function(error, docs) {});
-      }
-    });
-  });
-}
-
 // Uploads the audio track of the news article to db
-function uploadTrack(article, hash, playlistID, articleOrder, playlistTitle) {
+function uploadTrackToDB(
+  article,
+  hash,
+  playlistID,
+  articleOrder,
+  playlistTitle
+) {
   //console.log("upload track id is: " + playlistID);
 
   var readableTrackStream = fs.createReadStream(__dirname + "/uploads/" + hash);
@@ -780,110 +704,50 @@ function uploadTrack(article, hash, playlistID, articleOrder, playlistTitle) {
   });
 }
 
-function generateAudioTracks(req, res) {
-  var articles = readFromFile("articlesData");
-  articles = articles.articles;
+function resetDB() {
+  Article.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
+  Playlist.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
 
-  //console.log("about to write" + JSON.stringify(articles));
+  Category.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
 
-  articleIDs = [];
-  // Create a hash based on the contents of the article title
-  // This is so we don't write duplicate content to the db
-  var hash = "";
-  for (var j = 0; j < articles.length; j++) {
-    hash = crypto
-      .createHash("md5")
-      .update(articles[j].title)
-      .digest("hex");
+  Config.remove({}, function(err) {
+    if (err) {
+      console.log("error");
+    }
+  });
 
-    initAudioTracks(
-      req,
-      res,
-      articles[j],
-      hash,
-      articles[j].playlist.id,
-      j,
-      articles[j].playlist.title
-    );
+  //delete tracks tracks files and chunks
+  var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
+  var CHUNKS_COLL = "tracks.chunks";
+  var FILES_COLL = "tracks.files";
 
-    articleIDs.push(hash);
-  }
-}
-
-function xmlToJson(url, callback) {
-  var req = http.get(url, function(res) {
-    var xml = "";
-
-    res.on("data", function(chunk) {
-      xml += chunk;
-    });
-
-    res.on("error", function(e) {
-      callback(e, null);
-    });
-
-    res.on("timeout", function(e) {
-      callback(e, null);
-    });
-
-    res.on("end", function() {
-      parseString(xml, function(err, result) {
-        callback(null, result);
-      });
+  bucket.drop(function(error) {
+    var chunksQuery = db.collection(CHUNKS_COLL).find({});
+    chunksQuery.toArray(function(error, docs) {
+      if (error != null && docs.length > 0) {
+        var filesQuery = db.collection(FILES_COLL).find({});
+        filesQuery.toArray(function(error, docs) {});
+      }
     });
   });
 }
 
-var reloadContentAsync = async () => {
-  request("http://newseon-backend-api-2.herokuapp.com/resetv2", function(
-    error,
-    response,
-    body
-  ) {
-    console.log("error:", error);
-    console.log("statusCode:", response && response.statusCode);
-    console.log("body:", body);
-  });
-  await snooze(5000);
-  console.log("Generating.");
-  request("http://newseon-backend-api-2.herokuapp.com/generatev2", function(
-    error,
-    response,
-    body
-  ) {
-    console.log("error:", error);
-    console.log("statusCode:", response && response.statusCode);
-    console.log("body:", body);
-  });
-
-  await snooze(5000);
-  console.log("Writing.");
-  request("http://newseon-backend-api-2.herokuapp.com/writesv2", function(
-    error,
-    response,
-    body
-  ) {
-    console.log("error:", error);
-    console.log("statusCode:", response && response.statusCode);
-    console.log("body:", body);
-  });
-
-  await snooze(5000);
-  console.log("Creating Tracks.");
-  request("http://newseon-backend-api-2.herokuapp.com/tracksv2", function(
-    error,
-    response,
-    body
-  ) {
-    console.log("error:", error);
-    console.log("statusCode:", response && response.statusCode);
-    console.log("body:", body);
-  });
-};
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
 app.listen(port, function() {
-  logger.info("Hs");
+  // logger.info("Hs");
   console.log("Server running on port: %d", port);
 });
 
