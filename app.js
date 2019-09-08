@@ -327,34 +327,42 @@ connection.once("open", function() {
               }
             };
 
-            googleTranslate.detectLanguage(articles[j].title, function(
-              err,
-              detection
-            ) {
-              if (err) {
-                console.log(
-                  "Problem with Google Translate API. More Details. ",
-                  err
-                );
-              }
-              if (!err && detection.language == "en") {
-                console.log("Is English: " + articles[j].title);
-                articles[j].title = cleanText(articles[j].title);
-                articles[j].description = cleanedDescription(
-                  articles[j].description
-                );
-                console.log("title --. ", playlists[i].title);
-                articles[j].playlist = {
-                  id: playlists[i].id,
-                  title: playlists[i].title
-                };
+            var isValid = validateArticle(articles[j]);
+            if (isValid) {
+              googleTranslate.detectLanguage(articles[j].title, function(
+                err,
+                detection
+              ) {
+                if (err) {
+                  console.log(
+                    "Problem with Google Translate API. More Details. ",
+                    err
+                  );
+                }
+                if (!err && detection.language == "en") {
+                  console.log("Is English: " + articles[j].title);
+                  articles[j].title = cleanText(articles[j].title);
+                  articles[j].description = cleanedDescription(
+                    articles[j].description
+                  );
+                  console.log("title --. ", playlists[i].title);
+                  articles[j].playlist = {
+                    id: playlists[i].id,
+                    title: playlists[i].title
+                  };
 
-                articleCollection.push(articles[j]);
-                writeToFile({ articles: articleCollection }, "articlesData");
-              } else {
-                console.log("Not English: " + articles[j].title);
-              }
-            });
+                  articleCollection.push(articles[j]);
+                  writeToFile({ articles: articleCollection }, "articlesData");
+                } else {
+                  console.log("Not English: " + articles[j].title);
+                }
+              });
+            } else {
+              console.log(
+                "Article was not valid",
+                JSON.stringify(article[j], null, 2)
+              );
+            }
           }
         }
       });
@@ -423,6 +431,17 @@ connection.once("open", function() {
     });
   });
 });
+
+function isValid(article) {
+  return (
+    thisSession.hasOwnProperty("source") &&
+    thisSession.hasOwnProperty("author") &&
+    thisSession.hasOwnProperty("title") &&
+    thisSession.hasOwnProperty("description") &&
+    thisSession.hasOwnProperty("url") &&
+    thisSession.hasOwnProperty("publishedAt")
+  );
+}
 
 function generateAudioTracks(req, res) {
   var articles = readFromFile("articlesData");
