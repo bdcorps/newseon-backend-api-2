@@ -1,37 +1,76 @@
 var chai = require("chai");
 var expect = chai.expect;
 const { convertQueryToPlaylistURLs } = require("../app");
+const {
+  MISSING_PLAYLIST_QUERY,
+  MISSING_PLAYLIST_TYPE,
+  MISSING_PLAYLIST
+} = require(".././utils/consts");
 
 const query1 = [
   {
     type: "everything",
     title: "Technology",
     query: {
-      sources: "engadget,the-verge",
+      sources: "engadget",
       langugage: "en",
       pageSize: "10"
     }
   }
 ];
-const response1 = [
+
+const query2 = [
   {
-    id: "fw9a0s8vcs9430d8aui2ev", //id is random
-    url:
-      "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
     title: "Technology",
-    media: ""
+    query: {
+      sources: "engadget",
+      langugage: "en",
+      pageSize: "10"
+    }
   }
 ];
+const query3 = [
+  {
+    type: "everything",
+    title: "Technology"
+  }
+];
+
+const query4 = [null];
+
 describe("Testing App functions", function() {
   describe("Convert Query to Playlists", function() {
-    it("wwith capitilized first word", function() {
-      const actual = convertQueryToPlaylistURLs(query1, "title");
+    it("correctly converts query to playlist url", function() {
+      const actual = convertQueryToPlaylistURLs(query1, "title")[0];
 
-      const expected = actual[0];
-      expect(expected.title).to.equal("Technology");
-      expect(expected.id).to.be.a("string");
-      expect(expected.media).to.be.a("string");
-      expect(expected.url).to.be.a("string");
+      expect(actual.id).to.be.a("string");
+      expect(actual.title).to.equal("Technology");
+      expect(actual.url).to.be.a("string");
+      expect(actual.media).to.be.a("string");
+    });
+
+    it("correctly throws missing playlist property: type", function() {
+      const actual = function() {
+        convertQueryToPlaylistURLs(query2, "title");
+      };
+
+      expect(actual).to.throw(MISSING_PLAYLIST_TYPE);
+    });
+
+    it("correctly throws missing playlist property: query", function() {
+      const actual = function() {
+        convertQueryToPlaylistURLs(query3, "title");
+      };
+
+      expect(actual).to.throw(MISSING_PLAYLIST_QUERY);
+    });
+
+    it("correctly throws missing playlist ", function() {
+      const actual = function() {
+        convertQueryToPlaylistURLs(query4, "title");
+      };
+
+      expect(actual).to.throw(MISSING_PLAYLIST);
     });
   });
 });

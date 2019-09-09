@@ -31,6 +31,12 @@ const {
   snooze
 } = require("./utils/helpers");
 
+const {
+  MISSING_PLAYLIST_QUERY,
+  MISSING_PLAYLIST_TYPE,
+  MISSING_PLAYLIST
+} = require("./utils/consts");
+
 require("dotenv").config();
 
 var contentURLLists = require("./public/contentURLList");
@@ -563,13 +569,24 @@ function generateSingleAudioTrack(
 }
 
 function convertQueryToPlaylistURLs(playlistQuery, title) {
-  console.log("query -->", playlistQuery);
   var playlistIDs = [];
   var title;
   var urls = [];
   var playlistsAPI = [];
   for (var i = 0; i < playlistQuery.length; i++) {
     var curPlaylist = playlistQuery[i];
+
+    if (!curPlaylist) {
+      throw new Error(MISSING_PLAYLIST);
+    }
+    if (!curPlaylist.hasOwnProperty("query")) {
+      throw new Error(MISSING_PLAYLIST_QUERY);
+    }
+
+    if (!curPlaylist.hasOwnProperty("type")) {
+      throw new Error(MISSING_PLAYLIST_TYPE);
+    }
+
     var query = curPlaylist.query;
     var playlistURL = "";
     if (curPlaylist.type == "everything") {
@@ -639,7 +656,6 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
     });
   }
 
-  console.log("resposne -->", playlistIDs);
   //return playlists ids
   return playlistIDs;
 }

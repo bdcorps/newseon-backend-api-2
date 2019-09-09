@@ -1,35 +1,11 @@
 {
   "playlists": [
     {
-      "id": "3reyq7w4fwfx1ulk31gfd",
-      "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "id": "d8gtyo605wjr31rcykwx6",
+      "url": "https://newsapi.org/v2/everything?sources=engadget&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Technology",
-      "media": "https://images.unsplash.com/photo-1511882085048-714ac60a555e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=68017c48760a4c52d5398cccb0717304&auto=format&fit=crop&w=1350&q=80"
-    },
-    {
-      "id": "vvo7a5m0m8s7yimy4uy1we",
-      "url": "https://newsapi.org/v2/everything?sources=the-next-web&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Startups",
-      "media": "https://images.unsplash.com/photo-1513872398723-3e73f1205647?ixlib=rb-0.3.5&s=e2186298a4a202bfd424b127392e7d66&auto=format&fit=crop&w=1350&q=80"
-    },
-    {
-      "id": "yeo07dxvm9n8utvnh4ka3i",
-      "url": "https://newsapi.org/v2/everything?sources=wired&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Digital Products",
-      "media": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=992&q=80"
-    },
-    {
-      "id": "7ppujerp80q6vb4p031sz8",
-      "url": "https://newsapi.org/v2/everything?sources=polygon&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Gaming",
-      "media": "https://images.unsplash.com/photo-1538666829705-df0aef1c13d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1723448915d07de2e50372f28d9a1cdf&auto=format&fit=crop&w=1367&q=80"
-    },
-    {
-      "id": "jo1dgndxcnu2idezr5a7f",
-      "url": "https://newsapi.org/v2/everything?sources=crypto-coins-news&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Cryptocurrency",
-      "media": "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a83d180fb19b8367250ab64751ade1ce&auto=format&fit=crop&w=648&q=80"
+      "media": "https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b71591bef8e4fc139f699a923725e32a&auto=format&fit=crop&w=634&q=80"
     }
   ],
-  "timestamp": 1567979815924
+  "timestamp": 1567997179358
 }
