@@ -299,11 +299,6 @@ connection.once("open", function() {
     res.send("Generated");
   });
 
-  app.get("/tracksv2", (req, res) => {
-    generateAudioTracks(req, res);
-    res.send("Tracks written");
-  });
-
   app.get("/writesv2", (req, res) => {
     var data = readFromFile("playlistsData");
     var playlists = data.playlists;
@@ -311,7 +306,6 @@ connection.once("open", function() {
     var articleCollection = [];
 
     //Calls the newsapi.org for articles based on the contentURLList.js
-
     //console.log(prettyPrintJSON(playlists));
 
     writeToFile("", "articlesData");
@@ -322,47 +316,24 @@ connection.once("open", function() {
           let articles = JSON.parse(body).articles;
 
           for (let j = 0; j < articles.length; j++) {
-            let options = {
-              method: "POST",
-              url: "https://ws.detectlanguage.com/0.2/detect",
-              qs: { q: articles[j].title },
-              headers: {
-                "Postman-Token": "3c1a5108-ab0d-44bd-bded-9536845f98d3",
-                "cache-control": "no-cache",
-                Authorization: "Bearer 6b5cb08f342c6c38f3a3b49515787359"
+            var isValidText = hasConsistentStructure(articles[j]);
+            var title = articles[j].title;
+            if (isValidText) {
+              if (isInEnglish(title)) {
+                articles[j].title = cleanText(title);
+                articles[j].description = cleanedDescription(
+                  articles[j].description
+                );
+                articles[j].playlist = {
+                  id: playlists[i].id,
+                  title: playlists[i].title
+                };
+
+                articleCollection.push(articles[j]);
+                writeToFile({ articles: articleCollection }, "articlesData");
+              } else {
+                console.log("Not English: " + articles[j].title);
               }
-            };
-
-            var isValid = validateArticle(articles[j]);
-            if (isValid) {
-              googleTranslate.detectLanguage(articles[j].title, function(
-                err,
-                detection
-              ) {
-                if (err) {
-                  console.log(
-                    "Problem with Google Translate API. More Details. ",
-                    err
-                  );
-                }
-                if (!err && detection.language == "en") {
-                  console.log("Is English: " + articles[j].title);
-                  articles[j].title = cleanText(articles[j].title);
-                  articles[j].description = cleanedDescription(
-                    articles[j].description
-                  );
-                  console.log("title --. ", playlists[i].title);
-                  articles[j].playlist = {
-                    id: playlists[i].id,
-                    title: playlists[i].title
-                  };
-
-                  articleCollection.push(articles[j]);
-                  writeToFile({ articles: articleCollection }, "articlesData");
-                } else {
-                  console.log("Not English: " + articles[j].title);
-                }
-              });
             } else {
               console.log(
                 "Article was not valid",
@@ -377,6 +348,11 @@ connection.once("open", function() {
     return res.status(201).json({
       message: "File uploaded successfully."
     });
+  });
+
+  app.get("/tracksv2", (req, res) => {
+    generateAudioTracks(req, res);
+    res.send("Tracks written");
   });
 
   /**
@@ -438,14 +414,30 @@ connection.once("open", function() {
   });
 });
 
-function isValid(article) {
+function isInEnglish(text) {
+  googleTranslate.detectLanguage(text, function(err, detection) {
+    if (err) {
+      console.log("Problem with Google Translate API. More Details. ", err);
+    }
+
+    if (!err && detection.language == "en") {
+      console.log("Is English: " + text);
+      return true;
+    } else {
+      console.log("Not English: " + text);
+      return false;
+    }
+  });
+}
+
+function hasConsistentStructure(article) {
   return (
-    thisSession.hasOwnProperty("source") &&
-    thisSession.hasOwnProperty("author") &&
-    thisSession.hasOwnProperty("title") &&
-    thisSession.hasOwnProperty("description") &&
-    thisSession.hasOwnProperty("url") &&
-    thisSession.hasOwnProperty("publishedAt")
+    article.hasOwnProperty("source") &&
+    article.hasOwnProperty("author") &&
+    article.hasOwnProperty("title") &&
+    article.hasOwnProperty("description") &&
+    article.hasOwnProperty("url") &&
+    article.hasOwnProperty("publishedAt")
   );
 }
 

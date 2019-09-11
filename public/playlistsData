@@ -1,11 +1,35 @@
 {
   "playlists": [
     {
-      "id": "d8gtyo605wjr31rcykwx6",
-      "url": "https://newsapi.org/v2/everything?sources=engadget&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "id": "j9qisya44e87qzvvy7ps4",
+      "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Technology",
-      "media": "https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b71591bef8e4fc139f699a923725e32a&auto=format&fit=crop&w=634&q=80"
+      "media": "https://images.unsplash.com/photo-1538652116325-8f5fa30fefff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d13ce3021db6e91ab2c19d9f3d5c69f3&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+      "id": "g1aeq7aau9xa0ji39sfx",
+      "url": "https://newsapi.org/v2/everything?sources=the-next-web&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Startups",
+      "media": "https://images.unsplash.com/photo-1538739204988-d0b7904aba5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=560e7d1782dd0a416feb6b1277812083&auto=format&fit=crop&w=1355&q=80"
+    },
+    {
+      "id": "g6otmwnwu1assplx1plja",
+      "url": "https://newsapi.org/v2/everything?sources=wired&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Digital Products",
+      "media": "https://images.unsplash.com/photo-1500042450384-8b7947f4eec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": "eczp5h27mvnj8ld6qxt21j",
+      "url": "https://newsapi.org/v2/everything?sources=polygon&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Gaming",
+      "media": "https://images.unsplash.com/photo-1538666986359-7be4d223e7de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=35971b042c65645c77a1f9052a52fdca&auto=format&fit=crop&w=634&q=80"
+    },
+    {
+      "id": "mpu6qlkwyapnfwovmjo5g",
+      "url": "https://newsapi.org/v2/everything?sources=crypto-coins-news&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Cryptocurrency",
+      "media": "https://images.unsplash.com/photo-1484875917039-ef5456f29257?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f18a51122fabfa3e30cedd477005d32c&auto=format&fit=crop&w=1350&q=80"
     }
   ],
-  "timestamp": 1567997179358
+  "timestamp": 1568163692884
 }

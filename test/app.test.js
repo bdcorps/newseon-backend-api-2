@@ -73,4 +73,15 @@ describe("Testing App functions", function() {
       expect(actual).to.throw(MISSING_PLAYLIST);
     });
   });
+
+  describe("Convert Query to Playlists", function() {
+    it("correctly converts query to playlist url", function() {
+      const actual = convertQueryToPlaylistURLs(query1, "title")[0];
+
+      expect(actual.id).to.be.a("string");
+      expect(actual.title).to.equal("Technology");
+      expect(actual.url).to.be.a("string");
+      expect(actual.media).to.be.a("string");
+    });
+  });
 });
