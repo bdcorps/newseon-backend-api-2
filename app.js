@@ -299,7 +299,7 @@ connection.once("open", function() {
     res.send("Generated");
   });
 
-  app.get("/writesv2", (req, res) => {
+  app.get("/writesv2", async (req, res) => {
     var data = readFromFile("playlistsData");
     var playlists = data.playlists;
 
@@ -311,7 +311,7 @@ connection.once("open", function() {
     writeToFile("", "articlesData");
 
     for (let i = 0; i < playlists.length; i++) {
-      request(playlists[i].url, function(error, response, body) {
+      request(playlists[i].url, async function(error, response, body) {
         if (!error && response.statusCode == 200) {
           let articles = JSON.parse(body).articles;
 
@@ -319,7 +319,8 @@ connection.once("open", function() {
             var isValidText = hasConsistentStructure(articles[j]);
             var title = articles[j].title;
             if (isValidText) {
-              if (isInEnglish(title)) {
+                let isInEnglish1 = await isInEnglish(title);
+              if (isInEnglish1) {
                 articles[j].title = cleanText(title);
                 articles[j].description = cleanedDescription(
                   articles[j].description
@@ -415,6 +416,8 @@ connection.once("open", function() {
 });
 
 function isInEnglish(text) {
+
+    let promise = new Promise(function(resolve, reject) {
   googleTranslate.detectLanguage(text, function(err, detection) {
     if (err) {
       console.log("Problem with Google Translate API. More Details. ", err);
@@ -422,12 +425,15 @@ function isInEnglish(text) {
 
     if (!err && detection.language == "en") {
       console.log("Is English: " + text);
-      return true;
+      resolve(true);
     } else {
       console.log("Not English: " + text);
       return false;
+      reject(new Error("Invalid Language"))
     }
   });
+});
+return promise;
 }
 
 function hasConsistentStructure(article) {
