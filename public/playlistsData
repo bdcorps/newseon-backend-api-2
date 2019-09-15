@@ -1,35 +1,17 @@
 {
   "playlists": [
     {
-      "id": "j9qisya44e87qzvvy7ps4",
-      "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "id": "1vdg62ua8vynx1jpvyzll",
+      "url": "https://newsapi.org/v2/everything?sources=engadget&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Technology",
-      "media": "https://images.unsplash.com/photo-1538652116325-8f5fa30fefff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d13ce3021db6e91ab2c19d9f3d5c69f3&auto=format&fit=crop&w=634&q=80"
+      "media": "https://images.unsplash.com/photo-1494961104209-3c223057bd26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=992&q=80"
     },
     {
-      "id": "g1aeq7aau9xa0ji39sfx",
-      "url": "https://newsapi.org/v2/everything?sources=the-next-web&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Startups",
-      "media": "https://images.unsplash.com/photo-1538739204988-d0b7904aba5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=560e7d1782dd0a416feb6b1277812083&auto=format&fit=crop&w=1355&q=80"
-    },
-    {
-      "id": "g6otmwnwu1assplx1plja",
-      "url": "https://newsapi.org/v2/everything?sources=wired&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Digital Products",
-      "media": "https://images.unsplash.com/photo-1500042450384-8b7947f4eec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-    },
-    {
-      "id": "eczp5h27mvnj8ld6qxt21j",
-      "url": "https://newsapi.org/v2/everything?sources=polygon&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Gaming",
-      "media": "https://images.unsplash.com/photo-1538666986359-7be4d223e7de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=35971b042c65645c77a1f9052a52fdca&auto=format&fit=crop&w=634&q=80"
-    },
-    {
-      "id": "mpu6qlkwyapnfwovmjo5g",
-      "url": "https://newsapi.org/v2/everything?sources=crypto-coins-news&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Cryptocurrency",
-      "media": "https://images.unsplash.com/photo-1484875917039-ef5456f29257?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f18a51122fabfa3e30cedd477005d32c&auto=format&fit=crop&w=1350&q=80"
+      "id": "9rkqivbkwtd5yds31rt5fb",
+      "url": "https://newsapi.org/v2/everything?sources=engadget&langugage=en&pageSize=10&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Technology",
+      "media": "https://images.unsplash.com/photo-1538666829705-df0aef1c13d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1723448915d07de2e50372f28d9a1cdf&auto=format&fit=crop&w=1367&q=80"
     }
   ],
-  "timestamp": 1568163692884
+  "timestamp": 1568576996143
 }

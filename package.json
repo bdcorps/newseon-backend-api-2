@@ -43,8 +43,5 @@
     "hooks": {
       "pre-push": "npm version patch"
     }
-  },
-  "engines": {
-    "npm": "6.3.0"
   }
 }

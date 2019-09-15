@@ -191,8 +191,13 @@ connection.once("open", function() {
     res.render("renderInstagram.ejs");
   });
 
-  app.get("/resetv2", (req, res) => {
-    resetDB();
+  app.get("/resetv2", async (req, res) => {
+    resetDB()
+      .then(data => {
+        console.log("sad");
+      })
+      .catch(err => console.log("pra pa ", err, "pa"));
+
     res.send("Reset DB");
   });
 
@@ -271,27 +276,31 @@ connection.once("open", function() {
     categories = categories.categories;
 
     for (var i = 0; i < categories.length; i++) {
-      var categoriesData = {};
-      var category = categories[i];
-      categoriesData.id = category.id;
-      categoriesData.title = category.title;
-      categoriesData.playlists = convertQueryToPlaylistURLs(
-        category.playlists,
-        category.title
-      );
-      categoriesAPI.push(categoriesData);
+      try {
+        var categoriesData = {};
+        var category = categories[i];
+        categoriesData.id = category.id;
+        categoriesData.title = category.title;
+        categoriesData.playlists = convertQueryToPlaylistURLs(
+          category.playlists,
+          category.title
+        );
+        categoriesAPI.push(categoriesData);
 
-      var categoryToSave = new Category({
-        id: categoriesData.id,
-        title: categoriesData.title,
-        playlists: categoriesData.playlists
-      });
+        var categoryToSave = new Category({
+          id: categoriesData.id,
+          title: categoriesData.title,
+          playlists: categoriesData.playlists
+        });
 
-      categoryToSave.save(function(error) {
-        if (error) {
-          console.error(error);
-        }
-      });
+        categoryToSave.save(function(error) {
+          if (error) {
+            console.error(error);
+          }
+        });
+      } catch (e) {
+        next(e);
+      }
     }
 
     dataToWriteToFile = { playlists: [] };
@@ -319,7 +328,7 @@ connection.once("open", function() {
             var isValidText = hasConsistentStructure(articles[j]);
             var title = articles[j].title;
             if (isValidText) {
-                let isInEnglish1 = await isInEnglish(title);
+              let isInEnglish1 = await isInEnglish(title);
               if (isInEnglish1) {
                 articles[j].title = cleanText(title);
                 articles[j].description = cleanedDescription(
@@ -416,24 +425,23 @@ connection.once("open", function() {
 });
 
 function isInEnglish(text) {
+  let promise = new Promise(function(resolve, reject) {
+    googleTranslate.detectLanguage(text, function(err, detection) {
+      if (err) {
+        console.log("Problem with Google Translate API. More Details. ", err);
+      }
 
-    let promise = new Promise(function(resolve, reject) {
-  googleTranslate.detectLanguage(text, function(err, detection) {
-    if (err) {
-      console.log("Problem with Google Translate API. More Details. ", err);
-    }
-
-    if (!err && detection.language == "en") {
-      console.log("Is English: " + text);
-      resolve(true);
-    } else {
-      console.log("Not English: " + text);
-      return false;
-      reject(new Error("Invalid Language"))
-    }
+      if (!err && detection.language == "en") {
+        console.log("Is English: " + text);
+        resolve(true);
+      } else {
+        console.log("Not English: " + text);
+        reject(new Error("Invalid Language"));
+        return false;
+      }
+    });
   });
-});
-return promise;
+  return promise;
 }
 
 function hasConsistentStructure(article) {
@@ -715,7 +723,7 @@ function uploadTrackToDB(
       "for article #",
       articleObject.uid
     );
-    console.log(prettyPrintJSON(articleObject));
+    // console.log(prettyPrintJSON(articleObject));
 
     articleToSave.save(function(error) {
       if (error) {
@@ -738,44 +746,80 @@ function uploadTrackToDB(
 }
 
 function resetDB() {
-  Article.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-  Playlist.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-
-  Category.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-
-  Config.remove({}, function(err) {
-    if (err) {
-      console.log("error");
-    }
-  });
-
-  //delete tracks tracks files and chunks
-  var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
-  var CHUNKS_COLL = "tracks.chunks";
-  var FILES_COLL = "tracks.files";
-
-  bucket.drop(function(error) {
-    var chunksQuery = db.collection(CHUNKS_COLL).find({});
-    chunksQuery.toArray(function(error, docs) {
-      if (error != null && docs.length > 0) {
-        var filesQuery = db.collection(FILES_COLL).find({});
-        filesQuery.toArray(function(error, docs) {});
+  let promise1 = new Promise(function(resolve, reject) {
+    Article.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+        reject(new Error("Could not empty article db"));
       }
+      resolve();
     });
   });
+  let promise2 = new Promise(function(resolve, reject) {
+    Playlist.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+        reject(new Error("Could not empty playlist db"));
+      }
+      resolve();
+    });
+  });
+
+  let promise3 = new Promise(function(resolve, reject) {
+    Category.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+        reject(new Error("Could not empty category db"));
+      }
+      resolve();
+    });
+  });
+
+  let promise4 = new Promise(function(resolve, reject) {
+    Config.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+        reject(new Error("Could not empty config db"));
+      }
+      resolve();
+    });
+  });
+
+  let promise5 = new Promise(function(resolve, reject) {
+    //delete tracks tracks files and chunks
+    var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
+    var CHUNKS_COLL = "tracks.chunks";
+    var FILES_COLL = "tracks.files";
+    // bucket.drop().catch(function(error) {
+    //   console.log("woo", error, "hoo");
+    // });
+
+    bucket
+      .drop()
+      .then(function(error) {})
+      .catch(function(error) {
+        console.log("woo", error, "hoo");
+        reject(new Error("tracks db not empty"));
+      })
+      .finally(function() {
+        console.log("in finally");
+        var chunksQuery = db.collection(CHUNKS_COLL).find({});
+        chunksQuery.toArray(function(error, docs) {
+          if (error != null && docs.length > 0) {
+            var filesQuery = db.collection(FILES_COLL).find({});
+            filesQuery.toArray(function(error, docs) {});
+            resolve();
+          }
+        });
+      });
+  });
+
+  return Promise.all([promise1, promise2, promise3, promise4, promise5]);
 }
+
+app.use((err, req, res, next) => {
+  res.status(500).json({ error: err.message });
+});
 
 var port = process.env.PORT || process.env.VCAP_APP_PORT || 3005;
 
@@ -785,5 +829,6 @@ app.listen(port, function() {
 });
 
 module.exports = {
-  convertQueryToPlaylistURLs: convertQueryToPlaylistURLs
+  convertQueryToPlaylistURLs: convertQueryToPlaylistURLs,
+  resetDB: resetDB
 };
