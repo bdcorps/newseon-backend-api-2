@@ -12,3 +12,7 @@ The value "category" being propagated down the pipline is undefined because of a
 To fix, add category:playlists[i].title. But the category name is misleading, should be playlistTitle. Need to be refactored.
 
 Add https://www.npmjs.com/package/winston-daily-rotate-file at some point
+
+
+not writing test for tracksdb. keep running into error at 
+    var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" }); , the db part because it's outside of the function. Don't know how to plug that in. 

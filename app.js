@@ -37,6 +37,9 @@ const {
   MISSING_PLAYLIST
 } = require("./utils/consts");
 
+var CHUNKS_COLL = "tracks.chunks";
+var FILES_COLL = "tracks.files";
+
 require("dotenv").config();
 
 var contentURLLists = require("./public/contentURLList");
@@ -192,7 +195,9 @@ connection.once("open", function() {
   });
 
   app.get("/resetv2", async (req, res) => {
-    resetDB()
+    var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
+
+    resetDB(bucket)
       .then(data => {
         console.log("sad");
       })
@@ -745,7 +750,7 @@ function uploadTrackToDB(
   });
 }
 
-function resetDB() {
+function resetArticleDB() {
   let promise1 = new Promise(function(resolve, reject) {
     Article.remove({}, function(err) {
       if (err) {
@@ -755,6 +760,10 @@ function resetDB() {
       resolve();
     });
   });
+  return promise1;
+}
+
+function resetPlaylistDB() {
   let promise2 = new Promise(function(resolve, reject) {
     Playlist.remove({}, function(err) {
       if (err) {
@@ -764,17 +773,10 @@ function resetDB() {
       resolve();
     });
   });
+  return promise2;
+}
 
-  let promise3 = new Promise(function(resolve, reject) {
-    Category.remove({}, function(err) {
-      if (err) {
-        console.log("error");
-        reject(new Error("Could not empty category db"));
-      }
-      resolve();
-    });
-  });
-
+function resetConfigDB() {
   let promise4 = new Promise(function(resolve, reject) {
     Config.remove({}, function(err) {
       if (err) {
@@ -784,17 +786,13 @@ function resetDB() {
       resolve();
     });
   });
+}
 
+function resetTracksDB(tracksBucket) {
   let promise5 = new Promise(function(resolve, reject) {
     //delete tracks tracks files and chunks
-    var bucket = new mongodb.GridFSBucket(db, { bucketName: "tracks" });
-    var CHUNKS_COLL = "tracks.chunks";
-    var FILES_COLL = "tracks.files";
-    // bucket.drop().catch(function(error) {
-    //   console.log("woo", error, "hoo");
-    // });
 
-    bucket
+    tracksBucket
       .drop()
       .then(function(error) {})
       .catch(function(error) {
@@ -802,7 +800,7 @@ function resetDB() {
         reject(new Error("tracks db not empty"));
       })
       .finally(function() {
-        console.log("in finally");
+        resolve();
         var chunksQuery = db.collection(CHUNKS_COLL).find({});
         chunksQuery.toArray(function(error, docs) {
           if (error != null && docs.length > 0) {
@@ -813,8 +811,26 @@ function resetDB() {
         });
       });
   });
+}
 
-  return Promise.all([promise1, promise2, promise3, promise4, promise5]);
+function resetCategoryDB() {
+  let promise3 = new Promise(function(resolve, reject) {
+    Category.remove({}, function(err) {
+      if (err) {
+        console.log("error");
+        reject(new Error("Could not empty category db"));
+      }
+      resolve();
+    });
+  });
+  return promise3;
+}
+async function asyresetDB(tracksDB) {
+  await resetArticleDB();
+  await resetCategoryDB();
+  await resetConfigDB();
+  await resetPlaylistDB();
+  await resetTracksDB(tracksDB);
 }
 
 app.use((err, req, res, next) => {
@@ -830,5 +846,9 @@ app.listen(port, function() {
 
 module.exports = {
   convertQueryToPlaylistURLs: convertQueryToPlaylistURLs,
-  resetDB: resetDB
+  resetArticleDB: resetArticleDB,
+  resetCategoryDB: resetCategoryDB,
+  resetConfigDB: resetConfigDB,
+  resetPlaylistDB: resetPlaylistDB,
+  resetTracksDB: resetTracksDB
 };

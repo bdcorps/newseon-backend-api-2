@@ -1,14 +1,15 @@
 var mongoose = require("mongoose");
 const chai = require("chai");
 const expect = chai.expect;
-const { resetDB } = require("../app");
+const { resetCategoryDB, resetArticleDB, resetPlaylistDB } = require("../app");
+const mongodb = require("mongodb");
 
 var models = require("../models/models");
 var Category = models.CategoryModel;
 var Playlist = models.PlaylistModel;
 var Article = models.ArticleModel;
 
-var mongodb =
+var dburl =
   "mongodb://sssaini1:sssaini1@ds111788.mlab.com:11788/newseon-testing";
 
 describe("Category Model", () => {
@@ -17,9 +18,9 @@ describe("Category Model", () => {
   });
 });
 
-describe("Category Model", () => {
+describe("Reset Model", () => {
   before(function(done) {
-    mongoose.connect(mongodb, {
+    mongoose.connect(dburl, {
       useUnifiedTopology: true,
       useNewUrlParser: true
     });
@@ -28,13 +29,35 @@ describe("Category Model", () => {
     db.once("open", function() {
       console.log("We are connected to test database!");
 
+      done();
+    });
+  });
+
+  after(function(done) {
+    mongoose.connection.db.dropDatabase(function() {
+      mongoose.connection.close(done);
+    });
+  });
+
+  describe("reset cat dbs", async () => {
+    before(() => {
       const category = new Category({
         id: "what",
         title: "title",
         playlists: [{ playlists: "red" }]
       });
       category.save();
+    });
 
+    it("reset category", async () => {
+      await resetCategoryDB();
+      const actual = await Category.findOne({ title: "title" });
+      expect(actual).to.be.null;
+    });
+  });
+
+  describe("reset playlist dbs", async () => {
+    before(() => {
       const playlist = new Playlist({
         id: "id",
         title: "title",
@@ -44,7 +67,17 @@ describe("Category Model", () => {
         articles: [{ article: {} }]
       });
       playlist.save();
+    });
 
+    it("reset playlist", async () => {
+      await resetPlaylistDB();
+      const actual = await Playlist.findOne({ title: "title" });
+      expect(actual).to.be.null;
+    });
+  });
+
+  describe("reset article dbs", async () => {
+    before(() => {
       const date = new Date("1995-12-17T03:24:00");
       const article = new Article({
         uid: "uid",
@@ -59,30 +92,12 @@ describe("Category Model", () => {
         playlist: { red: "" }
       });
       article.save();
-
-      done();
-    });
-  });
-
-  after(function(done) {
-    mongoose.connection.db.dropDatabase(function() {
-      mongoose.connection.close(done);
-    });
-  });
-
-  after(async () => {
-    await mongoose.connection.close();
-  });
-  describe("reset all dbs", async () => {
-    await resetDB();
-    it("gets a category", async () => {
-      const actual = await Category.findOne({ title: "title" });
-
-      expect(actual).to.be.null;
     });
 
-    it("gets a playlist", async () => {
-      const actual = await Playlist.findOne({ title: "title" });
+    it("reset article", async () => {
+      await resetArticleDB();
+      const actual = await Article.findOne({ uid: "uid" });
+      console.dir(actual);
       expect(actual).to.be.null;
     });
   });
