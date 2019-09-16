@@ -825,7 +825,7 @@ function resetCategoryDB() {
   });
   return promise3;
 }
-async function asyresetDB(tracksDB) {
+async function resetDB(tracksDB) {
   await resetArticleDB();
   await resetCategoryDB();
   await resetConfigDB();
