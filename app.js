@@ -333,15 +333,14 @@ connection.once("open", function() {
             var isValidText = hasConsistentStructure(articles[j]);
             var title = articles[j].title;
             if (isValidText) {
+
+
               let isInEnglish1;
-
-              isInEnglish(title)
-      .then(data => {
-          isInEnglish1 = true;
-        console.log("is english");
-      })
-      .catch(err => console.log("pra pa ", err, "pa"));
-
+ try {
+              isInEnglish1 = await isInEnglish(title);
+ } catch (error) {
+    console.error("pa ",error, "pra");
+  }
 
               if (isInEnglish1) {
                 articles[j].title = cleanText(title);
