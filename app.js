@@ -333,14 +333,12 @@ connection.once("open", function() {
             var isValidText = hasConsistentStructure(articles[j]);
             var title = articles[j].title;
             if (isValidText) {
-
-
               let isInEnglish1;
- try {
-              isInEnglish1 = await isInEnglish(title);
- } catch (error) {
-    console.error("pa ",error, "pra");
-  }
+              try {
+                isInEnglish1 = await isInEnglish(title);
+              } catch (error) {
+                console.error("pa ", error, "pra");
+              }
 
               if (isInEnglish1) {
                 articles[j].title = cleanText(title);
@@ -353,6 +351,7 @@ connection.once("open", function() {
                 };
 
                 articleCollection.push(articles[j]);
+                console.dir("writing articles data ", articleCollection[0]);
                 writeToFile({ articles: articleCollection }, "articlesData");
               } else {
                 console.log("Not English: " + articles[j].title);
@@ -471,6 +470,9 @@ function hasConsistentStructure(article) {
 function generateAudioTracks(req, res) {
   var articles = readFromFile("articlesData");
   articles = articles.articles;
+  console.log("reading articles data ");
+  console.dir(articles[0]);
+  console.log("========reading articles data ");
 
   //console.log("about to write" + JSON.stringify(articles));
 
