@@ -4,6 +4,7 @@ const {
   cleanedDescription,
   writeToFile,
   readFromFile,
+  validateArticleStructure,
   captilizeSentence,
   applyBasicPunctuation,
   stripStrayHTMLCharacterCodes
@@ -71,4 +72,41 @@ describe("Testing Helper functions", function() {
       assert.equal(actual, expected);
     });
   });
+
+  describe("Make sure the article schema hasConsistentStructure", function() {
+    it("should return false when article has empty title ", function() {
+      const article = {
+        source: { id: "", name: "SeekingAlpha" },
+        description: "Description",
+        url: "url",
+        urlToImage: "urlToImage",
+        publishedAt: "date"
+      };
+
+      const actual = hasConsistentStructure(article);
+      assert.isFalse(actual, "no title");
+    });
+
+    it("should return false when article has empty description ", function() {
+      const article = {
+        source: { id: "", name: "SeekingAlpha" },
+        title: "Title",
+        url: "url",
+        urlToImage: "urlToImage",
+        publishedAt: "date"
+      };
+
+      const actual = validateArticleStructure(article);
+      assert.isFalse(actual, "no description");
+    });
+  });
 });
+
+// const article = {
+//   source: { id: "", name: "SeekingAlpha" },
+//   title: "Title",
+//   description: "Description",
+//   url: "url",
+//   urlToImage: "urlToImage",
+//   publishedAt: "date"
+// };

@@ -29,6 +29,7 @@
     "multer": "^1.4.2",
     "node-cron": "^2.0.3",
     "request": "^2.88.0",
+    "sinon": "^7.4.2",
     "unsplash-api": "^1.2.0",
     "winston": "^3.2.1",
     "xml2js": "^0.4.19"

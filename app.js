@@ -28,6 +28,7 @@ const {
   captilizeSentence,
   prettyPrintJSON,
   xmlToJson,
+  validateArticleStructure,
   snooze
 } = require("./utils/helpers");
 
@@ -330,7 +331,7 @@ connection.once("open", function() {
           let articles = JSON.parse(body).articles;
 
           for (let j = 0; j < articles.length; j++) {
-            var isValidText = hasConsistentStructure(articles[j]);
+            var isValidText = validateArticleStructure(articles[j]);
             var title = articles[j].title;
             if (isValidText) {
               let isInEnglish1;
@@ -456,17 +457,6 @@ function isInEnglish(text) {
   return promise;
 }
 
-function hasConsistentStructure(article) {
-  return (
-    article.hasOwnProperty("source") &&
-    article.hasOwnProperty("author") &&
-    article.hasOwnProperty("title") &&
-    article.hasOwnProperty("description") &&
-    article.hasOwnProperty("url") &&
-    article.hasOwnProperty("publishedAt")
-  );
-}
-
 function generateAudioTracks(req, res) {
   var articles = readFromFile("articlesData");
   articles = articles.articles;
@@ -589,6 +579,25 @@ function generateSingleAudioTrack(
   });
 }
 
+function validatePlaylistStructure(curPlaylist) {
+  // if (!curPlaylist) {
+  //   throw new Error(MISSING_PLAYLIST);
+  // }
+  // if (!curPlaylist.hasOwnProperty("query")) {
+  //   throw new Error(MISSING_PLAYLIST_QUERY);
+  // }
+  // if (!curPlaylist.hasOwnProperty("type")) {
+  //   throw new Error(MISSING_PLAYLIST_TYPE);
+  // }
+
+  return (
+    curPlaylist.hasOwnProperty("query") &&
+    !!curPlaylist["query"] &&
+    curPlaylist.hasOwnProperty("type") &&
+    !!curPlaylist["type"]
+  );
+}
+
 function convertQueryToPlaylistURLs(playlistQuery, title) {
   var playlistIDs = [];
   var title;
@@ -597,15 +606,10 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
   for (var i = 0; i < playlistQuery.length; i++) {
     var curPlaylist = playlistQuery[i];
 
-    if (!curPlaylist) {
-      throw new Error(MISSING_PLAYLIST);
-    }
-    if (!curPlaylist.hasOwnProperty("query")) {
-      throw new Error(MISSING_PLAYLIST_QUERY);
-    }
+    var isValid = validatePlaylistStructure(curPlaylist);
 
-    if (!curPlaylist.hasOwnProperty("type")) {
-      throw new Error(MISSING_PLAYLIST_TYPE);
+    if (!isValid) {
+      throw new Error(MISSING_PLAYLIST);
     }
 
     var query = curPlaylist.query;
@@ -670,15 +674,20 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
       articles: playlistsData.articles
     });
 
-    playlistToSave.save(function(error) {
-      if (error) {
-        console.error(error);
-      }
-    });
+    savePlaylistToDB(playlistToSave);
   }
 
   //return playlists ids
   return playlistIDs;
+}
+
+function savePlaylistToDB(playlistToSave) {
+  console.log("saved to playlist");
+  playlistToSave.save(function(error) {
+    if (error) {
+      console.error(error);
+    }
+  });
 }
 
 // Uploads the audio track of the news article to db
@@ -860,5 +869,6 @@ module.exports = {
   resetCategoryDB: resetCategoryDB,
   resetConfigDB: resetConfigDB,
   resetPlaylistDB: resetPlaylistDB,
-  resetTracksDB: resetTracksDB
+  resetTracksDB: resetTracksDB,
+  savePlaylistToDB: savePlaylistToDB
 };

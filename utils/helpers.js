@@ -41,6 +41,23 @@ function cleanedDescription(inputText) {
   return cleanedText;
 }
 
+function validateArticleStructure(article) {
+  return (
+    article.hasOwnProperty("source") &&
+    !!article["source"] &&
+    article.hasOwnProperty("title") &&
+    !!article["title"] &&
+    article.hasOwnProperty("description") &&
+    !!article["description"] &&
+    article.hasOwnProperty("url") &&
+    !!article["url"] &&
+    article.hasOwnProperty("urlToImage") &&
+    !!article["urlToImage"] &&
+    article.hasOwnProperty("publishedAt") &&
+    !!article["publishedAt"]
+  );
+}
+
 function prettyPrintJSON(obj) {
   return JSON.stringify(obj, null, 2);
 }
@@ -108,6 +125,7 @@ module.exports = {
   writeToFile: writeToFile,
   readFromFile: readFromFile,
   captilizeSentence: captilizeSentence,
+  validateArticleStructure: validateArticleStructure,
   prettyPrintJSON: prettyPrintJSON,
   xmlToJson: xmlToJson,
   snooze: snooze
