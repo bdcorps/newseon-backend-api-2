@@ -213,3 +213,4 @@
 {"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-19T11:04:49.585Z"}
 {"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-21T01:13:50.885Z"}
 {"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-21T02:36:18.442Z"}
+{"message":"Hello again distributed logs","level":"info","service":"backend-api-2-logs-service","timestamp":"2019-09-21T11:53:49.390Z"}

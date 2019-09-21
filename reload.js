@@ -6,8 +6,6 @@ var urls = [
   "http://newseon-backend-api-2.herokuapp.com/writesv2",
   "http://newseon-backend-api-2.herokuapp.com/tracksv2"
 ];
-var completed_requests = 0;
-
 //copied from app.js
 //need to be added to a helper file
 const snooze = ms => new Promise(resolve => setTimeout(resolve, ms));
@@ -19,5 +17,6 @@ var reloadContentAsync = async () => {
     await snooze(5200);
   }
 };
-
-reloadContentAsync();
+module.exports = {
+  reloadContentAsync: reloadContentAsync
+};

@@ -20,6 +20,8 @@ var unsplash = require("unsplash-api");
 const logModule = require("./logger");
 const logger = logModule.logger;
 
+const { reloadContentAsync } = require("./reload");
+
 const {
   cleanText,
   cleanedDescription,
@@ -374,6 +376,11 @@ connection.once("open", function() {
   app.get("/tracksv2", (req, res) => {
     generateAudioTracks(req, res);
     res.send("Tracks written");
+  });
+
+  app.get("/reloadv2", async (req, res) => {
+    await reloadContentAsync();
+    res.send("Reload");
   });
 
   /**
