@@ -368,9 +368,7 @@ connection.once("open", function() {
       });
     }
 
-    return res.status(201).json({
-      message: "File uploaded successfully."
-    });
+    res.send("Writes DB");
   });
 
   app.get("/tracksv2", (req, res) => {

@@ -1,10 +1,13 @@
+const factory = {
+  a,
+  b
+};
 function a() {
-  b();
+  return 2;
 }
 
-function b() {}
+function b() {
+  return factory.a();
+}
 
-module.exports = {
-  a: a,
-  b: b
-};
+module.exports = factory;
