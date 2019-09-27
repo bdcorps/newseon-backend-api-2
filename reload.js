@@ -17,6 +17,9 @@ var reloadContentAsync = async () => {
     await snooze(5200);
   }
 };
+
+reloadContentAsync();
+
 module.exports = {
   reloadContentAsync: reloadContentAsync
 };
