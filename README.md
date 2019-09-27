@@ -2,29 +2,29 @@
 
 The back-end API layer for Newseon. The project features a complete pipeline to generate and transcribe TTS news articles to MLab database.
 
-# Installation
+## Installation
 
 Install the package dependencies,
 ```bash
 npm install
 ```
 
-# Dependencies
+## Dependencies
 1. [News API key](https://newsapi.org/)
 2. [Google Text to Speech Key](https://console.cloud.google.com/?pli=1)
 3. [Google Translate Key](https://console.cloud.google.com/?pli=1)
 4. [Unsplash API key](https://unsplash.com/developers)
 
-# Usage
+## Usage
 
 Start the app,
 ```bash
 npm start
 ```
 
-# Configuration
+## Configuration
 
-## categoriesConfig.js
+### categoriesConfig.js
 
 ```javascript
 var categoriesJSON = {
