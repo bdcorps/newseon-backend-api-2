@@ -15,17 +15,16 @@ npm install
 3. [Google Translate Key](https://console.cloud.google.com/?pli=1)
 4. [Unsplash API key](https://unsplash.com/developers)
 
-## Usage
+# Usage
 
 Start the app,
 ```bash
 npm start
 ```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+# Configuration
 
-How categoriesConfig.js should look like?
+## categoriesConfig.js
 
 ```javascript
 var categoriesJSON = {
