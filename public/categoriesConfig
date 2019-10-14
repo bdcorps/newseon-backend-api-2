@@ -9,8 +9,7 @@
           "title": "Technology",
           "query": {
             "sources": "engadget,the-verge",
-            "langugage": "en",
-            "pageSize": "10"
+            "pageSize": "5"
           }
         },
         {
@@ -18,8 +17,7 @@
           "title": "Startups",
           "query": {
             "sources": "the-next-web",
-            "langugage": "en",
-            "pageSize": "10"
+            "pageSize": "5"
           }
         },
         {
@@ -27,8 +25,7 @@
           "title": "Digital Products",
           "query": {
             "sources": "wired",
-            "langugage": "en",
-            "pageSize": "10"
+            "pageSize": "5"
           }
         },
         {
@@ -36,8 +33,7 @@
           "title": "Gaming",
           "query": {
             "sources": "polygon",
-            "langugage": "en",
-            "pageSize": "10"
+            "pageSize": "5"
           }
         },
         {
@@ -45,12 +41,11 @@
           "title": "Cryptocurrency",
           "query": {
             "sources": "crypto-coins-news",
-            "langugage": "en",
-            "pageSize": "10"
+            "pageSize": "5"
           }
         }
       ]
     }
   ],
-  "timestamp": 1567983559864
+  "timestamp": 1571019852179
 }

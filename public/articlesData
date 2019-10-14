@@ -2,53 +2,19 @@
   "articles": [
     {
       "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
+        "id": "wired",
+        "name": "Wired"
       },
-      "author": "Lawrence Meyers",
-      "title": "Bitcoin is Not And Never Will Be ‘Money’.",
-      "description": "If you’ve been reading my column, you know that I do not believe in the long-term story of bitcoin and that trading it is actually worse than gambling in a Las Vegas casino. I don’t believe bitcoin will actually ever replace fiat currency, and the circumstanc…",
-      "url": "https://www.ccn.com/bitcoin-isnt-never-will-be-money/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/bitcoin-eyes-usd-stock.jpg",
-      "publishedAt": "2019-09-17T06:36:19Z",
-      "content": "If you’ve been reading my column, you know that I do not believe in the long-term story of bitcoin and that trading it is actually worse than gambling in a Las Vegas casino.\r\nI don’t believe bitcoin will actually ever replace fiat currency, and the circumstan… [+6502 chars]",
+      "author": "Laura Mallonee",
+      "title": "An Artist Takes an Unflinching Look at Her Own Hysterectomy.",
+      "description": "In her new book, photographer Elinor Carucci grapples with her own aging and mortality.",
+      "url": "https://www.wired.com/story/elinor-carucci-midlife/",
+      "urlToImage": "https://media.wired.com/photos/5d9fca386368a80009a673de/master/w_2560,c_limit/photo_carucci_midlife_1.jpg",
+      "publishedAt": "2019-10-13T14:00:00Z",
+      "content": "Elinor Carucci was just waking up following major surgery when her husband Eran gently whispered, \"We have to take the picture now.\" Before her hysterectomy, Carucci had convinced the hospital to let her document her own uterus post-op. But time was tight. Th… [+1631 chars]",
       "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Nicole Carpenter",
-      "title": "Borderlands 3 gets hotfix for cloud save issue — but the problems may still persist.",
-      "description": "Some Borderlands 3 players have reported issues with the game’s cloud save feature on PC following its Sept. 13 release. Players say they’ve lost progress in the game due to the bug.",
-      "url": "https://www.polygon.com/2019/9/16/20869561/borderlands-3-cloud-save-issue-glitches-hotfix",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/EZgQ52eyDT7Jn1nze5x_0LQ8CuA=/324x0:3840x1841/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/18968506/2KGMKT_BL3_Launch_Screenshots_CalypsoTwins_3840x2160.jpg",
-      "publishedAt": "2019-09-17T00:48:17Z",
-      "content": "Some Borderlands 3 players are losing game progress after using the cloud save feature, according to posts on social media and reported by IGN. (Polygon faced similar issues while reviewing the game.)\r\nEpic Games which runs the Epic Games Store, where Borderl… [+1475 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Mariella Moon",
-      "title": "AT&T sued for allegedly inflating DirecTV Now subscriber numbers.",
-      "description": "A lawsuit seeking class action status says AT&amp;T is inflating AT&amp;T TV Now -- previously known as DirecTV Now -- subscriber numbers by creating fake users. It's accusing the company's management of carrying out the scheme in an effort to make t...",
-      "url": "https://www.engadget.com/2019/09/17/att-sued-inflating-directv-now-subscribers/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D6000%252C3747%252C0%252C165%26quality%3D85%26format%3Djpg%26resize%3D1600%252C999%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252F0c1d6e60-d92a-11e9-936a-b89b46097561%26client%3Da1acac3e1b3290917d92%26signature%3D7a8637df1c8585c818cb31b2cc91d5aab12ddcf0&client=amp-blogside-v2&signature=0816a669a1169465cb37327f844e35dd1ba2419d",
-      "publishedAt": "2019-09-17T11:40:00Z",
-      "content": "One of the methods employees allegedly used is tacking on up to three accounts to a single customer's phone number -- including those who just signed up for a free trial -- and running their credit card three times. In some cases, customers were reportedly ch… [+950 chars]",
-      "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
-        "title": "Technology"
+        "id": "7ceum89tz59qmft1nmidj",
+        "title": "Digital Products"
       }
     },
     {
@@ -56,67 +22,16 @@
         "id": "wired",
         "name": "Wired"
       },
-      "author": "Alex Davies",
-      "title": "The Shift to Electric Vehicles Propels a Strike Against GM.",
-      "description": "Like other automakers, General Motors is preparing for a mostly electric future. The catch is that building those cars requires a lot fewer workers.",
-      "url": "https://www.wired.com/story/shift-electric-vehicles-strike-gm/",
-      "urlToImage": "https://media.wired.com/photos/5d7fcfad8f1eae000821c753/master/w_2560,c_limit/Transpo_Workerstrike_1168672921.jpg",
-      "publishedAt": "2019-09-17T11:00:00Z",
-      "content": "When United Automobile Workers members walked off the job at 33 General Motors sites around the US on Sunday morning, perhaps the most striking detail was that they only numbered 46,000. The last time the UAWs GM workers went on strike, in 2007, they were 73,… [+3131 chars]",
+      "author": "Aarian Marshall",
+      "title": "The Vacuum That's Not a Car and Other Transportation News This Week.",
+      "description": "Dyson scrubs plans to build an EV, Tesla owners learn the cars can't power their homes, and lightning that follows shipping lanes.",
+      "url": "https://www.wired.com/story/vacuum-not-car-other-transportation-news/",
+      "urlToImage": "https://media.wired.com/photos/5da0ca8d647bad00082493e5/master/w_2560,c_limit/Transpo-highways-1135212844.jpg",
+      "publishedAt": "2019-10-13T13:00:00Z",
+      "content": "Sometimes you have to say goodbye to something you love. The British company Dyson, for example, disbanded its 500-person automotive business this week, and its plans to build an out-of-the-box electric car. Founder and CEO James Dyson explained that the land… [+1960 chars]",
       "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
+        "id": "7ceum89tz59qmft1nmidj",
         "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Abhimanyu Ghoshal",
-      "title": "Xiaomi unveils its Android-powered 65-inch Mi TV 4X at $766 in India - TNW.",
-      "description": "At an event in Bangalore, India, today, Xiaomi launched a range of premium smart TVs, including the 65-inch Mi TV 4X, which comes with Android 9.0 and Netflix Ultra HD support. This top-of-the-line unit boasts a 4K panel that supports HDR 10. It also gets a m…",
-      "url": "https://thenextweb.com/plugged/2019/09/17/xiaomi-unveils-its-android-powered-65-inch-mi-tv-4x-at-766-in-india/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FXiaomi-Mi-TV-4X-65-hed.jpg&signature=109b837e5c5d52db5a5172f52e824df1",
-      "publishedAt": "2019-09-17T11:06:00Z",
-      "content": "At an event in Bangalore, India, today, Xiaomi launched a range of premium smart TVs, including the 65-inch Mi TV 4X, which comes with Android 9.0 and Netflix Ultra HD support.\r\nThis top-of-the-line unit boasts a 4K panel that supports HDR 10. It also gets a … [+2465 chars]",
-      "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Press Release",
-      "title": "Bancacy Successfully Raises 6,500 ETH, Completing Its Public Funding Round Within Two Days.",
-      "description": "Bancacy is an innovative and decentralized digital asset class that is establishing a new form of money. Its asset solidification protocol shelters investors from market volatility and price swings, and the BNY token provides users with multiple earning and i…",
-      "url": "https://www.ccn.com/bancacy-successfully-raises-6500-eth-completing-its-public-funding-round-within-two-days/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/Image.jpeg",
-      "publishedAt": "2019-09-17T05:53:21Z",
-      "content": "Bancacy is an innovative and decentralized digital asset class that is establishing a new form of money. Its asset solidification protocol shelters investors from market volatility and price swings, and the BNY token provides users with multiple earning and i… [+4146 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Ryan Gilliam",
-      "title": "Co-defendant of deadly Call of Duty swatting sentenced to 15 months, barred from gaming.",
-      "description": "Six months after Tyler Barriss was sentenced to 20 years for his involvement in the deadly Call of Duty: World War 2 swatting against Andrew Finch, co-defendant Casey S. Viner is sentenced to 15 months in an Ohio prison",
-      "url": "https://www.polygon.com/2019/9/16/20869002/kansas-swatting-call-of-duty-sentencing",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/orwftvvDKrpXwC9ODbVCWMcXlzg=/0x0:3000x1571/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19205419/AP_19177510897227.jpg",
-      "publishedAt": "2019-09-16T20:14:34Z",
-      "content": "Casey Viner, who admitted to asking an acquaintance to swat a rival after losing a $1.50 bet in Call of Duty, was sentenced for 15 months in prison on Friday, along with being banned from online games for two years. That swatting resulted in a Kansas mans dea… [+1284 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
       }
     },
     {
@@ -124,84 +39,16 @@
         "id": "wired",
         "name": "Wired"
       },
-      "author": "Brian Barrett",
-      "title": "The Air Force Will Let Hackers Try to Hijack an Orbiting Satellite.",
-      "description": "At the Defcon hacking conference next year, the Air Force will bring a satellite for fun and glory.",
-      "url": "https://www.wired.com/story/air-force-defcon-satellite-hacking/",
-      "urlToImage": "https://media.wired.com/photos/5d7fcb86e51178000950e911/master/w_2560,c_limit/security_af-satellite.jpg",
-      "publishedAt": "2019-09-17T11:00:00Z",
-      "content": "When the Air Force showed up at the Defcon hacker conference in Las Vegas last month, it didnt come empty-handed. It brought along an F-15 fighter jet data systemone that security researchers thoroughly dismantled, finding serious vulnerabilities along the wa… [+3999 chars]",
+      "author": "Graeme McMillan",
+      "title": "The Fat Bear Vote Tops This Week's Internet News Roundup.",
+      "description": "Yes, it’s real, and yes, it matters. Also, here’s what’s up with the impeachment inquiry and the boycott against Blizzard.",
+      "url": "https://www.wired.com/story/internet-week-241/",
+      "urlToImage": "https://media.wired.com/photos/5da0e28386bf2a000830d0e5/master/w_2560,c_limit/Culture-fatbear-506882932.jpg",
+      "publishedAt": "2019-10-13T13:00:00Z",
+      "content": "The Takeaway: For those still trying to work out what the White House letter actually meant in real-world terms, this is a good breakdown of the facts.\r\nThe Blizzard Boycott\r\nWhat Happened: The latest front in the ongoing culture wars? A digital card game, se… [+1496 chars]",
       "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
+        "id": "7ceum89tz59qmft1nmidj",
         "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Karthik Sridharan",
-      "title": "4 strategic hiring tips for your self-funded startup.",
-      "description": "A startup has to get many things right to be successful. One of the most important ingredients in this recipe for success is hiring. Given the hectic nature of work, which might often not have immediate rewards, hires not only need to be smart but also extrem…",
-      "url": "https://thenextweb.com/podium/2019/09/17/4-strategic-hiring-tips-for-your-self-funded-startup/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/podium?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fdownload25.png&signature=246520567a6c21463dbff8d272aed154",
-      "publishedAt": "2019-09-17T11:00:46Z",
-      "content": "A startup has to get many things right to be successful. One of the most important ingredients in this recipe for success is hiring. Given the hectic nature of work, which might often not have immediate rewards, hires not only need to be smart but also extrem… [+5032 chars]",
-      "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Press Release",
-      "title": "CampusBCAT2019 in University of Ibadan: The Largest Ever Blockchain & Cryptocurrency Event in Southwest Nigeria.",
-      "description": "CampusBCAT2019 which was held on the 7th of September 2019, at the prestigious University of Ibadan organized by CryptoTVPlus, the topmost Blockchain and Cryptocurrency media platform from Africa has officially set a new record as the most attended event in t…",
-      "url": "https://www.ccn.com/campusbcat2019-in-university-of-ibadan-the-largest-ever-blockchain-cryptocurrency-event-in-southwest-nigeria/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/image5.jpg",
-      "publishedAt": "2019-09-17T05:45:45Z",
-      "content": "CampusBCAT2019 which was held on the 7th of September 2019, at the prestigious University of Ibadan organized by CryptoTVPlus, the topmost Blockchain and Cryptocurrency media platform from Africa has officially set a new record as the most attended event in t… [+7526 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Dieter Bohn",
-      "title": "Apple Arcade could have huge consequences for the iOS app ecosystem.",
-      "description": "When we look back at 2019’s iPhone keynote, the most consequential part of it may very well be the pricing for Apple Arcade: $4.99 per month. From a consumer perspective, it’s just a killer deal. Apple plans on getting more than 100 games in there eventually,…",
-      "url": "https://www.theverge.com/2019/9/17/20869147/apple-arcade-iphone-app-ecosystem-subscription-developers-payments",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Q2Lp3NUJUFFqqYcdYouGOYAJ22c=/0x157:2400x1414/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15987400/Apple_introduces_apple_arcade_apple_tv_ipad_pro_iphone_xs_macbook_pro_03252019.jpg",
-      "publishedAt": "2019-09-17T11:30:00Z",
-      "content": "The App Store changed games, its sure to happen again\r\nI think that when we look back at 2019s iPhone keynote, the most consequential part of it may very well be the pricing for Apple Arcade: $4.99 per month.*\r\nFrom a consumer perspective, its just a killer d… [+7463 chars]",
-      "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Julia Lee",
-      "title": "Pokémon Go’s final week of Ultra Bonuses is now live.",
-      "description": "Mewtwo is returning to raids until Sept. 23 and Pokémon from the Unova region are permanently being added to the game.",
-      "url": "https://www.polygon.com/pokemon-go/2019/9/16/20868524/pokemon-go-unova-gen-5-mewtwo",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/tP3Ep6H5dzEiCuJM-mSdYllrUaM=/0x62:2040x1130/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16026625/jbareham_190410_ply0870_0094_mewtwo.jpg",
-      "publishedAt": "2019-09-16T20:04:26Z",
-      "content": "The last batch of Ultra Bonus rewards forPokémon Go have gone live, including the release of Unova Pokémon.\r\nFifth generation Pokémon have finally been added to the game with this update. Snivy, Tepig, Oshawott, Patrat, Lillipup, Purrloin, Pidove, and Blitzle… [+789 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
       }
     },
     {
@@ -209,33 +56,84 @@
         "id": "wired",
         "name": "Wired"
       },
-      "author": "Matt Simon",
-      "title": "James Cameron, Victor Vescovo, and the Saga of the Deepest* Solo Dive Ever.",
-      "description": "Vescovo says he dove deeper than Cameron. Cameron says not so fast. Perhaps only Poseidon knows for sure.",
-      "url": "https://www.wired.com/story/deepest-solo-dive-ever/",
-      "urlToImage": "https://media.wired.com/photos/5d802428a186170008de2c7f/master/w_2560,c_limit/Science_Diving-963163168.jpg",
-      "publishedAt": "2019-09-17T11:00:00Z",
-      "content": "To convert pressure to depth, you need to know the water density over the full water column and also the local value of gravity, which varies by about half a percent over the surface of the Earth, Zumberge says. And if youre trying to be really precise, its w… [+3247 chars]",
+      "author": "Kevin Hartnett",
+      "title": "Is the Equal Sign Overrated? Mathematicians Hash It Out.",
+      "description": "Many of them avoid the equal sign, hoping to promote a looser relationship of “equivalence” instead. It's been controversial.",
+      "url": "https://www.wired.com/story/is-the-equal-sign-overrated-mathematicians-hash-it-out/",
+      "urlToImage": "https://media.wired.com/photos/5da11033ca17900008c496f7/master/w_2560,c_limit/Science-Quanta-Equal-Sign.jpg",
+      "publishedAt": "2019-10-13T12:00:00Z",
+      "content": "You have this situation where [papers] either come back from journals with absurd referee reports that reflect deep misunderstandings, or they just take several years to publish, Barwick said. It can make peoples lives uncomfortable because an unpublished pap… [+3928 chars]",
       "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
+        "id": "7ceum89tz59qmft1nmidj",
         "title": "Digital Products"
       }
     },
     {
       "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
+        "id": "wired",
+        "name": "Wired"
       },
-      "author": "Mix",
-      "title": "Colossal Ecuador leak exposes data of 20M individuals — including Julian Assange.",
-      "description": "Welp, 2019 is shaping up to be the year of nationwide data breaches. After Bulgaria and Chile, Ecuador has suffered a colossal data leak, containing the personal information for over 20 million individuals — including the personal details of Wikileaks founder…",
-      "url": "https://thenextweb.com/?p=1242644",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FUntitled-1.jpg&signature=143c36eb1b7f1552c05517b347d659a2",
-      "publishedAt": "2019-09-17T09:36:10Z",
-      "content": "Welp, 2019 is shaping up to be the year of nationwide data breaches. After Bulgaria and Chile, Ecuador has suffered a colossal data leak, containing the personal information for over 20 million individuals including the personal details of Wikileaks founder J… [+2103 chars]",
+      "author": "David Nield",
+      "title": "The MacOS Catalina Privacy and Security Features You Should Know.",
+      "description": "The latest macOS update is chock-full of ways to better safeguard your data.",
+      "url": "https://www.wired.com/story/macos-catalina-privacy-security-features/",
+      "urlToImage": "https://media.wired.com/photos/5da115100983b500093483f1/master/w_2560,c_limit/Security_catalina_1153486590.jpg",
+      "publishedAt": "2019-10-13T11:00:00Z",
+      "content": "MacOS Catalina is live and out now for the masses to downloadand Apple being Apple, it's packed with features focused on user security and privacy. Here's how Catalina promises to make your Mac safer and better protected than ever, from warnings about weak pa… [+3231 chars]",
       "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
-        "title": "Startups"
+        "id": "7ceum89tz59qmft1nmidj",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Thomas Bardwell",
+      "title": "This Scaled Video Game Map Size Comparison Is Insane.",
+      "description": "An enterprising soul has taken it upon themselves to create a comprehensive comparison of video game map sizes. It’s not a new endeavor by any stretch, but its the most up to date version we’ve come across, and it paints a vivid picture of just how vast games…",
+      "url": "https://www.ccn.com/this-scaled-video-game-map-size-comparison-is-insane/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/gaming-headset-ss-750x375-Copy.jpg",
+      "publishedAt": "2019-10-13T07:54:53Z",
+      "content": "An enterprising soul has taken it upon themselves to create a comprehensive comparison of video game map sizes. Its not a new endeavor by any stretch, but its the most up to date version weve come across, and it paints a vivid picture of just how vast games h… [+2311 chars]",
+      "playlist": {
+        "id": "j3g33jni5dzgu66c0ttai",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Wes Messamore",
+      "title": "Three Candy Stocks With Breakout Potential Ahead of Halloween.",
+      "description": "Investors on the prowl for a dividend-paying income stock in a company with a respected brand, solid management and strong fundamentals needn’t look any further than what Halloween has to offer. These three candy stocks might make a welcomed addition to your …",
+      "url": "https://www.ccn.com/three-candy-stocks-to-treat-your-portfolio-halloween/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/Halloween.jpg",
+      "publishedAt": "2019-10-12T22:00:38Z",
+      "content": "Investors on the prowl for a dividend-paying income stock in a company with a respected brand, solid management and strong fundamentals neednt look any further than what Halloween has to offer. These three candy stocks might make a welcomed addition to your s… [+3395 chars]",
+      "playlist": {
+        "id": "j3g33jni5dzgu66c0ttai",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Travis Pulver",
+      "title": "Delusional Antonio Brown Clings to Ill-Fated Fantasy of NFL Comeback.",
+      "description": "Former NFL superstar Antonio Brown was the premier wide receiver in the NFL during his playing days with the Pittsburgh Steelers. So, when he says he wants back into the NFL, you would think teams would be jumping at the chance to sign someone of his caliber.…",
+      "url": "https://www.ccn.com/delusional-antonio-brown-clings-to-ill-fated-fantasy-of-nfl-comeback/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/antonio-brown-stare-ap.jpg",
+      "publishedAt": "2019-10-12T22:00:21Z",
+      "content": "Former NFL superstar Antonio Brown was the premier wide receiver in the NFL during his playing days with the Pittsburgh Steelers. So, when he says he wants back into the NFL, you would think teams would be jumping at the chance to sign someone of his caliber.… [+3346 chars]",
+      "playlist": {
+        "id": "j3g33jni5dzgu66c0ttai",
+        "title": "Cryptocurrency"
       }
     },
     {
@@ -244,100 +142,15 @@
         "name": "Crypto Coins News"
       },
       "author": "Sam Bourgi",
-      "title": "Chinese Stocks Fall, U.S. Bonds Rise as Trump Administration Weighs Iran Retaliation.",
-      "description": "Asian stocks tumbled on Tuesday, as the flight from risk assets continued in the wake of devastating weekend attacks on Saudi Arabia‘s oil industry. Latest U.S. intelligence has been persistent in claiming that Iran was responsible for the attack. As The Wall…",
-      "url": "https://www.ccn.com/chinese-stocks-fall-u-s-bonds-rise/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/asia-stocks.jpg",
-      "publishedAt": "2019-09-17T03:38:20Z",
-      "content": "Asian stocks tumbled on Tuesday, as the flight from risk assets continued in the wake of devastating weekend attacks on Saudi Arabia‘s oil industry.\r\nLatest U.S. intelligence has been persistent in claiming that Iran was responsible for the attack. As The Wal… [+2635 chars]",
+      "title": "Money Market Funds Foretell Punishing Reversal for Stocks Mirroring 2008 Financial Crisis.",
+      "description": "The Dow and broader U.S. stock market are surging once again after the United States and China secured a partial trade deal that avoids the escalation of further hostilities between the two superpowers. For all the hype surrounding “phase one” trade agreement…",
+      "url": "https://www.ccn.com/money-market-funds-foretell-punishing-reversal-for-stocks/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/us-stock-market.jpg",
+      "publishedAt": "2019-10-12T21:00:53Z",
+      "content": "The Dow and broader U.S. stock market are surging once again after the United States and China secured a partial trade deal that avoids the escalation of further hostilities between the two superpowers.\r\nFor all the hype surrounding phase one trade agreement,… [+3185 chars]",
       "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
+        "id": "j3g33jni5dzgu66c0ttai",
         "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Julia Lee",
-      "title": "Pokémon Go Mewtwo raid guide: best counters and movesets.",
-      "description": "Mewtwo is one of the strongest attackers in Pokémon Go, so grab one or two if they’re in raids. Here’s the list of the best Pokémon to defeat one.",
-      "url": "https://www.polygon.com/pokemon-go-guide/2019/9/16/18535961/mewtwo-raid-counter-guide",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/aHEiIqzANViwjevilpCjWEO5udc=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16026625/jbareham_190410_ply0870_0094_mewtwo.jpg",
-      "publishedAt": "2019-09-16T20:04:02Z",
-      "content": "If Mewtwo is back in Pokémon Go raids, its time to grab raid passes and try to catch the Legendary Pokémon, as its one of the best attackers in the game.\r\nMewtwo originally was the star of the first batch of EX raids, but has since moved to regular tier-five … [+1982 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Jon Porter",
-      "title": "Instagram posts and IGTV videos can now be scheduled through Facebook.",
-      "description": "Facebook has officially released a new update for its Creator Studio which lets business account holders schedule their Instagram posts and IGTV broadcasts. The new feature was announced at the IBC in Amsterdam.",
-      "url": "https://www.theverge.com/2019/9/17/20870090/instagram-post-igtv-scheduling-creator-studio-facebook-live-watch-party",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/qrph5HIOU_Xe2f8fNWnBepKH2Pk=/0x292:2040x1360/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10668153/akrales_180402_2435_0008_2.jpg",
-      "publishedAt": "2019-09-17T11:27:42Z",
-      "content": "Available to business accounts through Facebooks Creator Studio\r\nPhoto by Amelia Holowaty Krales / The Verge\r\nFacebook has officially released a new update for its Creator Studio which lets business account holders schedule their Instagram posts and IGTV broa… [+2209 chars]",
-      "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Emma Grey Ellis",
-      "title": "Marketers Wanted a New Generation to Target, Hence Alphas.",
-      "description": "Members of the latest age group to emerge are barely out of diapers, and the internet is already serving them ads.",
-      "url": "https://www.wired.com/story/marketing-generation-alpha/",
-      "urlToImage": "https://media.wired.com/photos/5d7a8c50965a3600094e281d/master/w_2560,c_limit/Culture_ALPHA_1132366150.jpg",
-      "publishedAt": "2019-09-17T11:00:00Z",
-      "content": "Ryan ToysReview, a YouTube channel helmed by a spritely 7-year-old, does product placement better than Michael Bay. Every moment of every video is a candy-colored consumerist confection, a parade of products for your preschooler to crave: board games, Nerf gu… [+4016 chars]",
-      "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Matthew Beedham",
-      "title": "Former pro ice hockey player detained for $700,000 Bitcoin fraud.",
-      "description": "It’s a slippery slope dealing with Bitcoin and cryptocurrency. Igor Musatov, former professional ice hockey player from Russia, has been detained in Moscow for swindling 45 million Rubles ($700,000) from the CEO of an IT company, Crime Russia reports. The all…",
-      "url": "https://thenextweb.com/hardfork/2019/09/17/russia-ice-hockey-player-detained-bitcoin-cryptocurrency-fraud/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2Fcryptocurrency-musatov-blockchain-bitcoin-con-scam-detained.jpg&signature=8b0ff1eb12b7ad34539fc220b2b70f2b",
-      "publishedAt": "2019-09-17T08:38:16Z",
-      "content": "Its a slippery slope dealing with Bitcoin BTC and cryptocurrency.\r\nIgor Musatov, former professional ice hockey player from Russia, has been detained in Moscow for swindling 45 million Rubles ($700,000) from the CEO of an IT company, Crime Russia reports.\r\nTh… [+1598 chars]",
-      "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Matt Patches",
-      "title": "The CEO of Funko talks the Funko Pop movie and beyond.",
-      "description": "CEO Brian Mariotti thinks his company is already the next Lego, so why not make a Lego Movie-style animated feature film with Warner Bros. Pictures? With DC heroes already in the Pop line-up, anything is possible.",
-      "url": "https://www.polygon.com/2019/9/16/20868810/funko-pop-movie-toys-future",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/zq1E7bpCxEannBLN5ocmjoe7WtE=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19205398/jbareham_190916_0881_stark_toy_0004.jpg",
-      "publishedAt": "2019-09-16T19:57:11Z",
-      "content": "The future of Funko was never more evident than at this years San Diego Comic-Con. At a two-story booth mobbed from opening to close, the pop culture toy company had an endless variety of Funko Pops; the wide-eyed, spherical statues that cater to every pocket… [+5171 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
       }
     },
     {
@@ -345,33 +158,101 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Lawrence Meyers",
-      "title": "With Kavanaugh Smear, The New York Times Replaces the National Enquirer.",
-      "description": "The New York Times has now officially transformed into the National Enquirer 2.0. The so-called newspaper’s story regarding another unverified, uncorroborated, unbelievable sexual assault allegation against Supreme Court Justice Brett Kavanaugh is an affront …",
-      "url": "https://www.ccn.com/with-kavanaugh-smear-the-new-york-times-replaces-the-national-enquirer/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/kavanaugh-ap.jpg",
-      "publishedAt": "2019-09-17T01:39:16Z",
-      "content": "The New York Times has now officially transformed into the National Enquirer 2.0. The so-called newspapers story regarding another unverified, uncorroborated, unbelievable sexual assault allegation against Supreme Court Justice Brett Kavanaugh is an affront t… [+7526 chars]",
+      "author": "Jack Winter",
+      "title": "Stephen Curry & Zion Williamson’s Preseason Barn Burners Mean Absolutely Nothing.",
+      "description": "Almost all takeaways gleaned from preseason NBA basketball deserve an asterisk. The most common exceptions? Players showing flashes of anticipated improvement, and more instructive as it relates to the regular season, confirming prevailing assumptions. The mo…",
+      "url": "https://www.ccn.com/stephen-curry-zion-williamsons-preseason-barn-burners-mean-absolutely-nothing/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/stephen-currey-warriors-preseason-ap.jpg",
+      "publishedAt": "2019-10-12T20:00:13Z",
+      "content": "Almost all takeaways gleaned from preseason NBA basketball deserve an asterisk. The most common exceptions? Players showing flashes of anticipated improvement, and more instructive as it relates to the regular season, confirming prevailing assumptions.\r\nThe m… [+4063 chars]",
       "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
+        "id": "j3g33jni5dzgu66c0ttai",
         "title": "Cryptocurrency"
       }
     },
     {
       "source": {
-        "id": "wired",
-        "name": "Wired"
+        "id": "polygon",
+        "name": "Polygon"
       },
-      "author": "Lauren Smiley",
-      "title": "A Brutal Murder, a Wearable Witness, and an Unlikely Suspect.",
-      "description": "Karen Navarra was a quiet woman in her sixties who lived alone. She was found beaten to death. The neighbors didn't see anything. But her Fitbit did.",
-      "url": "https://www.wired.com/story/telltale-heart-fitbit-murder/",
-      "urlToImage": "https://media.wired.com/photos/5d7198e9b163630009eb37c5/master/w_2560,c_limit/WI100119_FF_FitBitMurder_04.jpg",
-      "publishedAt": "2019-09-17T10:05:20Z",
-      "content": "The Aiellos had two kids, and by the late 1960s they were able to buy a home for about $37,000. Sprawl was fast churning orchards into suburban enclaves like theirs, and after his grocery was torn down to make way for a bigger road, Tony opened a deli in a st… [+3714 chars]",
+      "author": "Patricia Hernandez",
+      "title": "Fortnite’s black hole numbers seem to be a giant troll.",
+      "description": "While Fortnite players can’t get into battle royale matches right now, the black hole left in the wake of the end-of-season 10 event has displayed a series of numbers. Players were surprised to see those numbers worked as a coordinate in Google Maps. The whol…",
+      "url": "https://www.polygon.com/2019/10/13/20912552/fortnite-black-hole-numbers-11-146-15-62-crab-rave-konami-code-offline-down-epic-games",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/puCmE7VGf8CT8VEx4EwMfL19Lg4=/0x38:1433x788/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19283853/Screen_Shot_2019_10_13_at_4.12.27_PM.png",
+      "publishedAt": "2019-10-13T20:24:19Z",
+      "content": "Google Maps It’s a crab rave You can’t really do anything if you log into Fortnite right now — there’s just a black hole. For a brief period of time, however, that black hole had a series of numbers appear above the event horizon : 11, 146, 15, and 62. What t… [+2117 chars]",
       "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
+        "id": "e4bzwy5s64i4rku8zay9wy",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Patricia Hernandez",
+      "title": "Fornite’s black hole numbers seem to be a giant troll.",
+      "description": "While Fortnite players can’t get into battle royale matches right now, the black hole left in the wake of the end-of-season 10 event has displayed a series of numbers. Players were surprised to see those numbers worked as a coordinate in Google Maps. The whol…",
+      "url": "https://www.polygon.com/2019/10/13/20912552/fortnite-black-hole-numbers-crab-rave-konami-code-offline-down-epic-games-durr-burger",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/puCmE7VGf8CT8VEx4EwMfL19Lg4=/0x38:1433x788/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19283853/Screen_Shot_2019_10_13_at_4.12.27_PM.png",
+      "publishedAt": "2019-10-13T20:24:19Z",
+      "content": "Google Maps It’s a crab rave You can’t really do anything if you log into Fortnite right now — there’s just a black hole. For a brief period of time, however, that black hole had a series of numbers appear above the event horizon : 11, 146, 15, and 62. What t… [+1748 chars]",
+      "playlist": {
+        "id": "e4bzwy5s64i4rku8zay9wy",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Patricia Hernandez",
+      "title": "Only Fortnite could pull off a total blackout.",
+      "description": "The end of Fortnite season 10 was marked with a black hole that sucked the map into its event horizon. Now players can’t get into any sort of match — they can only watch the black hole. This is Epic Game’s latest marketing scheme to get people talking about t…",
+      "url": "https://www.polygon.com/2019/10/13/20912511/is-fortnite-down-offline-blackout-epic-games-black-hole-season-10-event",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/FzOVANHQqYFKZder6t37qNlugNM=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19283748/blackout.jpg",
+      "publishedAt": "2019-10-13T19:31:22Z",
+      "content": "Epic Games Epic Games has huge confidence in Fortnite Usually, when you hear that a game is down, it’s never for a good reason. Maybe the game’s servers are overloaded, or these’s some critical bug that isn’t allowing players to get back into the action. But … [+3378 chars]",
+      "playlist": {
+        "id": "e4bzwy5s64i4rku8zay9wy",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Michael McWhertor",
+      "title": "Epic Games Store suffers outage alongside Fortnite’s big black hole event.",
+      "description": "PC players say they can’t log in to the Epic Games Store to play other games. That may be due to Fortnite’s big black hole event which wrapped up season 10 and drew millions of viewers to the battle royale game.",
+      "url": "https://www.polygon.com/2019/10/13/20912535/epic-games-store-outage-offline-log-in-issues-fortnite-black-hole-event",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/UsKr7Goo92xPJ1SBRJdDTS69_5Q=/0x28:1400x761/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/13600598/EpicGamesStore_1400x788_115627d82416826e240d42891ede4afe7975ba19.jpg",
+      "publishedAt": "2019-10-13T19:17:06Z",
+      "content": "Epic Games PC players say they can’t log in to play other games PC gamers are reporting problems with the Epic Games Store, saying that they can’t log in to the service to play titles through Epic’s launcher. According to Epic Games’ status page, its servers … [+1465 chars]",
+      "playlist": {
+        "id": "e4bzwy5s64i4rku8zay9wy",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "Fortnite’s entire map just got sucked into a black hole.",
+      "description": "Fortnite’s end-of-season event for season 10 included a rocket ship, a black hole, and a possible glimpse into the game’s future. But for now, the game’s offline with no word of when it will return.",
+      "url": "https://www.polygon.com/fortnite/2019/10/13/20911691/fortnite-season-10-event-black-hole-map-disappears",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/yK8b4LAyT6e6CBwJgH7dbL7nRL0=/0x17:1918x1021/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19283679/black_hole.jpg",
+      "publishedAt": "2019-10-13T18:13:53Z",
+      "content": "Epic Games via Polygon So, where do we battle royale now? Fortnite ’s season 10 event may be the biggest and most ambitious thing Epic Games has done so far. After weeks of anticipation for something game-changing, the event arrived and seems to have sucked t… [+1716 chars]",
+      "playlist": {
+        "id": "e4bzwy5s64i4rku8zay9wy",
+        "title": "Gaming"
       }
     },
     {
@@ -380,66 +261,15 @@
         "name": "The Next Web"
       },
       "author": null,
-      "title": "Satoshi Nakaboto: ‘SegWit transactions account for over 50% of...",
-      "description": "Satoshi Nakaboto: ‘SegWit transactions account for over 50% of all Bitcoin payments’",
-      "url": "https://cc.thenextweb.com/post/187773833175/httpsthenextwebcomhardfork20190917satoshi-nakab",
-      "urlToImage": "https://66.media.tumblr.com/490f4958bacda3491b624d49da0a17a6/tumblr_pxyuq0TllF1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-17T08:10:48Z",
-      "content": "Satoshi Nakaboto: ‘SegWit transactions account for over 50% of all Bitcoin payments’",
+      "title": "Science needs myths and stories to keep it ethical.",
+      "description": "Science needs myths and stories to keep it ethical",
+      "url": "https://cc.thenextweb.com/post/188324646485/httpsthenextwebcomsyndication20191013science-ne",
+      "urlToImage": "https://66.media.tumblr.com/73d846e7d93b45ff9628bd4202b81030/tumblr_pzbrf0gbl11qejjfeo1_1280.png",
+      "publishedAt": "2019-10-13T18:01:47Z",
+      "content": "Science needs myths and stories to keep it ethical",
       "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
+        "id": "h9fcqtr6h4nd5l38d2se",
         "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Charlie Hall",
-      "title": "Dungeons & Dragons’ next adventure kicks off with a bunch of new podcasts.",
-      "description": "Dungeons & Dragons’ next adventure is kicking off with seven different podcasts from seven different actual-play groups. Here’s how to get up to speed with Baldur’s Gate: Descent Into Avernus.",
-      "url": "https://www.polygon.com/2019/9/16/20868958/dungeons-dragons-new-podcast-series-baldurs-gate-descent-into-avernus",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/9WqhGmnsC9Br4n3JBO6ppu0q7E4=/0x113:2040x1181/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19205295/avernus.jpg",
-      "publishedAt": "2019-09-16T19:42:08Z",
-      "content": "Dungeons &amp; Dragons latest adventure, Baldurs Gate: Descent Into Avernus, might just be the most metal thing that Wizards of the Coast has ever published. To celebrate the adventure best described as Mad Max in hell, the developers and publishers of the or… [+4688 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Lawrence Meyers",
-      "title": "Netflix Will Start Streaming “Seinfeld” Around the Time That Nobody Cares.",
-      "description": "Netflix is apparently doing its imitation of the Black Knight from “Monty Python and the Holy Grail,” i.e.”I’m not dead yet.” Netflix’s latest attempt to remain relevant is to secure streaming rights to all episodes of the hit NBC series “Seinfeld,” which wil…",
-      "url": "https://www.ccn.com/netflix-will-start-streaming-seinfeld-around-the-time-that-nobody-cares/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/seinfeld-ap.jpg",
-      "publishedAt": "2019-09-17T01:02:44Z",
-      "content": "Netflix is apparently doing its imitation of the Black Knight from “Monty Python and the Holy Grail,” i.e.”I’m not dead yet.”\r\nNetflixs latest attempt to remain relevant is to secure streaming rights to all episodes of the hit NBC series “Seinfeld,” which wil… [+5807 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Lauren Goode",
-      "title": "Apple iPhone 11 Pro Review: It's All About the Camera.",
-      "description": "This year's highest-priced iPhone models use premium materials and have a brighter screen. But the real benefit is that three-lens camera.",
-      "url": "https://www.wired.com/review/apple-iphone-11-pro/",
-      "urlToImage": "https://media.wired.com/photos/5d804ba7c891950008ce3449/191:100/pass/iphone-11_6312-Edit.jpg",
-      "publishedAt": "2019-09-17T10:00:00Z",
-      "content": "What does Pro really mean? In Apples world, Pro is both a brilliant and nebulous marketing phrase. Its an extension of a naming conventionthere is already a MacBook Pro, and a Mac Pro, and an iPad Pro. The word is supposed to signal that something is better, … [+10758 chars]",
-      "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
       }
     },
     {
@@ -447,84 +277,16 @@
         "id": "the-next-web",
         "name": "The Next Web"
       },
-      "author": "Satoshi Nakaboto",
-      "title": "Satoshi Nakaboto: ‘SegWit transactions account for over 50% of all Bitcoin payments’.",
-      "description": "Our robot colleague Satoshi Nakaboto writes about Bitcoin every fucking day. Welcome to another edition of Bitcoin Today, where I, Satoshi Nakaboto, tell you what’s been going on with Bitcoin in the past 24 hours. As Kierkegaard used to say: If you love yours…",
-      "url": "https://thenextweb.com/hardfork/2019/09/17/satoshi-nakaboto-segwit-transactions-account-for-over-50-of-all-bitcoin-payments/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=30221b6a68049cc6bc3b58f3ddb38864",
-      "publishedAt": "2019-09-17T08:09:45Z",
-      "content": "Our robot colleague Satoshi Nakaboto writes about Bitcoin BTC every fucking day.\r\nWelcome to another edition of Bitcoin Today, where I, Satoshi Nakaboto, tell you whats been going on with Bitcoin in the past 24 hours. As Kierkegaard used to say: If you love y… [+2891 chars]",
+      "author": "The Conversation",
+      "title": "Science needs myths and stories to keep it ethical.",
+      "description": "I can still remember the horror of discovering that everything I had worked on was wrong. I was a PhD candidate just starting my second year, and my supervisor and I had developed a test for rheumatoid arthritis which seemed a revelation. We wrote a paper for…",
+      "url": "https://thenextweb.com/syndication/2019/10/13/science-needs-myths-and-stories-to-keep-it-ethical/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2F200-calories-4-2.png&signature=d3d6827c97f9f021aba919d34a48a0dd",
+      "publishedAt": "2019-10-13T18:00:15Z",
+      "content": "I can still remember the horror of discovering that everything I had worked on was wrong. I was a PhD candidate just starting my second year, and my supervisor and I had developed a test for rheumatoid arthritis which seemed a revelation. We wrote a paper for… [+5716 chars]",
       "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
+        "id": "h9fcqtr6h4nd5l38d2se",
         "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Richard Lawler",
-      "title": "The Morning After: The iPhone 11 reviews are in.",
-      "description": "Hey, good morning! You look fabulous. We can finally answer your questions about what it's like to live with an iPhone 11 and if you should upgrade. Other news this morning includes Google and OnePlus planning their hardware launch events, while Net...",
-      "url": "https://www.engadget.com/2019/09/17/the-morning-after/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fresize%3D2000%252C2000%252Cshrink%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F1e719a90-d930-11e9-bfff-3d547730d3f8%26client%3Da1acac3e1b3290917d92%26signature%3Dbfc029980a65d836d172c8cf0803f50555cf3f30&client=amp-blogside-v2&signature=21d3abd1531a0c2981e9d2599bbd537e57dd8032",
-      "publishedAt": "2019-09-17T11:15:00Z",
-      "content": "Light work.Apple iPhone 11 Pro and Pro Max review\r\nEven with a new name, the thing that immediately jumps out from these iPhones is their triple-camera setup. Still, if you can appreciate some subtle differences then benefits await, including a speedier Face … [+3411 chars]",
-      "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Cass Marshall",
-      "title": "Red Dead Online’s roles are at their best when things get messy.",
-      "description": "Red Dead Online’s Frontier Pursuits are a great addition to the game, especially with a group of friends. Playing as a bounty hunter and accepting random quests around the world is proving to be fun for the whole posse.",
-      "url": "https://www.polygon.com/2019/9/16/20862544/red-dead-online-frontier-pursuits-impressions",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Kl3YwBzMxvLL2cH580f2UOyD4Sc=/0x34:1920x1039/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19205200/0_0.png",
-      "publishedAt": "2019-09-16T19:15:00Z",
-      "content": "Red Dead Online players can now choose from three Frontier Pursuits: the Trader, Collector, and Bounty Hunter. These systems dont radically transform the game, but they provide new gameplay loops, rewards, and goals. When combined with prior updates that cut … [+6099 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Gerelyn Terzo",
-      "title": "WeWork IPO Likely Delayed. The Writing Was on the Wall.",
-      "description": "WeWork, the flexible workspace wonder, is taking a cue from the stock market. The newest unicorn has decided to delay its upcoming IPO, according to The Wall Street Journal, and in doing so is saving face with investors – for now. WeWork’s abrupt decision com…",
-      "url": "https://www.ccn.com/wework-ipo-likely-delayed-the-writing-was-on-the-wall/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/adam-neumann-credit-reuters.jpg",
-      "publishedAt": "2019-09-16T23:30:32Z",
-      "content": "WeWork, the flexible workspace wonder, is taking a cue from the stock market. The newest unicorn has decided to delay its upcoming IPO, according to The Wall Street Journal, and in doing so is saving face with investors for now. WeWork’s abrupt decision comes… [+1868 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Lauren Goode",
-      "title": "Apple iPhone 11 Review: The iPhone for Nearly Everybody.",
-      "description": "It’s not the best iPhone you can buy, but it’s an excellent phone for the price.",
-      "url": "https://www.wired.com/review/apple-iphone-11/",
-      "urlToImage": "https://media.wired.com/photos/5d803f5dc891950008ce3447/191:100/pass/iphone-11_6175-Edit.jpg",
-      "publishedAt": "2019-09-17T10:00:00Z",
-      "content": "Despite slowing smartphone sales, Apple's mobile devices still send totally sane people with jobs to maintain and babies to raise and bills to pay into an existential crisis over which premium phone to buy. This year, there are a few versions of iPhone to cho… [+15026 chars]",
-      "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
       }
     },
     {
@@ -533,168 +295,15 @@
         "name": "The Next Web"
       },
       "author": null,
-      "title": "WeWork’s parent company is reportedly delaying its idiotic IPO...",
-      "description": "WeWork’s parent company is reportedly delaying its idiotic IPO plans",
-      "url": "https://cc.thenextweb.com/post/187773353030/httpsthenextwebcominsider20190917weworks-parent",
-      "urlToImage": "https://66.media.tumblr.com/e84849921eae9b4d55898bc4ecc6419b/tumblr_pxysp9YED51qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-17T07:27:09Z",
-      "content": "WeWork’s parent company is reportedly delaying its idiotic IPO plans",
+      "title": "Elon Musk’s plans for Mars may be more moral catastrophe than...",
+      "description": "Elon Musk’s plans for Mars may be more moral catastrophe than bold space exploration",
+      "url": "https://cc.thenextweb.com/post/188323582340/httpsthenextwebcomsyndication20191013elon-musks",
+      "urlToImage": "https://66.media.tumblr.com/68009cb7adf00de15b294808c72f95c3/tumblr_pzborrT6181qejjfeo1_1280.png",
+      "publishedAt": "2019-10-13T17:04:38Z",
+      "content": "Elon Musk’s plans for Mars may be more moral catastrophe than bold space exploration",
       "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
+        "id": "h9fcqtr6h4nd5l38d2se",
         "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Georgina Torbet",
-      "title": "Google Home speakers can now make mobile calls, starting in Australia.",
-      "description": "For two years, Google Home users have been able to place calls from their smart speakers using the built-in VoIP functionality. From today that function is available using mobile service too, with Australian mobile provider Telstra becoming the first...",
-      "url": "https://www.engadget.com/2019/09/17/telstra-voice-activated-calling/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D795%252C399%252C624%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C803%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F4bb4c1c0-d927-11e9-997a-74d17677f26f%26client%3Da1acac3e1b3290917d92%26signature%3D15ce48c7bcacc2d4138e335651aed7183867abc7&client=amp-blogside-v2&signature=ad6a63991ff759eeb1d0949258d0adc758a811ac",
-      "publishedAt": "2019-09-17T10:45:00Z",
-      "content": "Telstra customers can link up to six mobile numbers to their Google Home and sync the contacts as well, letting them call anyone from their phone book using their Home device. To use voice calling with multiple numbers, they can set up Google Voice Match to i… [+346 chars]",
-      "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Ryan Gilliam",
-      "title": "Destiny 2: Shadowkeep’s schedule reveals Exotic quests, upcoming weapon changes.",
-      "description": "Destiny 2: Shadowkeep is only a few weeks away, and Bungie has officially revealed the gameplay calendar. Players can learn the dates for upcoming Exotic quests and the Garden of Salvation raid.",
-      "url": "https://www.polygon.com/2019/9/16/20864542/destiny-2-shadowkeep-schedule-exotic-quest-weapon-changes-patch-notes-new-light-buffs-nerfs-preview",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Z1I7Bmy71tv3K5oopITmcb4FsYg=/0x150:7680x4171/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19056434/Destiny_2_Shadowkeep_Environment_01.png",
-      "publishedAt": "2019-09-16T19:00:33Z",
-      "content": "In Bungies weekly blog post for Thursday, Sept. 12, the studio revealed the upcoming calendar for Destiny 2: Shadowkeep. The schedule starts on Oct. 1 the release date for Shadowkeep with the final offering slated for the middle of November, before the holida… [+4152 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Joseph Young",
-      "title": "Why Analysts are Shifting Bullish After Big US Stock Market Bloodbath.",
-      "description": "On Sept. 16, the U.S. stock market plunged following an abrupt increase in the oil price, sending the Dow Jones down by more than 140 points in a single session. Ironically, China, whose economy has been on a decline in recent months, could prevent the U.S. s…",
-      "url": "https://www.ccn.com/why-analysts-are-shifting-bullish-after-big-us-stock-market-bloodbath/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/stock-market-afp-1024x683.jpg",
-      "publishedAt": "2019-09-16T22:45:24Z",
-      "content": "On Sept. 16, the U.S. stock market plunged following an abrupt increase in the oil price, sending the Dow Jones down by more than 140 points in a single session. Ironically, China, whose economy has been on a decline in recent months, could prevent the U.S. s… [+3561 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Alex Baker-Whitcomb",
-      "title": "A Buzzkill Physics Discovery, a Deadly Miracle Drug, and More News.",
-      "description": "Catch up on the most important news from today in two minutes or less.",
-      "url": "https://www.wired.com/story/proton-size-opioid-addict-cure-ibocaine/",
-      "urlToImage": "https://media.wired.com/photos/5d7fd10f565406000aaf1c87/master/w_2560,c_limit/Science_TechinTwo_SS2361553.jpg",
-      "publishedAt": "2019-09-16T21:48:14Z",
-      "content": "A new physics discovery kills hope of the unknown, a drug said to cure opioid addiction comes with a caveat, and a competitive videogamer is out to restore his name. Here's the news you need to know, in two minutes or less.\r\nWant to receive this two-minute ro… [+2015 chars]",
-      "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "Tom Warren",
-      "title": "This could be Apple’s new triple-camera iPad Pro.",
-      "description": "Apple is rumored to be working on new iPad Pro models that include a triple-camera system. Now a leaked final design mockup reportedly gives us an early look at the new iPad Pro before a potential launch event in October",
-      "url": "https://www.theverge.com/2019/9/17/20870080/apple-ipad-pro-triple-camera-leaked-photos-rumors",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/5p3CADkGCfCEL3bmGP8FRAnn8R8=/0x4:450x240/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19207174/B6898397_904A_4CE3_A7E8_4E3649DFFFA9.jpeg",
-      "publishedAt": "2019-09-17T10:39:43Z",
-      "content": "Apples new tablets could launch in October\r\nSonny Dickson\r\nApple appears to be readying new iPad Pro devices with a triple-camera system on the rear similar to the iPhone 11 Pro. Rumors of the triple-camera iPad system first emerged earlier this year, and now… [+1295 chars]",
-      "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Abhimanyu Ghoshal",
-      "title": "WeWork’s parent company is reportedly delaying its idiotic IPO plans.",
-      "description": "The Wall Street Journal reports that The We Company, which owns co-working space provider WeWork, is putting its plans for an IPO on hold. Finally, good sense prevails at the firm. The real estate company had achieved a private valuation of $47 billion back i…",
-      "url": "https://thenextweb.com/?p=1242622",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FWeWork-hed.jpg&signature=d70782b17b6cd329474a44bdb74059df",
-      "publishedAt": "2019-09-17T07:21:42Z",
-      "content": "The Wall Street Journal reports that The We Company, which owns co-working space provider WeWork, is putting its plans for an IPO on hold. Finally, good sense prevails at the firm.\r\nThe real estate company had achieved a private valuation of $47 billion back … [+1331 chars]",
-      "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Petrana Radulovic",
-      "title": "You can now call Yoda to wish you a good night.",
-      "description": "The Disney Bedtime Hotline is back online. Get bedtime messages from Mickey Mouse, Pixar’s Woody, Jasmine, Elsa and Anna from Frozen, even the MCU Spider-Man and Yoda. They’re Disney characters, too.",
-      "url": "https://www.polygon.com/2019/9/16/20868921/star-wars-marvel-characters-disney-bedtime-hotline",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/7nPgd5cB3rko8e3Yss4ej3R9aVQ=/0x30:1536x834/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/15105522/Yoda-Retina_2a7ecc26.0.0.1487921673.jpeg",
-      "publishedAt": "2019-09-16T18:40:00Z",
-      "content": "Good news to all the insomniacs out there. Disneys Bedtime Hotline returns from Sept. 16 to Sept. 30. The hotline which debuted last August, gave fans a chance to hear bedtime messages from the core Disney cast of Mickey, Minnie, Donald, Daisy, or Goofy. \r\nTh… [+1360 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Josiah Wilmoth",
-      "title": "Roethlisberger Who? Steelers Fans Dump Big Ben After Mason Rudolph Balls Out.",
-      "description": "When the Pittsburgh Steelers selected Oklahoma State quarterback Mason Rudolph in the third round of the 2018 NFL Draft, future Hall-of-Famer and All-Pro grouch Ben Roethlisberger welcomed him to the team by questioning why he was there at all. “I was surpris…",
-      "url": "https://www.ccn.com/roethlisberger-who-steelers-fans-dump-big-ben-after-mason-rudolph-balls-out/",
-      "urlToImage": "https://cdn.ccn.com/wp-content/uploads/2019/09/ben-roethlisberger-injury-afp.jpg",
-      "publishedAt": "2019-09-16T20:58:17Z",
-      "content": "When the Pittsburgh Steelers selected Oklahoma State quarterback Mason Rudolph in the third round of the 2018 NFL Draft, future Hall-of-Famer and All-Pro grouch Ben Roethlisberger welcomed him to the team by questioning why he was there at all.\r\nI was surpris… [+4284 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Technique Critique: Season 1",
-      "title": "Technique Critique - Accent Expert Breaks Down 17 More Actors Playing Real People.",
-      "description": "Dialect coach Erik Singer once again takes a look at idiolects, better known as the specific way one individual speaks. Did Rami Malek do a good job speaking through prosthetics to become Freddie Mercury? How accurate was Jennifer Lawrence's Long Island accen…",
-      "url": "https://www.wired.com/video/watch/accent-expert-breaks-down-more-actors-playing-real-people",
-      "urlToImage": "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_face,h_450,q_80,w_800/v1568313650/wired_accent-expert-breaks-down-more-actors-playing-real-people.jpg",
-      "publishedAt": "2019-09-16T16:00:00Z",
-      "content": "1 World Trade Center, New York, NY 10007 Tel (212) 286-2860\r\n© 2019 Condé Nast. All rights reserved.Use of and/or registration on any portion of this site constitutes acceptance ofour\r\n User Agreement\r\n (updated 5/25/18)\r\nand\r\nPrivacy Policy\r\n (updated 5/25/1… [+253 chars]",
-      "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
       }
     },
     {
@@ -703,66 +312,15 @@
         "name": "The Next Web"
       },
       "author": null,
-      "title": "Making diversity fly.",
-      "description": "Making diversity fly",
-      "url": "https://cc.thenextweb.com/post/187771046915/httpsthenextwebcompodium20190917making-diversit",
-      "urlToImage": "https://66.media.tumblr.com/0402e161141488e5a9d82cb1a2d68f9f/tumblr_pxyld172AS1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-09-17T04:48:37Z",
-      "content": "There are probably better ways to spend your time!",
+      "title": "CHEAP: Yes please, I will take $200 off the 512GB Samsung Galaxy...",
+      "description": "CHEAP: Yes please, I will take $200 off the 512GB Samsung Galaxy S10",
+      "url": "https://cc.thenextweb.com/post/188318781770/httpsthenextwebcomplugged20191013cheap-512gb-sa",
+      "urlToImage": "https://66.media.tumblr.com/2f5dc280882608e52670d09b22ac2058/tumblr_pzbavtft3P1qejjfeo1_1280.png",
+      "publishedAt": "2019-10-13T12:04:41Z",
+      "content": "CHEAP: Yes please, I will take $200 off the 512GB Samsung Galaxy S10",
       "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
+        "id": "h9fcqtr6h4nd5l38d2se",
         "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Aron Garst",
-      "title": "Disintegration hands-on: A shooter that requires a touch of patience.",
-      "description": "Disintegration, from V1 Interactive, is a combination of a first-person shooter with real-time strategy elements, as you manage a team of soldiers on a futuristic battlefield. It’s a new game from a veteran of the Halo series, out in 2020.",
-      "url": "https://www.polygon.com/2019/9/16/20864648/disintegration-game-hands-on-pax-west",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/pu0MFw0Pe7qJLMacPimc-JjspPA=/0x75:1920x1080/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19204530/Disinegration1.jpg",
-      "publishedAt": "2019-09-16T18:30:00Z",
-      "content": "V1 Interactive/Private Division From veteran Halo creator comes an shooter/strategy hybrid It was about five years ago that Marcus Lehto, one of the key developers behind the Halo series, set out to create something new. He and two engineers started working o… [+8256 chars]",
-      "playlist": {
-        "id": "6g1xjyxm42dnnk07rgi9l",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Angela Watercutter",
-      "title": "James Gunn Tweeted 'The Suicide Squad' Cast and It's Insane.",
-      "description": "Also: J.J. Abrams just signed a multimillion-dollar deal, and RIP, MoviePass.",
-      "url": "https://www.wired.com/story/the-suicide-squad-cast/",
-      "urlToImage": "https://media.wired.com/photos/5d7faa9c924fc50008955882/master/w_2560,c_limit/Culture_Monitor_PeteDavidson-1090529628.jpg",
-      "publishedAt": "2019-09-16T15:51:20Z",
-      "content": "Happy Monday and welcome to another edition of The Monitor, WIRED's collection of all things pop culture. Today were celebrating J.J. Abrams' huge deal with WarnerMedia and mourning the death of MoviePass. Join us, wont you?\r\nThe Cast for The Suicide Squad Is… [+1509 chars]",
-      "playlist": {
-        "id": "ohmr80pq7o72oze61yaby",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Aaron Weaver",
-      "title": "Twitter Roasts Trump Over ‘Obama Netflix’ Tweet.",
-      "description": "Another day, another viral Trump tweet. Fresh off a tweetstorm about Saudi oil attacks, President Trump defended himself against claims he’s profiting from the presidency. After listing all the ways he says the “Radical Left Democrats” have failed, he knew he…",
-      "url": "https://www.ccn.com/twitter-roasts-trump-over-obama-netflix-tweet/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/09/trump-obama-netflix-ap.jpg",
-      "publishedAt": "2019-09-16T19:27:27Z",
-      "content": "Another day, another viral Trump tweet. Fresh off a tweetstorm about Saudi oil attacks, President Trump defended himself against claims he’s profiting from the presidency. After listing all the ways he says the “Radical Left Democrats” have failed, he knew he… [+3290 chars]",
-      "playlist": {
-        "id": "kvr46y6u5m5drs2k9v7er",
-        "title": "Cryptocurrency"
       }
     },
     {
@@ -770,15 +328,15 @@
         "id": "the-next-web",
         "name": "The Next Web"
       },
-      "author": "Alice Bonasio",
-      "title": "Making diversity fly.",
-      "description": "I’m passionate about diversity, but not (just) because it’s the right thing to do. Sure, affording people equal opportunity, regardless of which genitalia they happen to be born with is a morally justifiable choice, but to me, it’s mostly a business no-braine…",
-      "url": "https://thenextweb.com/podium/2019/09/17/making-diversity-fly/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/podium?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F09%2FNour-and-her-plane.jpg&signature=ad47afb04f0f2a4b93c60fad0f1e3984",
-      "publishedAt": "2019-09-17T04:48:20Z",
-      "content": "",
+      "author": "Charlotte Dickie",
+      "title": "CHEAP: Yes please, I will take $200 off the 512GB Samsung Galaxy S10.",
+      "description": "Welcome to CHEAP, our series about things that are good, but most of all, cheap. CHEAP! It’s been difficult not to feel suffocated by the iPhone 11 release. Apple has officially taken over the internet. However, Samsung is holding out an impromptu olive branc…",
+      "url": "https://thenextweb.com/plugged/2019/10/13/cheap-512gb-samsung-galaxy-s10-discount-deal-offer/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fcheap-header-image-s10-galaxy.png&signature=3f95f552d6ba0b7075d1ca55ca1f299c",
+      "publishedAt": "2019-10-13T12:01:23Z",
+      "content": "Welcome to CHEAP, our series about things that are good, but most of all, cheap. CHEAP!\r\nIts been difficult not to feel suffocated by the iPhone 11 release. Apple has officially taken over the internet. However, Samsung is holding out an impromptu olive branc… [+1872 chars]",
       "playlist": {
-        "id": "s495cvio0qk5h61cjl8oyd",
+        "id": "h9fcqtr6h4nd5l38d2se",
         "title": "Startups"
       }
     },
@@ -787,18 +345,86 @@
         "id": "engadget",
         "name": "Engadget"
       },
-      "author": "Steve Dent",
-      "title": "Outsight's 3D camera for autonomous cars can identify clothing and ice.",
-      "description": "Outsight, a new company co-founded by former Withings CEO Cedric Hutchings, has unveiled a self-driving car camera with new types of sensing powers. The company's 3D Semantic Camera uses low-power shortwave infrared (SWIR) lasers that can scan hundreds, rathe…",
-      "url": "https://www.engadget.com/2019/09/17/outsight-cedric-hutchings-3d-self-driving-camera/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1011%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1011%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-09%252F5209bd40-d928-11e9-9fff-c4d8b3ce2722%26client%3Da1acac3e1b3290917d92%26signature%3D5f428039f0946a1f059bc3547dca73000530fc23&client=amp-blogside-v2&signature=ade46c5ad6d84cb5c974b5ae50f9f6c25f49ecf4",
-      "publishedAt": "2019-09-17T10:25:00Z",
-      "content": "That means the camera can safely detect pedestrians or ice on a road, allowing self-driving systems to slow down or apply the right amount of braking to avoid a skid, for instance. That would be a big help to self-driving system, which often don't work well i… [+1751 chars]",
+      "author": "Jon Fingas",
+      "title": "Safari in iOS sends some Safe Browsing data to Tencent.",
+      "description": "Apple's Safari browser has long sent data to Google Safe Browsing to help protect against phishing scams using its Fraudulent Website Warning feature, but it now appears Chinese tech giant Tencent gets some information as well. Users have discovered...",
+      "url": "https://www.engadget.com/2019/10/13/safari-in-ios-sends-safe-browsing-data-to-tencent/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4256%252C2832%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1065%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252Ff5009fa0-edf5-11e9-a57e-de91d0c738e0%26client%3Da1acac3e1b3290917d92%26signature%3Da4ecef40c08e2112e14eb22ba2bddb6148ed2579&client=amp-blogside-v2&signature=d1b7ecc778b587306c7ef015a1824a0072b0282e",
+      "publishedAt": "2019-10-14T01:45:00Z",
+      "content": "The concern, as you might imagine, revolves over what Tencent might do with that data. Both Google and Tencent may log IP addresses in order for their anti-phishing systems to work, but Tencent's frequent cooperation with the Chinese government raises concern… [+1001 chars]",
       "playlist": {
-        "id": "b2kownvk920u16h81zkmq",
+        "id": "an4dkjt3zv7wnh939en0a",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "石井徹（TORU ISHII）",
+      "title": "Apple Watchで「体育の日チャレンジ」、日本の祝日を記念した初のイベント.",
+      "description": "Apple Watchではさまざまな日を記念して、その日に運動すると限定ステッカーがもらえるという「チャレンジ」を開催しています。今日10月14日には、日本の祝日を記念した初めての取り組み「体育の日チャレンジ」が開催されます。\n\n14日のうちにApple Watchとともに30分以上のワークアウト（運動）をすると、Apple WatchやiPhoneで表示できる特別なステッカーがもらえます。\n\nワークアウトはApple Watchのプリインストールアプリだけなく、ランニングやサイクリングなど、Apple Watc…",
+      "url": "https://japanese.engadget.com/2019/10/13/apple-watch/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?resize=2000%2C2000%2Cshrink&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2019-10%2F340ec600-ee18-11e9-afff-dc7e1f7f3dc1&client=a1acac3e1b3290917d92&signature=880934d0a1e3516bd25f0b2fd6d56d3688793f88",
+      "publishedAt": "2019-10-14T01:00:00Z",
+      "content": "Apple Watch101414Apple Watch30Apple WatchiPhone\r\nApple WatchApple WatchwatchOS 6Apple WatchSiri\r\nApple Watch",
+      "playlist": {
+        "id": "an4dkjt3zv7wnh939en0a",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "US says digital assets are covered by money laundering and disclosure laws.",
+      "description": "US regulators issued a blunt warning to cryptocurrency holders who think they're not beholden to the usual rules. The Securities and Exchange Commission, the Commodity Futures Trading Commission and the Financial Crimes Enforcement Network have put...",
+      "url": "https://www.engadget.com/2019/10/13/us-regulator-warning-on-digital-assets/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5472%252C3647%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252Fc44418e0-eded-11e9-bcff-77dbebaa74eb%26client%3Da1acac3e1b3290917d92%26signature%3Dbf9a9322f9aed062b159cadac82dd1d0d5937b37&client=amp-blogside-v2&signature=fa9d010a917bfe80e76b311b0ffa714e8b94a32d",
+      "publishedAt": "2019-10-13T23:47:00Z",
+      "content": "Just how someone registers with regulators depends on what they're doing. Commodity traders and financial institutions will have different expectations, for instance. However, it's really a question of who you talk to rather than talking to someone in the fir… [+348 chars]",
+      "playlist": {
+        "id": "an4dkjt3zv7wnh939en0a",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "San Francisco's proposed office would prevent 'reckless' tech rollouts.",
+      "description": "San Francisco has a history of dealing with out-of-control tech deployments -- just ask people who had to wade through piles of scooters for months until the city started the permit process. Companies might have to be more careful going forward, how...",
+      "url": "https://www.engadget.com/2019/10/13/san-francisco-proposes-office-of-emerging-technology/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3000%252C2078%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1108%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252Fef9dfff0-eddf-11e9-aeed-8e7d433d4445%26client%3Da1acac3e1b3290917d92%26signature%3De59234c648a16076efeb38edf45f2d9ca66d257a&client=amp-blogside-v2&signature=c808b058b87bd3aa4714461abedea5b8f747b4af",
+      "publishedAt": "2019-10-13T22:25:00Z",
+      "content": "It would likewise keep a watch out for the impact of automation on workers. Matching legislation, meanwhile, would let the office recommend fines for those companies that ignore the permit process.\r\nThe public will have 30 days to comment on the measure estab… [+606 chars]",
+      "playlist": {
+        "id": "an4dkjt3zv7wnh939en0a",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Porsche's Macan EV will fully replace its gas counterpart in a few years.",
+      "description": "Porsche's electric Macan won't give its combustion engine counterpart much room to breathe. The automaker's deputy chairman Lutz Meschke told Autocar in an interview that the Macan EV will sit alongside the gas version when it arrives in 2021, but on...",
+      "url": "https://www.engadget.com/2019/10/13/porsche-macan-ev-to-replace-gas-version-in-few-years/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C900%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C900%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-10%252Fe4ec81c0-edd6-11e9-9fff-f70f6e3725c4%26client%3Da1acac3e1b3290917d92%26signature%3Db0b23378cefe48c7d91f40e552d5cdd6c53ec7b2&client=amp-blogside-v2&signature=052de0c403f07e8a45984f073503a43aebf5cca6",
+      "publishedAt": "2019-10-13T21:07:00Z",
+      "content": "The company's SUV director Julian Baumann, meanwhile, offered some clues as to the electric Macan's design. It'll be based on an evolution of the Taycan's platform and should be considerably more aerodynamic than its gas version, in part thanks to a lower nos… [+1147 chars]",
+      "playlist": {
+        "id": "an4dkjt3zv7wnh939en0a",
         "title": "Technology"
       }
     }
   ],
-  "timestamp": 1568722038253
+  "timestamp": 1571019868901
 }

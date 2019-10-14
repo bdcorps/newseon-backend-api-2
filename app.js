@@ -335,19 +335,11 @@ connection.once("open", function() {
           for (let j = 0; j < articles.length; j++) {
             var isValidText = validateArticleStructure(articles[j]);
             var title = articles[j].title;
+            var description = articles[j].description;
             if (isValidText) {
-              let isInEnglish1;
-              try {
-                isInEnglish1 = await isInEnglish(title);
-              } catch (error) {
-                console.error("pa ", error, "pra");
-              }
-
-              if (isInEnglish1) {
+              if (isGenuineArticle(title, description)) {
                 articles[j].title = cleanText(title);
-                articles[j].description = cleanedDescription(
-                  articles[j].description
-                );
+                articles[j].description = cleanedDescription(description);
                 articles[j].playlist = {
                   id: playlists[i].id,
                   title: playlists[i].title
@@ -441,6 +433,45 @@ connection.once("open", function() {
     });
   });
 });
+
+/* Remove Headline if title === description or if either contains the word, "cheap $ tips week guide highlights"
+ *
+ */
+
+async function isGenuineArticle(title, description) {
+  const dirtyWords = ["$", "tips", "guide", "week", "highlights", "roundup"];
+  const normalizedTitle = title.toLowerCase();
+  const normalizedDescription = description.toLowerCase();
+  if (normalizedTitle === normalizedDescription) {
+    console.log(
+      "isGenuineArticle false {sameArticleAndDescription} because ",
+      normalizedTitle
+    );
+    return false;
+  }
+
+  const isArticleDirty = dirtyWords.every(
+    dirtyWord =>
+      !normalizedTitle.includes(dirtyWord) &&
+      !normalizedDescription.includes(dirtyWord)
+  );
+
+  if (!isArticleDirty) {
+    console.log(
+      "isGenuineArticle false {articleContainsDirtyWords} because ",
+      normalizedTitle
+    );
+    return false;
+  }
+
+  let isInEnglish1;
+  try {
+    isInEnglish1 = await isInEnglish(title);
+  } catch (error) {
+    console.error("pa ", error, "pra");
+  }
+  return isInEnglish1;
+}
 
 function isInEnglish(text) {
   let promise = new Promise(function(resolve, reject) {
