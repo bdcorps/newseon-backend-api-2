@@ -1,18 +1,30 @@
-# newseon-backend-api-2
+# Newseon Backend API 2
 
-Only for UI /dashboard.
-Complete pipeline to generate and trascribe articles to mlab database.
+The back-end API layer for Newseon. The project features a complete pipeline to generate and transcribe TTS news articles to MLab database.
 
-Note: For API access, use newseon-backend-api
-Source: newsapi
+## Installation
 
-- Updated endpoints in newseon-mobile-2 to connect to this.
+Install the package dependencies,
+```bash
+npm install
+```
 
-* Removed endpoints in newseon-mobile-2.
+## Dependencies
+1. [News API key](https://newsapi.org/)
+2. [Google Text to Speech Key](https://console.cloud.google.com/?pli=1)
+3. [Google Translate Key](https://console.cloud.google.com/?pli=1)
+4. [Unsplash API key](https://unsplash.com/developers)
 
-- Adding new endpoints to allow for collective
+## Usage
 
-How categoriesConfig.js should look like?
+Start the app,
+```bash
+npm start
+```
+
+## Configuration
+
+### categoriesConfig.js
 
 ```javascript
 var categoriesJSON = {
