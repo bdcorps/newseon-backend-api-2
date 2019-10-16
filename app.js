@@ -16,6 +16,7 @@ var pjson = require("./package.json");
 var parseString = require("xml2js").parseString;
 var http = require("http");
 var unsplash = require("unsplash-api");
+var stringSimilarity = require("string-similarity");
 
 const logModule = require("./logger");
 const logger = logModule.logger;
@@ -337,7 +338,7 @@ connection.once("open", function() {
             var title = articles[j].title;
             var description = articles[j].description;
             if (isValidText) {
-              if (isGenuineArticle(title, description)) {
+              if (await isGenuineArticle(title, description)) {
                 articles[j].title = cleanText(title);
                 articles[j].description = cleanedDescription(description);
                 articles[j].playlist = {
@@ -349,7 +350,7 @@ connection.once("open", function() {
                 console.dir("writing articles data ", articleCollection[0]);
                 writeToFile({ articles: articleCollection }, "articlesData");
               } else {
-                console.log("Not English: " + articles[j].title);
+                console.log("Not genuine " + articles[j].title);
               }
             } else {
               console.log(
@@ -437,12 +438,26 @@ connection.once("open", function() {
 /* Remove Headline if title === description or if either contains the word, "cheap $ tips week guide highlights"
  *
  */
-
 async function isGenuineArticle(title, description) {
-  const dirtyWords = ["$", "tips", "guide", "week", "highlights", "roundup"];
+  const dirtyWords = [
+    "$",
+    "tips",
+    "guide",
+    "week",
+    "highlights",
+    "roundup",
+    "video",
+    "news"
+  ];
   const normalizedTitle = title.toLowerCase();
   const normalizedDescription = description.toLowerCase();
-  if (normalizedTitle === normalizedDescription) {
+
+  var similarity = stringSimilarity.compareTwoStrings(
+    normalizedTitle,
+    normalizedDescription
+  );
+
+  if (similarity > 0.75) {
     console.log(
       "isGenuineArticle false {sameArticleAndDescription} because ",
       normalizedTitle
@@ -466,18 +481,23 @@ async function isGenuineArticle(title, description) {
 
   let isInEnglish1;
   try {
-    isInEnglish1 = await isInEnglish(title);
+    isInEnglish1 = await isInEnglish(normalizedTitle);
   } catch (error) {
     console.error("pa ", error, "pra");
+    return false;
   }
   return isInEnglish1;
 }
+
+// const a = isInEnglish("Bonne après-midi");
+// console.log(a);
 
 function isInEnglish(text) {
   let promise = new Promise(function(resolve, reject) {
     googleTranslate.detectLanguage(text, function(err, detection) {
       if (err) {
         console.log("Problem with Google Translate API. More Details. ", err);
+        return false;
       }
 
       if (!err && detection.language == "en") {
@@ -881,11 +901,15 @@ function resetCategoryDB() {
   return promise3;
 }
 async function resetDB(tracksDB) {
-  await resetArticleDB();
-  await resetCategoryDB();
-  await resetConfigDB();
-  await resetPlaylistDB();
-  await resetTracksDB(tracksDB);
+  try {
+    await resetArticleDB();
+    await resetCategoryDB();
+    await resetConfigDB();
+    await resetPlaylistDB();
+    await resetTracksDB(tracksDB);
+  } catch (error) {
+    console.error("pa ", error, "pra");
+  }
 }
 
 app.use((err, req, res, next) => {

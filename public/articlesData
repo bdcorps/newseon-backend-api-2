@@ -1,3 +1,277 @@
 {
-  "timestamp": 1571073051015
+  "articles": [
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Julia Lee",
+      "title": "League of Legends 10th Anniversary stream announcements.",
+      "description": "During the 10th Anniversary stream, Riot Games announced a first-person shooter, a card game, and even what we think might be an MMO.",
+      "url": "https://www.polygon.com/2019/10/15/20916213/league-of-legends-10th-anniversary-stream-announcements",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/2gPDdVoMWFeCNHux3wttFv0uNNg=/0x6:1280x676/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19290475/10y_header.jpg",
+      "publishedAt": "2019-10-16T02:03:11Z",
+      "content": "Riot Games celebrated the 10th Anniversary of League of Legends with a special edition of what the company calls, Riot Pls, a stream of lead producer Joe New0001 Tung announcing whats coming to the game.\r\nWhile the normal Riot Pls is usually just a video of T… [+609 chars]",
+      "playlist": {
+        "id": "dqa41a7wsqvxat6xw76q6",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": null,
+      "title": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera —...",
+      "description": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera — and it’s gonna be a long season",
+      "url": "https://cc.thenextweb.com/post/188382859305/httpsthenextwebcomhardfork20191016facebooks-lib",
+      "urlToImage": "https://66.media.tumblr.com/14b1372cd99acc97d32d229fbd36c19c/tumblr_pzgoslQDqT1qejjfeo1_1280.jpg",
+      "publishedAt": "2019-10-16T09:53:09Z",
+      "content": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera — and it’s gonna be a long season",
+      "playlist": {
+        "id": "71gqek1gd64pxjhw9hnbq",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Aarian Marshall",
+      "title": "The Death of Cars Was Greatly Exaggerated.",
+      "description": "The founders of Uber and Lyft, among others, declared that people would no longer need to own cars. Instead, car ownership is rising.",
+      "url": "https://www.wired.com/story/death-cars-greatly-exaggerated/",
+      "urlToImage": "https://media.wired.com/photos/5da60323d08f8f0008121437/master/w_2560,c_limit/Transpo-seattlebridge-598260422.jpg",
+      "publishedAt": "2019-10-16T11:00:00Z",
+      "content": "Throw your drivers license out the window. Better yet, dont get one at all.\r\nFor nearly a decade, thats been the message from buzzy transportation companies. In 2011, car-sharing company Zipcar touted a study claiming millennials believe car ownership is diff… [+4521 chars]",
+      "playlist": {
+        "id": "4io70pwtmljapmjmtzc1oe",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Travis Pulver",
+      "title": "Dabo Swinney Did Absolutely Nothing Wrong When He Yelled at His Kicker.",
+      "description": "Coaching football at any level is not easy, and Clemson head coach Dabo Swinney is viewed as one of the best in the business. For him to remain as successful as he has been while under the constant scrutiny of the media, fans, and alumni—well, it’s enough to …",
+      "url": "https://www.ccn.com/dabo-swinney-did-absolutely-nothing-wrong-when-he-yelled-at-his-kicker/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/dabo-swinney-clemson-yell-afp.jpg",
+      "publishedAt": "2019-10-15T14:35:21Z",
+      "content": "Coaching football at any level is not easy, and Clemson head coach Dabo Swinney is viewed as one of the best in the business. For him to remain as successful as he has been while under the constant scrutiny of the media, fans, and alumniwell, its enough to ma… [+2742 chars]",
+      "playlist": {
+        "id": "1tpavnlpoeap99tsnmoypk",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Nicole Lee",
+      "title": "The (Day)dream is over: Phone-based VR is well and truly dead.",
+      "description": "When Google introduced Cardboard at I/O 2014, a lot of people thought it was a joke. A cardboard-based contraption that turned your phone into a primitive VR headset seemed more like a kid's science project than a serious endeavor. But Google's Cardboard was …",
+      "url": "https://www.engadget.com/2019/10/16/google-kills-daydream-phone-vr/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1066%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1066%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-06%252Fb22ea7d0-8e0a-11e9-bbff-bca7dbd6247d%26client%3Da1acac3e1b3290917d92%26signature%3D6dcda7f0352958d073b1fce647b809347f4a2752&client=amp-blogside-v2&signature=2eaba82f16b1abe257f0b9e91334c747dc1d7989",
+      "publishedAt": "2019-10-16T11:00:00Z",
+      "content": "But now, it seems, the dream of smartphone-based VR is over. After Google's Pixel event yesterday, the company announced that its latest flagship smartphone will not be Daydream compatible. In addition, it's stopping the sales of Daydream View headsets entire… [+4337 chars]",
+      "playlist": {
+        "id": "mj3rio1njcqunvcy0d6y",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "‘Project F’ is a mystery game by League of Legends developer.",
+      "description": "Riot Games revealed a mysterious new game during the League of Legends 10 year anniversary stream, known only as Project F.",
+      "url": "https://www.polygon.com/2019/10/15/20913863/project-f-league-of-legends-dev",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/0jQduIxz_W-DnVroDjUkGvBI4dE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291294/chrome_2019_10_15_22_01_47.jpg",
+      "publishedAt": "2019-10-16T02:02:27Z",
+      "content": "During its League of Legends 10 year anniversary stream, Riot Games teased several new projects including one that we got almost no information on. \r\nThe game was only shown for a few seconds on stream, but it seems to be something along the lines of an multi… [+905 chars]",
+      "playlist": {
+        "id": "dqa41a7wsqvxat6xw76q6",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Kiliii Yüyan",
+      "title": "The Quiet, Intentional Fires of Northern California.",
+      "description": "How the Yurok nation and other indigenous communities use low-intensity burns to shape the landscape and the species that live there.",
+      "url": "https://www.wired.com/story/the-quiet-intentional-fires-northern-california/",
+      "urlToImage": "https://media.wired.com/photos/5da55dac86bf2a000830d11a/master/w_2560,c_limit/Backchannel-TEK-Wildfire-Prevention-02426.jpg",
+      "publishedAt": "2019-10-16T11:00:00Z",
+      "content": "In the wake of catastrophic wildfires like the one in 2018 that burned the California city of Paradise, wildfire management has become a pressing topic, to say the least. Especially under scrutiny is the US Forest Services hundred-year policy of suppressing f… [+2935 chars]",
+      "playlist": {
+        "id": "4io70pwtmljapmjmtzc1oe",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Yessi Bello Perez",
+      "title": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera — and it’s gonna be a long season.",
+      "description": "Facebook’s controversial ‘cryptocurrency’ project is turning into a bit of a soap opera, starring the tech giant and regulators as the main characters. Just yesterday, Germany’s finance minister Olaf Scholz said the departure of several high-profile partners …",
+      "url": "https://thenextweb.com/hardfork/2019/10/16/facebooks-libra-cryptocurrency-is-turning-into-a-soap-opera-and-its-gonna-be-a-long-season/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FStarring.jpg&signature=784db3d2f29e55ba132d5d3f01728b85",
+      "publishedAt": "2019-10-16T09:48:06Z",
+      "content": "Facebooks controversial cryptocurrency project is turning into a bit of a soap opera, starring the tech giant and regulators as the main characters.\r\nJust yesterday, Germanys finance minister Olaf Scholz said the departure of several high-profile partners fro… [+1758 chars]",
+      "playlist": {
+        "id": "71gqek1gd64pxjhw9hnbq",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Kiril Nikolaev",
+      "title": "Morgan Creek Co-Founder Says It’s Better for Most Investors to HODL Crypto.",
+      "description": "If you follow some of the best traders on Crypto Twitter (CT), you would think that trading with leverage is the best way to grow your crypto portfolio. After all, some of these traders post tremendous gains in short periods of time. While these traders flex …",
+      "url": "https://www.ccn.com/morgan-creek-co-founder-investors-hodl-crypto/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/shutterstock_707873287.jpg",
+      "publishedAt": "2019-10-15T13:00:06Z",
+      "content": "If you follow some of the best traders on Crypto Twitter (CT), you would think that trading with leverage is the best way to grow your crypto portfolio. After all, some of these traders post tremendous gains in short periods of time.\r\nActive trader shows off … [+3743 chars]",
+      "playlist": {
+        "id": "1tpavnlpoeap99tsnmoypk",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Cass Marshall",
+      "title": "League of Legends is getting its own animated series called Arcane.",
+      "description": "A new show, Arcane, will be set in the League of Legends universe and feature the story of Jinx and Vi, two of the game’s most prominent characters.",
+      "url": "https://www.polygon.com/2019/10/15/20914848/arcane-league-of-legends-anime-animated-series",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/BexkwBkLt_E4OMk_dcMaZqroL0k=/0x96:982x610/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291281/league_arcane.jpg",
+      "publishedAt": "2019-10-16T01:55:06Z",
+      "content": "Riot Games This show goes beyond the Rift Continue reading…",
+      "playlist": {
+        "id": "dqa41a7wsqvxat6xw76q6",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Arielle Pardes",
+      "title": "Tired of Jetlag? The App Timeshifter Will Help Reset Your Clock.",
+      "description": "Timeshifter cribs NASA-backed science to help you recalibrate your biorhythms after switching time zones.",
+      "url": "https://www.wired.com/story/timeshifter-jet-lag-app/",
+      "urlToImage": "https://media.wired.com/photos/5da635f541c1680009813abe/master/w_2560,c_limit/Gear-Travel-Sleep-App-143689493.jpg",
+      "publishedAt": "2019-10-16T11:00:00Z",
+      "content": "Here on Earth, our sleep is synchronized with the sun. Our bodies stir at daybreak and slump at nightfall, the light acting like a metronome for our delicate body clocks. This biochemical ebb and flow is known as our circadian rhythm, and it repeats every 24 … [+3426 chars]",
+      "playlist": {
+        "id": "4io70pwtmljapmjmtzc1oe",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Thomas Bardwell",
+      "title": "Fortnite Chapter 2 Launch Plagued By FPS Issues and Game-Breaking Bugs.",
+      "description": "Despite initial positive reactions to Epic Games Fortnite Chapter 2 overhaul, which went live only a few short hours ago, it’s not all fun and games for all players as reports of various game play and performance issues are coming in thick and fast. Fortnite …",
+      "url": "https://www.ccn.com/fortnite-chapter-2-launch-fps-issues-user-auth-error/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/unnamed-file-35.jpg",
+      "publishedAt": "2019-10-15T12:07:13Z",
+      "content": "Despite initial positive reactions to Epic Games Fortnite Chapter 2 overhaul, which went live only a few short hours ago, its not all fun and games for all players as reports of various game play and performance issues are coming in thick and fast.\r\nFortnite … [+1779 chars]",
+      "playlist": {
+        "id": "1tpavnlpoeap99tsnmoypk",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "WIRED",
+      "title": "Google Pixel 4 Hands-On.",
+      "description": "Lauren Goode is at the Google launch event and talks about Motion Sense, its radar-powered gesture control, as well as all the Pixel 4's new camera and other features.",
+      "url": "https://www.wired.com/video/watch/google-pixel-4-hands-on",
+      "urlToImage": "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_face,h_450,q_80,w_800/v1571177552/wired_google-pixel-4-hands-on.jpg",
+      "publishedAt": "2019-10-15T22:02:00Z",
+      "content": "1 World Trade Center, New York, NY 10007 Tel (212) 286-2860\r\n© 2019 Condé Nast. All rights reserved.Use of and/or registration on any portion of this site constitutes acceptance ofour\r\n User Agreement\r\n (updated 5/25/18)\r\nand\r\nPrivacy Policy\r\n (updated 5/25/1… [+253 chars]",
+      "playlist": {
+        "id": "4io70pwtmljapmjmtzc1oe",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "League of Legends developer Riot Games is making a tactical shooter.",
+      "description": "During the League of Legends 10 year anniversary stream, Riot Games announced a new tactical multiplayer shooter that will feature characters with unique abilities. The game will not take place in the same universe as League of Legends.",
+      "url": "https://www.polygon.com/2019/10/15/20910374/riot-games-hero-shooter-project-a",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/OvxmZyhUvGdet0nUWLYLIz_na9s=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291267/chrome_2019_10_15_21_35_31.jpg",
+      "publishedAt": "2019-10-16T01:52:22Z",
+      "content": "Riot Games Riot’s using its multiplayer experience from League to make a new competitive shooter Riot Games is working on a new tactical shooter. The game, which is currently known only as Project A, was announced during the developer’s League of Legends 10th… [+898 chars]",
+      "playlist": {
+        "id": "dqa41a7wsqvxat6xw76q6",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Rachel England",
+      "title": "There's now a Harry Potter subscription service.",
+      "description": "Everything is a subscription service nowadays, so frankly it's a surprise it's taken so long for the Harry Potter franchise to get in on the action, but that it has, in the form of Wizarding World Gold. The 12-month sub includes a whole bunch of magi...",
+      "url": "https://www.engadget.com/2019/10/16/theres-now-a-harry-potter-subscription-service/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5269%252C3052%252C0%252C705%26quality%3D85%26format%3Djpg%26resize%3D1600%252C927%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252F4fc81eb0-eff2-11e9-bed9-224b7572d91f%26client%3Da1acac3e1b3290917d92%26signature%3D575efd543031a5fe6bddf6c6b8d1c493197e11c2&client=amp-blogside-v2&signature=b8178c703d5ffe7cf32fe9e1c3e54c81e29b32b9",
+      "publishedAt": "2019-10-16T10:01:00Z",
+      "content": "Everything is a subscription service nowadays, so frankly it's a surprise it's taken so long for the Harry Potter franchise to get in on the action, but that it has, in the form of Wizarding World Gold. The 12-month sub includes a whole bunch of magical treat… [+321 chars]",
+      "playlist": {
+        "id": "mj3rio1njcqunvcy0d6y",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Michael McWhertor",
+      "title": "League of Legends fighting game is Riot’s ‘Project L’.",
+      "description": "Riot Games shows first footage of Project L, the League of Legends fighting game from former Radiant Entertainment developers.",
+      "url": "https://www.polygon.com/2019/10/15/20915736/league-of-legends-fighting-game-project-l-riot-games",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/g7b-j-XPoufbbB63_nLevYKHrtw=/0x26:1440x780/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291226/project_l.jpg",
+      "publishedAt": "2019-10-16T01:46:09Z",
+      "content": "Riot Games League champions imagined in new ways for 2D fighter Riot Games officially announced its new fighting game based on League of Legends on Tuesday during the company’s 10-year anniversary stream. The fighting game does not have an official title yet;… [+987 chars]",
+      "playlist": {
+        "id": "dqa41a7wsqvxat6xw76q6",
+        "title": "Gaming"
+      }
+    }
+  ],
+  "timestamp": 1571227034174
 }
