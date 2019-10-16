@@ -354,7 +354,7 @@ connection.once("open", function() {
             } else {
               console.log(
                 "Article was not valid",
-                JSON.stringify(article[j], null, 2)
+                JSON.stringify(articles[j], null, 2)
               );
             }
           }
