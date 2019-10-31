@@ -16,8 +16,7 @@ $(document).ready(function() {
     }).then(canvas => {
       $("#renderContainer").html(canvas);
       $("#renderCaption").html(
-        $("#abstract").val() +
-          "&#13;&#10;.&#13;&#10;.&#13;&#10;.&#13;&#10;.&#13;&#10;" +
+        ".&#13;&#10;.&#13;&#10;.&#13;&#10;.&#13;&#10;.&#13;&#10;" +
           $("#hashtags").val() +
           "&#13;&#10;" +
           "Follow @newseonapp for more tech news."
