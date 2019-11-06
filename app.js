@@ -872,7 +872,7 @@ function resetTracksDB(tracksBucket) {
       .then(function(error) {})
       .catch(function(error) {
         console.log("woo", error, "hoo");
-        reject(new Error("tracks db not empty"));
+        reject(new Error("tracks already empty"));
       })
       .finally(function() {
         resolve();
@@ -903,9 +903,29 @@ function resetCategoryDB() {
 async function resetDB(tracksDB) {
   try {
     await resetArticleDB();
+  } catch (error) {
+    console.error("pa ", error, "pra");
+  }
+
+  try {
     await resetCategoryDB();
+  } catch (error) {
+    console.error("pa ", error, "pra");
+  }
+
+  try {
     await resetConfigDB();
+  } catch (error) {
+    console.error("pa ", error, "pra");
+  }
+
+  try {
     await resetPlaylistDB();
+  } catch (error) {
+    console.error("pa ", error, "pra");
+  }
+
+  try {
     await resetTracksDB(tracksDB);
   } catch (error) {
     console.error("pa ", error, "pra");
