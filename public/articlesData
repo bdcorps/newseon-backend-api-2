@@ -2,35 +2,18 @@
   "articles": [
     {
       "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Julia Lee",
-      "title": "League of Legends 10th Anniversary stream announcements.",
-      "description": "During the 10th Anniversary stream, Riot Games announced a first-person shooter, a card game, and even what we think might be an MMO.",
-      "url": "https://www.polygon.com/2019/10/15/20916213/league-of-legends-10th-anniversary-stream-announcements",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/2gPDdVoMWFeCNHux3wttFv0uNNg=/0x6:1280x676/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19290475/10y_header.jpg",
-      "publishedAt": "2019-10-16T02:03:11Z",
-      "content": "Riot Games celebrated the 10th Anniversary of League of Legends with a special edition of what the company calls, Riot Pls, a stream of lead producer Joe New0001 Tung announcing whats coming to the game.\r\nWhile the normal Riot Pls is usually just a video of T… [+609 chars]",
-      "playlist": {
-        "id": "dqa41a7wsqvxat6xw76q6",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
         "id": "the-next-web",
         "name": "The Next Web"
       },
-      "author": null,
-      "title": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera —...",
-      "description": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera — and it’s gonna be a long season",
-      "url": "https://cc.thenextweb.com/post/188382859305/httpsthenextwebcomhardfork20191016facebooks-lib",
-      "urlToImage": "https://66.media.tumblr.com/14b1372cd99acc97d32d229fbd36c19c/tumblr_pzgoslQDqT1qejjfeo1_1280.jpg",
-      "publishedAt": "2019-10-16T09:53:09Z",
-      "content": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera — and it’s gonna be a long season",
+      "author": "Aeon",
+      "title": "Pro-anorexia forums are dangerous — but they can teach us a lot about community and understanding.",
+      "description": "In recent years, a cultural movement has emerged online that takes a positive attitude toward eating disorders. So-called pro-anorexia (or, more commonly, ‘pro-ana’) organizations differ widely. Whereas the majority claim to provide a non-judgmental environme…",
+      "url": "https://thenextweb.com/syndication/2019/11/16/pro-anorexia-forums-are-dangerous-but-they-can-teach-us-a-lot-about-community-and-understanding/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FCopy-of-Copy-of-Copy-of-...-3.png&signature=3fd1e42ab07ccf088ca91fad373118d9",
+      "publishedAt": "2019-11-16T17:00:24Z",
+      "content": "In recent years, a cultural movement has emerged online that takes a positive attitude toward eating disorders. So-called pro-anorexia (or, more commonly, pro-ana) organizations differ widely. Whereas the majority claim to provide a non-judgmental environment… [+7306 chars]",
       "playlist": {
-        "id": "71gqek1gd64pxjhw9hnbq",
+        "id": "startups",
         "title": "Startups"
       }
     },
@@ -39,15 +22,15 @@
         "id": "wired",
         "name": "Wired"
       },
-      "author": "Aarian Marshall",
-      "title": "The Death of Cars Was Greatly Exaggerated.",
-      "description": "The founders of Uber and Lyft, among others, declared that people would no longer need to own cars. Instead, car ownership is rising.",
-      "url": "https://www.wired.com/story/death-cars-greatly-exaggerated/",
-      "urlToImage": "https://media.wired.com/photos/5da60323d08f8f0008121437/master/w_2560,c_limit/Transpo-seattlebridge-598260422.jpg",
-      "publishedAt": "2019-10-16T11:00:00Z",
-      "content": "Throw your drivers license out the window. Better yet, dont get one at all.\r\nFor nearly a decade, thats been the message from buzzy transportation companies. In 2011, car-sharing company Zipcar touted a study claiming millennials believe car ownership is diff… [+4521 chars]",
+      "author": "Michael Hardy",
+      "title": "Drawing With Drones Over the Salt Flats of Bolivia.",
+      "description": "Reuben Wu uses LED-equipped drones to illuminate mysterious shapes in one of the world’s strangest landscapes.",
+      "url": "https://www.wired.com/story/drones-salt-flats-bolivia-gallery/",
+      "urlToImage": "https://media.wired.com/photos/5dcc747fb8fdfa0008290a6b/191:100/w_1280,c_limit/wu_infinity_1.jpg",
+      "publishedAt": "2019-11-16T15:00:00Z",
+      "content": "Reuben Wu has photographed some of the worlds most remote and extreme places: Chiles Atacama Desert, the Bisti Badlands of New Mexico, the Arctic tundra of Norway, Perus Pastoruri glacier. But few locations compare to the site of his latest project, Bolivias … [+2812 chars]",
       "playlist": {
-        "id": "4io70pwtmljapmjmtzc1oe",
+        "id": "digital products",
         "title": "Digital Products"
       }
     },
@@ -56,16 +39,50 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Travis Pulver",
-      "title": "Dabo Swinney Did Absolutely Nothing Wrong When He Yelled at His Kicker.",
-      "description": "Coaching football at any level is not easy, and Clemson head coach Dabo Swinney is viewed as one of the best in the business. For him to remain as successful as he has been while under the constant scrutiny of the media, fans, and alumni—well, it’s enough to …",
-      "url": "https://www.ccn.com/dabo-swinney-did-absolutely-nothing-wrong-when-he-yelled-at-his-kicker/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/dabo-swinney-clemson-yell-afp.jpg",
-      "publishedAt": "2019-10-15T14:35:21Z",
-      "content": "Coaching football at any level is not easy, and Clemson head coach Dabo Swinney is viewed as one of the best in the business. For him to remain as successful as he has been while under the constant scrutiny of the media, fans, and alumniwell, its enough to ma… [+2742 chars]",
+      "author": "William Worrall",
+      "title": "Long Live Single-Player Games, Says Star Wars Gaming Community Lead.",
+      "description": "Ben Walke, Global Community Lead on Star Wars games, recently tweeted out support for single-player games. Single-player and multiplayer games seem to be in a constant war with each other. In reality, a balance between the two sides is really important. The b…",
+      "url": "https://www.ccn.com/long-live-single-player-games-says-star-wars-gaming-community-lead/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/star-wars.jpg",
+      "publishedAt": "2019-11-16T22:00:47Z",
+      "content": "<ul><li>Ben Walke, Global Community Lead on Star Wars games, recently tweeted out support for single-player games.</li><li>Single-player and multiplayer games seem to be in a constant war with each other.</li><li>In reality, a balance between the two sides is… [+2946 chars]",
       "playlist": {
-        "id": "1tpavnlpoeap99tsnmoypk",
+        "id": "cryptocurrency",
         "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Charlie Hall",
+      "title": "The Star Wars universe’s infamous Order 66, explained.",
+      "description": "What is Order 66? If you’re dipping into Star Wars Jedi: Fallen Order, you’ll likely want some clarity on The Purge. That means we need to get you up to speed on the Clone Wars, and the infamous “order 66.”",
+      "url": "https://www.polygon.com/2019/11/16/20967280/what-is-order-66-star-wars-jedi-fallen-order",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/cpkoJbENuNYYAJalPw0whSaJyVQ=/119x0:1678x816/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19381077/order_66.jpg",
+      "publishedAt": "2019-11-16T18:43:50Z",
+      "content": "Folks picking up Respawn Entertainments Star Wars Jedi: Fallen Order this weekend may be surprised to find that it takes place well before the timeline of the current movie trilogy. As Cal Kestis, players will step into the Skywalker timeline dozens of years … [+2401 chars]",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "TNW Deals",
+      "title": "These earbuds have a battery life of 150 hours, and they’re 60% off today.",
+      "description": "Funded by an Indiegogo project, the Kharbons are absolutely the real deal. By utilizing IPV6 low energy protocol, these buds actually run on lower power levels than other listening devices. Couple that with their carrying case that doubles as a 2,000 mAh powe…",
+      "url": "https://thenextweb.com/offers/2019/11/16/these-earbuds-have-a-battery-life-of-150-hours-and-theyre-60-off-today/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnwDeals?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FNVETKMa.jpg&signature=9e55c57bd81cf922581e1cb22723ce76",
+      "publishedAt": "2019-11-16T12:30:00Z",
+      "content": "TLDR: The Kharbon wireless earbuds, which dazzled fans on Indiegogo with their 150 hour battery life, are now $79, or 60% off.\r\nAudio fidelity will always be the top consideration when judging wireless earbuds. But if sound quality is mostly even, the next st… [+1361 chars]",
+      "playlist": {
+        "id": "startups",
+        "title": "Startups"
       }
     },
     {
@@ -73,15 +90,15 @@
         "id": "engadget",
         "name": "Engadget"
       },
-      "author": "Nicole Lee",
-      "title": "The (Day)dream is over: Phone-based VR is well and truly dead.",
-      "description": "When Google introduced Cardboard at I/O 2014, a lot of people thought it was a joke. A cardboard-based contraption that turned your phone into a primitive VR headset seemed more like a kid's science project than a serious endeavor. But Google's Cardboard was …",
-      "url": "https://www.engadget.com/2019/10/16/google-kills-daydream-phone-vr/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1066%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1066%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-06%252Fb22ea7d0-8e0a-11e9-bbff-bca7dbd6247d%26client%3Da1acac3e1b3290917d92%26signature%3D6dcda7f0352958d073b1fce647b809347f4a2752&client=amp-blogside-v2&signature=2eaba82f16b1abe257f0b9e91334c747dc1d7989",
-      "publishedAt": "2019-10-16T11:00:00Z",
-      "content": "But now, it seems, the dream of smartphone-based VR is over. After Google's Pixel event yesterday, the company announced that its latest flagship smartphone will not be Daydream compatible. In addition, it's stopping the sales of Daydream View headsets entire… [+4337 chars]",
+      "author": "Jon Fingas",
+      "title": "Google's fight with Oracle will be heard in the Supreme Court.",
+      "description": "Google is getting one more shot at fending off Oracle's Android copyright claims. The US Supreme Court has agreed to hear Google's appeal of a federal appeals court ruling that Android violated Oracle copyright by using Java code without a license....",
+      "url": "https://www.engadget.com/2019/11/16/google-oracle-case-goes-to-supreme-court/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3000%252C1997%252C0%252C956%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1065%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-11%252F67246a80-08a4-11ea-a9ff-8c227b102da8%26client%3Da1acac3e1b3290917d92%26signature%3Dd016b0511d11ff3a3db3dbc72a1457f161bbe923&client=amp-blogside-v2&signature=52971eaab23d3221c888142b734f0b9409fa5ce1",
+      "publishedAt": "2019-11-16T21:22:00Z",
+      "content": "This isn't the first time the Supreme Court has dealt with the issue. In 2015, the court refused to hear an appeal over the 2014 decision and sent the issue back to a lower court.\r\nIn statements to the Supreme Court, Oracle claimed that Google's use of Java s… [+916 chars]",
       "playlist": {
-        "id": "mj3rio1njcqunvcy0d6y",
+        "id": "technology",
         "title": "Technology"
       }
     },
@@ -90,16 +107,33 @@
         "id": "polygon",
         "name": "Polygon"
       },
-      "author": "Austen Goslin",
-      "title": "‘Project F’ is a mystery game by League of Legends developer.",
-      "description": "Riot Games revealed a mysterious new game during the League of Legends 10 year anniversary stream, known only as Project F.",
-      "url": "https://www.polygon.com/2019/10/15/20913863/project-f-league-of-legends-dev",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/0jQduIxz_W-DnVroDjUkGvBI4dE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291294/chrome_2019_10_15_22_01_47.jpg",
-      "publishedAt": "2019-10-16T02:02:27Z",
-      "content": "During its League of Legends 10 year anniversary stream, Riot Games teased several new projects including one that we got almost no information on. \r\nThe game was only shown for a few seconds on stream, but it seems to be something along the lines of an multi… [+905 chars]",
+      "author": "Owen S. Good",
+      "title": "2K Sports’ social media got hacked last night.",
+      "description": "The Twitter and Facebook accounts for a variety of 2K Games personalities were hacked late Friday, Nov. 15, spamming their millions of followers with offensive messages.",
+      "url": "https://www.polygon.com/2019/11/16/20968095/ronnie-2k-twitter-hacked-2k-games-borderlands-facebook",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/whstkBK9aswtsKa6zPFHE6EHRT8=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/6967277/nba-2k17-dream-team-screenshot_1920.0.jpg",
+      "publishedAt": "2019-11-16T16:59:50Z",
+      "content": "This has been a bad stretch for video games social media, particularly the accounts of the sports publishers. 2K Games had their social media hacked almost across-the-board yesterday evening, including the account of 2K Sports Ronnie Singh, better known as Ro… [+1739 chars]",
       "playlist": {
-        "id": "dqa41a7wsqvxat6xw76q6",
+        "id": "gaming",
         "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Wes Messamore",
+      "title": "Andrew Yang’s Plan to Regulate ‘Big Tech’ Is Tyranny.",
+      "description": "Andrew Yang’s plan to regulate big tech will end up backfiring, and trample the Constitution in the process. As technology outpaces government’s understanding of it, policymakers are at a loss in trying to regulate it properly. Yang’s proposal to create more …",
+      "url": "https://www.ccn.com/andrew-yangs-plan-regulate-big-tech-tyranny/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/Andrew-Yang.jpg",
+      "publishedAt": "2019-11-16T20:31:56Z",
+      "content": "<ul><li>Andrew Yangs plan to regulate big tech will end up backfiring, and trample the Constitution in the process.</li><li>As technology outpaces governments understanding of it, policymakers are at a loss in trying to regulate it properly.</li><li>Yangs pro… [+5686 chars]",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
       }
     },
     {
@@ -107,15 +141,15 @@
         "id": "wired",
         "name": "Wired"
       },
-      "author": "Kiliii Yüyan",
-      "title": "The Quiet, Intentional Fires of Northern California.",
-      "description": "How the Yurok nation and other indigenous communities use low-intensity burns to shape the landscape and the species that live there.",
-      "url": "https://www.wired.com/story/the-quiet-intentional-fires-northern-california/",
-      "urlToImage": "https://media.wired.com/photos/5da55dac86bf2a000830d11a/master/w_2560,c_limit/Backchannel-TEK-Wildfire-Prevention-02426.jpg",
-      "publishedAt": "2019-10-16T11:00:00Z",
-      "content": "In the wake of catastrophic wildfires like the one in 2018 that burned the California city of Paradise, wildfire management has become a pressing topic, to say the least. Especially under scrutiny is the US Forest Services hundred-year policy of suppressing f… [+2935 chars]",
+      "author": "Louryn Strampe",
+      "title": "16 Best Gifts for Travelers and Frequent Flyers.",
+      "description": "These gifts will help jet-setters stay their wanderlust woes.",
+      "url": "https://www.wired.com/gallery/best-gifts-for-travelers/",
+      "urlToImage": "https://media.wired.com/photos/5dccd0140aa0150008816e31/191:100/w_1280,c_limit/Gear-scratch-the-world-map-SOURCE-amazon.jpg",
+      "publishedAt": "2019-11-16T14:00:00Z",
+      "content": "Travel frequently or know someone that does? Rule number one is to streamline your luggage to ensure everything inside deserves the space it's taking up. Rule number two? Enjoy yourself! That's true regardless of whether you're on a business trip or on vacati… [+451 chars]",
       "playlist": {
-        "id": "4io70pwtmljapmjmtzc1oe",
+        "id": "digital products",
         "title": "Digital Products"
       }
     },
@@ -124,15 +158,83 @@
         "id": "the-next-web",
         "name": "The Next Web"
       },
-      "author": "Yessi Bello Perez",
-      "title": "Facebook’s Libra ‘cryptocurrency’ is turning into a soap opera — and it’s gonna be a long season.",
-      "description": "Facebook’s controversial ‘cryptocurrency’ project is turning into a bit of a soap opera, starring the tech giant and regulators as the main characters. Just yesterday, Germany’s finance minister Olaf Scholz said the departure of several high-profile partners …",
-      "url": "https://thenextweb.com/hardfork/2019/10/16/facebooks-libra-cryptocurrency-is-turning-into-a-soap-opera-and-its-gonna-be-a-long-season/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/hardfork?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FStarring.jpg&signature=784db3d2f29e55ba132d5d3f01728b85",
-      "publishedAt": "2019-10-16T09:48:06Z",
-      "content": "Facebooks controversial cryptocurrency project is turning into a bit of a soap opera, starring the tech giant and regulators as the main characters.\r\nJust yesterday, Germanys finance minister Olaf Scholz said the departure of several high-profile partners fro… [+1758 chars]",
+      "author": "Neils Kalnins",
+      "title": "Europe needs to embrace 5G — before it’s too late.",
+      "description": "Did you know that the Finnish telecommunications company Nokia is one of the main players in the global mobile infrastructure market? It produces everything to build 5G networks – from antennas to routers and other equipment – and massively exports its produc…",
+      "url": "https://thenextweb.com/podium/2019/11/16/europe-needs-to-embrace-5g-before-its-too-late/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/podium?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F02%2F5G.png&signature=6973d9231c2906faccb244afd8e408ae",
+      "publishedAt": "2019-11-16T11:00:32Z",
+      "content": "Did you know that the Finnish telecommunications company Nokia is one of the main players in the global mobile infrastructure market? It produces everything to build 5G networks from antennas to routers and other equipment and massively exports its products t… [+4924 chars]",
       "playlist": {
-        "id": "71gqek1gd64pxjhw9hnbq",
+        "id": "startups",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Gerelyn Terzo",
+      "title": "Embattled Boeing Seeks to Regain Trust Ahead of 2019 Dubai Airshow.",
+      "description": "Boeing is readying the Dubai airshow, but it continues to face backlash for the two 737 Max jet disasters. Investors have been giving Boeing the benefit of the doubt, but regulators and the general public have not. Boeing will face fierce competition on Sunda…",
+      "url": "https://www.ccn.com/embattled-boeing-seeks-to-regain-trust-ahead-of-2019-dubai-airshow/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/boeing-leanne.jpg",
+      "publishedAt": "2019-11-16T20:00:56Z",
+      "content": "<ul><li>Boeing is readying the Dubai airshow, but it continues to face backlash for the two 737 Max jet disasters.</li><li>Investors have been giving Boeing the benefit of the doubt, but regulators and the general public have not.</li><li>Boeing will face fie… [+3680 chars]",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Simpsons World vanishes, taking all 661 episodes to Disney Plus.",
+      "description": "That was sudden. Expected, but sudden.",
+      "url": "https://www.polygon.com/disney-plus/2019/11/16/20967995/simpsons-world-canceled-ended-shut-down-disney-plus-streaming-full-episodes",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/y2cDJhhBTeJo1WZJKHuSHiRkJbs=/0x13:640x348/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19382120/18j0z3ro6weizjpg.jpg",
+      "publishedAt": "2019-11-16T15:38:32Z",
+      "content": "And just like that, Simpsons World is no more.\r\nFX Networks said this would happen once Disney Plus launched, and that happened on Tuesday, making all 661 episodes of The Simpsons 31-season run available there. That mooted Simpsons World, which launched in 20… [+1148 chars]",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Geek's Guide to the Galaxy",
+      "title": "'Buffy' Should Have Been Set in the Virgin Islands.",
+      "description": "Author Cadwell Turnbull, who grew up in Saint Thomas, thinks his home territories would have been a better locale for the show.",
+      "url": "https://www.wired.com/2019/11/geeks-guide-buffy/",
+      "urlToImage": "https://www.wired.com/wp-content/uploads/2019/11/Cul-buffy-TSDBUTH_FE092-1200x630-e1573845538510.jpg",
+      "publishedAt": "2019-11-16T14:00:00Z",
+      "content": null,
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "The Conversation",
+      "title": "Honey bees are dying — but man-made hives could save them.",
+      "description": "Honey bees are under extreme pressure. Beekeepers in the US have been losing and then replacing an average of 40 percent of their honey bee colonies every year since 2010, a rate that is probably unsustainable and would be unacceptable in other kinds of husba…",
+      "url": "https://thenextweb.com/syndication/2019/11/16/honey-bees-are-dying-but-man-made-hives-could-save-them/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FCopy-of-Copy-of-Copy-of-...-1.png&signature=43666f8d1ef4f69c259af24c4dd35518",
+      "publishedAt": "2019-11-16T09:00:25Z",
+      "content": "Honey bees are under extreme pressure. Beekeepers in the US have been losing and then replacing an average of 40 percent of their honey bee colonies every year since 2010, a rate that is probably unsustainable and would be unacceptable in other kinds of husba… [+5236 chars]",
+      "playlist": {
+        "id": "startups",
         "title": "Startups"
       }
     },
@@ -142,100 +244,15 @@
         "name": "Crypto Coins News"
       },
       "author": "Kiril Nikolaev",
-      "title": "Morgan Creek Co-Founder Says It’s Better for Most Investors to HODL Crypto.",
-      "description": "If you follow some of the best traders on Crypto Twitter (CT), you would think that trading with leverage is the best way to grow your crypto portfolio. After all, some of these traders post tremendous gains in short periods of time. While these traders flex …",
-      "url": "https://www.ccn.com/morgan-creek-co-founder-investors-hodl-crypto/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/shutterstock_707873287.jpg",
-      "publishedAt": "2019-10-15T13:00:06Z",
-      "content": "If you follow some of the best traders on Crypto Twitter (CT), you would think that trading with leverage is the best way to grow your crypto portfolio. After all, some of these traders post tremendous gains in short periods of time.\r\nActive trader shows off … [+3743 chars]",
+      "title": "The Dow Jones Has Rewarded Investors 68,300% in Over 120 Years of Existence.",
+      "description": "The Dow Jones managed to climb above 28,000 on Friday. The last 120 years has shown that the Dow moves in cycles but has always managed to print record highs. The current bull market has entered its 120th month, and one Fed official believes that the economy …",
+      "url": "https://www.ccn.com/dow-jones-has-rewarded-investors-68300-in-over-120-years-of-existence/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/dow-28k.jpg",
+      "publishedAt": "2019-11-16T18:00:37Z",
+      "content": "<ul><li>The Dow Jones managed to climb above 28,000 on Friday.</li><li>The last 120 years has shown that the Dow moves in cycles but has always managed to print record highs.</li><li>The current bull market has entered its 120th month, and one Fed official be… [+3760 chars]",
       "playlist": {
-        "id": "1tpavnlpoeap99tsnmoypk",
+        "id": "cryptocurrency",
         "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Cass Marshall",
-      "title": "League of Legends is getting its own animated series called Arcane.",
-      "description": "A new show, Arcane, will be set in the League of Legends universe and feature the story of Jinx and Vi, two of the game’s most prominent characters.",
-      "url": "https://www.polygon.com/2019/10/15/20914848/arcane-league-of-legends-anime-animated-series",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/BexkwBkLt_E4OMk_dcMaZqroL0k=/0x96:982x610/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291281/league_arcane.jpg",
-      "publishedAt": "2019-10-16T01:55:06Z",
-      "content": "Riot Games This show goes beyond the Rift Continue reading…",
-      "playlist": {
-        "id": "dqa41a7wsqvxat6xw76q6",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Arielle Pardes",
-      "title": "Tired of Jetlag? The App Timeshifter Will Help Reset Your Clock.",
-      "description": "Timeshifter cribs NASA-backed science to help you recalibrate your biorhythms after switching time zones.",
-      "url": "https://www.wired.com/story/timeshifter-jet-lag-app/",
-      "urlToImage": "https://media.wired.com/photos/5da635f541c1680009813abe/master/w_2560,c_limit/Gear-Travel-Sleep-App-143689493.jpg",
-      "publishedAt": "2019-10-16T11:00:00Z",
-      "content": "Here on Earth, our sleep is synchronized with the sun. Our bodies stir at daybreak and slump at nightfall, the light acting like a metronome for our delicate body clocks. This biochemical ebb and flow is known as our circadian rhythm, and it repeats every 24 … [+3426 chars]",
-      "playlist": {
-        "id": "4io70pwtmljapmjmtzc1oe",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Thomas Bardwell",
-      "title": "Fortnite Chapter 2 Launch Plagued By FPS Issues and Game-Breaking Bugs.",
-      "description": "Despite initial positive reactions to Epic Games Fortnite Chapter 2 overhaul, which went live only a few short hours ago, it’s not all fun and games for all players as reports of various game play and performance issues are coming in thick and fast. Fortnite …",
-      "url": "https://www.ccn.com/fortnite-chapter-2-launch-fps-issues-user-auth-error/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/10/unnamed-file-35.jpg",
-      "publishedAt": "2019-10-15T12:07:13Z",
-      "content": "Despite initial positive reactions to Epic Games Fortnite Chapter 2 overhaul, which went live only a few short hours ago, its not all fun and games for all players as reports of various game play and performance issues are coming in thick and fast.\r\nFortnite … [+1779 chars]",
-      "playlist": {
-        "id": "1tpavnlpoeap99tsnmoypk",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "WIRED",
-      "title": "Google Pixel 4 Hands-On.",
-      "description": "Lauren Goode is at the Google launch event and talks about Motion Sense, its radar-powered gesture control, as well as all the Pixel 4's new camera and other features.",
-      "url": "https://www.wired.com/video/watch/google-pixel-4-hands-on",
-      "urlToImage": "http://dwgyu36up6iuz.cloudfront.net/heru80fdn/image/upload/c_fill,d_placeholder_thescene.jpg,fl_progressive,g_face,h_450,q_80,w_800/v1571177552/wired_google-pixel-4-hands-on.jpg",
-      "publishedAt": "2019-10-15T22:02:00Z",
-      "content": "1 World Trade Center, New York, NY 10007 Tel (212) 286-2860\r\n© 2019 Condé Nast. All rights reserved.Use of and/or registration on any portion of this site constitutes acceptance ofour\r\n User Agreement\r\n (updated 5/25/18)\r\nand\r\nPrivacy Policy\r\n (updated 5/25/1… [+253 chars]",
-      "playlist": {
-        "id": "4io70pwtmljapmjmtzc1oe",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Austen Goslin",
-      "title": "League of Legends developer Riot Games is making a tactical shooter.",
-      "description": "During the League of Legends 10 year anniversary stream, Riot Games announced a new tactical multiplayer shooter that will feature characters with unique abilities. The game will not take place in the same universe as League of Legends.",
-      "url": "https://www.polygon.com/2019/10/15/20910374/riot-games-hero-shooter-project-a",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/OvxmZyhUvGdet0nUWLYLIz_na9s=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291267/chrome_2019_10_15_21_35_31.jpg",
-      "publishedAt": "2019-10-16T01:52:22Z",
-      "content": "Riot Games Riot’s using its multiplayer experience from League to make a new competitive shooter Riot Games is working on a new tactical shooter. The game, which is currently known only as Project A, was announced during the developer’s League of Legends 10th… [+898 chars]",
-      "playlist": {
-        "id": "dqa41a7wsqvxat6xw76q6",
-        "title": "Gaming"
       }
     },
     {
@@ -243,15 +260,15 @@
         "id": "engadget",
         "name": "Engadget"
       },
-      "author": "Rachel England",
-      "title": "There's now a Harry Potter subscription service.",
-      "description": "Everything is a subscription service nowadays, so frankly it's a surprise it's taken so long for the Harry Potter franchise to get in on the action, but that it has, in the form of Wizarding World Gold. The 12-month sub includes a whole bunch of magi...",
-      "url": "https://www.engadget.com/2019/10/16/theres-now-a-harry-potter-subscription-service/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5269%252C3052%252C0%252C705%26quality%3D85%26format%3Djpg%26resize%3D1600%252C927%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252F4fc81eb0-eff2-11e9-bed9-224b7572d91f%26client%3Da1acac3e1b3290917d92%26signature%3D575efd543031a5fe6bddf6c6b8d1c493197e11c2&client=amp-blogside-v2&signature=b8178c703d5ffe7cf32fe9e1c3e54c81e29b32b9",
-      "publishedAt": "2019-10-16T10:01:00Z",
-      "content": "Everything is a subscription service nowadays, so frankly it's a surprise it's taken so long for the Harry Potter franchise to get in on the action, but that it has, in the form of Wizarding World Gold. The 12-month sub includes a whole bunch of magical treat… [+321 chars]",
+      "author": "Jon Fingas",
+      "title": "Cortana app will stop working on phones in some countries.",
+      "description": "Microsoft's changing Cortana strategy is about to have consequences for some phone users. The company has revealed that the Cortana app will stop working after January 31st, 2020 for people in Australia, Canada and the UK. Lists, reminders and othe...",
+      "url": "https://www.engadget.com/2019/11/16/cortana-app-shutdown-in-some-countries/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D5000%252C3333%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-11%252F6e12b640-0899-11ea-bffd-e03f801cb9a4%26client%3Da1acac3e1b3290917d92%26signature%3Dc795d01398530e12336d826b2e8236027729e325&client=amp-blogside-v2&signature=ede2c3e9c3be21e76e907f887d3d21e19939f9ce",
+      "publishedAt": "2019-11-16T20:04:00Z",
+      "content": "Microsoft's changing Cortana strategy is about to have consequences for some phone users. The company has revealed that the Cortana app will stop working after January 31st, 2020 for people in Australia, Canada and the UK. Lists, reminders and other Cortana c… [+267 chars]",
       "playlist": {
-        "id": "mj3rio1njcqunvcy0d6y",
+        "id": "technology",
         "title": "Technology"
       }
     },
@@ -260,18 +277,290 @@
         "id": "polygon",
         "name": "Polygon"
       },
-      "author": "Michael McWhertor",
-      "title": "League of Legends fighting game is Riot’s ‘Project L’.",
-      "description": "Riot Games shows first footage of Project L, the League of Legends fighting game from former Radiant Entertainment developers.",
-      "url": "https://www.polygon.com/2019/10/15/20915736/league-of-legends-fighting-game-project-l-riot-games",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/g7b-j-XPoufbbB63_nLevYKHrtw=/0x26:1440x780/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19291226/project_l.jpg",
-      "publishedAt": "2019-10-16T01:46:09Z",
-      "content": "Riot Games League champions imagined in new ways for 2D fighter Riot Games officially announced its new fighting game based on League of Legends on Tuesday during the company’s 10-year anniversary stream. The fighting game does not have an official title yet;… [+987 chars]",
+      "author": "Petrana Radulovic",
+      "title": "Klaus director pushed past the limitations of traditional animation.",
+      "description": "Klaus director and writer Sergio Pablos talks to Polygon about his Santa origin story, the future of traditional animation, and why he keeps getting asked to draw Minions. Klaus, starring Jason Schwartzman and J.K. Simmons, is out on Netflix.",
+      "url": "https://www.polygon.com/2019/11/15/20966847/netflix-klaus-sergio-pablos-interview-despicable-me",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/xu7jKMqwfAeh62tn_7sb6XGb7SE=/0x18:2048x1090/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19379901/Klaus___Production_Stills___014.jpg",
+      "publishedAt": "2019-11-16T00:35:00Z",
+      "content": "The new film Klaus is a first for Netflix, and a long-awaited return for the medium: departing from the styles of Pixar, Dreamworks, and Disney, its entirely 2D animated. But Klaus doesnt look like the traditionally animated movies of the past either.\r\nDirect… [+11068 chars]",
       "playlist": {
-        "id": "dqa41a7wsqvxat6xw76q6",
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Ron Amadeo, Ars Technica",
+      "title": "Google Is Finally Rolling Out its Own RCS in the US.",
+      "description": "The company’s already launched the messaging standard in the UK and France, and now America is next, carriers be damned.",
+      "url": "https://www.wired.com/story/google-is-finally-rolling-out-its-own-rcs-in-the-us/",
+      "urlToImage": "https://media.wired.com/photos/5dcf2eb98ebd000007e14568/191:100/w_1280,c_limit/Gear-Ars-1062086758.jpg",
+      "publishedAt": "2019-11-16T13:00:00Z",
+      "content": "Will RCS ever matter? The standard has been hanging around for years as an upgrade to the aging carrier SMS texting standard, but since the carriers are in charge of it, the Rich Communication Service (RCS) has been going nowhere fast. Google is apparently ti… [+4081 chars]",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Jack Winter",
+      "title": "3 Superstar Athletes Who Should Replace Cris Carter on First Things First.",
+      "description": "“First Things First” remains without a permanent replacement for Cris Carter. Chris Canty has filled in admirably, but FS1 may want to go with a splashier hire for Carter’s full-time replacement. Reggie Bush, Rob Gronkowski, and David Ortiz could help the sho…",
+      "url": "https://www.ccn.com/3-superstar-athletes-who-should-replace-cris-carter-on-first-things-first/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/cris-carter-fsi-yt.jpg",
+      "publishedAt": "2019-11-16T16:00:00Z",
+      "content": "<ul><li>First Things First remains without a permanent replacement for Cris Carter.</li><li>Chris Canty has filled in admirably, but FS1 may want to go with a splashier hire for Carters full-time replacement.</li><li>Reggie Bush, Rob Gronkowski, and David Ort… [+4072 chars]",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "What to know about the Inquisitors of Star Wars Jedi: Fallen Order.",
+      "description": "The Second Sister and the Ninth Sister are the two biggest villains in Respawn’s Star Wars Jedi: Fallen Order. They’re both Imperial Inquisitors but if you haven’t seen Star Wars: Rebels, you might not know what that means. So we’re here to help.",
+      "url": "https://www.polygon.com/star-wars/2019/11/15/20965716/imperial-inquisitors-star-wars-jedi-fallen-order-second-sister-explained",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/MHo0LGd6fJrWarRhBIeo2SHBPFc=/0x0:3840x2010/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16311953/star_wars_jedi_wallpaper_16x9_3.jpg",
+      "publishedAt": "2019-11-16T00:30:00Z",
+      "content": "As a wise Jedi master once said, theres always a bigger fish. \r\nIn Star Wars Jedi: Fallen Order, the new game from Respawn Entertainment, that bigger fish isnt as literal: its the threat by Imperial Inquisitors. \r\nFans who have devoured every piece of Star Wa… [+3014 chars]",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": null,
+      "title": "Cortana app will stop working on phones in some countries.",
+      "description": "Microsoft's changing Cortana strategy is about to have consequences for some phone users. The company has revealed that the Cortana app will stop working after January 31st, 2020 for people in Australia, Canada and the UK. Lists, reminders and other Cortana c…",
+      "url": "https://www.engadget.com/2019-11-16-cortana-app-shutdown-in-some-countries.html",
+      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/h1kqsout0dfPvPv.bifb7Q--~B/aD0xMDY3O3c9MTYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://o.aolcdn.com/images/dims?crop=5000%2C3333%2C0%2C0&quality=85&format=jpg&resize=1600%2C1067&image_uri=https://s.yimg.com/os/creatr-images/2019-11/6e12b640-0899-11ea-bffd-e03f801cb9a4&client=a1acac3e1b3290917d92&signature=c795d01398530e12336d826b2e8236027729e325",
+      "publishedAt": "2019-11-16T20:04:00Z",
+      "content": "Microsoft's changing Cortana strategy is about to have consequences for some phone users. The company has revealed that the Cortana app will stop working after January 31st, 2020 for people in Australia, Canada and the UK. Lists, reminders and other Cortana c… [+772 chars]",
+      "playlist": {
+        "id": "technology",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Stephanie Pearson",
+      "title": "Liv Thrive E+ EX Pro Review: An E-Bike Made Just for Women.",
+      "description": "The designers of the Liv Thrive E+ EX-Pro posit that bicycle frames can be tweaked to accommodate the specific needs of more petite, more powerful riders.",
+      "url": "https://www.wired.com/review/liv-thrive-e-ex-pro-ebike/",
+      "urlToImage": "https://media.wired.com/photos/5dcf30dc0aa0150008816e65/191:100/pass/Gear-ThriveEEX_029.jpg",
+      "publishedAt": "2019-11-16T12:00:00Z",
+      "content": "This headline caught my attention as I was scanning the morning news: Liv Cycling Introduces New E-Bike Built for Women. Women-specific bike designs have been around since 2002, but an e-bike specifically built for women? That sounded intriguing.\r\nWould the m… [+6268 chars]",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Laura Hoy",
+      "title": "US Interference in Hong Kong Protests Could Hinder China Trade Deal.",
+      "description": "Hong Kong protests are escalating, which has pushed U.S. lawmakers to ‘hotline’ the Hong Kong Human Rights and Democracy Act. Trump is unlikely to block the bipartisan bill, which could anger Beijing and stall trade talks. While further tension between the U.…",
+      "url": "https://www.ccn.com/us-interference-in-hong-kong-protests-could-hinder-china-trade-deal/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/hong-kong-afp.jpg",
+      "publishedAt": "2019-11-16T13:14:53Z",
+      "content": "<ul><li>Hong Kong protests are escalating, which has pushed U.S. lawmakers to hotline the Hong Kong Human Rights and Democracy Act.</li><li>Trump is unlikely to block the bipartisan bill, which could anger Beijing and stall trade talks.</li><li>While further … [+4203 chars]",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Karen Han",
+      "title": "Netflix’s thriller Earthquake Bird is too little, too late.",
+      "description": "A young woman’s disappearance sparks an investigation in this new Netflix thriller, which stars Vikander and Keough as friends embroiled in a love triangle. Streaming now.",
+      "url": "https://www.polygon.com/2019/11/15/20965620/earthquake-bird-review-netflix-alicia-vikander-riley-keough",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/eXmqV3OkJisGQZi9_e6whQVOmUE=/0x66:3000x1637/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19377962/EB_Unit_19211R.jpg",
+      "publishedAt": "2019-11-16T00:00:00Z",
+      "content": "Netflixs new mystery film Earthquake Bird brings back memories of the gossip columns of 2012, when Twilight star Kristen Stewart (then in a relationship with Robert Pattinson) and then-married Snow White and the Huntsman director Rupert Sanders had an affair.… [+4686 chars]",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "States sue to prevent EPA from revoking state emissions powers.",
+      "description": "States are taking further legal action to prevent the Trump administration from undoing California's stricter emissions rules. California, 22 other states, DC and the cities of New York and Los Angeles have sued the EPA and other agencies in an attem...",
+      "url": "https://www.engadget.com/2019/11/16/states-sue-to-prevent-epa-from-revoking-state-emissions-powers/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4062%252C2708%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-11%252F592b7cc0-088b-11ea-bf7f-70b84eb8fc57%26client%3Da1acac3e1b3290917d92%26signature%3D417d5b14dc025917bf1f0029c7b034b8ced3a74f&client=amp-blogside-v2&signature=7f90f1fbfb0fa74f128596bec83c315d9cb6425b",
+      "publishedAt": "2019-11-16T18:48:00Z",
+      "content": "California Attorney General Xavier Becerra pointed out that California had received over 100 waivers from the EPA over the past 50 years -- this was a sudden about-face from a federal administration that had allegedly \"chosen to side with polluters.\" Becerra … [+992 chars]",
+      "playlist": {
+        "id": "technology",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "WIRED Staff",
+      "title": "14 Best Fitness, Audio, and Snow Sports Deals Right Now.",
+      "description": "Hit the gym, cozy up indoors, or tackle the slopes with these discounts.",
+      "url": "https://www.wired.com/story/best-tech-deals-nov-16-2019/",
+      "urlToImage": "https://media.wired.com/photos/5a380d6a803e667ded658ac2/191:100/w_1280,c_limit/24-2512-wishlist-Garmin-Forerunner-935.jpg",
+      "publishedAt": "2019-11-16T12:00:00Z",
+      "content": "<li>JBL Everest 710GA Wireless Headphones for $68 ($182 off): Take calls hands-free and listen to your phone notifications with JBL's wireless Bluetooth over-the-ear headphones, and control your music by touching the ear cup sensors to activate the built-in G… [+1869 chars]",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Michael McWhertor",
+      "title": "Why Demon’s Souls is the most important game of the decade.",
+      "description": "Before Dark Souls changed everything, Demon’s Souls changed everything. We look back at the influence of FromSoftware’s groundbreaking (and sometimes overlooked) PlayStation 3 game at the end of the decade.",
+      "url": "https://www.polygon.com/2019/11/15/20967134/demons-souls-most-important-game-of-the-decade",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/tpb_bwNNnzLm1M0cuWf1JoSlbJA=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19373077/jbareham_191107_ply0967_decade_demon_souls.jpg",
+      "publishedAt": "2019-11-15T22:45:00Z",
+      "content": "Dark Souls may get the glory for influencing a decades worth of games, evident by the number of times The Dark Souls of [X] has been used as shorthand to describe video games this decade, but Demons Souls blazed the trail. \r\nDemons Souls is the oft-neglected … [+5444 chars]",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Billy Steele",
+      "title": "Recommended Reading: The 15th anniversary of 'Halo 2'.",
+      "description": "When 'Halo 2' invaded planet earth Anthony John Agnello, The Ringer In the latest installment of 'things that will make you feel old,' Halo 2 was released on November 9, 2004 -- which makes it 15 years old. The Ringer takes an in-depth look at the game's lega…",
+      "url": "https://www.engadget.com/2019/11/16/recommended-reading-halo-2-15th-anniversary/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3000%252C2044%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1090%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-11%252Fc37789e0-07f3-11ea-b7bf-f8ccadf85505%26client%3Da1acac3e1b3290917d92%26signature%3Db0980d3e84a47980a6ec25c9c84e7d6ab0077ecb&client=amp-blogside-v2&signature=f675ef3f2ce1a6f28582ea2391276a3a8219520e",
+      "publishedAt": "2019-11-16T17:30:00Z",
+      "content": "When 'Halo 2' invaded planet earthAnthony John Agnello,The Ringer\r\nIn the latest installment of \"things that will make you feel old,\" Halo 2 was released on November 9, 2004 -- which makes it 15 years old. The Ringer takes an in-depth look at the game's legac… [+230 chars]",
+      "playlist": {
+        "id": "technology",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Mark Emem",
+      "title": "Juul Insiders Throw Cash Behind a Surprising Democratic Presidential Candidate.",
+      "description": "Kamala Harris received nearly twice as much in campaign donations from Juul insiders than any other Democratic presidential candidate. In fact, she’s received more Juul cash than every other candidate combined. Why are Juul insiders supporting her rather than…",
+      "url": "https://www.ccn.com/juul-insiders-throw-cash-behind-a-surprising-democratic-presidential-candidate/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/juul-2020-donations-afp.jpg",
+      "publishedAt": "2019-11-16T12:00:45Z",
+      "content": "<ul><li>Kamala Harris received nearly twice as much in campaign donations from Juul insiders than any other Democratic presidential candidate.</li><li>In fact, shes received more Juul cash than every other candidate combined.</li><li>Why are Juul insiders sup… [+3585 chars]",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Julie Muncy",
+      "title": "Google Stadia Will Be Missing Some Key Features at Launch.",
+      "description": "First impressions are critically important, especially for gaming consoles. You feeling lucky, Google?",
+      "url": "https://www.wired.com/story/google-stadia-launch-features/",
+      "urlToImage": "https://media.wired.com/photos/5dcdf0aa0da2b80009c7fc4b/191:100/w_1280,c_limit/Gear-Replay-FoundersEdition_Controller.jpg",
+      "publishedAt": "2019-11-15T22:37:41Z",
+      "content": "Happy Friday, and welcome to Replay, WIRED's one-stop shop for the week's big videogame news. What's shakin'? Two things come to mind: Google Stadia is going to be a little light when it launches next week and there's a lot of Star Wars in the atmosphere. The… [+3075 chars]",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Press Release",
+      "title": "Bitcoin Independence Day, 15th November 2019: Bitcoin SV- the Fastest Growing Blockchain, ever.",
+      "description": "15 November 2019 marks one year since Bitcoin SV (BSV) emerged in the world’s first Bitcoin hash war, to declare independence for original Bitcoin. After years of BTC and BCH protocol developers deviating from the design of Bitcoin’s creator Satoshi Nakamoto …",
+      "url": "https://www.ccn.com/bitcoin-independence-day-15th-november-2019-bitcoin-sv-the-fastest-growing-blockchain-ever/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/Bitcoin-SV-chart-green-stock.jpg",
+      "publishedAt": "2019-11-16T08:09:16Z",
+      "content": "15 November 2019 marks one year since Bitcoin SV (BSV) emerged in the worlds first Bitcoin hash war, to declare independence for original Bitcoin.  After years of BTC and BCH protocol developers deviating from the design of Bitcoins creator Satoshi Nakamoto a… [+4747 chars]",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Michael McWhertor",
+      "title": "Path of Exile is coming to mobile without the ‘bullshit trends,’ studio says.",
+      "description": "Grinding Gear Games is bringing Path of Exile to mobile phones, but it promises none of the bullshit trends or evil garbage of other mobile games.",
+      "url": "https://www.polygon.com/2019/11/15/20967299/path-of-exile-mobile-grinding-gear-games-exilecon",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/I6DIPXy7Ce98d2Mk-WVorXTwKE4=/51x0:1869x952/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19381017/Screenshot1.jpg",
+      "publishedAt": "2019-11-15T22:34:46Z",
+      "content": "Grinding Gear Games Grinding Gear Games put Path of Exile on a phone Continue reading…",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "5 Star Wars: The Clone Wars and Rebels episodes to watch before Jedi: Fallen Order.",
+      "description": "Jedi: Fallen Order is full of references and Easter eggs to the Star Wars universe. But now that Disney Plus has every episode of Star Wars Rebels and Clone Wars, you should watch these to get the full picture.",
+      "url": "https://www.polygon.com/2019/11/15/20966639/star-wars-jedi-fallen-order-clone-wars-rebels-episodes-to-watch-disney-plus",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/AbWHlVIYsoDTGjn4ezgkV-1PmY4=/0x0:1434x751/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16327479/jfo_saw.jpg",
+      "publishedAt": "2019-11-15T22:30:00Z",
+      "content": "Star Wars Jedi: Fallen Order, the new action-adventure game from Respawn Entertainment, tells a brand new story set between Revenge of the Sith and A New Hope. But like any good story set in a galaxy far, far, away, its littered with references to Star Wars l… [+3734 chars]",
+      "playlist": {
+        "id": "gaming",
         "title": "Gaming"
       }
     }
   ],
-  "timestamp": 1571227034174
+  "timestamp": 1573946517375
 }

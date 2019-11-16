@@ -32,7 +32,8 @@ const {
   prettyPrintJSON,
   xmlToJson,
   validateArticleStructure,
-  snooze
+  snooze,
+  generateRandomID
 } = require("./utils/helpers");
 
 const {
@@ -684,16 +685,10 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
       // urls.push(playlistURL);
     }
 
-    var random =
-      Math.random()
-        .toString(36)
-        .substring(2, 15) +
-      Math.random()
-        .toString(36)
-        .substring(2, 15);
-
     var playlistsData = {};
-    playlistsData.id = random;
+    // playlistsData.id = random;
+    playlistsData.id = curPlaylist.title.toLowerCase();
+
     // if (query.category != null) {
     //   playlistsData.category = query.category;
     // } else if (query.q != null) {

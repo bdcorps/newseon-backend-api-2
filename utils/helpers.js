@@ -117,6 +117,17 @@ function xmlToJson(url, callback) {
   });
 }
 
+function generateRandomID() {
+  return (
+    Math.random()
+      .toString(36)
+      .substring(2, 15) +
+    Math.random()
+      .toString(36)
+      .substring(2, 15)
+  );
+}
+
 module.exports = {
   cleanText: cleanText,
   stripStrayHTMLCharacterCodes: stripStrayHTMLCharacterCodes,
@@ -128,5 +139,6 @@ module.exports = {
   validateArticleStructure: validateArticleStructure,
   prettyPrintJSON: prettyPrintJSON,
   xmlToJson: xmlToJson,
-  snooze: snooze
+  snooze: snooze,
+  generateRandomID: generateRandomID
 };
