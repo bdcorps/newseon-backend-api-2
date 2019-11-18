@@ -23,7 +23,7 @@ var playlistImages = {
 "https://images.unsplash.com/photo-1524673450801-b5aa9b621b76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" ],
   "Undefined": [
     "https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixlib=rb-0.3.5&s=99f410919a74f2d18945ea7f62c5d4c3&auto=format&fit=crop&w=1350&q=80",
-    "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1dcfcaa6dafa547aa5381b603296c94&auto=format&fit=crop&w=1350&q=80
+    "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1dcfcaa6dafa547aa5381b603296c94&auto=format&fit=crop&w=1350&q=80"
   ]
 };
 
