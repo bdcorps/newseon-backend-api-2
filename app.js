@@ -698,7 +698,7 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
     playlistsData.title = captilizeSentence(curPlaylist.title);
     //console.log(" > "+ captilizeWord(query.title));
     playlistsData.url = playlistURL;
-    playlistsData.media = playlistImagesSources.getPlaylistSplashMedia();
+    playlistsData.media = playlistImagesSources.getPlaylistSplashMedia(playlistsData.title);
     playlistsData.articles = [];
 
     var playlistItem = {

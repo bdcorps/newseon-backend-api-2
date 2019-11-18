@@ -1,30 +1,38 @@
-var playlistImages = [
-  "https://images.unsplash.com/photo-1538675274373-3a056523b602?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b33d86c9c58dc31bdf59d4b34aed5ca7&auto=format&fit=crop&w=2000&q=80",
-  "https://images.unsplash.com/photo-1538678219180-f423794aa26c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b85ea6fdc6203a08240f6e565760a765&auto=format&fit=crop&w=634&q=80",
-  "https://images.unsplash.com/photo-1538739204988-d0b7904aba5d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=560e7d1782dd0a416feb6b1277812083&auto=format&fit=crop&w=1355&q=80",
-  "https://images.unsplash.com/photo-1538666829705-df0aef1c13d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1723448915d07de2e50372f28d9a1cdf&auto=format&fit=crop&w=1367&q=80",
-  "https://images.unsplash.com/photo-1538652116325-8f5fa30fefff?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d13ce3021db6e91ab2c19d9f3d5c69f3&auto=format&fit=crop&w=634&q=80",
-  "https://images.unsplash.com/photo-1538666986359-7be4d223e7de?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=35971b042c65645c77a1f9052a52fdca&auto=format&fit=crop&w=634&q=80",
-  "https://images.unsplash.com/photo-1492760864391-753aaae87234?ixlib=rb-0.3.5&s=cec3cccec2ea05e8e1a0ef55f68e98ee&auto=format&fit=crop&w=668&q=80",
-  "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a83d180fb19b8367250ab64751ade1ce&auto=format&fit=crop&w=648&q=80",
-  "https://images.unsplash.com/photo-1511882085048-714ac60a555e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=68017c48760a4c52d5398cccb0717304&auto=format&fit=crop&w=1350&q=80",
-  "https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b71591bef8e4fc139f699a923725e32a&auto=format&fit=crop&w=634&q=80",
-  "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff847011350ec77032071202bc45a4b1&auto=format&fit=crop&w=634&q=80",
-  "https://images.unsplash.com/photo-1502809701328-25d749719304?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1b560c8b51abee392d17ac36b4e144ce&auto=format&fit=crop&w=2134&q=80",
-  "https://images.unsplash.com/photo-1457131760772-7017c6180f05?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c44fe92456c78cd9fc4df04e65a7b84&auto=format&fit=crop&w=1336&q=80",
-  "https://images.unsplash.com/photo-1513872398723-3e73f1205647?ixlib=rb-0.3.5&s=e2186298a4a202bfd424b127392e7d66&auto=format&fit=crop&w=1350&q=80",
-  "https://images.unsplash.com/photo-1484875917039-ef5456f29257?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f18a51122fabfa3e30cedd477005d32c&auto=format&fit=crop&w=1350&q=80",
-  "https://images.unsplash.com/photo-1515857090479-6a2d61847629?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=09241641ea4109d35c17864c3a0b8f2a&auto=format&fit=crop&w=1267&q=80",
-  "https://images.unsplash.com/photo-1500042450384-8b7947f4eec2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-  "https://images.unsplash.com/photo-1494961104209-3c223057bd26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=992&q=80"
-];
+var playlistImages = {
+    
+  "Startups": [
+  "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+"https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"  ],
+  "Technology": [
+    "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+"https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+"https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1302&q=80",
+"https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+  ],
+  "Digital Products": [
+ "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+"https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80",
+"https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"],
+  "Gaming": [
+   "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+"https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
+"https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+  ],
+  "Cryptocurrency": [
+  "https://images.unsplash.com/photo-1543699539-33a389c5dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
+"https://images.unsplash.com/photo-1524673450801-b5aa9b621b76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" ],
+  "Undefined": [
+    "https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixlib=rb-0.3.5&s=99f410919a74f2d18945ea7f62c5d4c3&auto=format&fit=crop&w=1350&q=80",
+    "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1dcfcaa6dafa547aa5381b603296c94&auto=format&fit=crop&w=1350&q=80
+  ]
+};
 
 var articleImages = {
-  Startups: [
+  "Startups": [
     "https://images.unsplash.com/photo-1521020773588-3b28297b1e70?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e0973395dd1655ea3b8fb83fa95c02c2&auto=format&fit=crop&w=1469&q=80",
     "https://images.unsplash.com/photo-1509130298739-651801c76e96?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b5faa5895582a0b8ae5f7429b59e8488&auto=format&fit=crop&w=1950&q=80"
   ],
-  Technology: [
+  "Technology": [
     "https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixlib=rb-0.3.5&s=99f410919a74f2d18945ea7f62c5d4c3&auto=format&fit=crop&w=1350&q=80",
     "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1dcfcaa6dafa547aa5381b603296c94&auto=format&fit=crop&w=1350&q=80"
   ],
@@ -32,22 +40,22 @@ var articleImages = {
     "https://images.unsplash.com/photo-1521138054413-5a47d349b7af?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f8cf0ea657ec9f4beb43f2cd6a6d54a6&auto=format&fit=crop&w=676&q=80",
     "https://images.unsplash.com/photo-1529281322535-245b0a3257ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6425f2048c84111b3c8f92febcaaa2ac&auto=format&fit=crop&w=1350&q=80"
   ],
-  Gaming: [
+  "Gaming": [
     "https://images.unsplash.com/photo-1527261834078-9b37d35a4a32?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=309fe659f0d0e2a5b7408b7a756613c2&auto=format&fit=crop&w=1950&q=80",
     "https://images.unsplash.com/photo-1515469826971-68d3550b0110?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9f3cd3d496e02df256ff3b3aba9d2eee&auto=format&fit=crop&w=634&q=80"
   ],
-  Cryptocurrency: [
+  "Cryptocurrency": [
     "https://images.unsplash.com/photo-1503810473512-f64b56827964?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cb44a21c4469e257a39f30949c81931d&auto=format&fit=crop&w=2134&q=80",
     "https://images.unsplash.com/photo-1493409137604-0901c55e4456?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=608c673db36723a60ea11d6ffdbc4e48&auto=format&fit=crop&w=1350&q=80"
   ],
-  Undefined: [
+  "Undefined": [
     "https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixlib=rb-0.3.5&s=99f410919a74f2d18945ea7f62c5d4c3&auto=format&fit=crop&w=1350&q=80",
     "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e1dcfcaa6dafa547aa5381b603296c94&auto=format&fit=crop&w=1350&q=80"
   ]
 };
 
-var getPlaylistSplashMedia = function() {
-  return playlistImages[Math.floor(Math.random() * playlistImages.length)];
+var getPlaylistSplashMedia = function(category) {
+  return playlistImages[category][Math.floor(Math.random() * playlistImages.length)];
 };
 
 var getArticleSplashMedia = function(category) {
