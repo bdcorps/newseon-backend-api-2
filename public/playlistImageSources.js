@@ -55,7 +55,7 @@ var articleImages = {
 };
 
 var getPlaylistSplashMedia = function(category) {
-  return playlistImages[category][Math.floor(Math.random() * playlistImages.length)];
+  return playlistImages[category][Math.floor(Math.random() * playlistImages[category].length)];
 };
 
 var getArticleSplashMedia = function(category) {
