@@ -19,7 +19,8 @@ describe("Playlist Model", () => {
   before(function(done) {
     mongoose.connect(mongodb, {
       useUnifiedTopology: true,
-      useNewUrlParser: true
+      useNewUrlParser: true,
+      useFindAndModify: false
     });
     const db = mongoose.connection;
     db.on("error", console.error.bind(console, "connection error"));

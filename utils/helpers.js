@@ -15,8 +15,15 @@ function cleanText(inputText) {
  * @returns A string with stray HTML Character Codes removed
  */
 function stripStrayHTMLCharacterCodes(inputText) {
+  if (!inputText) {
+    return "";
+  }
   var textToBeStripped = inputText;
   var strippedText = textToBeStripped.replace(/&#.*;|\[&#.*;\]/g, "");
+  strippedText = strippedText.replace(
+    /(<\/li>)|(<li>)|(<\/ul>)|(<ul>)|(<ul\/>)|(<li\/>)/g,
+    ""
+  );
   return strippedText;
 }
 

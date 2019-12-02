@@ -22,7 +22,8 @@ describe("Reset Model", () => {
   before(function(done) {
     mongoose.connect(dburl, {
       useUnifiedTopology: true,
-      useNewUrlParser: true
+      useNewUrlParser: true,
+      useFindAndModify: false
     });
     const db = mongoose.connection;
     db.on("error", console.error.bind(console, "connection error"));

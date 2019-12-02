@@ -5,11 +5,13 @@ The back-end API layer for Newseon. The project features a complete pipeline to 
 ## Installation
 
 Install the package dependencies,
+
 ```bash
 npm install
 ```
 
 ## Dependencies
+
 1. [News API key](https://newsapi.org/)
 2. [Google Text to Speech Key](https://console.cloud.google.com/?pli=1)
 3. [Google Translate Key](https://console.cloud.google.com/?pli=1)
@@ -18,9 +20,15 @@ npm install
 ## Usage
 
 Start the app,
+
 ```bash
 npm start
 ```
+
+## Debug in VS Code
+
+1. Run app `npm start`
+2. Open Debug tab from left side. Hit `Attach by Process ID` and choose `app.js`
 
 ## Configuration
 

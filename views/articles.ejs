@@ -11,16 +11,8 @@
     <h2>Step 3: Articles</h2>
     <p>View/Edit pulled articles.</p>
 
-    <pre name="articles" id="articles" contenteditable="true" style="  display: inline-block;
-    white-space: pre-wrap;      /* CSS3 */   
- white-space: -moz-pre-wrap; /* Firefox */    
- white-space: -pre-wrap;     /* Opera <7 */   
- white-space: -o-pre-wrap;   /* Opera 7 */    
- word-wrap: break-word;      /* IE */
-  
- width:90vw;"></pre>
-
-    
+    <textarea id="articles" style="display: block;
+    overflow: auto;white-space: pre-wrap;white-space: -moz-pre-wrap;white-space: -pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;width:90vw; height:1000px;"> </textarea>
 
     <button id="saveArticles" type="button">Save Articles</button><br>
     
@@ -39,21 +31,20 @@
 
     var articles = <%- JSON.stringify(articles, null, 4) %>;
 
-    
-
-
-    document.getElementById("articles").innerHTML = JSON.stringify(articles, null, 4);
+    $("#articles").val(JSON.stringify(articles, null, 4));
 
 
     $('#saveArticles').click(function (e) {
-        var articles = document.getElementById("articles").innerHTML;
-        articles = JSON.parse(articles).articles;
-        console.log(articles);
+        var articlesSource = $("#articles").val();
+        console.log(articlesSource);
+        articlesSource = JSON.parse(articlesSource).articles;
+
+
         $.post(url +"/saveLocalArticles", {
-                "articles": articles
+                "articles": articlesSource
             },
             function (data, status) {
-                console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+                console.log("Status: " + status);
             });
 
     });

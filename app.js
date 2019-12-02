@@ -156,7 +156,7 @@ connection.on("error", console.error.bind(console, "connection error:"));
  */
 mongoose.connect(
   "mongodb://newseumapp1:newseumapp1@ds117336.mlab.com:17336/newseumapp",
-  { useUnifiedTopology: true, useNewUrlParser: true }
+  { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false }
 );
 
 mongoose.Promise = Promise;
@@ -213,6 +213,8 @@ connection.once("open", function() {
 
   app.get("/readLocalArticles", (req, res) => {
     var articles = readFromFile("articlesData");
+
+    // console.log("lemme", JSON.stringify(articles, null, 4));
 
     res.render("articles.ejs", {
       articles: articles,
@@ -338,10 +340,13 @@ connection.once("open", function() {
             var isValidText = validateArticleStructure(articles[j]);
             var title = articles[j].title;
             var description = articles[j].description;
+            var content = "";
+
             if (isValidText) {
               if (await isGenuineArticle(title, description)) {
                 articles[j].title = cleanText(title);
                 articles[j].description = cleanedDescription(description);
+                articles[j].content = cleanText(content);
                 articles[j].playlist = {
                   id: playlists[i].id,
                   title: playlists[i].title
@@ -448,7 +453,9 @@ async function isGenuineArticle(title, description) {
     "highlights",
     "roundup",
     "video",
-    "news"
+    "news",
+    "deals",
+    "discounts"
   ];
   const normalizedTitle = title.toLowerCase();
   const normalizedDescription = description.toLowerCase();
@@ -514,6 +521,8 @@ function isInEnglish(text) {
   return promise;
 }
 
+let listArticles = [];
+
 function generateAudioTracks(req, res) {
   var articles = readFromFile("articlesData");
   articles = articles.articles;
@@ -526,24 +535,29 @@ function generateAudioTracks(req, res) {
   articleIDs = [];
   // Create a hash based on the contents of the article title
   // This is so we don't write duplicate content to the db
-  var hash = "";
-  for (var j = 0; j < articles.length; j++) {
+  let hash = "";
+  for (let j = 0; j < articles.length; j++) {
     hash = crypto
       .createHash("md5")
       .update(articles[j].title)
       .digest("hex");
 
-    initAudioTracks(
-      req,
-      res,
-      articles[j],
-      hash,
-      articles[j].playlist.id,
-      j,
-      articles[j].playlist.title
-    );
-
-    articleIDs.push(hash);
+    if (listArticles.indexOf(hash) == -1) {
+      initAudioTracks(
+        req,
+        res,
+        articles[j],
+        hash,
+        articles[j].playlist.id,
+        j,
+        articles[j].playlist.title
+      );
+      articleIDs.push(hash);
+      listArticles.push(hash);
+      console.log("Not Duplicate", hash);
+    } else {
+      console.log("Duplicate Found", hash);
+    }
   }
 }
 // Slowing down the calls to Google Text to Speech
@@ -698,7 +712,9 @@ function convertQueryToPlaylistURLs(playlistQuery, title) {
     playlistsData.title = captilizeSentence(curPlaylist.title);
     //console.log(" > "+ captilizeWord(query.title));
     playlistsData.url = playlistURL;
-    playlistsData.media = playlistImagesSources.getPlaylistSplashMedia(playlistsData.title);
+    playlistsData.media = playlistImagesSources.getPlaylistSplashMedia(
+      playlistsData.title
+    );
     playlistsData.articles = [];
 
     var playlistItem = {
@@ -908,11 +924,11 @@ async function resetDB(tracksDB) {
     console.error("pa ", error, "pra");
   }
 
-  try {
-    await resetConfigDB();
-  } catch (error) {
-    console.error("pa ", error, "pra");
-  }
+  // try {
+  //   await resetConfigDB();
+  // } catch (error) {
+  //   console.error("pa ", error, "pra");
+  // }
 
   try {
     await resetPlaylistDB();
