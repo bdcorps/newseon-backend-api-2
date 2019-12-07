@@ -2,6 +2,23 @@
   "articles": [
     {
       "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "James Temperton, WIRED UK",
+      "title": "I Ditched Google for DuckDuckGo. Here's Why You Should Too.",
+      "description": "Once you realize most things you search for online are boring and obvious, you realize you don't really need Google in your life.",
+      "url": "https://www.wired.com/story/i-ditched-google-for-duckduckgo-heres-why-you-should-too/",
+      "urlToImage": "https://media.wired.com/photos/5dded1f50e773300087dbb03/191:100/w_1280,c_limit/DuckDuckGo.jpg",
+      "publishedAt": "2019-12-01T15:00:00Z",
+      "content": ".",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
         "id": "the-next-web",
         "name": "The Next Web"
       },
@@ -15,40 +32,6 @@
       "playlist": {
         "id": "startups",
         "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Ryan Smith",
-      "title": "Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest.",
-      "description": "Ethereum co-founder Vitalik Buterin is signing a petition to free estranged Virgil Griffith who was arrested by the FBI on thanksgiving. The post Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest appeared first on CCN.com",
-      "url": "https://www.ccn.com/ethereums-vitalik-buterin-signs-free-virgil-griffith-petition-following-fbi-arrest/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/02/vitalik-buterin-ethereum-crypto-youtube.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T20:44:58Z",
-      "content": ".",
-      "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "The best feature of this console generation? Suspended games.",
-      "description": "The launch of the PlayStation 4 and Xbox One in 2013 delivered a feature that transformed how sports fans played their favorite games — the suspended save.",
-      "url": "https://www.polygon.com/2019/12/1/20990857/suspended-game-saves-ps4-xbox-one-feature-sports",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/gp6zOvAFypGLH7BzqtwtCeziNqQ=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19222158/EFFxy__W4AADLmq.jpg",
-      "publishedAt": "2019-12-01T23:43:37Z",
-      "content": ".",
-      "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
       }
     },
     {
@@ -70,15 +53,49 @@
     },
     {
       "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "The best feature of this console generation? Suspended games.",
+      "description": "The launch of the PlayStation 4 and Xbox One in 2013 delivered a feature that transformed how sports fans played their favorite games — the suspended save.",
+      "url": "https://www.polygon.com/2019/12/1/20990857/suspended-game-saves-ps4-xbox-one-feature-sports",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/gp6zOvAFypGLH7BzqtwtCeziNqQ=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19222158/EFFxy__W4AADLmq.jpg",
+      "publishedAt": "2019-12-01T23:43:37Z",
+      "content": ".",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Ryan Smith",
+      "title": "Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest.",
+      "description": "Ethereum co-founder Vitalik Buterin is signing a petition to free estranged Virgil Griffith who was arrested by the FBI on thanksgiving. The post Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest appeared first on CCN.com",
+      "url": "https://www.ccn.com/ethereums-vitalik-buterin-signs-free-virgil-griffith-petition-following-fbi-arrest/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/02/vitalik-buterin-ethereum-crypto-youtube.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T20:44:58Z",
+      "content": ".",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
         "id": "wired",
         "name": "Wired"
       },
-      "author": "James Temperton, WIRED UK",
-      "title": "I Ditched Google for DuckDuckGo. Here's Why You Should Too.",
-      "description": "Once you realize most things you search for online are boring and obvious, you realize you don't really need Google in your life.",
-      "url": "https://www.wired.com/story/i-ditched-google-for-duckduckgo-heres-why-you-should-too/",
-      "urlToImage": "https://media.wired.com/photos/5dded1f50e773300087dbb03/191:100/w_1280,c_limit/DuckDuckGo.jpg",
-      "publishedAt": "2019-12-01T15:00:00Z",
+      "author": "Will Knight",
+      "title": "Sleepwalkers Podcast: Artificial Intelligence Is Watching Us and Judging Us.",
+      "description": "In China, ubiquitous cameras surveil restive minorities. In the US, algorithms determine whether people get locked up.",
+      "url": "https://www.wired.com/story/artificial-intelligence-watching-us-judging-us/",
+      "urlToImage": "https://media.wired.com/photos/5ddda21fa4136b0008e27ad4/191:100/w_1280,c_limit/Biz-podcast-surveillance-1145160734.jpg",
+      "publishedAt": "2019-12-01T13:00:00Z",
       "content": ".",
       "playlist": {
         "id": "digital products",
@@ -121,23 +138,6 @@
     },
     {
       "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Will Knight",
-      "title": "Sleepwalkers Podcast: Artificial Intelligence Is Watching Us and Judging Us.",
-      "description": "In China, ubiquitous cameras surveil restive minorities. In the US, algorithms determine whether people get locked up.",
-      "url": "https://www.wired.com/story/artificial-intelligence-watching-us-judging-us/",
-      "urlToImage": "https://media.wired.com/photos/5ddda21fa4136b0008e27ad4/191:100/w_1280,c_limit/Biz-podcast-surveillance-1145160734.jpg",
-      "publishedAt": "2019-12-01T13:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
         "id": "engadget",
         "name": "Engadget"
       },
@@ -172,19 +172,19 @@
     },
     {
       "source": {
-        "id": "polygon",
-        "name": "Polygon"
+        "id": "the-next-web",
+        "name": "The Next Web"
       },
-      "author": "Andrew Liptak",
-      "title": "10 new science fiction and fantasy books to check out this December.",
-      "description": "Need the best books to buy this Christmas? How about a new Star Trek novel, Jeff Vandermeer’s latest, a Minecraft book, and the best reviewed sci-fi books of December?",
-      "url": "https://www.polygon.com/2019/12/1/20984949/best-new-books-december-2019-science-fiction-fantasy-recommendations",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/HmbVdO16E0BtNwijGVFoMBPhyOU=/0x425:3008x2000/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19412612/dec_books.jpg",
-      "publishedAt": "2019-12-01T15:30:00Z",
+      "author": "Rodrigo de Oliveira Andrade",
+      "title": "Biosensor-equipped glasses could monitor diabetes through tears.",
+      "description": "Brazilian and US scientists have developed a glasses-based biosensor capable of measuring blood glucose levels through a person’s tears, offering a less invasive test for diabetics. Glucose levels need to be frequently monitored in people with diabetes, a dis…",
+      "url": "https://thenextweb.com/syndication/2019/11/30/biosensor-equipped-glasses-could-monitor-diabetes-through-tears/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fs-copy-6.jpg&signature=eebf7c86b3a3df95534e3d7b6cbf44b3",
+      "publishedAt": "2019-11-30T09:00:25Z",
       "content": ".",
       "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
+        "id": "startups",
+        "title": "Startups"
       }
     },
     {
@@ -206,19 +206,19 @@
     },
     {
       "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
       },
-      "author": "Rodrigo de Oliveira Andrade",
-      "title": "Biosensor-equipped glasses could monitor diabetes through tears.",
-      "description": "Brazilian and US scientists have developed a glasses-based biosensor capable of measuring blood glucose levels through a person’s tears, offering a less invasive test for diabetics. Glucose levels need to be frequently monitored in people with diabetes, a dis…",
-      "url": "https://thenextweb.com/syndication/2019/11/30/biosensor-equipped-glasses-could-monitor-diabetes-through-tears/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fs-copy-6.jpg&signature=eebf7c86b3a3df95534e3d7b6cbf44b3",
-      "publishedAt": "2019-11-30T09:00:25Z",
+      "author": "Travis Pulver",
+      "title": "Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch.",
+      "description": "Freddie Kitchens wore a t-shirt while seeing the Mr. Rogers movie with his family Friday night that he had to know would get some attention. The post Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch appeared first on CCN.com",
+      "url": "https://www.ccn.com/cleveland-browns-coach-trolls-steelers-ahead-of-rematch-with-epic-t-shirt/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/freddie-kitchens-.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T14:00:16Z",
       "content": ".",
       "playlist": {
-        "id": "startups",
-        "title": "Startups"
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
       }
     },
     {
@@ -240,32 +240,15 @@
     },
     {
       "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Travis Pulver",
-      "title": "Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch.",
-      "description": "Freddie Kitchens wore a t-shirt while seeing the Mr. Rogers movie with his family Friday night that he had to know would get some attention. The post Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch appeared first on CCN.com",
-      "url": "https://www.ccn.com/cleveland-browns-coach-trolls-steelers-ahead-of-rematch-with-epic-t-shirt/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/freddie-kitchens-.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T14:00:16Z",
-      "content": ".",
-      "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
         "id": "polygon",
         "name": "Polygon"
       },
-      "author": "Owen S. Good",
-      "title": "Atari VCS delayed for Indiegogo backers.",
-      "description": "They’ll still get it before everyone else, but not in December",
-      "url": "https://www.polygon.com/pc/2019/11/30/20989415/atari-vcs-indiegogo-delayed-release-dates-gamestop-walmart-preorder",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Mx8RJlrKmiWQOADfD2TvzHD6YB0=/0x153:2400x1410/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16334187/ATARI_VCS_Hero_Group.jpg",
-      "publishedAt": "2019-11-30T20:10:47Z",
+      "author": "Andrew Liptak",
+      "title": "10 new science fiction and fantasy books to check out this December.",
+      "description": "Need the best books to buy this Christmas? How about a new Star Trek novel, Jeff Vandermeer’s latest, a Minecraft book, and the best reviewed sci-fi books of December?",
+      "url": "https://www.polygon.com/2019/12/1/20984949/best-new-books-december-2019-science-fiction-fantasy-recommendations",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/HmbVdO16E0BtNwijGVFoMBPhyOU=/0x425:3008x2000/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19412612/dec_books.jpg",
+      "publishedAt": "2019-12-01T15:30:00Z",
       "content": ".",
       "playlist": {
         "id": "gaming",
@@ -291,6 +274,40 @@
     },
     {
       "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Thomas Bardwell",
+      "title": "This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller.",
+      "description": "SuperLouis64 beats Halo 3 on Legendary difficulty – using a Guitar Hero… The post This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller appeared first on CCN.com",
+      "url": "https://www.ccn.com/this-guy-beat-halo-3-on-legendary-difficulty-using-a-guitar-hero-controller/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/11/Halo-3-1.png?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T11:59:18Z",
+      "content": ".",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Owen S. Good",
+      "title": "Atari VCS delayed for Indiegogo backers.",
+      "description": "They’ll still get it before everyone else, but not in December",
+      "url": "https://www.polygon.com/pc/2019/11/30/20989415/atari-vcs-indiegogo-delayed-release-dates-gamestop-walmart-preorder",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/Mx8RJlrKmiWQOADfD2TvzHD6YB0=/0x153:2400x1410/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16334187/ATARI_VCS_Hero_Group.jpg",
+      "publishedAt": "2019-11-30T20:10:47Z",
+      "content": ".",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
         "id": "wired",
         "name": "Wired"
       },
@@ -311,12 +328,12 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Thomas Bardwell",
-      "title": "This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller.",
-      "description": "SuperLouis64 beats Halo 3 on Legendary difficulty – using a Guitar Hero… The post This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller appeared first on CCN.com",
-      "url": "https://www.ccn.com/this-guy-beat-halo-3-on-legendary-difficulty-using-a-guitar-hero-controller/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/11/Halo-3-1.png?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T11:59:18Z",
+      "author": "Guest Writer",
+      "title": "Will Crypto Miners Break a Profit in 2020?",
+      "description": "Bitcoin mining rewards’s next halving event is in May 2020. A typical… The post Will Crypto Miners Break a Profit in 2020? appeared first on CCN.com",
+      "url": "https://www.ccn.com/will-crypto-miners-break-a-profit-in-2020/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Bitcoin-miner-NTB.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T10:07:00Z",
       "content": ".",
       "playlist": {
         "id": "cryptocurrency",
@@ -342,23 +359,6 @@
     },
     {
       "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Josh Bell",
-      "title": "Robert Rodriguez’s Alita follow-up is actually a giant Cirque du Soleil show.",
-      "description": "What is Run, the new show playing at Luxor Las Vegas? It’s an action “movie” from the mind of Rodriguez (Sin City) and composer Tyler Bates (John Wick, 300) with motorcycle stunts, car chases, and a silly story. We went behind the scenes.",
-      "url": "https://www.polygon.com/2019/11/30/20986394/robert-rodriguez-alita-follow-up-run-cirque-du-soleil-show",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/jpcNWGSN3E1kSKvRkmoHEFEsR3w=/0x0:1761x922/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19415123/luxor___motorcyclists_from_run_media_preview___photo_by_ethan_miller_getty_images_copy.jpg",
-      "publishedAt": "2019-11-30T15:32:32Z",
-      "content": ".",
-      "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
         "id": "engadget",
         "name": "Engadget"
       },
@@ -376,15 +376,32 @@
     },
     {
       "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Josh Bell",
+      "title": "Robert Rodriguez’s Alita follow-up is actually a giant Cirque du Soleil show.",
+      "description": "What is Run, the new show playing at Luxor Las Vegas? It’s an action “movie” from the mind of Rodriguez (Sin City) and composer Tyler Bates (John Wick, 300) with motorcycle stunts, car chases, and a silly story. We went behind the scenes.",
+      "url": "https://www.polygon.com/2019/11/30/20986394/robert-rodriguez-alita-follow-up-run-cirque-du-soleil-show",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/jpcNWGSN3E1kSKvRkmoHEFEsR3w=/0x0:1761x922/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19415123/luxor___motorcyclists_from_run_media_preview___photo_by_ethan_miller_getty_images_copy.jpg",
+      "publishedAt": "2019-11-30T15:32:32Z",
+      "content": ".",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Guest Writer",
-      "title": "Will Crypto Miners Break a Profit in 2020?",
-      "description": "Bitcoin mining rewards’s next halving event is in May 2020. A typical… The post Will Crypto Miners Break a Profit in 2020? appeared first on CCN.com",
-      "url": "https://www.ccn.com/will-crypto-miners-break-a-profit-in-2020/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Bitcoin-miner-NTB.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T10:07:00Z",
+      "author": "Cody Luongo",
+      "title": "3 Critical Flaws That are Killing Twitch.",
+      "description": "Three critical flaws could spell the end of Twitch's streaming supremacy. Restrictive contracts, favoritism and toxic chat logs top the list. The post 3 Critical Flaws That are Killing Twitch appeared first on CCN.com",
+      "url": "https://www.ccn.com/3-critical-flaws-that-are-killing-twitch/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Twitch.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T09:00:25Z",
       "content": ".",
       "playlist": {
         "id": "cryptocurrency",
@@ -447,12 +464,12 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Cody Luongo",
-      "title": "3 Critical Flaws That are Killing Twitch.",
-      "description": "Three critical flaws could spell the end of Twitch's streaming supremacy. Restrictive contracts, favoritism and toxic chat logs top the list. The post 3 Critical Flaws That are Killing Twitch appeared first on CCN.com",
-      "url": "https://www.ccn.com/3-critical-flaws-that-are-killing-twitch/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Twitch.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T09:00:25Z",
+      "author": "W. E. Messamore",
+      "title": "#TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers?",
+      "description": "#TulsiMediaBlackout is trending on Twitter. Is the press really ignoring Tulsi Gabbard, or is it just an excuse for her poor poll numbers? The post #TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers? appeared first on CCN.com",
+      "url": "https://www.ccn.com/tulsimediablackout-trends-twitter/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/10/tulsi-afp.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-11-30T22:04:51Z",
       "content": ".",
       "playlist": {
         "id": "cryptocurrency",
@@ -515,16 +532,33 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "W. E. Messamore",
-      "title": "#TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers?",
-      "description": "#TulsiMediaBlackout is trending on Twitter. Is the press really ignoring Tulsi Gabbard, or is it just an excuse for her poor poll numbers? The post #TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers? appeared first on CCN.com",
-      "url": "https://www.ccn.com/tulsimediablackout-trends-twitter/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/10/tulsi-afp.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-11-30T22:04:51Z",
+      "author": "Thomas Bardwell",
+      "title": "New Snap of PlayStation 5 Dev Kit Appears Online.",
+      "description": "A much clearer picture of the PlayStation 5 dev kit has surfaced online alongside what appears to be the next-gen console's controller. The post New Snap of PlayStation 5 Dev Kit Appears Online appeared first on CCN.com",
+      "url": "https://www.ccn.com/new-snap-of-playstation-5-dev-kit-appears-online/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/playstation-sign.jpg",
+      "publishedAt": "2019-11-30T21:30:15Z",
       "content": ".",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Kate S. Petersen",
+      "title": "A New Way to Make Comfy, Durable Smart Garments.",
+      "description": "Long-lasting, electronics-laced PJs and gloves may help you sleep better and keep your trigger finger toasty when you jump out of a plane into battle.",
+      "url": "https://www.wired.com/story/new-way-make-comfy-durable-smart-garments/",
+      "urlToImage": "https://media.wired.com/photos/5ddf1892400f470009e77508/191:100/w_1280,c_limit/Science-Smart-Garments_SS2170475.jpg",
+      "publishedAt": "2019-11-30T12:00:00Z",
+      "content": ".",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
       }
     },
     {
@@ -546,23 +580,6 @@
     },
     {
       "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Thomas Bardwell",
-      "title": "New Snap of PlayStation 5 Dev Kit Appears Online.",
-      "description": "A much clearer picture of the PlayStation 5 dev kit has surfaced online alongside what appears to be the next-gen console's controller. The post New Snap of PlayStation 5 Dev Kit Appears Online appeared first on CCN.com",
-      "url": "https://www.ccn.com/new-snap-of-playstation-5-dev-kit-appears-online/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/playstation-sign.jpg",
-      "publishedAt": "2019-11-30T21:30:15Z",
-      "content": ".",
-      "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
         "id": "polygon",
         "name": "Polygon"
       },
@@ -576,23 +593,6 @@
       "playlist": {
         "id": "gaming",
         "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Kate S. Petersen",
-      "title": "A New Way to Make Comfy, Durable Smart Garments.",
-      "description": "Long-lasting, electronics-laced PJs and gloves may help you sleep better and keep your trigger finger toasty when you jump out of a plane into battle.",
-      "url": "https://www.wired.com/story/new-way-make-comfy-durable-smart-garments/",
-      "urlToImage": "https://media.wired.com/photos/5ddf1892400f470009e77508/191:100/w_1280,c_limit/Science-Smart-Garments_SS2170475.jpg",
-      "publishedAt": "2019-11-30T12:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
       }
     },
     {
@@ -715,5 +715,5 @@
       }
     }
   ],
-  "timestamp": 1575245255450
+  "timestamp": 1575245419328
 }
