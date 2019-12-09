@@ -27,7 +27,7 @@ var reloadContentAsync = async () => {
   }
 };
 
-// reloadContentAsync();
+reloadContentAsync();
 
 module.exports = {
   reloadContentAsync: reloadContentAsync
