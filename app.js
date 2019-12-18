@@ -605,7 +605,11 @@ function generateSingleAudioTrack(
       text: article.title + " " + article.description
     },
     // Select the language and SSML Voice Gender (optional)
-    voice: { languageCode: "en-US", ssmlGender: "NEUTRAL" },
+    voice: {
+      languageCode: "en-US",
+      ssmlGender: "NEUTRAL",
+      name: "	en-US-Standard-C"
+    },
     // Select the type of audio encoding
     audioConfig: { audioEncoding: "MP3" }
   };

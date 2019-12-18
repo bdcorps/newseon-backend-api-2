@@ -2,19 +2,19 @@
   "articles": [
     {
       "source": {
-        "id": "wired",
-        "name": "Wired"
+        "id": "the-next-web",
+        "name": "The Next Web"
       },
-      "author": "James Temperton, WIRED UK",
-      "title": "I Ditched Google for DuckDuckGo. Here's Why You Should Too.",
-      "description": "Once you realize most things you search for online are boring and obvious, you realize you don't really need Google in your life.",
-      "url": "https://www.wired.com/story/i-ditched-google-for-duckduckgo-heres-why-you-should-too/",
-      "urlToImage": "https://media.wired.com/photos/5dded1f50e773300087dbb03/191:100/w_1280,c_limit/DuckDuckGo.jpg",
-      "publishedAt": "2019-12-01T15:00:00Z",
-      "content": ".",
+      "author": "Prachti Patel",
+      "title": "MIT engineers made a cheaper and more efficient device to trap carbon dioxide.",
+      "description": "Capturing carbon dioxide from smokestacks, and even removing it directly from air, might be the only way to avert the most catastrophic effects of climate change. Engineers at MIT have now created a device to trap carbon dioxide that is much less energy-inten…",
+      "url": "https://thenextweb.com/syndication/2019/12/01/mit-engineers-made-a-cheaper-and-more-efficient-device-to-trap-carbon-dioxide/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FCopy-of-Copy-of-Copy-of-...-4-1.png&signature=a90cc4b1a370215776b0428142fea9ff",
+      "publishedAt": "2019-12-01T09:00:57Z",
+      "content": "Capturing carbon dioxide from smokestacks, and even removing it directly from air, might be the only way to avert the most catastrophic effects of climate change. Engineers at MIT have now created a device to trap carbon dioxide that is much less energy-inten… [+2446 chars].",
       "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
+        "id": "startups",
+        "title": "Startups"
       }
     },
     {
@@ -28,112 +28,10 @@
       "url": "https://thenextweb.com/syndication/2019/12/01/mit-engineers-made-a-cheaper-and-more-efficient-device-to-trap-carbon-dioxide/",
       "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FCopy-of-Copy-of-Copy-of-...-4-1.png&signature=a90cc4b1a370215776b0428142fea9ff",
       "publishedAt": "2019-12-01T09:00:57Z",
-      "content": ".",
+      "content": "Capturing carbon dioxide from smokestacks, and even removing it directly from air, might be the only way to avert the most catastrophic effects of climate change. Engineers at MIT have now created a device to trap carbon dioxide that is much less energy-inten… [+2446 chars].",
       "playlist": {
         "id": "startups",
         "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": null,
-      "title": "Australia rolls out AI cameras to spot drivers using their phones.",
-      "description": "Phone use while driving remains a problem in many parts of the world, in no small part due to the difficulty of enforcing laws. How do you catch someone in the act? Australian police might not have that problem. The New South Wales government has started usin…",
-      "url": "https://www.engadget.com/2019-12-01-australia-rolls-out-ai-cameras-to-spot-drivers-using-their-phone.html",
-      "urlToImage": "https://s.yimg.com/uu/api/res/1.2/W9m2F_U2Ihx_EUOusRCUXw--~B/aD0xMDY3O3c9MTYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://o.aolcdn.com/images/dims?crop=4096%2C2731%2C0%2C346&quality=85&format=jpg&resize=1600%2C1067&image_uri=https://s.yimg.com/os/creatr-images/2019-09/967296e0-ddfc-11e9-bdbf-0b3b568b2f3b&client=a1acac3e1b3290917d92&signature=6d1f894db36280ff8da7ac3871a718b857da568d",
-      "publishedAt": "2019-12-01T23:20:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "technology",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "The best feature of this console generation? Suspended games.",
-      "description": "The launch of the PlayStation 4 and Xbox One in 2013 delivered a feature that transformed how sports fans played their favorite games — the suspended save.",
-      "url": "https://www.polygon.com/2019/12/1/20990857/suspended-game-saves-ps4-xbox-one-feature-sports",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/gp6zOvAFypGLH7BzqtwtCeziNqQ=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19222158/EFFxy__W4AADLmq.jpg",
-      "publishedAt": "2019-12-01T23:43:37Z",
-      "content": ".",
-      "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Ryan Smith",
-      "title": "Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest.",
-      "description": "Ethereum co-founder Vitalik Buterin is signing a petition to free estranged Virgil Griffith who was arrested by the FBI on thanksgiving. The post Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest appeared first on CCN.com",
-      "url": "https://www.ccn.com/ethereums-vitalik-buterin-signs-free-virgil-griffith-petition-following-fbi-arrest/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/02/vitalik-buterin-ethereum-crypto-youtube.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T20:44:58Z",
-      "content": ".",
-      "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Will Knight",
-      "title": "Sleepwalkers Podcast: Artificial Intelligence Is Watching Us and Judging Us.",
-      "description": "In China, ubiquitous cameras surveil restive minorities. In the US, algorithms determine whether people get locked up.",
-      "url": "https://www.wired.com/story/artificial-intelligence-watching-us-judging-us/",
-      "urlToImage": "https://media.wired.com/photos/5ddda21fa4136b0008e27ad4/191:100/w_1280,c_limit/Biz-podcast-surveillance-1145160734.jpg",
-      "publishedAt": "2019-12-01T13:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Prachti Patel",
-      "title": "This *hot* trick can charge an EV battery in just 10 minutes.",
-      "description": "Electric cars could make a huge dent in the world’s greenhouse gas emissions. But they still make a tiny 2 percent of cars on the road today. A big speed bump they face is the hour or so it takes to charge. That could change, thanks to a new discovery by Penn…",
-      "url": "https://thenextweb.com/syndication/2019/11/30/this-hot-trick-can-charge-an-ev-battery-in-just-10-minutes/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FCopy-of-Copy-of-Copy-of-...-3-3.png&signature=2f0d9e91418645ed3f9307c3782c0fb1",
-      "publishedAt": "2019-11-30T17:00:56Z",
-      "content": ".",
-      "playlist": {
-        "id": "startups",
-        "title": "Startups"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Owen S. Good",
-      "title": "Rainbow Six Siege already patched out the best feature — not a bug — of Shifting Tides.",
-      "description": "A glitch — more like “awesome feature” — of the new operator Wamai in Rainbow Six Siege’s Operation Shifting Tides expansion makes him “dab dance.” But it was almost immediately patched out of the public test server version of the expansion.",
-      "url": "https://www.polygon.com/2019/12/1/20990248/rainbow-six-siege-dab-dance-wamai-patched-videos-funny-pc-ps4-xbox-one",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/tOIDIqbQtflqKF6iq1npm5WVvU4=/0x16:997x538/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19421136/Screen_Shot_2019_12_01_at_11.55.43_AM.png",
-      "publishedAt": "2019-12-01T17:12:33Z",
-      "content": ".",
-      "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
       }
     },
     {
@@ -147,7 +45,7 @@
       "url": "https://www.engadget.com/2019/12/01/australia-rolls-out-ai-cameras-to-spot-drivers-using-their-phone/",
       "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4096%252C2731%252C0%252C346%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-09%252F967296e0-ddfc-11e9-bdbf-0b3b568b2f3b%26client%3Da1acac3e1b3290917d92%26signature%3D6d1f894db36280ff8da7ac3871a718b857da568d&client=amp-blogside-v2&signature=1baab904cd76ad3de26848fa22c37ee2dc37c3e4",
       "publishedAt": "2019-12-01T23:20:00Z",
-      "content": ".",
+      "content": "The first three months of the initiative will let first-infraction drivers get away with a warning. After that, however, it gets expensive. They'll receive a $344 AUD ($233 US) fine and five demerit points in typical cases, with those figures climbing to $457… [+1008 chars].",
       "playlist": {
         "id": "technology",
         "title": "Technology"
@@ -155,16 +53,33 @@
     },
     {
       "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "James Temperton, WIRED UK",
+      "title": "I Ditched Google for DuckDuckGo. Here's Why You Should Too.",
+      "description": "Once you realize most things you search for online are boring and obvious, you realize you don't really need Google in your life.",
+      "url": "https://www.wired.com/story/i-ditched-google-for-duckduckgo-heres-why-you-should-too/",
+      "urlToImage": "https://media.wired.com/photos/5dded1f50e773300087dbb03/191:100/w_1280,c_limit/DuckDuckGo.jpg",
+      "publishedAt": "2019-12-01T15:00:00Z",
+      "content": "What was the last thing you searched for online? For me, it was \"$120 in pounds.\" Before that, I wanted to know the capital of Albania (Tirana), the Twitter handle of Liberal Democrat deputy leader Ed Davey (hes @EdwardJDavey), and dates of bank holidays in t… [+4625 chars].",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Travis Pulver",
-      "title": "Is Justin Fields the Best Quarterback in the Country?",
-      "description": "Ohio State quarterback Justin Fields proved against Michigan that he is one of the best quarterbacks in the country, but is he the best? The post Is Justin Fields the Best Quarterback in the Country? appeared first on CCN.com",
-      "url": "https://www.ccn.com/is-justin-fields-the-best-quarterback-in-the-country/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/justin-fields-.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T17:49:29Z",
-      "content": ".",
+      "author": "Ryan Smith",
+      "title": "Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest.",
+      "description": "Ethereum co-founder Vitalik Buterin is signing a petition to free estranged Virgil Griffith who was arrested by the FBI on thanksgiving. The post Ethereum’s Vitalik Buterin to Sign ‘Free Virgil Griffith’ Petition Following FBI Arrest appeared first on CCN.com",
+      "url": "https://www.ccn.com/ethereums-vitalik-buterin-signs-free-virgil-griffith-petition-following-fbi-arrest/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/02/vitalik-buterin-ethereum-crypto-youtube.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T20:44:58Z",
+      "content": "Ethereum co-founder Vitalik Buterin is signing a petition to free recently arrested developer Virgil Griffith.Buterin argues that Griffith’s North Korean speech was basically public knowledge anyway.Reasoning aside, Griffith still ig… [+2504 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
@@ -172,19 +87,19 @@
     },
     {
       "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
+        "id": "polygon",
+        "name": "Polygon"
       },
-      "author": "Rodrigo de Oliveira Andrade",
-      "title": "Biosensor-equipped glasses could monitor diabetes through tears.",
-      "description": "Brazilian and US scientists have developed a glasses-based biosensor capable of measuring blood glucose levels through a person’s tears, offering a less invasive test for diabetics. Glucose levels need to be frequently monitored in people with diabetes, a dis…",
-      "url": "https://thenextweb.com/syndication/2019/11/30/biosensor-equipped-glasses-could-monitor-diabetes-through-tears/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fs-copy-6.jpg&signature=eebf7c86b3a3df95534e3d7b6cbf44b3",
-      "publishedAt": "2019-11-30T09:00:25Z",
-      "content": ".",
+      "author": "Owen S. Good",
+      "title": "Rainbow Six Siege already patched out the best feature — not a bug — of Shifting Tides.",
+      "description": "A glitch — more like “awesome feature” — of the new operator Wamai in Rainbow Six Siege’s Operation Shifting Tides expansion makes him “dab dance.” But it was almost immediately patched out of the public test server version of the expansion.",
+      "url": "https://www.polygon.com/2019/12/1/20990248/rainbow-six-siege-dab-dance-wamai-patched-videos-funny-pc-ps4-xbox-one",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/tOIDIqbQtflqKF6iq1npm5WVvU4=/0x16:997x538/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19421136/Screen_Shot_2019_12_01_at_11.55.43_AM.png",
+      "publishedAt": "2019-12-01T17:12:33Z",
+      "content": "This is an appeal to Ubisoft Montreal to patch the dab dance, the derp walk, Skibidi dance, whatever you wish to call it, back into Rainbow Six Siege when the Operation Shifting Tides expansion launches later this month. Why? Well, this video, see for yoursel… [+966 chars].",
       "playlist": {
-        "id": "startups",
-        "title": "Startups"
+        "id": "gaming",
+        "title": "Gaming"
       }
     },
     {
@@ -198,7 +113,7 @@
       "url": "https://www.engadget.com/2019/12/01/tesla-cybertruck-dubai-police-fleet/",
       "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D1600%252C1067%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-uploaded-images%252F2019-12%252F099fe5d0-1473-11ea-83fd-c71c47d196d7%26client%3Da1acac3e1b3290917d92%26signature%3Dba7603d8dad4373fc93199ec0377b19127146cdd&client=amp-blogside-v2&signature=1074c19deee5ad5dbff48026c7bc47632947a273",
       "publishedAt": "2019-12-01T21:44:00Z",
-      "content": ".",
+      "content": "The force has been criticized at times for a fleet whose vehicles are frequently more about showing off than catching crooks. It doesn't really need an ultra-rare Aston Martin One-77 for pursuits. The Cybertruck, however, could be genuinely practical. The dua… [+290 chars].",
       "playlist": {
         "id": "technology",
         "title": "Technology"
@@ -206,36 +121,19 @@
     },
     {
       "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
+        "id": "the-next-web",
+        "name": "The Next Web"
       },
-      "author": "Travis Pulver",
-      "title": "Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch.",
-      "description": "Freddie Kitchens wore a t-shirt while seeing the Mr. Rogers movie with his family Friday night that he had to know would get some attention. The post Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch appeared first on CCN.com",
-      "url": "https://www.ccn.com/cleveland-browns-coach-trolls-steelers-ahead-of-rematch-with-epic-t-shirt/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/freddie-kitchens-.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T14:00:16Z",
-      "content": ".",
+      "author": "Prachti Patel",
+      "title": "This *hot* trick can charge an EV battery in just 10 minutes.",
+      "description": "Electric cars could make a huge dent in the world’s greenhouse gas emissions. But they still make a tiny 2 percent of cars on the road today. A big speed bump they face is the hour or so it takes to charge. That could change, thanks to a new discovery by Penn…",
+      "url": "https://thenextweb.com/syndication/2019/11/30/this-hot-trick-can-charge-an-ev-battery-in-just-10-minutes/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FCopy-of-Copy-of-Copy-of-...-3-3.png&signature=2f0d9e91418645ed3f9307c3782c0fb1",
+      "publishedAt": "2019-11-30T17:00:56Z",
+      "content": "Electric cars could make a huge dent in the worlds greenhouse gas emissions. But they still make a tiny 2 percent of cars on the road today. A big speed bump they face is the hour or so it takes to charge.\r\nThat could change, thanks to a new discovery by Penn… [+1751 chars].",
       "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Sara Harrison",
-      "title": "Stop Obsessing Over Sleep—Your Brain Will Thank You.",
-      "description": "Worrying about sleep is perhaps the most counterproductive thing you can do, no matter how many gadgets try to tell you otherwise.",
-      "url": "https://www.wired.com/story/stop-obsessing-over-sleepyour-brain-will-thank-you/",
-      "urlToImage": "https://media.wired.com/photos/5ddedf132acb7d00082c4087/191:100/w_1280,c_limit/Science_sleeping-55894936.jpg",
-      "publishedAt": "2019-12-01T12:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
+        "id": "startups",
+        "title": "Startups"
       }
     },
     {
@@ -249,7 +147,7 @@
       "url": "https://www.polygon.com/2019/12/1/20984949/best-new-books-december-2019-science-fiction-fantasy-recommendations",
       "urlToImage": "https://cdn.vox-cdn.com/thumbor/HmbVdO16E0BtNwijGVFoMBPhyOU=/0x425:3008x2000/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19412612/dec_books.jpg",
       "publishedAt": "2019-12-01T15:30:00Z",
-      "content": ".",
+      "content": "Winter is upon us, at least where I live in Vermont. With snow on the ground, its time to curl up with a blanket, a warm drink, and my to-be-read pile. The list of books that Ive meant to read this year has grown pretty long, but I have two to recommend.\r\nThe… [+7019 chars].",
       "playlist": {
         "id": "gaming",
         "title": "Gaming"
@@ -257,19 +155,19 @@
     },
     {
       "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
+        "id": "wired",
+        "name": "Wired"
       },
-      "author": "Rachel Kaser",
-      "title": "Amazon’s 2nd Gen Fire TV Cube is a great buy — if you don’t have the original.",
-      "description": "Amazon beefed up its Fire TV Cube with a few new hardware upgrades, refreshing it for the 2019 market. It’s undoubtedly better — but the changes are so incremental that if you have the original, it might not be worth your money to upgrade. Everything Tristan …",
-      "url": "https://thenextweb.com/plugged/2019/11/29/amazons-2nd-gen-fire-tv-cube-review/",
-      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FAmazon-Fire-Cube.jpg&signature=9229a530753a501854be5a30b169652a",
-      "publishedAt": "2019-11-29T16:16:07Z",
-      "content": ".",
+      "author": "Will Knight",
+      "title": "Sleepwalkers Podcast: Artificial Intelligence Is Watching Us and Judging Us.",
+      "description": "In China, ubiquitous cameras surveil restive minorities. In the US, algorithms determine whether people get locked up.",
+      "url": "https://www.wired.com/story/artificial-intelligence-watching-us-judging-us/",
+      "urlToImage": "https://media.wired.com/photos/5ddda21fa4136b0008e27ad4/191:100/w_1280,c_limit/Biz-podcast-surveillance-1145160734.jpg",
+      "publishedAt": "2019-12-01T13:00:00Z",
+      "content": "Dont look now, but artificial intelligence is watching you. Artificial intelligence has tremendous power to enhance spying, and both authoritarian governments and democracies are adopting the technology as a tool of political and social control.\r\nThe potentia… [+3228 chars].",
       "playlist": {
-        "id": "startups",
-        "title": "Startups"
+        "id": "digital products",
+        "title": "Digital Products"
       }
     },
     {
@@ -277,13 +175,13 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Thomas Bardwell",
-      "title": "This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller.",
-      "description": "SuperLouis64 beats Halo 3 on Legendary difficulty – using a Guitar Hero… The post This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller appeared first on CCN.com",
-      "url": "https://www.ccn.com/this-guy-beat-halo-3-on-legendary-difficulty-using-a-guitar-hero-controller/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/11/Halo-3-1.png?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T11:59:18Z",
-      "content": ".",
+      "author": "Travis Pulver",
+      "title": "Is Justin Fields the Best Quarterback in the Country?",
+      "description": "Ohio State quarterback Justin Fields proved against Michigan that he is one of the best quarterbacks in the country, but is he the best? The post Is Justin Fields the Best Quarterback in the Country? appeared first on CCN.com",
+      "url": "https://www.ccn.com/is-justin-fields-the-best-quarterback-in-the-country/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/justin-fields-.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T17:49:29Z",
+      "content": "Ohio State quarterback Justin Fields is one of the top candidates for the Heisman Trophy as well as several other major awards this season.Fields furthered his Heisman case with an incredible game against Michigan. His performance featured hi… [+4448 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
@@ -300,10 +198,112 @@
       "url": "https://www.polygon.com/pc/2019/11/30/20989415/atari-vcs-indiegogo-delayed-release-dates-gamestop-walmart-preorder",
       "urlToImage": "https://cdn.vox-cdn.com/thumbor/Mx8RJlrKmiWQOADfD2TvzHD6YB0=/0x153:2400x1410/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/16334187/ATARI_VCS_Hero_Group.jpg",
       "publishedAt": "2019-11-30T20:10:47Z",
-      "content": ".",
+      "content": "RC Rivera They’ll still get it before everyone else, but not in December The Atari VCS, the crowd-funded, retro-styled-but-modern-console/gaming PC, is delayed for those who donated to the venture on IndieGogo. The VCS’ makers still expect to hit the general … [+2338 chars].",
       "playlist": {
         "id": "gaming",
         "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Sara Harrison",
+      "title": "Stop Obsessing Over Sleep—Your Brain Will Thank You.",
+      "description": "Worrying about sleep is perhaps the most counterproductive thing you can do, no matter how many gadgets try to tell you otherwise.",
+      "url": "https://www.wired.com/story/stop-obsessing-over-sleepyour-brain-will-thank-you/",
+      "urlToImage": "https://media.wired.com/photos/5ddedf132acb7d00082c4087/191:100/w_1280,c_limit/Science_sleeping-55894936.jpg",
+      "publishedAt": "2019-12-01T12:00:00Z",
+      "content": "Maiken Nedergaard considers herself a pragmatic woman. Shes got kids, a career, and she knows she feels better after a solid night of shut-eye. Shes also a neuroscientist at the forefront of research showing the biological value of sleep. In studies she coaut… [+3580 chars].",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Travis Pulver",
+      "title": "Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch.",
+      "description": "Freddie Kitchens wore a t-shirt while seeing the Mr. Rogers movie with his family Friday night that he had to know would get some attention. The post Cleveland Browns Coach Trolls Steelers With Epic T-Shirt Ahead of Rematch appeared first on CCN.com",
+      "url": "https://www.ccn.com/cleveland-browns-coach-trolls-steelers-ahead-of-rematch-with-epic-t-shirt/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/freddie-kitchens-.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T14:00:16Z",
+      "content": "Cleveland Browns head coach Freddie Kitchens has been under fire for most of the season for how the team has played under his leadership.Many are questioning his leadership once again after he was seen wearing a ‘Pittsburgh started it’ t-shir… [+3409 chars].",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Rodrigo de Oliveira Andrade",
+      "title": "Biosensor-equipped glasses could monitor diabetes through tears.",
+      "description": "Brazilian and US scientists have developed a glasses-based biosensor capable of measuring blood glucose levels through a person’s tears, offering a less invasive test for diabetics. Glucose levels need to be frequently monitored in people with diabetes, a dis…",
+      "url": "https://thenextweb.com/syndication/2019/11/30/biosensor-equipped-glasses-could-monitor-diabetes-through-tears/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2Fs-copy-6.jpg&signature=eebf7c86b3a3df95534e3d7b6cbf44b3",
+      "publishedAt": "2019-11-30T09:00:25Z",
+      "content": "Brazilian and US scientists have developed a glasses-based biosensor capable of measuring blood glucose levels through a persons tears, offering a less invasive test for diabetics.\r\nGlucose levels need to be frequently monitored in people with diabetes, a dis… [+4258 chars].",
+      "playlist": {
+        "id": "startups",
+        "title": "Startups"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Josh Bell",
+      "title": "Robert Rodriguez’s Alita follow-up is actually a giant Cirque du Soleil show.",
+      "description": "What is Run, the new show playing at Luxor Las Vegas? It’s an action “movie” from the mind of Rodriguez (Sin City) and composer Tyler Bates (John Wick, 300) with motorcycle stunts, car chases, and a silly story. We went behind the scenes.",
+      "url": "https://www.polygon.com/2019/11/30/20986394/robert-rodriguez-alita-follow-up-run-cirque-du-soleil-show",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/jpcNWGSN3E1kSKvRkmoHEFEsR3w=/0x0:1761x922/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19415123/luxor___motorcyclists_from_run_media_preview___photo_by_ethan_miller_getty_images_copy.jpg",
+      "publishedAt": "2019-11-30T15:32:32Z",
+      "content": "RUN, the latest project from Alita director Robert Rodriguez, opens with the main character interrupting a wedding, swiping a heart-shaped necklace with a secret purpose, and igniting a war between the rival gangs Street Kingz and Blackjax. With echoes of Rod… [+6306 chars].",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Crypto expert arrested for allegedly helping North Korea evade sanctions.",
+      "description": "North Korea has long been accused of using cryptocurrency to avoid sanctions, but the US is now accusing a man of giving the country some help American law enforcement has arrested crypto expert and Ethereum project member Virgil Griffith for allege...",
+      "url": "https://www.engadget.com/2019/12/01/crypto-expert-arrested-over-north-korea-sanctions/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D7296%252C4865%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-12%252Fce4a2700-1465-11ea-bd39-36f90635ce65%26client%3Da1acac3e1b3290917d92%26signature%3Df6ed8e98a787247b852f123f299c6385eda3225b&client=amp-blogside-v2&signature=c99a9980f4e86006a5cc09e87e8d6522c8e757c6",
+      "publishedAt": "2019-12-01T20:29:00Z",
+      "content": "On top of this, Griffith supposedly planned to streamline Ethereum exchanges between North and South Korea while knowing this would violate US sanctions. He apparently called on other Americans to visit North Korea (including for the crypto conference) and si… [+606 chars].",
+      "playlist": {
+        "id": "technology",
+        "title": "Technology"
+      }
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Rachel Kaser",
+      "title": "Amazon’s 2nd Gen Fire TV Cube is a great buy — if you don’t have the original.",
+      "description": "Amazon beefed up its Fire TV Cube with a few new hardware upgrades, refreshing it for the 2019 market. It’s undoubtedly better — but the changes are so incremental that if you have the original, it might not be worth your money to upgrade. Everything Tristan …",
+      "url": "https://thenextweb.com/plugged/2019/11/29/amazons-2nd-gen-fire-tv-cube-review/",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/plugged?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F11%2FAmazon-Fire-Cube.jpg&signature=9229a530753a501854be5a30b169652a",
+      "publishedAt": "2019-11-29T16:16:07Z",
+      "content": "Amazon beefed up its Fire TV Cube with a few new hardware upgrades, refreshing it for the 2019 market. Its undoubtedly better but the changes are so incremental that if you have the original, it might not be worth your money to upgrade.\r\nEverything Tristan sa… [+3655 chars].",
+      "playlist": {
+        "id": "startups",
+        "title": "Startups"
       }
     },
     {
@@ -317,7 +317,7 @@
       "url": "https://www.wired.com/story/grayscale-ios-android-smartphone-addiction/",
       "urlToImage": "https://media.wired.com/photos/5dddbc0ab4ac1c00080cd4db/191:100/w_1280,c_limit/Gear-Apple_iphone_11-Grayscale.jpg",
       "publishedAt": "2019-12-01T12:00:00Z",
-      "content": ".",
+      "content": "When it comes to finding ways to spend a little less time staring at our phone screens, plenty of options have been put forward: turning off notifications, downgrading to a 'dumb' phone, uninstalling all but the most essential apps, using time tracking tools … [+2872 chars].",
       "playlist": {
         "id": "digital products",
         "title": "Digital Products"
@@ -328,16 +328,50 @@
         "id": "crypto-coins-news",
         "name": "Crypto Coins News"
       },
-      "author": "Guest Writer",
-      "title": "Will Crypto Miners Break a Profit in 2020?",
-      "description": "Bitcoin mining rewards’s next halving event is in May 2020. A typical… The post Will Crypto Miners Break a Profit in 2020? appeared first on CCN.com",
-      "url": "https://www.ccn.com/will-crypto-miners-break-a-profit-in-2020/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Bitcoin-miner-NTB.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-12-01T10:07:00Z",
-      "content": ".",
+      "author": "Thomas Bardwell",
+      "title": "This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller.",
+      "description": "SuperLouis64 beats Halo 3 on Legendary difficulty – using a Guitar Hero… The post This Guy Beat Halo 3 on Legendary Difficulty Using a Guitar Hero Controller appeared first on CCN.com",
+      "url": "https://www.ccn.com/this-guy-beat-halo-3-on-legendary-difficulty-using-a-guitar-hero-controller/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/11/Halo-3-1.png?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T11:59:18Z",
+      "content": "SuperLouis64 beats Halo 3 on Legendary difficulty – using a Guitar Hero controller.It took a month and 252 deaths to achieve.He’s also known for other wacky runs using DK Bongos, dance pads, and bananas.There’s something ab… [+1991 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Nicole Carpenter",
+      "title": "Pokémon Sword and Shield’s coolest towns are the most shallow.",
+      "description": "In Pokémon Sword and Shield, which was released on Nov. 15, Ballonlea and Spikemuth are two of the new towns to visit in the Galar region. They’re the least fleshed out, but they still make an impact.",
+      "url": "https://www.polygon.com/pokemon/2019/11/29/20966409/pokemon-sword-shield-ballonlea-spikemuth-best-towns",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/DF24vAd9vHCrEmITnfxqVvnG_5A=/0x0:1280x670/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19414192/2019110621012200_B8FAEF4816CAC2B76D11869B05CA7601.jpg",
+      "publishedAt": "2019-11-30T03:00:00Z",
+      "content": "Spikemuth is hidden behind a cold, metal gate. The neon-lit town is run-down, dingy, and one of the most interesting places Ive explored in a Pokémon game. The problem is that theres almost nothing to it aside from its aesthetic theres more to do in some fill… [+3874 chars].",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Crypto expert arrested for allegedly helping North Korea evade sanctions.",
+      "description": "North Korea has long been accused of using cryptocurrency to avoid sanctions, but the US is now accusing a man of giving the country some help American law enforcement has arrested crypto expert and Ethereum project member Virgil Griffith for allegedly provid…",
+      "url": "https://www.engadget.com/2019-12-01-crypto-expert-arrested-over-north-korea-sanctions.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/z8ol6emCrY4Ka.VArjeWvA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD04NTMuMzMzMzMzMzMzMzMzNA--/https://s.yimg.com/uu/api/res/1.2/yIwUIDsGtwQFDA34lkRz2Q--~B/aD0xMDY3O3c9MTYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://o.aolcdn.com/images/dims?crop=7296%2C4865%2C0%2C0&quality=85&format=jpg&resize=1600%2C1067&image_uri=https://s.yimg.com/os/creatr-images/2019-12/ce4a2700-1465-11ea-bd39-36f90635ce65&client=a1acac3e1b3290917d92&signature=f6ed8e98a787247b852f123f299c6385eda3225b",
+      "publishedAt": "2019-12-01T20:29:00Z",
+      "content": "North Korea has long been accused of using cryptocurrency to avoid sanctions, but the US is now accusing a man of giving the country some help American law enforcement has arrested crypto expert and Ethereum project member Virgil Griffith for allegedly provid… [+1318 chars].",
+      "playlist": {
+        "id": "technology",
+        "title": "Technology"
       }
     },
     {
@@ -359,19 +393,19 @@
     },
     {
       "source": {
-        "id": "engadget",
-        "name": "Engadget"
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
       },
-      "author": "Jon Fingas",
-      "title": "Crypto expert arrested for allegedly helping North Korea evade sanctions.",
-      "description": "North Korea has long been accused of using cryptocurrency to avoid sanctions, but the US is now accusing a man of giving the country some help American law enforcement has arrested crypto expert and Ethereum project member Virgil Griffith for allege...",
-      "url": "https://www.engadget.com/2019/12/01/crypto-expert-arrested-over-north-korea-sanctions/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D7296%252C4865%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-12%252Fce4a2700-1465-11ea-bd39-36f90635ce65%26client%3Da1acac3e1b3290917d92%26signature%3Df6ed8e98a787247b852f123f299c6385eda3225b&client=amp-blogside-v2&signature=c99a9980f4e86006a5cc09e87e8d6522c8e757c6",
-      "publishedAt": "2019-12-01T20:29:00Z",
-      "content": ".",
+      "author": "Guest Writer",
+      "title": "Will Crypto Miners Break a Profit in 2020?",
+      "description": "Bitcoin mining rewards’s next halving event is in May 2020. A typical… The post Will Crypto Miners Break a Profit in 2020? appeared first on CCN.com",
+      "url": "https://www.ccn.com/will-crypto-miners-break-a-profit-in-2020/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Bitcoin-miner-NTB.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-12-01T10:07:00Z",
+      "content": "Bitcoin mining rewards’s next halving event is in May 2020.A typical boom-or-bust cycle comes around the halving period.It’s increasingly elusive for small scale and solo mining operations to sustain profits.Bitcoins mining… [+9271 chars].",
       "playlist": {
-        "id": "technology",
-        "title": "Technology"
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
       }
     },
     {
@@ -379,16 +413,33 @@
         "id": "polygon",
         "name": "Polygon"
       },
-      "author": "Josh Bell",
-      "title": "Robert Rodriguez’s Alita follow-up is actually a giant Cirque du Soleil show.",
-      "description": "What is Run, the new show playing at Luxor Las Vegas? It’s an action “movie” from the mind of Rodriguez (Sin City) and composer Tyler Bates (John Wick, 300) with motorcycle stunts, car chases, and a silly story. We went behind the scenes.",
-      "url": "https://www.polygon.com/2019/11/30/20986394/robert-rodriguez-alita-follow-up-run-cirque-du-soleil-show",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/jpcNWGSN3E1kSKvRkmoHEFEsR3w=/0x0:1761x922/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19415123/luxor___motorcyclists_from_run_media_preview___photo_by_ethan_miller_getty_images_copy.jpg",
-      "publishedAt": "2019-11-30T15:32:32Z",
-      "content": ".",
+      "author": "Tasha Robinson",
+      "title": "Netflix’s I Lost My Body turns a weird horror trope into one of the year’s dreamiest dramas.",
+      "description": "Jérémy Clapin’s animated directorial debut, now streaming on Netflix, follows the adventures of an autonomous severed hand crawling through Paris, and explores the backstory of the young man who lost it. The French film, based on a novel by Amélie screenwrite…",
+      "url": "https://www.polygon.com/2019/11/29/20988657/i-lost-my-body-netflix-review-animated-french-movie-severed-hand",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/M707UnScFqd33wqgOW5fMcgVcNw=/798x0:7737x3633/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19418410/ILMB_Still_4.jpg",
+      "publishedAt": "2019-11-30T02:14:44Z",
+      "content": "Pop-culture fans probably already have a few emotional associations with severed hands crawling around independently onscreen. The Addams family pet, Thing, is a eerie version of the image. Ashs war against his own possessed hand in Sam Raimis Evil Dead II ta… [+6213 chars].",
       "playlist": {
         "id": "gaming",
         "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "Jon Fingas",
+      "title": "Nearly 40 percent of online Black Friday purchases were made with phones.",
+      "description": "Did you get your Black Friday shopping done while you were waiting in line for coffee? You definitely weren't the only one. Adobe shopping data indicates that 39 percent of online Black Friday purchases were made with smartphones. That's a big jum...",
+      "url": "https://www.engadget.com/2019/12/01/39-percent-black-friday-purchases-made-with-phones/",
+      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4500%252C2999%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252Fd3b9dfa0-fa5c-11e9-baff-4bd9d27d1ff1%26client%3Da1acac3e1b3290917d92%26signature%3D342c053e3affd2f4bb4712aca35aee1593f7fa61&client=amp-blogside-v2&signature=7e44efcd5df247b1b73ca3de6b83fa89a985483f",
+      "publishedAt": "2019-12-01T19:15:00Z",
+      "content": "It was also a banner year for online Black Friday shopping as a whole. There was a record $7.4 billion in internet-based sales versus $6.2 billion last year, and people were more comfortable spending for expensive items with an average order of $168.\r\nIt won'… [+782 chars].",
+      "playlist": {
+        "id": "technology",
+        "title": "Technology"
       }
     },
     {
@@ -402,75 +453,7 @@
       "url": "https://www.ccn.com/3-critical-flaws-that-are-killing-twitch/",
       "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/12/Twitch.jpg?lossy=1&ssl=1",
       "publishedAt": "2019-12-01T09:00:25Z",
-      "content": ".",
-      "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Fred Pearce",
-      "title": "This Is an Extinction Crisis, and Some Species Are Loving It.",
-      "description": "A controversy over how many species are disappearing is raising questions about how species adapt, and which ones are the ultimate winners and losers.",
-      "url": "https://www.wired.com/story/this-is-an-extinction-crisis/",
-      "urlToImage": "https://media.wired.com/photos/5dddd33f6432df0008d0040d/191:100/w_1280,c_limit/Science_mangrovediversity-128919453.jpg",
-      "publishedAt": "2019-11-30T13:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Nicole Carpenter",
-      "title": "Pokémon Sword and Shield’s coolest towns are the most shallow.",
-      "description": "In Pokémon Sword and Shield, which was released on Nov. 15, Ballonlea and Spikemuth are two of the new towns to visit in the Galar region. They’re the least fleshed out, but they still make an impact.",
-      "url": "https://www.polygon.com/pokemon/2019/11/29/20966409/pokemon-sword-shield-ballonlea-spikemuth-best-towns",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/DF24vAd9vHCrEmITnfxqVvnG_5A=/0x0:1280x670/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19414192/2019110621012200_B8FAEF4816CAC2B76D11869B05CA7601.jpg",
-      "publishedAt": "2019-11-30T03:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": "Jon Fingas",
-      "title": "Crypto expert arrested for allegedly helping North Korea evade sanctions.",
-      "description": "North Korea has long been accused of using cryptocurrency to avoid sanctions, but the US is now accusing a man of giving the country some help American law enforcement has arrested crypto expert and Ethereum project member Virgil Griffith for allegedly provid…",
-      "url": "https://www.engadget.com/2019-12-01-crypto-expert-arrested-over-north-korea-sanctions.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/z8ol6emCrY4Ka.VArjeWvA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD04NTMuMzMzMzMzMzMzMzMzNA--/https://s.yimg.com/uu/api/res/1.2/yIwUIDsGtwQFDA34lkRz2Q--~B/aD0xMDY3O3c9MTYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://o.aolcdn.com/images/dims?crop=7296%2C4865%2C0%2C0&quality=85&format=jpg&resize=1600%2C1067&image_uri=https://s.yimg.com/os/creatr-images/2019-12/ce4a2700-1465-11ea-bd39-36f90635ce65&client=a1acac3e1b3290917d92&signature=f6ed8e98a787247b852f123f299c6385eda3225b",
-      "publishedAt": "2019-12-01T20:29:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "technology",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "W. E. Messamore",
-      "title": "#TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers?",
-      "description": "#TulsiMediaBlackout is trending on Twitter. Is the press really ignoring Tulsi Gabbard, or is it just an excuse for her poor poll numbers? The post #TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers? appeared first on CCN.com",
-      "url": "https://www.ccn.com/tulsimediablackout-trends-twitter/",
-      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/10/tulsi-afp.jpg?lossy=1&ssl=1",
-      "publishedAt": "2019-11-30T22:04:51Z",
-      "content": ".",
+      "content": "Twitch is constantly under fire for controversial actions.Hate speech and bigotry overwhelm public chat logs.Restrictive contracts are said to be limiting Twitch starsAmazons streaming service Twitch is by far the most popu… [+4456 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
@@ -487,7 +470,7 @@
       "url": "https://www.wired.com/story/overexcited-neurons/",
       "urlToImage": "https://media.wired.com/photos/5ddde7bbb4ac1c00080cd4dd/191:100/w_1280,c_limit/Quanta_REST_Aging_2880x1620_Lede.jpg",
       "publishedAt": "2019-11-30T13:00:00Z",
-      "content": ".",
+      "content": "A thousand seemingly insignificant things change as an organism ages. Beyond the obvious signs like graying hair and memory problems are myriad shifts both subtler and more consequential: Metabolic processes run less smoothly; neurons respond less swiftly; th… [+4526 chars].",
       "playlist": {
         "id": "digital products",
         "title": "Digital Products"
@@ -498,81 +481,13 @@
         "id": "engadget",
         "name": "Engadget"
       },
-      "author": "Jon Fingas",
-      "title": "Nearly 40 percent of online Black Friday purchases were made with phones.",
-      "description": "Did you get your Black Friday shopping done while you were waiting in line for coffee? You definitely weren't the only one. Adobe shopping data indicates that 39 percent of online Black Friday purchases were made with smartphones. That's a big jum...",
-      "url": "https://www.engadget.com/2019/12/01/39-percent-black-friday-purchases-made-with-phones/",
-      "urlToImage": "https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&quality=80&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4500%252C2999%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1067%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252Fd3b9dfa0-fa5c-11e9-baff-4bd9d27d1ff1%26client%3Da1acac3e1b3290917d92%26signature%3D342c053e3affd2f4bb4712aca35aee1593f7fa61&client=amp-blogside-v2&signature=7e44efcd5df247b1b73ca3de6b83fa89a985483f",
-      "publishedAt": "2019-12-01T19:15:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "technology",
-        "title": "Technology"
-      }
-    },
-    {
-      "source": {
-        "id": "polygon",
-        "name": "Polygon"
-      },
-      "author": "Tasha Robinson",
-      "title": "Netflix’s I Lost My Body turns a weird horror trope into one of the year’s dreamiest dramas.",
-      "description": "Jérémy Clapin’s animated directorial debut, now streaming on Netflix, follows the adventures of an autonomous severed hand crawling through Paris, and explores the backstory of the young man who lost it. The French film, based on a novel by Amélie screenwrite…",
-      "url": "https://www.polygon.com/2019/11/29/20988657/i-lost-my-body-netflix-review-animated-french-movie-severed-hand",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/M707UnScFqd33wqgOW5fMcgVcNw=/798x0:7737x3633/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19418410/ILMB_Still_4.jpg",
-      "publishedAt": "2019-11-30T02:14:44Z",
-      "content": ".",
-      "playlist": {
-        "id": "gaming",
-        "title": "Gaming"
-      }
-    },
-    {
-      "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
-      },
-      "author": "Thomas Bardwell",
-      "title": "New Snap of PlayStation 5 Dev Kit Appears Online.",
-      "description": "A much clearer picture of the PlayStation 5 dev kit has surfaced online alongside what appears to be the next-gen console's controller. The post New Snap of PlayStation 5 Dev Kit Appears Online appeared first on CCN.com",
-      "url": "https://www.ccn.com/new-snap-of-playstation-5-dev-kit-appears-online/",
-      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/playstation-sign.jpg",
-      "publishedAt": "2019-11-30T21:30:15Z",
-      "content": ".",
-      "playlist": {
-        "id": "cryptocurrency",
-        "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Kate S. Petersen",
-      "title": "A New Way to Make Comfy, Durable Smart Garments.",
-      "description": "Long-lasting, electronics-laced PJs and gloves may help you sleep better and keep your trigger finger toasty when you jump out of a plane into battle.",
-      "url": "https://www.wired.com/story/new-way-make-comfy-durable-smart-garments/",
-      "urlToImage": "https://media.wired.com/photos/5ddf1892400f470009e77508/191:100/w_1280,c_limit/Science-Smart-Garments_SS2170475.jpg",
-      "publishedAt": "2019-11-30T12:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
-      }
-    },
-    {
-      "source": {
-        "id": "engadget",
-        "name": "Engadget"
-      },
-      "author": null,
+      "author": "",
       "title": "Nearly 40 percent of online Black Friday purchases were made with phones.",
       "description": "Did you get your Black Friday shopping done while you were waiting in line for coffee? You definitely weren't the only one. Adobe shopping data indicates that 39 percent of online Black Friday purchases were made with smartphones. That's a big jump from last …",
       "url": "https://www.engadget.com/2019-12-01-39-percent-black-friday-purchases-made-with-phones.html",
       "urlToImage": "https://s.yimg.com/uu/api/res/1.2/p_ZbXMd3pSTsq4o1Yo1tPA--~B/aD0xMDY2O3c9MTYwMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://o.aolcdn.com/images/dims?crop=4500%2C2999%2C0%2C0&quality=85&format=jpg&resize=1600%2C1067&image_uri=https://s.yimg.com/os/creatr-images/2019-10/d3b9dfa0-fa5c-11e9-baff-4bd9d27d1ff1&client=a1acac3e1b3290917d92&signature=342c053e3affd2f4bb4712aca35aee1593f7fa61",
       "publishedAt": "2019-12-01T19:15:00Z",
-      "content": ".",
+      "content": "Did you get your Black Friday shopping done while you were waiting in line for coffee? You definitely weren't the only one. Adobe shopping data indicates that 39 percent of online Black Friday purchases were made with smartphones. That's a big jump from last … [+1247 chars].",
       "playlist": {
         "id": "technology",
         "title": "Technology"
@@ -589,10 +504,95 @@
       "url": "https://www.polygon.com/2019/11/29/20988358/black-friday-amazon-deal-board-game-sales",
       "urlToImage": "https://cdn.vox-cdn.com/thumbor/-YsjlhOqqKa8NMOO1UEFiwCrIk0=/0x108:1500x893/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/4190053/madrid_whitepoint_small.0.jpg",
       "publishedAt": "2019-11-29T21:47:24Z",
-      "content": ".",
+      "content": "A bunch of popular strategy and party games are up to half off at Amazon today in a Black Friday flash deal. Some of our favorite titles, including 7 Wonders, Pandemic Legacy, Mansions of Madness are discounted, as well as crowd-pleasing party favorites like … [+893 chars].",
       "playlist": {
         "id": "gaming",
         "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Fred Pearce",
+      "title": "This Is an Extinction Crisis, and Some Species Are Loving It.",
+      "description": "A controversy over how many species are disappearing is raising questions about how species adapt, and which ones are the ultimate winners and losers.",
+      "url": "https://www.wired.com/story/this-is-an-extinction-crisis/",
+      "urlToImage": "https://media.wired.com/photos/5dddd33f6432df0008d0040d/191:100/w_1280,c_limit/Science_mangrovediversity-128919453.jpg",
+      "publishedAt": "2019-11-30T13:00:00Z",
+      "content": "The latest analysis, led by Shane Blowes of the German Center for Integrative Biodiversity Research in Leipzig, uses a database called BioTIME, hosted at St Andrews University, to review 239 studies that have recorded the number of species through time at aro… [+3788 chars].",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "W. E. Messamore",
+      "title": "#TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers?",
+      "description": "#TulsiMediaBlackout is trending on Twitter. Is the press really ignoring Tulsi Gabbard, or is it just an excuse for her poor poll numbers? The post #TulsiMediaBlackout Explodes on Twitter: Real or Excuse for Dismal Poll Numbers? appeared first on CCN.com",
+      "url": "https://www.ccn.com/tulsimediablackout-trends-twitter/",
+      "urlToImage": "https://www-ccn-com.exactdn.com/wp-content/uploads/2019/10/tulsi-afp.jpg?lossy=1&ssl=1",
+      "publishedAt": "2019-11-30T22:04:51Z",
+      "content": "Tulsi Gabbard supporters and detractors sparred on social media over the weekend on the hashtag #TulsiMediaBlackoutHer critics say her campaign is astroturf, and most of her supporters are actually “Russian bots” unleashed by the Kremlin.</li… [+4568 chars].",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
+      }
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Austen Goslin",
+      "title": "Uno removes red and blue cards to try to keep politics out of games.",
+      "description": "To help keep your holiday gatherings (that’s political, for sure) from getting too contentious, Mattel has released a new version of Uno called Uno Nonpartisan that removes the red and blue cards.",
+      "url": "https://www.polygon.com/2019/11/29/20988108/uno-nonpartisan-red-blue-veto",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/jjte5-8Ufebd1ByzDkYTYvspMgA=/0x119:500x381/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19417701/uno.jpg",
+      "publishedAt": "2019-11-29T18:02:22Z",
+      "content": "Games arent political even the ones that involve storming the White House but according to the maker of Uno, colors definitely are. So, to ensure that everyone in your family can reach across party lines to screw someone over with a Wild Draw Four card, Matte… [+2006 chars].",
+      "playlist": {
+        "id": "gaming",
+        "title": "Gaming"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Kate S. Petersen",
+      "title": "A New Way to Make Comfy, Durable Smart Garments.",
+      "description": "Long-lasting, electronics-laced PJs and gloves may help you sleep better and keep your trigger finger toasty when you jump out of a plane into battle.",
+      "url": "https://www.wired.com/story/new-way-make-comfy-durable-smart-garments/",
+      "urlToImage": "https://media.wired.com/photos/5ddf1892400f470009e77508/191:100/w_1280,c_limit/Science-Smart-Garments_SS2170475.jpg",
+      "publishedAt": "2019-11-30T12:00:00Z",
+      "content": "Some so-called smart garmentsclothing and accessories outfitted with sensors, Bluetooth, and other gadgetryflirt with the absurd. Does anyone need a $1,000 touch-interface backpack that alerts you if you accidentally leave your phone somewhere? Or a (now disc… [+3895 chars].",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "crypto-coins-news",
+        "name": "Crypto Coins News"
+      },
+      "author": "Thomas Bardwell",
+      "title": "New Snap of PlayStation 5 Dev Kit Appears Online.",
+      "description": "A much clearer picture of the PlayStation 5 dev kit has surfaced online alongside what appears to be the next-gen console's controller. The post New Snap of PlayStation 5 Dev Kit Appears Online appeared first on CCN.com",
+      "url": "https://www.ccn.com/new-snap-of-playstation-5-dev-kit-appears-online/",
+      "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/playstation-sign.jpg",
+      "publishedAt": "2019-11-30T21:30:15Z",
+      "content": "New image of PlayStation 5 dev kit appears online.Offers first look at PS5 controller.Unlikely to be the final retail design.We’ve known what the PlayStation 5 dev kit looks like for a few months now.\r\nLate summer spawned p… [+1942 chars].",
+      "playlist": {
+        "id": "cryptocurrency",
+        "title": "Cryptocurrency"
       }
     },
     {
@@ -606,7 +606,7 @@
       "url": "https://www.ccn.com/earl-thomas-has-doomed-ravens-with-super-bowl-promise/",
       "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/earl-thomas-.jpg",
       "publishedAt": "2019-11-30T20:00:37Z",
-      "content": ".",
+      "content": "Ravens safety Earl Thomas has predicted that Baltimore is going to be in the Super Bowl this year.With a 9-2 record and a win over the Patriots, it looks like the Ravens may be the team to beatat least in the AFC.But bragging about m… [+3927 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
@@ -623,7 +623,24 @@
       "url": "https://www.wired.com/story/change-tires-race-car-zero-gravity/",
       "urlToImage": "https://media.wired.com/photos/5ddc3c9fbb1a490009d42e44/191:100/w_1280,c_limit/Transpo-redbull-AP-2287HRB451W11_hires_jpeg_24bit_rgb.jpg",
       "publishedAt": "2019-11-30T12:00:00Z",
-      "content": ".",
+      "content": "Red Bulls Formula 1 team may not have won the constructors or drivers championship this season, but it did prove its mastery of what happens in pit row. At the German Grand Prix in July, its pit crew set a record stop time, swapping out the cars tires in 1.88… [+2712 chars].",
+      "playlist": {
+        "id": "digital products",
+        "title": "Digital Products"
+      }
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Susan Arendt",
+      "title": "The Hidden Gems of Apple Arcade.",
+      "description": "After *Sayonara Wild Hearts*, dig into these lesser-known subscription standouts.",
+      "url": "https://www.wired.com/story/hidden-gems-apple-arcade/",
+      "urlToImage": "https://media.wired.com/photos/5dded244b4ac1c00080cd4e5/191:100/w_1280,c_limit/Cul-tangleteaser-02_Lakes_Edge_1920x1080.jpg",
+      "publishedAt": "2019-11-29T22:00:00Z",
+      "content": "The biggest problem facing games on the App Store has always been one of discovery. If a game doesnt make it to the Featured section, or if it isnt a massive hit, youre probably not going to find it just by casually browsing.\r\nThis story originally appeared o… [+3802 chars].",
       "playlist": {
         "id": "digital products",
         "title": "Digital Products"
@@ -640,27 +657,10 @@
       "url": "https://www.ccn.com/democratic-2020-hopefuls-wont-beat-donald-trump/",
       "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/Donald-Trump-Twitter.jpg",
       "publishedAt": "2019-11-30T17:07:33Z",
-      "content": ".",
+      "content": "Baby Yoda, the fictional character from The Mandalorian, is taking over social media feeds.Even with the entry of billionaire Michael Bloomberg, the Democratic aspirants trail the adorable alien in terms of social media interactions.… [+3646 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
-      }
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Susan Arendt",
-      "title": "The Hidden Gems of Apple Arcade.",
-      "description": "After *Sayonara Wild Hearts*, dig into these lesser-known subscription standouts.",
-      "url": "https://www.wired.com/story/hidden-gems-apple-arcade/",
-      "urlToImage": "https://media.wired.com/photos/5dded244b4ac1c00080cd4e5/191:100/w_1280,c_limit/Cul-tangleteaser-02_Lakes_Edge_1920x1080.jpg",
-      "publishedAt": "2019-11-29T22:00:00Z",
-      "content": ".",
-      "playlist": {
-        "id": "digital products",
-        "title": "Digital Products"
       }
     },
     {
@@ -674,7 +674,7 @@
       "url": "https://www.ccn.com/this-gta-v-pleasure-bot-is-the-best-thing-on-twitch-right-now/",
       "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/gta-v-roleplay-bigger.jpg",
       "publishedAt": "2019-11-30T17:00:22Z",
-      "content": ".",
+      "content": "The Grand Theft Auto role-playing scene is a rich world of colorful characters.MiltonTPike1 is among the most recognizable faces in the GTA V RP community.His latest character is unexpectedly wholesome.You may have stumbled… [+3065 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
@@ -691,7 +691,7 @@
       "url": "https://www.ccn.com/josh-shaw-suspension-is-proof-nfl-wants-to-look-tough-not-be-tough/",
       "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/josh-shaw-.jpg",
       "publishedAt": "2019-11-30T15:30:25Z",
-      "content": ".",
+      "content": "Arizona Cardinals defensive back Josh Shaw has been suspended indefinitely by the NFL for gambling on NFL games.Shaw has been forgettable as an NFL player, but fans may remember him as the USC player that injured his ankles jumping from a bal… [+3967 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
@@ -708,12 +708,12 @@
       "url": "https://www.ccn.com/battleborn-shutting-down-showcases-problem-with-online-games/",
       "urlToImage": "https://www.ccn.com/wp-content/uploads/2019/11/battleborn.jpg",
       "publishedAt": "2019-11-30T14:00:04Z",
-      "content": ".",
+      "content": "Battleborn is a free-to-play online FPS game.Battleborn is being fully shut down in 2021.This shows that online-dependent games have less value than offline ones.Battleborn is an online FPS game with a heavy focus on a colo… [+3482 chars].",
       "playlist": {
         "id": "cryptocurrency",
         "title": "Cryptocurrency"
       }
     }
   ],
-  "timestamp": 1575245419328
+  "timestamp": 1576634047997
 }
