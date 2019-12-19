@@ -588,6 +588,7 @@ const upload = multer({
   limits: { fields: 1, fileSize: 6000000, files: 1, parts: 2 }
 });
 
+var voiceGender = ["MALE", "FEMALE", "NEUTRAL"];
 function generateSingleAudioTrack(
   req,
   res,
@@ -607,8 +608,7 @@ function generateSingleAudioTrack(
     // Select the language and SSML Voice Gender (optional)
     voice: {
       languageCode: "en-US",
-      ssmlGender: "NEUTRAL",
-      name: "	en-US-Standard-C"
+      ssmlGender: voiceGender[Math.floor(Math.random() * voiceGender.length)]
     },
     // Select the type of audio encoding
     audioConfig: { audioEncoding: "MP3" }
