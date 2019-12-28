@@ -459,8 +459,9 @@ connection.once("open", function() {
   //   });
   // });
 
-  app.get("/user", (req, res) => {
-    const user = req.params;
+  app.post("/user", (req, res) => {
+    var user = req.body;
+
     console.log(user);
     const userToSave = {
       id: user.id,
@@ -475,7 +476,8 @@ connection.once("open", function() {
       { new: true, upsert: true },
       function(err, doc) {
         if (err) return res.send(500, { error: err });
-        return res.status(200).send("Succesfully saved.");
+        console.log("resoisbn", JSON.stringify(doc));
+        return res.send({ user: JSON.stringify(doc) });
       }
     );
   });
