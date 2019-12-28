@@ -21,7 +21,7 @@ var stringSimilarity = require("string-similarity");
 const logModule = require("./logger");
 const logger = logModule.logger;
 
-const { reloadContentAsync } = require("./reload");
+// const { reloadContentAsync } = require("./reload");
 
 const {
   cleanText,
@@ -63,6 +63,7 @@ var Article = models.ArticleModel;
 var Playlist = models.PlaylistModel;
 var Category = models.CategoryModel;
 var Config = models.ConfigModel;
+var User = models.UserModel;
 
 //put the key in .env
 var NEWS_API_KEY = process.env.NEWS_API_KEY;
@@ -378,7 +379,7 @@ connection.once("open", function() {
   });
 
   app.get("/reloadv2", async (req, res) => {
-    await reloadContentAsync();
+    // await reloadContentAsync();
     res.send("Reload");
   });
 
@@ -431,8 +432,37 @@ connection.once("open", function() {
       res.send(doc[0]);
     });
   });
+
   app.get("/db/articles/:articleID", (req, res) => {
     Article.find({ uid: req.params.articleID }, function(err, doc) {
+      if (err) {
+        res.send("error: " + err);
+      }
+      res.send(doc[0]);
+    });
+  });
+
+  app.get("/user/save", (req, res) => {
+    const user = req.params.user;
+
+    const userToSave = new User({
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      profilePhoto: user.photo
+    });
+
+    userToSave.save(function(error) {
+      if (error) {
+        console.error(error);
+      }
+    });
+  });
+
+  app.get("/user/get", (req, res) => {
+    const id = req.params.id;
+
+    User.find({ id: id }, function(err, doc) {
       if (err) {
         res.send("error: " + err);
       }
