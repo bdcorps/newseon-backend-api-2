@@ -442,33 +442,54 @@ connection.once("open", function() {
     });
   });
 
-  app.get("/user/save", (req, res) => {
-    const user = req.params.user;
+  // app.get("/user/save", (req, res) => {
+  //   const user = req.params.user;
 
-    const userToSave = new User({
+  //   const userToSave = new User({
+  //     id: user.id,
+  //     name: user.name,
+  //     email: user.email,
+  //     profilePhoto: user.photo
+  //   });
+
+  //   userToSave.save(function(error) {
+  //     if (error) {
+  //       console.error(error);
+  //     }
+  //   });
+  // });
+
+  app.get("/user", (req, res) => {
+    const user = req.params;
+    console.log(user);
+    const userToSave = {
       id: user.id,
       name: user.name,
       email: user.email,
       profilePhoto: user.photo
-    });
+    };
 
-    userToSave.save(function(error) {
-      if (error) {
-        console.error(error);
+    User.findOneAndUpdate(
+      { id: user.id },
+      userToSave,
+      { new: true, upsert: true },
+      function(err, doc) {
+        if (err) return res.send(500, { error: err });
+        return res.status(200).send("Succesfully saved.");
       }
-    });
+    );
   });
 
-  app.get("/user/get", (req, res) => {
-    const id = req.params.id;
+  // app.get("/user/get", (req, res) => {
+  //   const id = req.params.id;
 
-    User.find({ id: id }, function(err, doc) {
-      if (err) {
-        res.send("error: " + err);
-      }
-      res.send(doc[0]);
-    });
-  });
+  //   User.find({ id: id }, function(err, doc) {
+  //     if (err) {
+  //       res.send("error: " + err);
+  //     }
+  //     res.send(doc[0]);
+  //   });
+  // });
 });
 
 /* Remove Headline if title === description or if either contains the word, "cheap $ tips week guide highlights"
