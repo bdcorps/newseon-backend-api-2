@@ -25,7 +25,7 @@
           "title": "Digital Products",
           "query": {
             "sources": "wired",
-            "pageSize": "15"
+            "pageSize": "7"
           }
         },
         {
@@ -33,19 +33,19 @@
           "title": "Gaming",
           "query": {
             "sources": "polygon",
-            "pageSize": "15"
+            "pageSize": "7"
           }
         },
         {
           "type": "everything",
-          "title": "Cryptocurrency",
+          "title": "Science",
           "query": {
-            "sources": "crypto-coins-news",
-            "pageSize": "15"
+            "sources": "new-scientist",
+            "pageSize": "7"
           }
         }
       ]
     }
   ],
-  "timestamp": 1577529534863
+  "timestamp": 1578314859071
 }

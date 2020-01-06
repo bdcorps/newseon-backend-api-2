@@ -4,32 +4,32 @@
       "id": "technology",
       "url": "https://newsapi.org/v2/everything?sources=engadget,the-verge&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Technology",
-      "media": "https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      "media": "https://images.unsplash.com/photo-1548611635-b6e7827d7d4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
     },
     {
       "id": "startups",
       "url": "https://newsapi.org/v2/everything?sources=the-next-web&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Startups",
-      "media": "https://images.unsplash.com/photo-1497493292307-31c376b6e479?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80"
+      "media": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
     },
     {
       "id": "digital products",
-      "url": "https://newsapi.org/v2/everything?sources=wired&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
+      "url": "https://newsapi.org/v2/everything?sources=wired&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Digital Products",
-      "media": "https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80"
+      "media": "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
     },
     {
       "id": "gaming",
-      "url": "https://newsapi.org/v2/everything?sources=polygon&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
+      "url": "https://newsapi.org/v2/everything?sources=polygon&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Gaming",
-      "media": "https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+      "media": "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
     },
     {
-      "id": "cryptocurrency",
-      "url": "https://newsapi.org/v2/everything?sources=crypto-coins-news&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Cryptocurrency",
-      "media": "https://images.unsplash.com/photo-1524673450801-b5aa9b621b76?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+      "id": "science",
+      "url": "https://newsapi.org/v2/everything?sources=new-scientist&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Science",
+      "media": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
     }
   ],
-  "timestamp": 1575245414165
+  "timestamp": 1578314876010
 }

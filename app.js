@@ -312,7 +312,8 @@ connection.once("open", function() {
           }
         });
       } catch (e) {
-        next(e);
+        
+        console.error(e);
       }
     }
 
