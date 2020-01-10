@@ -500,6 +500,8 @@ connection.once("open", function() {
  */
 async function isGenuineArticle(title, description) {
   const dirtyWords = [
+    "dick",
+    "CHEAP:",
     "\$",
     "tips",
     "guide",
