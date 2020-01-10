@@ -500,7 +500,7 @@ connection.once("open", function() {
  */
 async function isGenuineArticle(title, description) {
   const dirtyWords = [
-    "$",
+    "\$",
     "tips",
     "guide",
     "week",
@@ -941,7 +941,7 @@ function resetTracksDB(tracksBucket) {
       .then(function(error) {})
       .catch(function(error) {
         console.log("woo", error, "hoo");
-        reject(new Error("tracks already empty"));
+        console.log("tracks already empty");
       })
       .finally(function() {
         resolve();
