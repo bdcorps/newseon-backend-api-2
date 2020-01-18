@@ -4,6 +4,11 @@ services:
     build: https://fde63b64f6dc2718609aaae26f6079681f19bb1b:@github.com/bdcorps/newseon-landing-page-2.git#v1.01
     ports:
       - "3001:3001"
+  web:
+    build: ./
+    ports:
+      - "3005:3005"
+
   nginx:
     build: https://fde63b64f6dc2718609aaae26f6079681f19bb1b:@github.com/bdcorps/newseon-nginx.git#master
     ports:
