@@ -16,23 +16,23 @@
           "type": "everything",
           "title": "Startups",
           "query": {
-            "sources": "the-next-web",
+            "sources": "the-next-web,wired",
             "pageSize": "15"
           }
         },
         {
           "type": "everything",
-          "title": "Digital Products",
+          "title": "Business",
           "query": {
-            "sources": "wired",
+            "sources": "bloomberg,cnbc",
             "pageSize": "7"
           }
         },
         {
           "type": "everything",
-          "title": "Gaming",
+          "title": "Finance",
           "query": {
-            "sources": "polygon",
+            "sources": "the-wall-street-journal",
             "pageSize": "7"
           }
         },
@@ -43,9 +43,17 @@
             "sources": "new-scientist",
             "pageSize": "7"
           }
+        },
+        {
+          "type": "everything",
+          "title": "Politics",
+          "query": {
+            "sources": "the-american-conservative,the-globe-and-mail,the-hill",
+            "pageSize": "7"
+          }
         }
       ]
     }
   ],
-  "timestamp": 1578662332849
+  "timestamp": 1579470457943
 }

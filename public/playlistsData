@@ -8,28 +8,34 @@
     },
     {
       "id": "startups",
-      "url": "https://newsapi.org/v2/everything?sources=the-next-web&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
+      "url": "https://newsapi.org/v2/everything?sources=the-next-web,wired&pageSize=15&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Startups",
       "media": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
     },
     {
-      "id": "digital products",
-      "url": "https://newsapi.org/v2/everything?sources=wired&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Digital Products",
-      "media": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+      "id": "business",
+      "url": "https://newsapi.org/v2/everything?sources=bloomberg,cnbc&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Business",
+      "media": "https://images.unsplash.com/photo-1480944657103-7fed22359e1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80"
     },
     {
-      "id": "gaming",
-      "url": "https://newsapi.org/v2/everything?sources=polygon&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
-      "title": "Gaming",
-      "media": "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+      "id": "finance",
+      "url": "https://newsapi.org/v2/everything?sources=the-wall-street-journal&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Finance",
+      "media": "https://images.unsplash.com/photo-1579225663317-c0251b4369bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
     },
     {
       "id": "science",
       "url": "https://newsapi.org/v2/everything?sources=new-scientist&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
       "title": "Science",
-      "media": "https://images.unsplash.com/photo-1513569536235-bf46baacc948?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1311&q=80"
+      "media": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+    },
+    {
+      "id": "politics",
+      "url": "https://newsapi.org/v2/everything?sources=the-american-conservative,the-globe-and-mail,the-hill&pageSize=7&apiKey=93ca611bceee4039b257ada8985541ce",
+      "title": "Politics",
+      "media": "https://images.unsplash.com/photo-1534598974068-2d51eda7628f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
     }
   ],
-  "timestamp": 1578661902211
+  "timestamp": 1579470479873
 }
