@@ -1,4 +1,4 @@
 
 const { refreshContentAsync } = require("./refreshContent");
 
-reloadContentAsync();
+refreshContentAsync();
