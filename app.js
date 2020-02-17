@@ -390,6 +390,26 @@ connection.once("open", function() {
   app.get("/db/tracks/:trackID", (req, res) => {
     let track = req.params.trackID;
     track = track.split(/\.(?=[^\.]+$)/)[0]; //remove extension eg mp3
+
+    if (track=="5e4927eb28ffd50017cbb065"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','FacebookCancel.m4a'));
+      return;
+    }else if (track=="5e4927eb28ffd50017cbb05c"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','HQShutdown.m4a'));
+      return;
+    }else if (track=="5e4927eb28ffd50017cbb044"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','ResearchersTestedGoogle.m4a'));
+      return;
+    }else if (track=="5e4927eb28ffd50017cbb06b"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','TeslaCrash.m4a'));
+      return;
+    }else if (track=="5e4927eb28ffd50017cbb06f"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','USQuarantineShips.m4a'));
+      return;
+    }
+
+
+
     try {
       var trackID = new ObjectID(track);
     } catch (err) {

@@ -8,7 +8,7 @@
           "type": "everything",
           "title": "Technology",
           "query": {
-            "sources": "engadget,the-verge",
+            "sources": "the-verge, ars-technica",
             "pageSize": "15"
           }
         },
@@ -16,23 +16,23 @@
           "type": "everything",
           "title": "Startups",
           "query": {
-            "sources": "the-next-web",
+            "sources": "wired",
             "pageSize": "15"
           }
         },
         {
           "type": "everything",
-          "title": "Digital Products",
+          "title": "Business",
           "query": {
-            "sources": "wired",
+            "sources": "cnbc,fortune,reuters",
             "pageSize": "7"
           }
         },
         {
           "type": "everything",
-          "title": "Gaming",
+          "title": "Finance",
           "query": {
-            "sources": "polygon",
+            "sources": "the-wall-street-journal,financial-post",
             "pageSize": "7"
           }
         },
@@ -43,9 +43,17 @@
             "sources": "new-scientist",
             "pageSize": "7"
           }
+        },
+        {
+          "type": "everything",
+          "title": "Politics",
+          "query": {
+            "sources": "the-american-conservative,cnn",
+            "pageSize": "7"
+          }
         }
       ]
     }
   ],
-  "timestamp": 1578662332849
+  "timestamp": 1581973711180
 }
