@@ -388,8 +388,10 @@ connection.once("open", function() {
    * GET /db/tracks/:trackID
    */
   app.get("/db/tracks/:trackID", (req, res) => {
+    let track = req.params.trackID;
+    track = track.split(/\.(?=[^\.]+$)/)[0]; //remove extension eg mp3
     try {
-      var trackID = new ObjectID(req.params.trackID);
+      var trackID = new ObjectID(track);
     } catch (err) {
       return res.status(400).json({
         message:
