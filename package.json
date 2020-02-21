@@ -42,5 +42,10 @@
     "husky": "^3.0.4",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm version patch"
+    }
   }
 }

@@ -391,6 +391,7 @@ connection.once("open", function() {
     let track = req.params.trackID;
     track = track.split(/\.(?=[^\.]+$)/)[0]; //remove extension eg mp3
 
+    //technology
     if (track=="5e4927eb28ffd50017cbb065"){
       res.sendFile(path.join(__dirname, 'public', 'audio','FacebookCancel.m4a'));
       return;
@@ -407,7 +408,69 @@ connection.once("open", function() {
       res.sendFile(path.join(__dirname, 'public', 'audio','USQuarantineShips.m4a'));
       return;
     }
-
+    //politics
+    else if (track=="5e4927eb28ffd50017cbb078"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','BBC100Years.m4a'));
+      return;
+    }
+    //business 
+    else if (track=="5e4927eb28ffd50017cbb06c"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','BongJoonHo.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb071"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','Evergrande.m4a'));
+      return;
+    }
+    //startups 
+    else if (track=="5e4927eb28ffd50017cbb04a"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','VexedByMissedDeliveries.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb068"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','LevyPlusReview.m4a'));
+      return;
+    } 
+    else if (track=="5e4927eb28ffd50017cbb064"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','BolsterCyberSecurity.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb061"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','Insta360Review.m4a'));
+      return;
+    }//finance
+    else if (track=="5e4927eb28ffd50017cbb06d"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','FrozenDumplings.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb077"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','TrumpAdministrationConsidersHalting.m4a'));
+      return;
+    }//science
+    else if (track=="5e4927eb28ffd50017cbb045"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','Eggshells.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb05e"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','ConceivedSpring.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb04d"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','ControversialPsychologyTests.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb073"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','FossilBlobs.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb076"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','UsMilitaryFaceRecog.m4a'));
+      return;
+    }
+    else if (track=="5e4927eb28ffd50017cbb069"){
+      res.sendFile(path.join(__dirname, 'public', 'audio','ApeBrain.m4a'));
+      return;
+    }
 
 
     try {
